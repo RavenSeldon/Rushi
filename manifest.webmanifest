@@ -1,0 +1,10 @@
+{
+  "name": "如實 Rushi",
+  "short_name": "Rushi",
+  "description": "Eight Chinese characters mapped as a navigable cosmos.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#05060B",
+  "theme_color": "#05060B",
+  "icons": [{ "src": "favicon.svg", "sizes": "any", "type": "image/svg+xml" }]
+}
