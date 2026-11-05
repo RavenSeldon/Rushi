@@ -71,6 +71,40 @@
       "verification": "unchecked",
       "drafted": "Baracus",
       "reviewed": "2026-11-04"
+    },
+    {
+      "id": "di-prthivi",
+      "glyph": "पृथिवी · Pṛthivī",
+      "title": "Earth Among the Four Great Elements",
+      "lang": "Sanskrit → Chinese",
+      "type": "CANONICAL_TRANSLATION",
+      "evidence": "In Buddhist translation 地 renders pṛthivī, earth as the first of the four great elements (mahābhūta, 大種). The Abhidharmakośa’s verse: 大種謂四界，即地水火風 — “the great elements are the four realms: earth, water, fire, wind”, each known by its nature, earth’s being hardness (堅).",
+      "caveat": "The four great elements are not the five phases (五行), whose earth is 土, not 地. They belong to different systems and answer different questions.",
+      "dimension": "translation",
+      "mechanism": "semantic_extension",
+      "period": "six_dynasties_tang",
+      "cites": [
+        {
+          "source": "abhidharmakosa",
+          "locator": "ch. 1 分別界品, p. 3a28–29",
+          "checked": {
+            "on": "2026-11-05",
+            "edition": "https://raw.githubusercontent.com/cbeta-org/xml-p5/master/T/T29/T29n1558.xml",
+            "note": "大種謂四界，即地水火風，能成持等業，堅濕煖動性. Checks the Chinese; the Sanskrit is not checked here."
+          }
+        },
+        {
+          "source": "monier-williams",
+          "locator": "pṛthivī; mahābhūta"
+        }
+      ],
+      "verification": "partial",
+      "gaps": [
+        "Check pṛthivī and mahābhūta in Monier-Williams."
+      ],
+      "status": "WORKING",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-05"
     }
   ]
 }

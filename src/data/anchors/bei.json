@@ -68,7 +68,12 @@
       "cites": [
         {
           "source": "abhidharmakosa",
-          "locator": "ch. 7 分別智品: 大悲"
+          "locator": "ch. 7 分別智品, p. 140a29 and 141a11–14",
+          "checked": {
+            "on": "2026-11-05",
+            "edition": "https://raw.githubusercontent.com/cbeta-org/xml-p5/master/T/T29/T29n1558.xml",
+            "note": "140a29: 佛十力、四無畏、三念住及大悲 make up the eighteen qualities unique to a Buddha (十八不共法). 141a11–14: 大悲唯俗智…異悲由八因, great compassion distinguished from compassion by eight causes. Checks the Chinese; the Sanskrit is not checked here."
+          }
         },
         {
           "source": "monier-williams",
@@ -76,12 +81,12 @@
         }
       ],
       "status": "WORKING",
-      "verification": "unchecked",
+      "verification": "partial",
       "gaps": [
-        "The Kośa locator for 大悲 is Baracus’s recollection; open T1558 ch. 7 and record the passage."
+        "Check karuṇā in Monier-Williams."
       ],
       "drafted": "Baracus",
-      "reviewed": "2026-11-04"
+      "reviewed": "2026-11-05"
     },
     {
       "id": "bei-qiu",

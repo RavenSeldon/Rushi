@@ -81,6 +81,27 @@
       "verification": "partial",
       "drafted": "Baracus",
       "reviewed": "2026-11-04"
+    },
+    {
+      "id": "xiao-pietas",
+      "glyph": "Pietas · Filial piety",
+      "title": "Piety Toward Those Who Came Before",
+      "lang": "Latin · English",
+      "type": "CROSS_LINGUISTIC_LEXICAL",
+      "evidence": "English renders 孝 as “filial piety”, borrowing Latin pietas, the dutiful devotion a Roman owed to parents, country and gods. Both words make care for those who came before a virtue in its own right, not only a feeling.",
+      "caveat": "Pietas reached past the family to the gods and the state; 孝 centres on parents and ancestors, and Confucians modelled loyalty on it rather than the reverse. The likeness is in the shape of the virtue, not in its doctrine.",
+      "dimension": "sense",
+      "mechanism": "independent_parallel",
+      "cites": [
+        {
+          "source": "lewis-short",
+          "locator": "pietas"
+        }
+      ],
+      "verification": "unchecked",
+      "status": "WORKING",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-05"
     }
   ]
 }

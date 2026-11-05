@@ -15,10 +15,10 @@
   ],
   "placement": "At the front of the sphere, above and between 慈 and 悲, both of which carry 心 in their graphs. (Placement is a design choice, not a claim.)",
   "oc": {
-    "form": "*s.[r]əm",
+    "form": "*səm",
     "source": "baxter-sagart-2014",
-    "verification": "unchecked",
-    "note": "† Baracus’s recollection of B–S 2014. Wiktionary’s B–S basic-vocabulary list (v1.1, Sagart & Ma 2020) gives *səm for “heart”; check against the primary list."
+    "verification": "reference",
+    "note": "Checked 2026-11-05 against reference works, not the B–S 2014 list itself: Dong Chinese (心) and Wiktionary’s B–S basic-vocabulary list (v1.1, Sagart & Ma 2020) both give *səm. Baracus’s earlier recollection, *s.[r]əm, had no support and is withdrawn."
   },
   "readings": {
     "source": "unihan",
@@ -57,11 +57,21 @@
       "cites": [
         {
           "source": "abhidharmakosa",
-          "locator": "ch. 2 分別根品: 心意識體一"
+          "locator": "ch. 2 分別根品, p. 21c18",
+          "checked": {
+            "on": "2026-11-05",
+            "edition": "https://raw.githubusercontent.com/cbeta-org/xml-p5/master/T/T29/T29n1558.xml",
+            "note": "心意識體一，心心所有依 (verse). Checks the Chinese; the Sanskrit triad is not checked here."
+          }
         },
         {
           "source": "xinjing",
-          "locator": "title"
+          "locator": "title",
+          "checked": {
+            "on": "2026-11-05",
+            "edition": "https://raw.githubusercontent.com/cbeta-org/xml-p5/master/T/T08/T08n0251.xml",
+            "note": "般若波羅蜜多心經"
+          }
         },
         {
           "source": "monier-williams",
@@ -69,12 +79,12 @@
         }
       ],
       "status": "WORKING",
-      "verification": "unchecked",
+      "verification": "partial",
       "gaps": [
-        "The Kośa locator is Baracus’s recollection; open T1558 and record where 心意識體一 occurs."
+        "Check citta and hṛdaya in Monier-Williams."
       ],
       "drafted": "Baracus",
-      "reviewed": "2026-11-04"
+      "reviewed": "2026-11-05"
     },
     {
       "id": "xin-mansion",

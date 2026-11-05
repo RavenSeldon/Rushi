@@ -97,6 +97,49 @@
       "verification": "source",
       "drafted": "Baracus",
       "reviewed": "2026-11-04"
+    },
+    {
+      "id": "zhi-wisdom-jnana",
+      "glyph": "ज्ञान · Jñāna",
+      "title": "Knowledge, and Wisdom’s Other Word",
+      "lang": "Sanskrit → Chinese",
+      "type": "CANONICAL_TRANSLATION",
+      "evidence": "In Buddhist translation 智 renders jñāna, knowledge; the Abhidharmakośa’s seventh chapter, 分別智品, is its treatise on the kinds of knowing. Prajñā, the wisdom of the Perfection of Wisdom, is usually 慧 instead, or the sound loan 般若 in the Heart Sutra’s title.",
+      "caveat": "A tendency, not a rule: translators also join the two as 智慧, and usage varies from one translator to another.",
+      "dimension": "translation",
+      "mechanism": "semantic_extension",
+      "period": "six_dynasties_tang",
+      "cites": [
+        {
+          "source": "abhidharmakosa",
+          "locator": "ch. 7 分別智品",
+          "checked": {
+            "on": "2026-11-05",
+            "edition": "https://raw.githubusercontent.com/cbeta-org/xml-p5/master/T/T29/T29n1558.xml",
+            "note": "Chapter title in the edition’s list of chapters. The Sanskrit chapter name (jñāna-nirdeśa) is not checked here."
+          }
+        },
+        {
+          "source": "xinjing",
+          "locator": "title",
+          "checked": {
+            "on": "2026-11-05",
+            "edition": "https://raw.githubusercontent.com/cbeta-org/xml-p5/master/T/T08/T08n0251.xml",
+            "note": "般若波羅蜜多心經"
+          }
+        },
+        {
+          "source": "monier-williams",
+          "locator": "jñāna; prajñā"
+        }
+      ],
+      "verification": "partial",
+      "gaps": [
+        "Check jñāna and prajñā in Monier-Williams."
+      ],
+      "status": "WORKING",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-05"
     }
   ]
 }

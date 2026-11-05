@@ -220,5 +220,18 @@
     "title": "Couplet on simplified characters (麵無麥、愛無心…)",
     "author": "夏進興 (Hsia Chin-hsing), former chief counsellor, Office of the President (Taiwan)",
     "url": "https://ldope.com/?p=1516"
+  },
+  "lewis-short": {
+    "kind": "reference",
+    "title": "A Latin Dictionary (Lewis and Short)",
+    "author": "Charlton T. Lewis and Charles Short",
+    "date": "1879",
+    "url": "https://www.perseus.tufts.edu/hopper/"
+  },
+  "lotus": {
+    "kind": "primary",
+    "title": "妙法蓮華經 (Saddharmapuṇḍarīka, the Lotus Sutra), tr. Kumārajīva, T262",
+    "date": "406 CE",
+    "url": "https://cbetaonline.dila.edu.tw/T0262"
   }
 }

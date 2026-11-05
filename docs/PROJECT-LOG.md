@@ -1,21 +1,40 @@
 # Rushi — Project Log and Handoff
 
-Read this first when resuming work, in a new session or after a break. Last updated 2026-11-04 (evening: solar systems + Realm II).
+Read this first when resuming work, in a new session or after a break. Last updated 2026-11-05 (languages, closed questions, one branch).
 
 ## Where Things Stand
 
 | Area | State |
 |---|---|
-| v1.0 sky (the Pillars) | Shipped to the working tree; **not committed or deployed** (Ben does both). Unchanged at the System level (pixel-checked) |
+| v1.0 sky (the Pillars) | Committed and live. Unchanged at the System level: a test checks every star against its v1.0 position |
 | Phase 0 — Foundations | Done: JSON data, sources registry, status, per-citation verification, `npm run check`, `npm test` |
 | Phase 1 — Deepen the Eight | Under way: readings and components from Unihan 18.0.0 / Mojidata IDS |
-| **Solar-systems engine** | **Built 2026-11-04** (working tree): four levels, one attractor per system, level of detail, routes, travel, arcs between systems, pathfinder |
-| **Realm II — The Ground** | **Drafted 2026-11-04**, all WORKING: 有 空 心 法 一 慈 悲 名 on the Aizawa attractor; 18 satellites, 13 bridges (9 into the Pillars) |
-| **Realm III — Words of Power** | **Drafted 2026-11-04**, all WORKING: 如 實 真 言 咒 聲 符 印 on the Thomas attractor; 20 satellites, 12 bridges (7 into I and II) |
-| **Realm IV — Heaven and Change** | **Drafted 2026-11-04**, WORKING: 天 地 人 陰 陽 氣 易 時 on Halvorsen, seen down its axis; 14 satellites, 7 bridges |
-| **Realm V — The Constant Virtues** | **Drafted 2026-11-04**, WORKING: 德 仁 義 禮 智 信 孝 忠 on Rössler, tilted; 12 satellites, 12 bridges |
-| Ledger | 5 systems · 40 anchors · 146 claims (38 canon, 3 open, 105 working) · 35 of 224 citations opened · 21 known gaps |
+| Solar-systems engine | Built 2026-11-04; committed (`548baba`) and live: four levels, one attractor per system, level of detail, routes, travel, arcs between systems, pathfinder |
+| Realm II — The Ground | WORKING: 有 空 心 法 一 慈 悲 名 on Aizawa; 16 satellites, 4 bridges within, 17 to other systems |
+| Realm III — Words of Power | WORKING: 如 實 真 言 咒 聲 符 印 on Thomas; 20 satellites, 5 bridges within, 8 to other systems |
+| Realm IV — Heaven and Change | WORKING: 天 地 人 陰 陽 氣 易 時 on Halvorsen, seen down its axis; 18 satellites, 4 within, 3 to other systems |
+| Realm V — The Constant Virtues | WORKING: 德 仁 義 禮 智 信 孝 忠 on Rössler, tilted; 16 satellites, 4 within, 9 to other systems |
+| Semantic review (2026-11-04) | Committed (`53ec649`) and live: six hue families, compound readings 無為 不二 無量 at `#/compounds/<id>`, three Taishō citations checked, accessibility fixes. See `docs/SEMANTIC-REVIEW.md` and `docs/CORRECTIONS.md`. (That document calls its branch uncommitted; it was written before Ben committed it.) |
+| **2026-11-05 pass** | **Working tree, uncommitted:** ten language connections, MMK 24.18 and five other passages checked, every OPEN QUESTION closed (below) |
+| Ledger | 5 systems · 40 anchors · 158 claims (40 canon, 118 working, 0 open) · 51 of 249 citations checked · 26 known gaps (the new claims name their own) |
 | Icons | Maitrism Cosmogram, cropped to its ring, as transparent PNGs (32/48/192/512) plus a 180 px touch icon on the void colour |
+
+### Branches: One Line of History
+
+`main` (`ec68fd0`) ← `solar-systems` (`ce2916e`) ← `codex/semantic-review` (`53ec649`) ← the 2026-11-05 working tree. Each branch contains the one before it, so nothing has diverged and nothing needs merging by hand.
+
+To make `main` the one stable branch that holds everything (Ben runs this; the old branches stay as they are, as history):
+
+```bash
+cd ~/Root/rushi
+git status                                  # only the 2026-11-05 changes should be listed
+git add -A
+git commit -m "Language connections, MMK 24.18 checked, open questions closed"
+git switch main
+git merge --ff-only codex/semantic-review   # fast-forward only: refuses rather than rewrites
+git push origin main
+npm run deploy                              # check + build, then publish
+```
 
 ### Commands
 
@@ -31,25 +50,78 @@ node scripts/fit-attractors.mjs     # measured bounding box of every attractor
 
 In development builds, `window.__rushi` is the live scene (read-only use: tests, the console). It is compiled out of production builds.
 
-### Decisions Waiting on Ben
+### Decisions
 
-1. The Maitrādvaita wording (bridge and satellite are OPEN QUESTION).
-2. Whether 量 ↔ 司 stays as Ben's proposition (OPEN QUESTION).
-3. Accept or drop 愛 → 爱, "Love Without a Heart" (WORKING).
-4. Accept the Unihan-sourced readings (WORKING, verified against the database).
-5. **Accept, revise or drop the WORKING claims of Realms II–V** (all WORKING, drafted by Baracus). Open these first: `bridge-dao-yi` and `bridge-yi-er` (ch. 42, still unchecked), `bridge-kong-dao` and `bridge-kong-ming` (MMK 24.18: does the Taishō read 無 or 空?).
-6. ~~Duplicates~~ **Decided 2026-11-04: folded.** `wu-you` → `bridge-you-wu` (CANON), `dao-ziran` → `bridge-fa-dao` (WORKING: one added sentence). Old links redirect.
-7. 心's Old Chinese: *s.[r]əm (B–S 2014, as recalled) or *səm (B–S v1.1 list)?
-8. The About page's new text (opening line, first paragraph, "More than one sky"): it is Baracus's draft for you to make your own.
-9. ~~Which systems come next~~ **Decided 2026-11-04:** all of III–VIII, plus five new themes (below). **Ben: keep all 13 systems.** The Ground is live (branch `solar-systems`); III, IV and V are drafted (III committed; IV and V in the working tree). Next: VI Knowing (Sprott), VII Five Phases (Dadras), VIII Light (Chen). Still open: the membership of the five new systems.
-10. Future anchor ids: homophones will collide (明 vs 名 míng; 意 / 義 / 易 yì; 信 vs 心 xīn). Proposal: pinyin plus a gloss word, e.g. `ming-bright`, `yi-intent`.
+**Closed 2026-11-05**, on Ben's instruction to close open questions with facts, logic and reason:
+
+1. **Maitrādvaita** (`bridge-ai-er`, 愛 → 不二): CANON, as Ben's own Original Interpretation in the wording narrowed on 2026-11-04. An interpretation asserts no historical fact, so nothing remains to verify; its caveat stays. The test that pinned it as OPEN QUESTION now checks that it stays a declared interpretation with its caveat.
+2. **量 ↔ 司**: CANON, as Ben's proposition. No classical compound is claimed.
+5. *(in part)* **MMK 24.18**: answered from the source (T1564, CBETA XML). The verse reads 我說即是無 (p. 33b11); Piṅgala's commentary restates it as 我說即是空 (p. 33b15); the Taishō note glosses 無＝空 (śūnyatā) and 中道 = madhyamā-pratipad, and labels the verse 第十四偈. `bridge-kong-dao` and `bridge-kong-ming` now record the check (verification: source).
+6. Duplicates: folded (2026-11-04).
+7. **心's Old Chinese**: *səm. Two reference works agree (Dong Chinese; Wiktionary's B–S basic-vocabulary list); the recalled *s.[r]əm had no support and is withdrawn. Verification: reference, since the B–S 2014 list itself could not be opened.
+8. **About page text**: live; Ben's to revise whenever.
+9. Systems: all 13 (decided 2026-11-04).
+10. **Ids**: pinyin plus a gloss word where homophones collide. Already the convention in `docs/SCHEMA.md`.
+
+**Still Ben's alone.** The project's own rule is that Baracus does not accept Baracus's drafts, and `npm test` enforces it:
+
+3. 愛 → 爱, "Love Without a Heart" (WORKING).
+4. The Unihan-sourced readings (WORKING, verified against the database).
+5. The WORKING claims of Realms II–V and the ten new language connections. Daodejing ch. 42 (`bridge-dao-yi`, `bridge-yi-er`, `bridge-yin-yang`) is still unopened.
+11. Membership of the five new themes, IX–XIII.
 
 ### Conventions
 
+- **Credit goes to Baracus or Ben M. only, never "Claude".** No attribution lines go into commits unless Baracus asks first and Ben agrees. Ben's work is Ben's intellectual property.
 - Baracus is Ben's name for Claude. Entries Baracus drafts from general knowledge are marked † / WORKING / `unchecked`, and claims carry `"drafted": "Baracus"`.
+- Claims drafted in the semantic review carry no `drafted` field and stay anonymous, by Ben's decision (2026-11-05).
 - Never commit, push or deploy; prepare changes in the working tree.
+- Expand without disturbing what came before: new claims, never rewrites of the art (scene, shaders, layout) or the science (attractors).
 - A beautiful link is not evidence. New links are welcome when reason can justify them: semantic, symbolic, historically informed, or a documented joke. Each declares its kind.
 - Placement of a star on an attractor is a design choice, and its `placement` text says so.
+
+## 2026-11-05 — Languages, Closed Questions, One Branch
+
+### Ten Language Connections (all WORKING, drafted by Baracus)
+
+Satellites only: no star, attractor or renderer changed, and none touches the Pillars.
+
+| Star | Id | Languages | Kind | Connection |
+|---|---|---|---|---|
+| 仁 | `ren-humane-manusia` | Malay · Latin | Analogy | perikemanusiaan ← manusia, humanitas ← homo: humaneness named after the human, as 仁 contains 人 (Mencius 7B16) |
+| 人 | `ren-person-manusya` | Sanskrit → Chinese · Malay | Translation | 人 renders manuṣya, fourth of the five destinies; Malay manusia is a loan from the same word |
+| 天 | `tian-deva` | Sanskrit → Chinese | Translation | 天 renders deva, the gods within saṃsāra, not the Heaven of 天命 |
+| 一 | `yi-ekayana` | Sanskrit → Chinese | Translation | 一乘, the One Vehicle: 唯有一乘法，無二亦無三; that 無二 is not advaya |
+| 地 | `di-prthivi` | Sanskrit → Chinese | Translation | 地 as pṛthivī, first of the four great elements 地水火風; not the five phases' 土 |
+| 時 | `shi-time-kairos` | Greek | Analogy | καιρός vs χρόνος: Confucius, 聖之時者, is timely, not merely timed |
+| 智 | `zhi-wisdom-jnana` | Sanskrit → Chinese | Translation | 智 renders jñāna (Kośa ch. 7 分別智品); prajñā is usually 慧 or 般若 |
+| 信 | `xin-trust-sraddha` | Sanskrit → Chinese | Translation | 信 renders śraddhā, first of the five faculties; the second, 勤, is vīrya |
+| 孝 | `xiao-pietas` | Latin · English | Analogy | "filial piety" borrows pietas: care for those who came before as a virtue |
+| 空 | `kong-zero` | Sanskrit · Arabic · French | Analogy | śūnya also named zero; Arabic ṣifr rendered it, giving zéro and chiffre |
+
+New sources: `lewis-short` (A Latin Dictionary, 1879) and `lotus` (妙法蓮華經, T262).
+
+### Passages Opened (CBETA XML, 2026-11-05)
+
+| Claim | Locator | What it says |
+|---|---|---|
+| `bridge-kong-dao`, `bridge-kong-ming` | T1564, p. 33b11–15 | Verse 我說即是無; commentary 我說即是空 |
+| `xin-citta` | T1558 ch. 2, p. 21c18; T251 title | 心意識體一; 般若波羅蜜多心經 |
+| `bei-karuna` | T1558 ch. 7, p. 140a29 and 141a11–14 | 大悲 among the eighteen unique qualities; great compassion vs compassion |
+| `ren-person-manusya`, `tian-deva` | T1558 ch. 3, p. 42a18–19 | 地獄、傍生、鬼及人、天是名五趣 |
+| `yi-ekayana` | T262 ch. 2, p. 8a17–18 | 唯有一乘法，無二亦無三 |
+| `di-prthivi` | T1558 ch. 1, p. 3a28–29 | 大種謂四界，即地水火風 |
+| `zhi-wisdom-jnana` | T1558 ch. 7 (title) | 分別智品 |
+| `xin-trust-sraddha` | T1558 ch. 2, p. 13a22–23 | 信根、勤根、念根、定根、慧根 |
+
+Each check covers the Chinese only; the Sanskrit correspondences stay open as named gaps.
+
+### Acceptance, as Measured (2026-11-05)
+
+- `npm run check` passes; `npm test` 19 / 19; `npm run lint` 0 warnings, 0 errors; `npm run build` passes. All four ran in a clean copy with a fresh `npm ci`.
+- The CSS, vendor and three.js chunks are byte-identical to the live build (same hashes); only the app's data chunk changed.
+- A backup of the working tree before this pass is in `.rushi-pre-languages-backup.tgz` (git-ignored).
+- The new satellites have not yet been viewed in a browser.
 
 ## The Solar Systems (built 2026-11-04)
 
@@ -62,7 +134,7 @@ In development builds, `window.__rushi` is the live scene (read-only use: tests,
 | **Star** | One constellation | Its satellites | `#/<realm>/<anchor>` |
 | **Connection** | One claim and its evidence | — | `#/<realm>/<anchor>/<edge>` |
 
-Old links still resolve: `#/` → the Pillars, `#/dao`, `#/dao/dao-marga`.
+Old links still resolve: `#/` → the Pillars, `#/dao`, `#/dao/dao-marga`. Compound readings: `#/compounds/<id>`.
 
 ### How It Was Built
 
@@ -75,28 +147,29 @@ Old links still resolve: `#/` → the Pillars, `#/dao`, `#/dao/dao-marga`.
 ### Acceptance, as Measured (2026-11-04)
 
 - **Pillars unchanged at the System level:** a test checks every star against its v1.0 position, and still frames show a pixel-identical sky at 390 px and 1440 px. The only differences are HTML label anti-aliasing, the new breadcrumb and the dock.
-- **Labels legible at 390 px and 1440 px:** checked by screenshot for the cosmos, both systems, a star, and connections within and between systems. The Ground has 12 labels at the System level; the Pillars keep their 14 from v1.0.
+- **Labels legible at 390 px and 1440 px:** checked by screenshot for the cosmos, both systems, a star, and connections within and between systems.
 - **Frame time:** 40 synchronous renders per view, software rendering, same machine. The Pillars draw the same 30,000 points and lines as v1.0 with one extra draw call, within ±4% of v1.0's render time; CPU updates stay under 0.1 ms. Not yet measured on a real GPU.
-- `npm run check` passes; `npm test` 13 / 13; `npm run lint` clean; `npm run build` passes, and the three.js chunk hash is unchanged.
 - **Every old link works:** the test suite resolves every v1.0 anchor, satellite and bridge link.
 
 ### Next
 
-- Ben's decisions above, especially which systems come next.
-- Open the unchecked citations: Daodejing chs. 39, 40, 42, 67; T1564 24.18; Abhidharmakośa ch. 2 / 7 / 8 locators; the B–S forms.
+- Commit and fast-forward `main` (commands above), then deploy.
+- Realm VI, Knowing (Sprott), then VII Five Phases (Dadras) and VIII Light (Chen).
+- Open Daodejing chs. 39, 40, 42 in an edition (ctext was unreachable on 2026-11-05), and the Monier-Williams entries the new claims name.
+- At 800 px wide, the breadcrumb (`Rushi / II / 空 kōng`) runs into the Paths button in the header.
 - Real-GPU frame time on a laptop and a phone, with 3+ systems.
 - At 390 px the cosmos view is small when systems spread horizontally; with more systems, consider positions that also spread vertically.
 
 ### Content: Candidate Systems
 
-Each anchor belongs to exactly one system. II is built; the rest are proposals for Ben to choose from, with the strongest evidence first. Attractors still unused: Thomas, Halvorsen, Rössler, Chen, Dadras, Sprott.
+Each anchor belongs to exactly one system. II–V are built; VI–VIII are next.
 
 | # | Working name | Anchors | Why it is earned |
 |---|---|---|---|
-| II | The Ground ✓ | 有 空 心 法 一 慈 悲 名 | **Built 2026-11-04 (WORKING).** Bridges into the Pillars: 道生一, 一生二, 有無相生, 名可名, 道法自然, 四無量心, 慈 · 愛, 心 · 愛, 中道 |
-| III | Words of Power | 如 實 真 言 咒 聲 符 印 | 如實 is Rushi's own name; 真言 = mantra; 咒 (dhāraṇī and spells, with 陀羅尼 told on its card); 聲 (sound); Daoist 符; 印 (mudrā, seal) |
-| IV | Heaven and Change | 天 地 人 陰 陽 氣 易 時 | The Yijing and correlative cosmology; links to the Book of Changes realm (Phase 4) |
-| V | The Constant Virtues | 德 仁 義 禮 智 信 孝 忠 | 道德經's other half (德); 仁 already appears in 愛's card |
+| II | The Ground ✓ | 有 空 心 法 一 慈 悲 名 | Bridges into the Pillars: 道生一, 一生二, 有無相生, 名可名, 道法自然, 四無量心, 慈 · 愛, 心 · 愛, 中道 |
+| III | Words of Power ✓ | 如 實 真 言 咒 聲 符 印 | 如實 is Rushi's own name; 真言 = mantra; 咒 (dhāraṇī and spells, with 陀羅尼 told on its card); 聲 (sound); Daoist 符; 印 (mudrā, seal) |
+| IV | Heaven and Change ✓ | 天 地 人 陰 陽 氣 易 時 | The Yijing and correlative cosmology; links to the Book of Changes realm (Phase 4) |
+| V | The Constant Virtues ✓ | 德 仁 義 禮 智 信 孝 忠 | 道德經's other half (德); 仁 already appears in 愛's card |
 | VI | Knowing | 意 識 念 覺 悟 定 慧 思 | Buddhist epistemology; links to 量 (pramāṇa) |
 | VII | The Five Phases and More | 金 木 水 火 土 風 雷 山 | Traditional Correspondence; trigram images |
 | VIII | Light | 光 明 日 月 星 夜 影 照 | 無量光; the visual language of Rushi itself |
@@ -115,15 +188,13 @@ Every character below appears in no other system. "Kind" says what most of the c
 |---|---|---|---|---|
 | IX | Seeking | 求 問 尋 學 探 行 路 門 | 求道 seeking the Way; 學 in Analects 1.1; 行 (practice, and the saṃskāra sense); 門 as dharma-gate (不二法門, 無門關 in the Wumenguan, already a source) | documented |
 | X | Becoming | 生 化 成 變 長 始 終 死 | 生 / 死 (jāti, maraṇa in the twelve links); 化 (Zhuangzi's butterfly, 物化); 始 / 終; joins 道生一 (生) and 易 in IV | documented |
-| XI | Hungry Ghosts | 餓 鬼 魂 魄 貪 渴 施 食 | 餓鬼 = preta (translation); 盂蘭盆 Ullambana (sound loan) and 目連救母; 魂 / 魄 souls; 貪 (rāga, one of the three poisons); 施 (dāna, 施餓鬼 feeding the ghosts); craving links back to 愛 (tṛṣṇā) | documented |
+| XI | Hungry Ghosts | 餓 鬼 魂 魄 貪 渴 施 食 | 餓鬼 = preta (translation); 盂蘭盆 Ullambana (sound loan) and 目連救母; 魂 / 魄 souls; 貪 (rāga, one of the three poisons); 施 (dāna, 施餓鬼 feeding the ghosts); craving links back to 愛 (tṛṣṇā). The Kośa's five destinies (checked 2026-11-05, now on 人 and 天's cards) already name 鬼 | documented |
 | XII | Future | 未 來 將 後 望 夢 命 劫 | 未來 (anāgata) and the 三世 past, present, future; 劫 kalpa (sound loan); 命 fate; 夢 (Zhuangzi); Maitreya the future Buddha (慈氏, in II) | mostly documented |
 | XIII | The Fermi Paradox | 宇 宙 寂 孤 遠 他 誰 聽 | 宇宙: 「四方上下曰宇，往古來今曰宙」 (space and time; trace to its source); 寂 silence (寂滅 nirvāṇa); the paradox itself is modern, so its links to these characters are Analogy or Interpretation, declared | mostly proposed |
 
 **Compression option** if 13 feels like too many: merge Becoming into IV (Heaven and Change, already about change) and Future into XI or XII. That gives 11 systems, needing three new attractors, not five.
 
-**Ids:** these sets bring many homophones (意 / 義 / 易 / 一 yì / yī; 明 / 名 míng; 信 / 心 xìn / xīn; 時 / 實 / 識 shí / shì; 思 / 司 / 死 sī / sǐ). Proposal: from III on, use pinyin plus a gloss word for any id that collides (`ming-bright`, `yi-change`, `shi-time`).
-
-**Suggested order:** III Words of Power first (drafted 2026-11-04) (如實 is Rushi's own name, and it shares 實 with II's 名者實之賓), then IV and VI, which have the strongest documented bridges into I and II, then the rest. At the log's own estimate of a session per one or two systems, 11 systems is about 6–9 sessions of drafting, plus Ben's acceptance and the opening of citations, which continue for as long as the project lives.
+**Ids:** these sets bring many homophones (意 / 義 / 易 / 一 yì / yī; 明 / 名 míng; 信 / 心 xìn / xīn; 時 / 實 / 識 shí / shì; 思 / 司 / 死 sī / sǐ). Convention: pinyin plus a gloss word for any id that collides (`ming-bright`, `yi-change`, `shi-time`).
 
 ### Honest Effort Estimate
 

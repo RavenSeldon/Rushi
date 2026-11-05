@@ -98,6 +98,40 @@
       ],
       "drafted": "Baracus",
       "reviewed": "2026-11-04"
+    },
+    {
+      "id": "xin-trust-sraddha",
+      "glyph": "श्रद्धा · Śraddhā",
+      "title": "Faith, First of the Five Faculties",
+      "lang": "Sanskrit → Chinese",
+      "type": "CANONICAL_TRANSLATION",
+      "evidence": "信 renders śraddhā, trust or confidence, the first of the five faculties the Abhidharmakośa counts among the twenty-two: 信根、勤根、念根、定根、慧根, faith, vigour, mindfulness, concentration and wisdom. The second, 勤, renders vīrya, the effort that carries faith forward.",
+      "caveat": "Buddhist śraddhā is trust in the teaching, closer to confidence than to belief; Confucian 信 is good faith kept between people. The graph is shared; the senses differ.",
+      "dimension": "translation",
+      "mechanism": "semantic_extension",
+      "period": "six_dynasties_tang",
+      "cites": [
+        {
+          "source": "abhidharmakosa",
+          "locator": "ch. 2 分別根品, p. 13a22–23",
+          "checked": {
+            "on": "2026-11-05",
+            "edition": "https://raw.githubusercontent.com/cbeta-org/xml-p5/master/T/T29/T29n1558.xml",
+            "note": "Lists 信根、勤根、念根、定根、慧根 among the twenty-two faculties. Checks the Chinese; the Sanskrit is not checked here."
+          }
+        },
+        {
+          "source": "monier-williams",
+          "locator": "śraddhā; vīrya"
+        }
+      ],
+      "verification": "partial",
+      "gaps": [
+        "Check śraddhā and vīrya in Monier-Williams."
+      ],
+      "status": "WORKING",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-05"
     }
   ]
 }

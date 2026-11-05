@@ -131,10 +131,10 @@
         "source": "rushi"
       }
     ],
-    "status": "OPEN_QUESTION",
-    "statusNote": "Ben to confirm whether this proposition is his to keep.",
+    "status": "CANON",
+    "statusNote": "Closed 2026-11-05 on Ben’s instruction: Ben’s proposition, kept as Rushi’s own. It is declared an Original Interpretation; no classical compound is claimed.",
     "verification": "unchecked",
-    "reviewed": "2026-11-04"
+    "reviewed": "2026-11-05"
   },
   {
     "id": "bridge-dao-yi",
@@ -371,23 +371,25 @@
     "subtitle": "Mūlamadhyamakakārikā 24.18, tr. Kumārajīva",
     "type": "CANONICAL_TRANSLATION",
     "evidence": "Kumārajīva’s rendering of Nāgārjuna’s verse 24.18 ends 亦是中道義, “this is also the meaning of the Middle Way”: dependent arising, emptiness, provisional naming and the Middle Way (madhyamā pratipad, 中道) are given as one. 道 here renders pratipad, a path, as on 道’s card (mārga).",
-    "caveat": "Baracus recalls that the Taishō text of T1564 reads 我說即是無 where later Chinese tradition (from Tiantai) quotes 我說即是空. If so, the verse joins 空 to the Middle Way through the received sense, and also touches 無. Check before accepting.",
+    "caveat": "The Taishō verse reads 我說即是無 (p. 33b11). The prose commentary that follows, by Piṅgala (青目), restates it as 我說即是空 (p. 33b15), the form in which later Chinese tradition quotes it, and the Taishō note glosses 無 as 空, śūnyatā. So the verse touches 無 directly and joins 空 to the Middle Way through the commentary in the same text. The note labels it the 14th verse; the usual number, 24.18, is kept here.",
     "dimension": "translation",
     "mechanism": "semantic_extension",
     "period": "six_dynasties_tang",
     "cites": [
       {
         "source": "zhonglun",
-        "locator": "ch. 24 觀四諦品, v. 18"
+        "locator": "ch. 24 觀四諦品, v. 18 (T30, p. 33b11–15)",
+        "checked": {
+          "on": "2026-11-05",
+          "edition": "https://raw.githubusercontent.com/cbeta-org/xml-p5/master/T/T30/T30n1564.xml",
+          "note": "p. 33b11–12, the verse: 眾因緣生法，我說即是無，亦為是假名，亦是中道義. p. 33b15, the commentary: 眾因緣生法，我說即是空. Taishō note 0033005 gives the Sanskrit (śūnyatāṃ … prajñaptir upādāya pratipat saiva madhyamā), glosses 無＝空 (śūnyatā), 假名 (prajñapti) and 中道 (madhyamā-pratipad), and labels the verse 第十四偈."
+        }
       }
     ],
     "status": "WORKING",
-    "verification": "unchecked",
-    "gaps": [
-      "Open T1564 at verse 24.18 on CBETA and record whether the Taishō text reads 我說即是無 or 我說即是空."
-    ],
+    "verification": "source",
     "drafted": "Baracus",
-    "reviewed": "2026-11-04"
+    "reviewed": "2026-11-05"
   },
   {
     "id": "bridge-kong-ming",
@@ -404,16 +406,19 @@
     "cites": [
       {
         "source": "zhonglun",
-        "locator": "ch. 24 觀四諦品, v. 18"
+        "locator": "ch. 24 觀四諦品, v. 18 (T30, p. 33b11–15)",
+        "checked": {
+          "on": "2026-11-05",
+          "edition": "https://raw.githubusercontent.com/cbeta-org/xml-p5/master/T/T30/T30n1564.xml",
+          "note": "p. 33b11–12, the verse: 眾因緣生法，我說即是無，亦為是假名，亦是中道義. p. 33b15, the commentary: 眾因緣生法，我說即是空. Taishō note 0033005 gives the Sanskrit (śūnyatāṃ … prajñaptir upādāya pratipat saiva madhyamā), glosses 無＝空 (śūnyatā), 假名 (prajñapti) and 中道 (madhyamā-pratipad), and labels the verse 第十四偈."
+        }
       }
     ],
     "status": "WORKING",
-    "verification": "unchecked",
-    "gaps": [
-      "Open T1564 at verse 24.18 on CBETA and record whether the Taishō text reads 我說即是無 or 我說即是空."
-    ],
+    "verification": "source",
     "drafted": "Baracus",
-    "reviewed": "2026-11-04"
+    "reviewed": "2026-11-05",
+    "caveat": "The verse itself reads 我說即是無; the commentary beside it restates the line with 空 (T1564, p. 33b11–15). 假名 renders prajñapti, as the Taishō note says."
   },
   {
     "id": "bridge-xin-ci",

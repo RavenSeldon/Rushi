@@ -104,6 +104,31 @@
       "verification": "unchecked",
       "drafted": "Baracus",
       "reviewed": "2026-11-04"
+    },
+    {
+      "id": "shi-time-kairos",
+      "glyph": "Καιρός · Χρόνος",
+      "title": "Timely, Not Merely Timed",
+      "lang": "Ancient Greek",
+      "type": "CROSS_LINGUISTIC_LEXICAL",
+      "evidence": "Greek separates χρόνος, time as duration, from καιρός, the fitting moment. When Mencius calls Confucius 聖之時者, the sage of timeliness, 時 leans toward kairos: not how long, but when it is right.",
+      "caveat": "An analogy of senses, not a translation. 時 also plainly means the seasons and the hour, and kairos carries its own rhetorical and theological history.",
+      "dimension": "sense",
+      "mechanism": "independent_parallel",
+      "cites": [
+        {
+          "source": "mencius",
+          "locator": "5B1"
+        },
+        {
+          "source": "lsj",
+          "locator": "καιρός; χρόνος"
+        }
+      ],
+      "verification": "unchecked",
+      "status": "WORKING",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-05"
     }
   ]
 }

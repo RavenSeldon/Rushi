@@ -86,6 +86,40 @@
       "verification": "unchecked",
       "drafted": "Baracus",
       "reviewed": "2026-11-04"
+    },
+    {
+      "id": "tian-deva",
+      "glyph": "देव · Deva",
+      "title": "Heaven as the Gods",
+      "lang": "Sanskrit → Chinese",
+      "type": "CANONICAL_TRANSLATION",
+      "evidence": "Buddhist translators used 天 for deva, a god or celestial being. In the Abhidharmakośa’s five destinies, 天 is the last: the realm of the gods. So one character holds both the Chinese sky that orders the world and the Indian gods who live within it.",
+      "caveat": "Devas are beings within saṃsāra, born and dying like the rest; 天 as deva is not the impersonal Heaven of 天命. The graph carries two senses that a reader should keep apart.",
+      "dimension": "translation",
+      "mechanism": "semantic_extension",
+      "period": "six_dynasties_tang",
+      "cites": [
+        {
+          "source": "abhidharmakosa",
+          "locator": "ch. 3 分別世品, p. 42a18–19",
+          "checked": {
+            "on": "2026-11-05",
+            "edition": "https://raw.githubusercontent.com/cbeta-org/xml-p5/master/T/T29/T29n1558.xml",
+            "note": "地獄、傍生、鬼及人、天是名五趣. Checks the Chinese list; the Sanskrit gati names are not checked here."
+          }
+        },
+        {
+          "source": "monier-williams",
+          "locator": "deva"
+        }
+      ],
+      "verification": "partial",
+      "gaps": [
+        "Check deva in Monier-Williams."
+      ],
+      "status": "WORKING",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-05"
     }
   ]
 }

@@ -23,7 +23,10 @@ test('Maitrādvaita reaches 不二, never a false 愛–二 shortcut', () => {
   const relation = RELATIONS.find((r) => r.id === 'bridge-ai-er');
   assert.equal(relation.to, 'buer');
   assert.equal(relation.type, 'INTERPRETIVE_SYNTHESIS');
-  assert.equal(relation.status, 'OPEN_QUESTION');
+  // Ben closed the wording question on 2026-11-05 (CANON). Whatever its status,
+  // it stays a declared interpretation with its caveat.
+  assert.ok(['OPEN_QUESTION', 'CANON'].includes(relation.status));
+  assert.ok(relation.caveat && relation.dimension === 'interpretation');
   assert.ok(!BRIDGES.some((b) => b.id === relation.id));
   assert.ok(!ANCHOR_MAP.ai.satellites.some((s) => s.id === 'ai-maitradvaita'));
   for (const hash of ['#/ai/bridge-ai-er', '#/er/bridge-ai-er', '#/ai/ai-maitradvaita']) {

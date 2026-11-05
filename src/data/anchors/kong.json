@@ -110,6 +110,31 @@
       "verification": "partial",
       "drafted": "Baracus",
       "reviewed": "2026-11-04"
+    },
+    {
+      "id": "kong-zero",
+      "glyph": "शून्य · Ṣifr · Zéro",
+      "title": "Empty, and Zero",
+      "lang": "Sanskrit · Arabic · French",
+      "type": "CROSS_LINGUISTIC_LEXICAL",
+      "evidence": "The Sanskrit word 空 renders, śūnya, “empty”, also named zero in Indian arithmetic. Arabic translated it as ṣifr, “empty”, which reached Europe twice: as French zéro, through Italian, and as chiffre, a cipher or numeral.",
+      "caveat": "空 and ṣifr are two independent renderings of one Sanskrit word, made centuries apart for different ends; neither knew the other. Buddhist śūnyatā, the absence of independent existence, is not the number zero.",
+      "dimension": "sense",
+      "mechanism": "independent_parallel",
+      "cites": [
+        {
+          "source": "monier-williams",
+          "locator": "śūnya"
+        },
+        {
+          "source": "tlfi",
+          "locator": "zéro; chiffre"
+        }
+      ],
+      "verification": "unchecked",
+      "status": "WORKING",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-05"
     }
   ]
 }

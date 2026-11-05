@@ -79,6 +79,40 @@
       "verification": "unchecked",
       "drafted": "Baracus",
       "reviewed": "2026-11-04"
+    },
+    {
+      "id": "yi-ekayana",
+      "glyph": "एकयान · Ekayāna",
+      "title": "The One Vehicle",
+      "lang": "Sanskrit → Chinese",
+      "type": "CANONICAL_TRANSLATION",
+      "evidence": "一 renders eka, “one”, in 一乘, ekayāna, the One Vehicle of the Lotus Sutra. Kumārajīva’s verse: 十方佛土中，唯有一乘法，無二亦無三 — “in the Buddha-lands of the ten directions there is only the Dharma of the One Vehicle, not two and not three.”",
+      "caveat": "無二 here means there is no second vehicle; it is not 不二, advaya (see 二’s card). The Lotus counts vehicles; it does not say that all things are one.",
+      "dimension": "translation",
+      "mechanism": "calque",
+      "period": "six_dynasties_tang",
+      "cites": [
+        {
+          "source": "lotus",
+          "locator": "ch. 2 方便品, p. 8a17–18",
+          "checked": {
+            "on": "2026-11-05",
+            "edition": "https://raw.githubusercontent.com/cbeta-org/xml-p5/master/T/T09/T09n0262.xml",
+            "note": "十方佛土中，唯有一乘法，無二亦無三。除佛方便說. Checks the Chinese; the Sanskrit is not checked here."
+          }
+        },
+        {
+          "source": "monier-williams",
+          "locator": "eka; ekayāna"
+        }
+      ],
+      "verification": "partial",
+      "gaps": [
+        "Check eka and ekayāna in Monier-Williams."
+      ],
+      "status": "WORKING",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-05"
     }
   ]
 }

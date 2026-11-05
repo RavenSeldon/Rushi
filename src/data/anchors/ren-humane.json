@@ -47,5 +47,35 @@
     ],
     "source": "mojidata-ids"
   },
-  "satellites": []
+  "satellites": [
+    {
+      "id": "ren-humane-manusia",
+      "glyph": "Perikemanusiaan · Humanitas",
+      "title": "Humaneness Named After the Human",
+      "lang": "Bahasa Melayu · Latin",
+      "type": "CROSS_LINGUISTIC_LEXICAL",
+      "evidence": "仁 is written with 人, “person”, and Mencius says 仁也者，人也: humaneness simply is being human (and, joined together, the two are the Way). Malay builds its word the same way, perikemanusiaan from manusia, “human being”, and Latin humanitas grows from homo, as English humane does from human.",
+      "caveat": "Parallel word-building, not shared ancestry or shared doctrine. Roman humanitas also meant refinement and learning, and perikemanusiaan is a modern civic word. 仁’s closeness between two people (从人从二) has no counterpart in either.",
+      "dimension": "sense",
+      "mechanism": "independent_parallel",
+      "cites": [
+        {
+          "source": "mencius",
+          "locator": "7B16"
+        },
+        {
+          "source": "kamus-dewan",
+          "locator": "manusia; perikemanusiaan"
+        },
+        {
+          "source": "lewis-short",
+          "locator": "humanitas"
+        }
+      ],
+      "verification": "unchecked",
+      "status": "WORKING",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-05"
+    }
+  ]
 }
