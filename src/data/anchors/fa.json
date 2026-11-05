@@ -1,0 +1,108 @@
+{
+  "id": "fa",
+  "key": "4",
+  "glyph": "法",
+  "pinyin": "fǎ",
+  "gloss": "law · method · model — and, in Buddhist texts, dharma",
+  "glossUnihan": "law, rule, regulation, statute; France, French",
+  "form": "氵 (water) + 去 (remove); the older 灋 adds 廌",
+  "formNote": "The Shuowen gives the full form 灋 and explains it: 刑也。平之如水，从水；廌，所以觸不直者去之，从去 — “punishment; level as water, hence water; 廌, the beast that butts the crooked and removes them, hence 去.” The account is the Han dictionary’s; whether it reflects the graph’s origin is debated.",
+  "summary": "A standard to follow: law, method, model, and as a verb, “to take as a model”. Buddhist translators made 法 their word for dharma in both its senses: the teaching, and the basic elements of experience.",
+  "coords": [
+    1.084,
+    0.658,
+    0.184
+  ],
+  "placement": "On the right of the sphere, below its equator, mirroring 有 across the hollow axis. (Placement is a design choice, not a claim.)",
+  "oc": {
+    "form": "*[p]ap",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "† Baracus, from general knowledge; not yet checked against B–S 2014."
+  },
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "fǎ",
+    "yue": "faat3",
+    "ja": "hō, hatsu, hotsu",
+    "ko": "법 beop",
+    "vi": "pháp",
+    "fanqie": "方乏切"
+  },
+  "structure": {
+    "ids": "⿰氵去",
+    "parts": [
+      "氵",
+      "去",
+      "土",
+      "厶"
+    ],
+    "components": [
+      "氵",
+      "去",
+      "土",
+      "十",
+      "一",
+      "厶",
+      "𠃋",
+      "丶"
+    ],
+    "source": "mojidata-ids"
+  },
+  "satellites": [
+    {
+      "id": "fa-dharma",
+      "glyph": "धर्म · Dharma",
+      "title": "The Teaching, and the Elements",
+      "lang": "Sanskrit → Chinese",
+      "type": "CANONICAL_TRANSLATION",
+      "evidence": "法 renders dharma throughout Chinese Buddhism: the Buddha’s teaching (佛法), and in Abhidharma the basic elements of experience, divided into the conditioned (有為法) and the unconditioned (無為法). The older Chinese sense, “standard, model”, made it a natural fit.",
+      "caveat": "The conditioned / unconditioned division also appears on 為’s card (無為 · asaṃskṛta), read from 為’s side.",
+      "dimension": "translation",
+      "mechanism": "semantic_extension",
+      "period": "six_dynasties_tang",
+      "cites": [
+        {
+          "source": "agamas",
+          "locator": "法, passim"
+        },
+        {
+          "source": "abhidharmakosa",
+          "locator": "有為法 / 無為法"
+        },
+        {
+          "source": "monier-williams",
+          "locator": "dharma"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-04"
+    },
+    {
+      "id": "fa-xiezhi",
+      "glyph": "灋 · 廌",
+      "title": "The Beast That Removes the Crooked",
+      "lang": "Seal script (小篆)",
+      "type": "ETYMOLOGICAL_SINITIC",
+      "evidence": "The Shuowen’s 灋 combines water (氵), “level as water”, with 廌, a one-horned beast said to butt the guilty party in a dispute, and 去, “to remove”. Law is pictured as levelling and removing what is crooked.",
+      "caveat": "A moralised Han explanation. It is not settled as the graph’s origin, and the legend of the beast (獬豸) is a legend.",
+      "dimension": "form",
+      "period": "han",
+      "cites": [
+        {
+          "source": "shuowen",
+          "locator": "灋"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-04"
+    }
+  ]
+}

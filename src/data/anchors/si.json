@@ -1,0 +1,137 @@
+{
+  "id": "si",
+  "key": "8",
+  "glyph": "司",
+  "pinyin": "sī",
+  "gloss": "to attend to · to be in charge of · steward",
+  "form": "后 reversed (Shuowen: 从反后)",
+  "formNote": "The Shuowen explains 司 as 后 turned around. Early scribes could write graphs facing either way, so the two are sometimes hard to tell apart; the graph’s deeper origin is unknown.",
+  "summary": "The steward’s verb: to attend to, to be responsible for. It names offices (司馬, master of horse; 司空, minister of works) and the duty of tending a trust well without overreaching it.",
+  "lorenz": [
+    -17,
+    -10,
+    41
+  ],
+  "placement": "High on the left wing, mirroring 愛 across the attractor.",
+  "oc": {
+    "form": "*s-lə",
+    "source": "baxter-sagart-2014",
+    "verification": "reference"
+  },
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "sī",
+    "yue": "si1",
+    "ja": "shi",
+    "ko": "사 sa",
+    "vi": "ti",
+    "fanqie": "息兹切"
+  },
+  "satellites": [
+    {
+      "id": "si-hou",
+      "glyph": "司 ⇄ 后",
+      "title": "A Mirror-Image Graph",
+      "lang": "Shang script; Shuowen Jiezi",
+      "type": "ETYMOLOGICAL_SINITIC",
+      "evidence": "The Shuowen defines 司 as “an official who manages affairs outside” and derives its shape from 后 reversed. Because early graphs could face either way, 司 and 后 are sometimes indistinguishable.",
+      "caveat": "Hence the continuing debate over whether the great Shang cauldron reads 司母戊 or 后母戊.",
+      "dimension": "form",
+      "period": "shang_zhou",
+      "cites": [
+        {
+          "source": "shuowen",
+          "locator": "司"
+        },
+        {
+          "source": "jicheng",
+          "locator": "司母戊 / 后母戊 ding"
+        }
+      ],
+      "status": "CANON",
+      "verification": "reference",
+      "reviewed": "2026-11-04"
+    },
+    {
+      "id": "si-siming",
+      "glyph": "司命 · 有司",
+      "title": "Keeper of an Office",
+      "lang": "Classical Chinese",
+      "type": "ETYMOLOGICAL_SINITIC",
+      "evidence": "司命 is the deity who keeps the span of life; 有司 are the officers in charge of particular matters. In both, 司 is accountable care for a specific trust.",
+      "dimension": "sense",
+      "period": "pre_qin",
+      "cites": [
+        {
+          "source": "chuci",
+          "locator": "九歌: 大司命, 少司命"
+        },
+        {
+          "source": "analects",
+          "locator": "8.4; 13.2"
+        }
+      ],
+      "status": "CANON",
+      "verification": "unchecked",
+      "reviewed": "2026-11-04"
+    },
+    {
+      "id": "si-kelola",
+      "glyph": "Kelola · Urus",
+      "title": "Tending a Domain",
+      "lang": "Bahasa Melayu",
+      "type": "CROSS_LINGUISTIC_LEXICAL",
+      "evidence": "Malay mengelola and mengurus — to manage, look after, put in order — carry the same sense of responsible tending rather than command.",
+      "dimension": "sense",
+      "mechanism": "independent_parallel",
+      "cites": [
+        {
+          "source": "kamus-dewan",
+          "locator": "kelola; urus"
+        }
+      ],
+      "status": "CANON",
+      "verification": "unchecked",
+      "reviewed": "2026-11-04"
+    },
+    {
+      "id": "si-kubernao",
+      "glyph": "Κυβερνάω · Présider",
+      "title": "Steering, Not Forcing",
+      "lang": "Greek · French",
+      "type": "CROSS_LINGUISTIC_LEXICAL",
+      "evidence": "Greek κυβερνάω, “to steer a ship”, is the root of govern and cybernetics; French présider is “to sit before”, to preside. Like 司, both picture authority as attentive steering.",
+      "dimension": "sense",
+      "mechanism": "independent_parallel",
+      "cites": [
+        {
+          "source": "lsj",
+          "locator": "κυβερνάω"
+        },
+        {
+          "source": "tlfi",
+          "locator": "présider"
+        }
+      ],
+      "status": "CANON",
+      "verification": "unchecked",
+      "reviewed": "2026-11-04"
+    }
+  ],
+  "structure": {
+    "ids": "⿹𠃌𠮛",
+    "parts": [
+      "口"
+    ],
+    "components": [
+      "𠃌",
+      "𠮛",
+      "一",
+      "口"
+    ],
+    "source": "mojidata-ids"
+  }
+}

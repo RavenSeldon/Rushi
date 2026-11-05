@@ -1,0 +1,172 @@
+// ============================================================================
+// The attractor registry. Each solar system in Rushi is drawn from its own
+// real strange attractor, integrated numerically (classical 4th-order
+// Runge–Kutta) with the published parameters named below.
+//
+// Every entry gives:
+//   deriv(x, y, z)  the equations of motion
+//   dt, transient, start
+//   map             attractor space → the system's local world frame:
+//                   local = ((x − cx)·s, (z − cz)·s, (y − cy)·s)
+//                   so the attractor's z axis stands upright on screen
+//   half            world half-extents to frame, including room for labels
+//   look            the point the system overview looks at (local frame)
+//
+// The citations are Baracus's, from general knowledge, and have not yet been
+// opened (unchecked). The equations and parameters are the ones in common use.
+//
+// The Lorenz entry delegates to lorenz.js unchanged, so the Pillars are drawn
+// exactly as in v1.0. The map constants for the others were computed from a
+// bounding box of 14 000 samples (scripts/fit-attractors.mjs) and written
+// down here, so the cosmos is the same on every visit.
+// ============================================================================
+import { BETA, RHO, SIGMA, sampleAttractor as sampleLorenz, WORLD_SCALE } from './lorenz.js';
+
+function rk4(deriv, s, dt) {
+  const [x, y, z] = s;
+  const k1 = deriv(x, y, z);
+  const k2 = deriv(x + 0.5 * dt * k1[0], y + 0.5 * dt * k1[1], z + 0.5 * dt * k1[2]);
+  const k3 = deriv(x + 0.5 * dt * k2[0], y + 0.5 * dt * k2[1], z + 0.5 * dt * k2[2]);
+  const k4 = deriv(x + dt * k3[0], y + dt * k3[1], z + dt * k3[2]);
+  return [
+    x + (dt / 6) * (k1[0] + 2 * k2[0] + 2 * k3[0] + k4[0]),
+    y + (dt / 6) * (k1[1] + 2 * k2[1] + 2 * k3[1] + k4[1]),
+    z + (dt / 6) * (k1[2] + 2 * k2[2] + 2 * k3[2] + k4[2]),
+  ];
+}
+
+export const ATTRACTORS = {
+  lorenz: {
+    name: 'Lorenz',
+    citation: 'E. N. Lorenz, “Deterministic Nonperiodic Flow”, J. Atmos. Sci. 20 (1963)',
+    params: { sigma: SIGMA, rho: RHO, beta: BETA },
+    deriv: (x, y, z) => [SIGMA * (y - x), x * (RHO - z) - y, x * y - BETA * z],
+    dt: 0.004,
+    transient: 3000,
+    start: [0.1, 0, 0],
+    map: { cx: 0, cy: 0, cz: 24, s: WORLD_SCALE },
+    half: { x: 27, y: 32 },
+    look: [0, 0.5, 0],
+  },
+  aizawa: {
+    name: 'Aizawa',
+    citation: 'Attributed to Yoji Aizawa; parameters as in common use (source not yet traced)',
+    params: { a: 0.95, b: 0.7, c: 0.6, d: 3.5, e: 0.25, f: 0.1 },
+    deriv: (x, y, z) => {
+      const a = 0.95, b = 0.7, c = 0.6, d = 3.5, e = 0.25, f = 0.1;
+      return [(z - b) * x - d * y, d * x + (z - b) * y, c + a * z - (z * z * z) / 3 - (x * x + y * y) * (1 + e * z) + f * z * x * x * x];
+    },
+    dt: 0.01,
+    transient: 4000,
+    start: [0.1, 0, 0],
+    map: { cx: 0, cy: 0.02, cz: 0.74, s: 14.2 },
+    half: { x: 27, y: 28 },
+    look: [0, 0.5, 0],
+  },
+  thomas: {
+    name: 'Thomas',
+    citation: 'R. Thomas, “Deterministic chaos seen in terms of feedback circuits”, Int. J. Bifurc. Chaos 9 (1999)',
+    params: { b: 0.208186 },
+    deriv: (x, y, z) => {
+      const b = 0.208186;
+      return [Math.sin(y) - b * x, Math.sin(z) - b * y, Math.sin(x) - b * z];
+    },
+    dt: 0.05,
+    transient: 3000,
+    start: [1.1, 1.1, -0.01],
+    map: { cx: 1.35, cy: 1.35, cz: 1.35, s: 8.5 },
+    half: { x: 27, y: 29 },
+    look: [0, 0.5, 0],
+  },
+  halvorsen: {
+    name: 'Halvorsen',
+    citation: 'A. Halvorsen’s cyclically symmetric system, as given in J. C. Sprott, Elegant Chaos (2010)',
+    params: { a: 1.89 },
+    deriv: (x, y, z) => {
+      const a = 1.89;
+      return [-a * x - 4 * y - 4 * z - y * y, -a * y - 4 * z - 4 * x - z * z, -a * z - 4 * x - 4 * y - x * x];
+    },
+    dt: 0.005,
+    transient: 4000,
+    start: [-1.48, -1.51, 2.04],
+    map: { cx: -2.91, cy: -2.91, cz: -2.91, s: 2.28 },
+    half: { x: 27, y: 29 },
+    look: [0, 0.5, 0],
+  },
+  rossler: {
+    name: 'Rössler',
+    citation: 'O. E. Rössler, “An equation for continuous chaos”, Phys. Lett. A 57 (1976)',
+    params: { a: 0.2, b: 0.2, c: 5.7 },
+    deriv: (x, y, z) => [-y - z, x + 0.2 * y, 0.2 + z * (x - 5.7)],
+    dt: 0.01,
+    transient: 5000,
+    start: [0.1, 0, 0],
+    map: { cx: 1.15, cy: -1.47, cz: 11.16, s: 2.06 },
+    half: { x: 27, y: 31 },
+    look: [0, 0.5, 0],
+  },
+  chen: {
+    name: 'Chen',
+    citation: 'G. Chen and T. Ueta, “Yet another chaotic attractor”, Int. J. Bifurc. Chaos 9 (1999)',
+    params: { a: 35, b: 3, c: 28 },
+    deriv: (x, y, z) => [35 * (y - x), (28 - 35) * x - x * z + 28 * y, x * y - 3 * z],
+    dt: 0.002,
+    transient: 5000,
+    start: [-0.1, 0.5, -0.6],
+    map: { cx: 2.11, cy: 2.69, cz: 27.9, s: 0.88 },
+    half: { x: 27, y: 28 },
+    look: [0, 0.5, 0],
+  },
+  dadras: {
+    name: 'Dadras',
+    citation: 'S. Dadras and H. R. Momeni, “A novel three-dimensional autonomous chaotic system”, Phys. Lett. A 373 (2009)',
+    params: { a: 3, b: 2.7, c: 1.7, d: 2, e: 9 },
+    deriv: (x, y, z) => [y - 3 * x + 2.7 * y * z, 1.7 * y - x * z + z, 2 * x * y - 9 * z],
+    dt: 0.005,
+    transient: 4000,
+    start: [1.1, 2.1, -2],
+    map: { cx: 3.42, cy: -2.05, cz: -2.71, s: 1.35 },
+    half: { x: 27, y: 23 },
+    look: [0, 0.5, 0],
+  },
+  sprott: {
+    name: 'Sprott',
+    citation: 'J. C. Sprott, “A dynamical system with a strange attractor and invariant tori”, Phys. Lett. A 378 (2014)',
+    params: { a: 2.07, b: 1.79 },
+    deriv: (x, y, z) => [y + 2.07 * x * y + x * z, 1 - 1.79 * x * x + y * z, x - x * x - y * y],
+    dt: 0.005,
+    transient: 4000,
+    start: [0.63, 0.47, -0.54],
+    map: { cx: 0.7, cy: -0.04, cz: 0, s: 22 },
+    half: { x: 27, y: 29 },
+    look: [0, 0.5, 0],
+  },
+};
+
+/** Attractor space → the system's local world frame. */
+export function toLocal(attractorId, x, y, z) {
+  const { cx, cy, cz, s } = ATTRACTORS[attractorId].map;
+  return [(x - cx) * s, (z - cz) * s, (y - cy) * s];
+}
+
+/**
+ * Sample an attractor. Returns a Float32Array of [x,y,z, speed] per sample,
+ * in attractor coordinates, with the transient discarded. Lorenz uses the
+ * original sampler, so the Pillars stay bit-for-bit as they were.
+ */
+export function sampleSystem(attractorId, samples = 14000) {
+  if (attractorId === 'lorenz') return sampleLorenz({ samples });
+  const A = ATTRACTORS[attractorId];
+  let s = A.start.slice();
+  for (let i = 0; i < A.transient; i++) s = rk4(A.deriv, s, A.dt);
+  const out = new Float32Array(samples * 4);
+  for (let i = 0; i < samples; i++) {
+    s = rk4(A.deriv, s, A.dt);
+    const d = A.deriv(s[0], s[1], s[2]);
+    out[i * 4] = s[0];
+    out[i * 4 + 1] = s[1];
+    out[i * 4 + 2] = s[2];
+    out[i * 4 + 3] = Math.hypot(d[0], d[1], d[2]);
+  }
+  return out;
+}

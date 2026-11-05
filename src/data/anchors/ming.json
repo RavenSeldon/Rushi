@@ -1,0 +1,118 @@
+{
+  "id": "ming",
+  "key": "8",
+  "glyph": "名",
+  "pinyin": "míng",
+  "gloss": "name · reputation · to name",
+  "glossUnihan": "name, rank, title, position",
+  "form": "夕 (evening) + 口 (mouth)",
+  "formNote": "The Shuowen: 名，自命也。从口从夕。夕者，冥也。冥不相見，故以口自名 — “to name oneself… evening is dark; in the dark people cannot see each other, so they name themselves aloud.” A memorable Han explanation, not necessarily the graph’s origin.",
+  "summary": "A name, and the act of naming. 名 runs from the Daodejing’s opening line (名可名，非常名) through Confucius’s call to rectify names, to the Buddhist 假名: the provisional names by which empty things are spoken of.",
+  "coords": [
+    -0.418,
+    0.374,
+    -0.236
+  ],
+  "placement": "Low at the front of the sphere, just above and to the left of 空, so that 假名 (\"provisional name\") is one short step from emptiness. (Placement is a design choice, not a claim.)",
+  "oc": {
+    "form": "*C.meŋ",
+    "source": "baxter-sagart-2014",
+    "verification": "reference",
+    "note": "Matches Wiktionary’s B–S basic-vocabulary list (v1.1, Sagart & Ma 2020), “name”; not yet checked against B–S 2014 itself."
+  },
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "míng",
+    "yue": "ming4",
+    "ja": "mei, myō",
+    "ko": "명 myeong",
+    "vi": "danh",
+    "fanqie": "武并切"
+  },
+  "structure": {
+    "ids": "⿱夕口",
+    "parts": [
+      "夕",
+      "口"
+    ],
+    "components": [
+      "夕",
+      "𠂊",
+      "丿",
+      "㇇",
+      "丶",
+      "口"
+    ],
+    "source": "mojidata-ids"
+  },
+  "satellites": [
+    {
+      "id": "ming-zhengming",
+      "glyph": "正名",
+      "title": "Rectifying Names",
+      "lang": "Classical Chinese",
+      "type": "ETYMOLOGICAL_SINITIC",
+      "evidence": "Analects 13.3: 名不正，則言不順；言不順，則事不成 — “if names are not correct, speech does not accord with things; if speech does not accord, affairs do not succeed.” For Confucius, order begins with calling things what they are.",
+      "dimension": "sense",
+      "period": "pre_qin",
+      "cites": [
+        {
+          "source": "analects",
+          "locator": "13.3"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-04"
+    },
+    {
+      "id": "ming-shi",
+      "glyph": "名者實之賓",
+      "title": "The Name Is the Guest of Reality",
+      "lang": "Classical Chinese",
+      "type": "ETYMOLOGICAL_SINITIC",
+      "evidence": "Zhuangzi ch. 1: declining the throne, Xu You says 名者，實之賓也 — “a name is the guest of reality.” The pair 名 / 實 (name and actuality) runs through early Chinese philosophy, and 實 is half of Rushi’s own name, 如實.",
+      "dimension": "sense",
+      "period": "pre_qin",
+      "cites": [
+        {
+          "source": "zhuangzi",
+          "locator": "ch. 1 逍遙遊"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-04"
+    },
+    {
+      "id": "ming-namarupa",
+      "glyph": "नामरूप · Nāma-rūpa",
+      "title": "Name-and-Form",
+      "lang": "Sanskrit → Chinese",
+      "type": "CANONICAL_TRANSLATION",
+      "evidence": "In the twelve links, nāma-rūpa, “name and form”, the mental and physical sides of a person, is rendered part for part as 名色: 名 for nāma, 色 for rūpa.",
+      "dimension": "translation",
+      "mechanism": "calque",
+      "period": "six_dynasties_tang",
+      "cites": [
+        {
+          "source": "agamas",
+          "locator": "十二因緣: 名色"
+        },
+        {
+          "source": "monier-williams",
+          "locator": "nāman; nāmarūpa"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-04"
+    }
+  ]
+}

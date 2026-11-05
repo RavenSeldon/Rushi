@@ -1,0 +1,152 @@
+{
+  "id": "liang",
+  "key": "7",
+  "glyph": "量",
+  "pinyin": "liáng · liàng",
+  "gloss": "to measure (liáng) · capacity, quantity (liàng) · pramāṇa",
+  "form": "Modern shape: 旦 + 里",
+  "formNote": "The modern split is visual, not etymological. The early graph sets a sun above a second element whose meaning is debated (a grain field, measuring under the sun, the sun in the east). The Shuowen: abbreviated 重 “weight” with 曏 as phonetic.",
+  "summary": "A word that keeps an Old Chinese derivation visible: level-tone liáng is the act of measuring or weighing; departing-tone liàng is the result — capacity, magnanimity, and in Buddhist logic, pramāṇa, the measure of valid knowing.",
+  "lorenz": [
+    -13,
+    -9,
+    9
+  ],
+  "placement": "Low on the left wing, close to 無 — the two halves of 無量, “immeasurable”.",
+  "oc": {
+    "form": "*[r]aŋ · *[r]aŋ-s",
+    "source": "baxter-sagart-2014",
+    "verification": "reference"
+  },
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "liàng",
+    "yue": "loeng4",
+    "ja": "ryō",
+    "ko": "량 ryang, 양 yang",
+    "fanqie": "呂章切, 力讓切",
+    "extra": {
+      "cmn": "liáng",
+      "yue": "loeng6",
+      "vi": "lượng"
+    },
+    "extraNote": "Readings beyond Unihan’s list, added by Baracus from general knowledge; not yet checked."
+  },
+  "satellites": [
+    {
+      "id": "liang-tonal",
+      "glyph": "liáng ↔ liàng",
+      "title": "Measuring and Measure",
+      "lang": "Old Chinese → Mandarin",
+      "type": "ETYMOLOGICAL_SINITIC",
+      "evidence": "liáng (< *[r]aŋ): to measure, weigh, deliberate (測量, 思量). liàng (< *[r]aŋ-s): the result — quantity, capacity, magnanimity (器量), and the immeasurable (無量). The same *-s derivation seen in 為 wéi / wèi.",
+      "dimension": "sound",
+      "period": "pre_qin",
+      "cites": [
+        {
+          "source": "moe-dict",
+          "locator": "量"
+        },
+        {
+          "source": "baxter-sagart-2014",
+          "locator": "量"
+        }
+      ],
+      "status": "CANON",
+      "verification": "reference",
+      "reviewed": "2026-11-04"
+    },
+    {
+      "id": "liang-pramana",
+      "glyph": "प्रमाण · Pramāṇa",
+      "title": "Valid Means of Knowing",
+      "lang": "Sanskrit → Chinese (因明)",
+      "type": "CANONICAL_TRANSLATION",
+      "evidence": "In Buddhist epistemology 量 renders pramāṇa, a valid means of knowing: direct perception (現量, pratyakṣa) and inference (比量, anumāna).",
+      "dimension": "translation",
+      "mechanism": "semantic_extension",
+      "period": "six_dynasties_tang",
+      "cites": [
+        {
+          "source": "yinming-xuanzang",
+          "locator": "現量; 比量"
+        },
+        {
+          "source": "pramanasamuccaya"
+        }
+      ],
+      "status": "CANON",
+      "verification": "unchecked",
+      "reviewed": "2026-11-04"
+    },
+    {
+      "id": "liang-wuliang",
+      "glyph": "無量 · Apramāṇa",
+      "title": "The Immeasurables",
+      "lang": "Sanskrit → Chinese",
+      "type": "CANONICAL_TRANSLATION",
+      "evidence": "With 無, 量 forms 無量 (apramāṇa, amita): boundless, beyond measure — the Four Immeasurable Minds 慈悲喜捨, and Amitābha and Amitāyus, Buddha of Immeasurable Light (無量光) and Immeasurable Life (無量壽).",
+      "dimension": "translation",
+      "mechanism": "calque",
+      "period": "six_dynasties_tang",
+      "cites": [
+        {
+          "source": "agamas",
+          "locator": "四無量心"
+        },
+        {
+          "source": "pure-land",
+          "locator": "無量光; 無量壽"
+        }
+      ],
+      "status": "CANON",
+      "verification": "unchecked",
+      "reviewed": "2026-11-04"
+    },
+    {
+      "id": "liang-ukuran",
+      "glyph": "Ukuran · Mesure",
+      "title": "Measure and Moderation",
+      "lang": "Bahasa Melayu · French",
+      "type": "CROSS_LINGUISTIC_LEXICAL",
+      "evidence": "Malay ukuran and sukatan, like French mesure, span quantitative measurement and a sense of proportion — “à sa mesure”, within one’s measure — much as liàng spans quantity and capacity of character.",
+      "dimension": "sense",
+      "mechanism": "independent_parallel",
+      "cites": [
+        {
+          "source": "kamus-dewan",
+          "locator": "ukuran; sukatan"
+        },
+        {
+          "source": "tlfi",
+          "locator": "mesure"
+        }
+      ],
+      "status": "CANON",
+      "verification": "unchecked",
+      "reviewed": "2026-11-04"
+    }
+  ],
+  "structure": {
+    "ids": "⿱旦里",
+    "parts": [
+      "旦",
+      "日",
+      "里",
+      "土"
+    ],
+    "components": [
+      "旦",
+      "日",
+      "囗",
+      "一",
+      "里",
+      "土",
+      "十"
+    ],
+    "source": "mojidata-ids"
+  }
+}

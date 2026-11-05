@@ -1,0 +1,44 @@
+[
+  {
+    "id": "pillars",
+    "name": "The Pillars",
+    "numeral": "I",
+    "attractor": "lorenz",
+    "anchors": [
+      "dao",
+      "wu",
+      "wei",
+      "ai",
+      "bu",
+      "er",
+      "liang",
+      "si"
+    ],
+    "position": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "ground",
+    "name": "The Ground",
+    "numeral": "II",
+    "attractor": "aizawa",
+    "position": [
+      150,
+      22,
+      -70
+    ],
+    "anchors": [
+      "you",
+      "kong",
+      "xin",
+      "fa",
+      "yi",
+      "ci",
+      "bei",
+      "ming"
+    ]
+  }
+]

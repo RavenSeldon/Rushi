@@ -1,0 +1,527 @@
+[
+  {
+    "id": "bridge-dao-wu",
+    "from": "dao",
+    "to": "wu",
+    "label": "道 · 無",
+    "title": "道 ↔ 無 · The Nameless Source",
+    "subtitle": "Classical usage",
+    "type": "ETYMOLOGICAL_SINITIC",
+    "evidence": "The Daodejing ties the Way to non-presence: the nameless (無名) is the beginning of heaven and earth (ch. 1), and being is born from non-being (ch. 40). 道 is the course; 無 is the openness it runs through.",
+    "dimension": "sense",
+    "period": "pre_qin",
+    "cites": [
+      {
+        "source": "daodejing",
+        "locator": "ch. 1",
+        "checked": {
+          "on": "2026-11-04",
+          "edition": "https://wuecampus.uni-wuerzburg.de/moodle/pluginfile.php/3096964/mod_resource/content/1/Dao.pdf",
+          "note": "無名天地之始"
+        }
+      },
+      {
+        "source": "daodejing",
+        "locator": "ch. 40"
+      }
+    ],
+    "status": "CANON",
+    "verification": "partial",
+    "reviewed": "2026-11-04"
+  },
+  {
+    "id": "bridge-wu-wei",
+    "from": "wu",
+    "to": "wei",
+    "label": "無為",
+    "title": "無為 · wúwéi",
+    "subtitle": "A Daoist term, repurposed by Buddhist translators",
+    "type": "ETYMOLOGICAL_SINITIC",
+    "evidence": "“Without” + “action”: in Daoist texts, efficacy that does not force; in Buddhist translation, the unconditioned (asaṃskṛta) as opposed to the conditioned (有為). The same two characters carry both histories.",
+    "dimension": "sense",
+    "period": "pre_qin",
+    "cites": [
+      {
+        "source": "daodejing",
+        "locator": "ch. 37",
+        "checked": {
+          "on": "2026-11-04",
+          "edition": "https://wuecampus.uni-wuerzburg.de/moodle/pluginfile.php/3096964/mod_resource/content/1/Dao.pdf",
+          "note": "道常無為而無不為"
+        }
+      },
+      {
+        "source": "daodejing",
+        "locator": "ch. 48"
+      },
+      {
+        "source": "abhidharmakosa",
+        "locator": "無為法"
+      }
+    ],
+    "status": "CANON",
+    "verification": "partial",
+    "reviewed": "2026-11-04"
+  },
+  {
+    "id": "bridge-wu-liang",
+    "from": "wu",
+    "to": "liang",
+    "label": "無量",
+    "title": "無量 · wúliàng",
+    "subtitle": "Attested translation of apramāṇa",
+    "type": "CANONICAL_TRANSLATION",
+    "evidence": "“Without” + “measure” renders Sanskrit apramāṇa: the boundless scope of loving-kindness, compassion, sympathetic joy and equanimity (maitrī, karuṇā, muditā, upekṣā).",
+    "dimension": "translation",
+    "mechanism": "calque",
+    "period": "six_dynasties_tang",
+    "cites": [
+      {
+        "source": "agamas",
+        "locator": "四無量心"
+      },
+      {
+        "source": "pure-land",
+        "locator": "無量光; 無量壽"
+      }
+    ],
+    "status": "CANON",
+    "verification": "unchecked",
+    "reviewed": "2026-11-04"
+  },
+  {
+    "id": "bridge-bu-er",
+    "from": "bu",
+    "to": "er",
+    "label": "不二",
+    "title": "不二 · bú èr · advaya",
+    "subtitle": "Attested translation — the bridge at the centre",
+    "type": "CANONICAL_TRANSLATION",
+    "evidence": "“Not” + “two” renders Sanskrit advaya, non-duality: the refusal to split reality into opposed pairs. In the galaxy, 不 and 二 sit in the two eyes of the attractor — two foci, one trajectory.",
+    "caveat": "Zhuangzi’s “pivot of the Way” (道樞) is an earlier Chinese parallel, not a source of the compound (see 二).",
+    "dimension": "translation",
+    "mechanism": "calque",
+    "period": "six_dynasties_tang",
+    "cites": [
+      {
+        "source": "vimalakirti",
+        "locator": "ch. 9 入不二法門品"
+      }
+    ],
+    "status": "CANON",
+    "verification": "unchecked",
+    "reviewed": "2026-11-04"
+  },
+  {
+    "id": "bridge-ai-er",
+    "from": "ai",
+    "to": "er",
+    "label": "愛 · 不二",
+    "title": "愛 ↔ 不二 · Maitrādvaita",
+    "subtitle": "Original interpretation",
+    "type": "INTERPRETIVE_SYNTHESIS",
+    "evidence": "Proposed reading: loving-kindness may be how non-duality is lived — when self and other are not two, care need not be earned or rationed.",
+    "caveat": "This is the project’s own proposition. The historical correspondence is 不二 ↔ advaya; the link to love is interpretive, and drawn as a dotted crimson line for that reason.",
+    "dimension": "interpretation",
+    "cites": [
+      {
+        "source": "rushi"
+      }
+    ],
+    "status": "OPEN_QUESTION",
+    "statusNote": "Wording awaits Ben’s decision (roadmap: Decisions Only Ben Can Make).",
+    "verification": "unchecked",
+    "reviewed": "2026-11-04"
+  },
+  {
+    "id": "bridge-liang-si",
+    "from": "liang",
+    "to": "si",
+    "label": "量 · 司",
+    "title": "量 ↔ 司 · Measured Stewardship",
+    "subtitle": "Original interpretation",
+    "type": "INTERPRETIVE_SYNTHESIS",
+    "evidence": "Proposed pairing: stewardship (司) guided by measure (量) — direction grounded in valid knowing and a sense of proportion rather than force.",
+    "caveat": "No classical compound joins these two characters; the connection is the project’s own.",
+    "dimension": "interpretation",
+    "cites": [
+      {
+        "source": "rushi"
+      }
+    ],
+    "status": "OPEN_QUESTION",
+    "statusNote": "Ben to confirm whether this proposition is his to keep.",
+    "verification": "unchecked",
+    "reviewed": "2026-11-04"
+  },
+  {
+    "id": "bridge-dao-yi",
+    "from": "dao",
+    "to": "yi",
+    "label": "道生一",
+    "title": "道 → 一 · The Way Gives Rise to the One",
+    "subtitle": "Daodejing ch. 42",
+    "type": "ETYMOLOGICAL_SINITIC",
+    "evidence": "Ch. 42 opens: 道生一，一生二，二生三，三生萬物 — “the Way gives rise to one, one to two, two to three, three to the myriad things.” The Shuowen’s first entry echoes it: 道立於一, “the Way was established in the One”.",
+    "caveat": "What “one”, “two” and “three” stand for is a commentators’ question (qi; yin and yang; their harmony are common answers). The text itself does not say.",
+    "dimension": "cosmos",
+    "period": "pre_qin",
+    "cites": [
+      {
+        "source": "daodejing",
+        "locator": "ch. 42"
+      },
+      {
+        "source": "shuowen",
+        "locator": "一"
+      }
+    ],
+    "status": "WORKING",
+    "verification": "unchecked",
+    "gaps": [
+      "Open Daodejing ch. 42 in a reliable edition and record the passage."
+    ],
+    "drafted": "Baracus",
+    "reviewed": "2026-11-04"
+  },
+  {
+    "id": "bridge-yi-er",
+    "from": "yi",
+    "to": "er",
+    "label": "一生二",
+    "title": "一 → 二 · One Gives Rise to Two",
+    "subtitle": "Daodejing ch. 42",
+    "type": "ETYMOLOGICAL_SINITIC",
+    "evidence": "The same sentence continues: 一生二, “one gives rise to two”. This is the first documented link between 二 and anything in the other half of the Pillars: through 一, 不 二 愛 and 道 無 為 量 司 are now joined.",
+    "caveat": "The Daodejing’s two is a cosmogonic two; the Pillars’ 二 is mainly about 不二 (advaya). The bridge joins the characters, not those doctrines, and not-two is not one (see 二’s card, Advaya ≠ Advaita).",
+    "dimension": "cosmos",
+    "period": "pre_qin",
+    "cites": [
+      {
+        "source": "daodejing",
+        "locator": "ch. 42"
+      }
+    ],
+    "status": "WORKING",
+    "verification": "unchecked",
+    "gaps": [
+      "Open Daodejing ch. 42 in a reliable edition and record the passage."
+    ],
+    "drafted": "Baracus",
+    "reviewed": "2026-11-04"
+  },
+  {
+    "id": "bridge-you-wu",
+    "from": "you",
+    "to": "wu",
+    "label": "有無相生",
+    "title": "有 ↔ 無 · Being and Non-Being Arise Together",
+    "subtitle": "Daodejing chs. 2 and 40",
+    "type": "ETYMOLOGICAL_SINITIC",
+    "evidence": "Being and non-being give rise to each other (有無相生, ch. 2); “the myriad things are born from being, and being is born from non-being” (天下萬物生於有，有生於無, ch. 40). 無 here is not nihilistic nothing but the indeterminate source of form.",
+    "dimension": "sense",
+    "period": "pre_qin",
+    "cites": [
+      {
+        "source": "daodejing",
+        "locator": "ch. 2",
+        "checked": {
+          "on": "2026-11-04",
+          "edition": "https://www.gutenberg.org/ebooks/49965 (B. R. Linnell, Dao De Jing: A Minimalist Translation, 2015; Wang Bi text with variants)",
+          "note": "故有無相生"
+        }
+      },
+      {
+        "source": "daodejing",
+        "locator": "ch. 40"
+      }
+    ],
+    "status": "CANON",
+    "verification": "partial",
+    "folded": [
+      "wu-you"
+    ],
+    "reviewed": "2026-11-04"
+  },
+  {
+    "id": "bridge-dao-ming",
+    "from": "dao",
+    "to": "ming",
+    "label": "名可名",
+    "title": "道 ↔ 名 · The Way That Can Be Told, the Name That Can Be Named",
+    "subtitle": "Daodejing ch. 1",
+    "type": "ETYMOLOGICAL_SINITIC",
+    "evidence": "The Daodejing opens with the pair: 道可道，非常道；名可名，非常名 — “a way that can be told is not the constant Way; a name that can be named is not the constant name.” Way and name stand side by side from the first line.",
+    "dimension": "sense",
+    "period": "pre_qin",
+    "cites": [
+      {
+        "source": "daodejing",
+        "locator": "ch. 1",
+        "checked": {
+          "on": "2026-11-04",
+          "edition": "https://www.gutenberg.org/ebooks/49965 (B. R. Linnell, Dao De Jing: A Minimalist Translation, 2015; Wang Bi text with variants)",
+          "note": "道可道非常道 · 名可名非常名"
+        }
+      }
+    ],
+    "status": "WORKING",
+    "verification": "source",
+    "drafted": "Baracus",
+    "reviewed": "2026-11-04"
+  },
+  {
+    "id": "bridge-fa-dao",
+    "from": "fa",
+    "to": "dao",
+    "label": "道法自然",
+    "title": "法 ↔ 道 · Each Takes the Next as Its Model",
+    "subtitle": "Daodejing ch. 25",
+    "type": "ETYMOLOGICAL_SINITIC",
+    "evidence": "人法地，地法天，天法道，道法自然: humans take Earth as their model, Earth takes Heaven, Heaven takes the Way, and the Way “takes as its model what is so of itself”. 法 is the verb in every step. 自然 here is not Nature as a thing but the unforced way things go: 道 imitates nothing outside itself.",
+    "caveat": "The last two sentences were accepted as 道’s satellite 道法自然 (folded into this bridge on 2026-11-04); the chain sentence is Baracus’s addition and awaits acceptance.",
+    "dimension": "sense",
+    "period": "pre_qin",
+    "cites": [
+      {
+        "source": "daodejing",
+        "locator": "ch. 25",
+        "checked": {
+          "on": "2026-11-04",
+          "edition": "https://wuecampus.uni-wuerzburg.de/moodle/pluginfile.php/3096964/mod_resource/content/1/Dao.pdf",
+          "note": "道法自然 (partial edition, simplified script)"
+        }
+      }
+    ],
+    "status": "WORKING",
+    "verification": "source",
+    "drafted": "Baracus",
+    "folded": [
+      "dao-ziran"
+    ],
+    "reviewed": "2026-11-04"
+  },
+  {
+    "id": "bridge-ci-liang",
+    "from": "ci",
+    "to": "liang",
+    "label": "四無量心",
+    "title": "慈 ↔ 量 · The First of the Four Immeasurables",
+    "subtitle": "Buddhist translation",
+    "type": "CANONICAL_TRANSLATION",
+    "evidence": "The four immeasurables (apramāṇa, 四無量心) are 慈 悲 喜 捨: loving-kindness, compassion, sympathetic joy and equanimity, “immeasurable” because they extend to beings without limit. 慈 is the first; 量 supplies the measure that 無 negates.",
+    "dimension": "translation",
+    "period": "six_dynasties_tang",
+    "cites": [
+      {
+        "source": "agamas",
+        "locator": "四無量心"
+      },
+      {
+        "source": "abhidharmakosa",
+        "locator": "ch. 8 分別定品: 四無量"
+      }
+    ],
+    "status": "WORKING",
+    "verification": "unchecked",
+    "drafted": "Baracus",
+    "reviewed": "2026-11-04"
+  },
+  {
+    "id": "bridge-ci-ai",
+    "from": "ci",
+    "to": "ai",
+    "label": "慈 · 愛",
+    "title": "慈 ↔ 愛 · Glossed as One, Translated Apart",
+    "subtitle": "Shuowen; Buddhist translation",
+    "type": "ETYMOLOGICAL_SINITIC",
+    "evidence": "The Shuowen glosses 慈 with 愛: 慈，愛也. Buddhist translation pulled the two apart: 慈 became maitrī, loving-kindness, and 愛 became tṛṣṇā, craving, a cause of suffering in the twelve links (see 愛’s card).",
+    "caveat": "In ordinary Chinese the two still overlap, as in 慈愛, “tender love”. The distinction is the translators’ convention, not a change in the everyday words.",
+    "dimension": "sense",
+    "period": "han",
+    "cites": [
+      {
+        "source": "shuowen",
+        "locator": "慈"
+      },
+      {
+        "source": "agamas",
+        "locator": "十二因緣: 愛 = tṛṣṇā"
+      }
+    ],
+    "status": "WORKING",
+    "verification": "unchecked",
+    "drafted": "Baracus",
+    "reviewed": "2026-11-04"
+  },
+  {
+    "id": "bridge-xin-ai",
+    "from": "xin",
+    "to": "ai",
+    "label": "心 · 愛",
+    "title": "心 ↔ 愛 · The Heart Inside Love",
+    "subtitle": "Graphic structure",
+    "type": "GRAPHIC_STRUCTURE",
+    "evidence": "Mojidata IDS describes 愛 as 爫 over 冖 over 𢖻, and 𢖻 as 心 over 夊: the heart is a component, at the centre of the graph. The simplified 爱 replaces it with 友, the subject of the joke on 愛’s card.",
+    "dimension": "form",
+    "cites": [
+      {
+        "source": "mojidata-ids",
+        "locator": "愛 ⿳爫冖𢖻; 𢖻 ⿱心夊",
+        "checked": {
+          "on": "2026-11-04",
+          "edition": "Mojidata IDS via @mandel59/mojidata@1.9.3 (data-raw/moji.db, sha256 c8cd43031d6a48bd…)",
+          "note": "愛 ⿳爫冖𢖻 (GHTJKP) · 𢖻 ⿱心夊 (GT)"
+        }
+      }
+    ],
+    "status": "WORKING",
+    "verification": "source",
+    "drafted": "Baracus",
+    "reviewed": "2026-11-04"
+  },
+  {
+    "id": "bridge-kong-dao",
+    "from": "kong",
+    "to": "dao",
+    "label": "中道",
+    "title": "空 ↔ 道 · Emptiness Is the Middle Way",
+    "subtitle": "Mūlamadhyamakakārikā 24.18, tr. Kumārajīva",
+    "type": "CANONICAL_TRANSLATION",
+    "evidence": "Kumārajīva’s rendering of Nāgārjuna’s verse 24.18 ends 亦是中道義, “this is also the meaning of the Middle Way”: dependent arising, emptiness, provisional naming and the Middle Way (madhyamā pratipad, 中道) are given as one. 道 here renders pratipad, a path, as on 道’s card (mārga).",
+    "caveat": "Baracus recalls that the Taishō text of T1564 reads 我說即是無 where later Chinese tradition (from Tiantai) quotes 我說即是空. If so, the verse joins 空 to the Middle Way through the received sense, and also touches 無. Check before accepting.",
+    "dimension": "translation",
+    "mechanism": "semantic_extension",
+    "period": "six_dynasties_tang",
+    "cites": [
+      {
+        "source": "zhonglun",
+        "locator": "ch. 24 觀四諦品, v. 18"
+      }
+    ],
+    "status": "WORKING",
+    "verification": "unchecked",
+    "gaps": [
+      "Open T1564 at verse 24.18 on CBETA and record whether the Taishō text reads 我說即是無 or 我說即是空."
+    ],
+    "drafted": "Baracus",
+    "reviewed": "2026-11-04"
+  },
+  {
+    "id": "bridge-kong-ming",
+    "from": "kong",
+    "to": "ming",
+    "label": "假名",
+    "title": "空 ↔ 名 · Empty, and So a Provisional Name",
+    "subtitle": "Mūlamadhyamakakārikā 24.18, tr. Kumārajīva",
+    "type": "CANONICAL_TRANSLATION",
+    "evidence": "The same verse: what arises from conditions is empty, and 亦為是假名, “it is a provisional name” (prajñapti). Things are named and the names work, but nothing answers to them as an independent thing.",
+    "dimension": "translation",
+    "mechanism": "semantic_extension",
+    "period": "six_dynasties_tang",
+    "cites": [
+      {
+        "source": "zhonglun",
+        "locator": "ch. 24 觀四諦品, v. 18"
+      }
+    ],
+    "status": "WORKING",
+    "verification": "unchecked",
+    "gaps": [
+      "Open T1564 at verse 24.18 on CBETA and record whether the Taishō text reads 我說即是無 or 我說即是空."
+    ],
+    "drafted": "Baracus",
+    "reviewed": "2026-11-04"
+  },
+  {
+    "id": "bridge-xin-ci",
+    "from": "xin",
+    "to": "ci",
+    "label": "心 · 慈",
+    "title": "心 ↔ 慈 · Kindness Has a Heart at Its Foot",
+    "subtitle": "Graphic structure",
+    "type": "GRAPHIC_STRUCTURE",
+    "evidence": "Mojidata IDS: 慈 is 兹 over 心. The Shuowen reads it the same way: 从心，茲聲, the heart for meaning and 茲 for sound.",
+    "dimension": "form",
+    "cites": [
+      {
+        "source": "mojidata-ids",
+        "locator": "慈 ⿱兹心",
+        "checked": {
+          "on": "2026-11-04",
+          "edition": "Mojidata IDS via @mandel59/mojidata@1.9.3 (data-raw/moji.db, sha256 c8cd43031d6a48bd…)",
+          "note": "慈 ⿱兹心 (GHTJKPV)"
+        }
+      },
+      {
+        "source": "shuowen",
+        "locator": "慈"
+      }
+    ],
+    "status": "WORKING",
+    "verification": "partial",
+    "drafted": "Baracus",
+    "reviewed": "2026-11-04"
+  },
+  {
+    "id": "bridge-xin-bei",
+    "from": "xin",
+    "to": "bei",
+    "label": "心 · 悲",
+    "title": "心 ↔ 悲 · Grief Has a Heart at Its Foot",
+    "subtitle": "Graphic structure",
+    "type": "GRAPHIC_STRUCTURE",
+    "evidence": "Mojidata IDS: 悲 is 非 over 心. The Shuowen: 从心，非聲, the heart for meaning and 非 for sound.",
+    "caveat": "Reading 悲 as “not-heart” is folk etymology: 非 is phonetic here.",
+    "dimension": "form",
+    "cites": [
+      {
+        "source": "mojidata-ids",
+        "locator": "悲 ⿱非心",
+        "checked": {
+          "on": "2026-11-04",
+          "edition": "Mojidata IDS via @mandel59/mojidata@1.9.3 (data-raw/moji.db, sha256 c8cd43031d6a48bd…)",
+          "note": "悲 ⿱非心 (GHTJKPV)"
+        }
+      },
+      {
+        "source": "shuowen",
+        "locator": "悲"
+      }
+    ],
+    "status": "WORKING",
+    "verification": "partial",
+    "drafted": "Baracus",
+    "reviewed": "2026-11-04"
+  },
+  {
+    "id": "bridge-ci-bei",
+    "from": "ci",
+    "to": "bei",
+    "label": "慈悲",
+    "title": "慈 ↔ 悲 · Kindness and Compassion",
+    "subtitle": "Buddhist translation",
+    "type": "CANONICAL_TRANSLATION",
+    "evidence": "慈悲 joins the first two immeasurables, maitrī and karuṇā, and became the everyday Chinese word for Buddhist compassion as a whole.",
+    "caveat": "The familiar formula 慈能與樂，悲能拔苦 (“kindness gives happiness, compassion removes suffering”) is usually traced to the 大智度論 (T1509), which is not yet a registered source.",
+    "dimension": "translation",
+    "period": "six_dynasties_tang",
+    "cites": [
+      {
+        "source": "abhidharmakosa",
+        "locator": "ch. 8 分別定品: 四無量"
+      },
+      {
+        "source": "monier-williams",
+        "locator": "maitrī; karuṇā"
+      }
+    ],
+    "status": "WORKING",
+    "verification": "unchecked",
+    "gaps": [
+      "Register T1509 (大智度論) and cite the 與樂拔苦 passage."
+    ],
+    "drafted": "Baracus",
+    "reviewed": "2026-11-04"
+  }
+]

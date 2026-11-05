@@ -1,0 +1,181 @@
+{
+  "id": "wei",
+  "key": "3",
+  "glyph": "為",
+  "pinyin": "wéi · wèi",
+  "gloss": "to do · to make · to become · for the sake of",
+  "form": "爫 (hand) + 象 (elephant)",
+  "formNote": "Oracle-bone forms show a hand (又, later 爪) leading an elephant. The Shuowen read the graph as a female macaque (母猴); the oracle-bone evidence superseded that analysis.",
+  "summary": "A hand guiding an elephant: purposeful effort, training, intervention. Joined with 無 it forms 無為 (wúwéi) — action that does not force, and in Buddhist translation the “unconditioned”.",
+  "lorenz": [
+    13,
+    9,
+    9
+  ],
+  "placement": "Low on the right wing, close to 無 — the two halves of 無為.",
+  "simplified": "为",
+  "oc": {
+    "form": "*ɢʷ(r)aj",
+    "source": "baxter-sagart-2014",
+    "verification": "reference"
+  },
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "wèi",
+    "yue": "wai4",
+    "ja": "i",
+    "fanqie": "薳支切",
+    "extra": {
+      "cmn": "wéi",
+      "yue": "wai6",
+      "vi": "vi, vị",
+      "ko": "위 wi"
+    },
+    "extraNote": "Readings beyond Unihan’s list, added by Baracus from general knowledge; not yet checked."
+  },
+  "satellites": [
+    {
+      "id": "wei-elephant",
+      "glyph": "又 + 象",
+      "title": "A Hand Leading an Elephant",
+      "lang": "Oracle-bone script (甲骨文)",
+      "type": "ETYMOLOGICAL_SINITIC",
+      "evidence": "A hand above the trunk of an elephant: an image of directed human effort — taming, training, putting to work. The modern 爫 descends from the hand.",
+      "dimension": "form",
+      "period": "shang_zhou",
+      "cites": [
+        {
+          "source": "heji",
+          "locator": "為 graphs"
+        },
+        {
+          "source": "luo-zhenyu-1915"
+        },
+        {
+          "source": "shuowen",
+          "locator": "為"
+        }
+      ],
+      "status": "CANON",
+      "verification": "unchecked",
+      "reviewed": "2026-11-04"
+    },
+    {
+      "id": "wei-tonal",
+      "glyph": "wéi ↔ wèi",
+      "title": "Doing and Doing-For",
+      "lang": "Old Chinese → Mandarin",
+      "type": "ETYMOLOGICAL_SINITIC",
+      "evidence": "Level-tone wéi means “to do, to make, to become”; departing-tone wèi means “for the sake of, on behalf of”. The split reflects a productive Old Chinese suffix *-s that derived new words from old ones.",
+      "dimension": "sound",
+      "period": "pre_qin",
+      "cites": [
+        {
+          "source": "downer-1959"
+        },
+        {
+          "source": "baxter-sagart-2014",
+          "locator": "the *-s suffix"
+        }
+      ],
+      "status": "CANON",
+      "verification": "unchecked",
+      "reviewed": "2026-11-04"
+    },
+    {
+      "id": "wei-asamskrta",
+      "glyph": "असंस्कृत · 無為",
+      "title": "The Unconditioned",
+      "lang": "Sanskrit → Chinese",
+      "type": "CANONICAL_TRANSLATION",
+      "evidence": "Buddhist translators paired 有為 (saṃskṛta, “conditioned, put together”) with 無為 (asaṃskṛta, “unconditioned”), a category that includes nirvāṇa. A Daoist term was repurposed for a technical one.",
+      "dimension": "translation",
+      "mechanism": "semantic_extension",
+      "period": "six_dynasties_tang",
+      "cites": [
+        {
+          "source": "abhidharmakosa",
+          "locator": "有為法 / 無為法"
+        },
+        {
+          "source": "agamas",
+          "locator": "無為"
+        }
+      ],
+      "status": "CANON",
+      "verification": "unchecked",
+      "reviewed": "2026-11-04"
+    },
+    {
+      "id": "wei-nonagir",
+      "glyph": "Non-agir",
+      "title": "Efficacy Without Forcing",
+      "lang": "French sinology",
+      "type": "CANONICAL_TRANSLATION",
+      "evidence": "French renders 無為 as non-agir: not passivity, but aligning with the propensity of things (勢 shì), so that “nothing is done, yet nothing is left undone” (無為而無不為).",
+      "dimension": "translation",
+      "mechanism": "calque",
+      "period": "modern",
+      "cites": [
+        {
+          "source": "jullien-1996"
+        },
+        {
+          "source": "daodejing",
+          "locator": "ch. 37",
+          "checked": {
+            "on": "2026-11-04",
+            "edition": "https://wuecampus.uni-wuerzburg.de/moodle/pluginfile.php/3096964/mod_resource/content/1/Dao.pdf",
+            "note": "道常無為而無不為"
+          }
+        },
+        {
+          "source": "daodejing",
+          "locator": "ch. 48"
+        }
+      ],
+      "status": "CANON",
+      "verification": "partial",
+      "reviewed": "2026-11-04"
+    },
+    {
+      "id": "wei-laku",
+      "glyph": "Tindakan · Laku",
+      "title": "Deed and Conduct",
+      "lang": "Bahasa Melayu · Javanese",
+      "type": "CROSS_LINGUISTIC_LEXICAL",
+      "evidence": "Malay perbuatan and tindakan name the deliberate deed; kelakuan names how one conducts oneself. In Javanese, laku also names a disciplined spiritual practice — effort in the service of becoming.",
+      "dimension": "sense",
+      "mechanism": "independent_parallel",
+      "cites": [
+        {
+          "source": "kamus-dewan",
+          "locator": "perbuatan; tindakan; kelakuan"
+        }
+      ],
+      "status": "CANON",
+      "verification": "unchecked",
+      "gaps": [
+        "The Javanese sense of laku (spiritual discipline) needs a reference."
+      ],
+      "reviewed": "2026-11-04"
+    }
+  ],
+  "structure": {
+    "ids": "⿽⿵⿸⿻丿𠃍⿱𠃍𠃌灬丶",
+    "parts": [
+      "灬"
+    ],
+    "components": [
+      "丿",
+      "𠃍",
+      "𠃌",
+      "灬",
+      "丶"
+    ],
+    "source": "mojidata-ids"
+  }
+}

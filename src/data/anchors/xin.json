@@ -1,0 +1,128 @@
+{
+  "id": "xin",
+  "key": "3",
+  "glyph": "心",
+  "pinyin": "xīn",
+  "gloss": "heart · mind — and, in Buddhist texts, citta",
+  "glossUnihan": "heart; mind, intelligence; soul; 5th lunar mansion, determinative star α Scorpii (Antares)",
+  "form": "A pictograph of the heart",
+  "formNote": "The Shuowen: 人心，土藏，在身之中。象形 — “the human heart, the organ of earth, at the centre of the body; a pictograph.” As a component it is written 忄 at the left or 心 at the foot, as in 愛, 慈 and 悲.",
+  "summary": "The heart, and the mind with it: early Chinese did not separate the organ of feeling from the organ of thought. Mencius found the beginnings of virtue in it, Buddhist translators gave it citta, and Chinese astronomy named a lunar mansion after it.",
+  "coords": [
+    0.041,
+    1.418,
+    1.146
+  ],
+  "placement": "At the front of the sphere, above and between 慈 and 悲, both of which carry 心 in their graphs. (Placement is a design choice, not a claim.)",
+  "oc": {
+    "form": "*s.[r]əm",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "† Baracus’s recollection of B–S 2014. Wiktionary’s B–S basic-vocabulary list (v1.1, Sagart & Ma 2020) gives *səm for “heart”; check against the primary list."
+  },
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "xīn",
+    "yue": "sam1",
+    "ja": "shin",
+    "ko": "심 sim",
+    "vi": "tâm",
+    "fanqie": "息林切"
+  },
+  "structure": {
+    "ids": "⿰㇒⿻乚⿰丶丶",
+    "parts": [],
+    "components": [
+      "㇒",
+      "乚",
+      "丶"
+    ],
+    "source": "mojidata-ids"
+  },
+  "satellites": [
+    {
+      "id": "xin-citta",
+      "glyph": "चित्त · Citta",
+      "title": "Mind — and the Heart of the Heart Sutra",
+      "lang": "Sanskrit → Chinese",
+      "type": "CANONICAL_TRANSLATION",
+      "evidence": "心 renders citta, “mind, thought”; the Abhidharmakośa treats 心, 意 and 識 (citta, manas, vijñāna) as one thing under three names. The same character also renders hṛdaya, the bodily heart or core, which is the 心 in the Heart Sutra’s title, 般若波羅蜜多心經.",
+      "caveat": "Two Sanskrit words, one Chinese character: citta (mind) and hṛdaya (heart, essence) are distinct in Sanskrit.",
+      "dimension": "translation",
+      "mechanism": "semantic_extension",
+      "period": "six_dynasties_tang",
+      "cites": [
+        {
+          "source": "abhidharmakosa",
+          "locator": "ch. 2 分別根品: 心意識體一"
+        },
+        {
+          "source": "xinjing",
+          "locator": "title"
+        },
+        {
+          "source": "monier-williams",
+          "locator": "citta; hṛdaya"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "gaps": [
+        "The Kośa locator is Baracus’s recollection; open T1558 and record where 心意識體一 occurs."
+      ],
+      "drafted": "Baracus",
+      "reviewed": "2026-11-04"
+    },
+    {
+      "id": "xin-mencius",
+      "glyph": "惻隱之心",
+      "title": "The Heart That Cannot Bear Suffering",
+      "lang": "Classical Chinese",
+      "type": "ETYMOLOGICAL_SINITIC",
+      "evidence": "Mencius 2A6: 人皆有不忍人之心 — “everyone has a heart that cannot bear the suffering of others” — and 惻隱之心，仁之端也, “the heart of compassion is the sprout of humaneness”. For Mencius the virtues begin in the heart as sprouts that must be grown.",
+      "dimension": "sense",
+      "period": "pre_qin",
+      "cites": [
+        {
+          "source": "mencius",
+          "locator": "2A6"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-04"
+    },
+    {
+      "id": "xin-mansion",
+      "glyph": "心宿 · Antares",
+      "title": "The Heart Mansion",
+      "lang": "Chinese astronomy",
+      "type": "TRADITIONAL_CORRESPONDENCE",
+      "evidence": "Unihan’s definition of 心 includes “5th lunar mansion, determinative star α Scorpii (Antares)”. Among the twenty-eight lunar mansions, 心 is the fifth; its red star is the heart of the Azure Dragon of the east.",
+      "caveat": "This is a correspondence within Chinese astronomy, not a claim about the stars’ influence. The Azure Dragon detail is Baracus’s, from general knowledge, and is not covered by the Unihan citation.",
+      "dimension": "cosmos",
+      "cites": [
+        {
+          "source": "unihan",
+          "locator": "kDefinition",
+          "checked": {
+            "on": "2026-11-04",
+            "edition": "Unihan 18.0.0 via @mandel59/mojidata@1.9.3 (data-raw/moji.db, sha256 c8cd43031d6a48bd…)",
+            "note": "heart; mind, intelligence; soul; 5th lunar mansion, determinative star α Scorpii (Antares)"
+          }
+        }
+      ],
+      "status": "WORKING",
+      "verification": "source",
+      "gaps": [
+        "Cite an astronomical source for 心 as the heart of the Azure Dragon (東方青龍)."
+      ],
+      "drafted": "Baracus",
+      "reviewed": "2026-11-04"
+    }
+  ]
+}

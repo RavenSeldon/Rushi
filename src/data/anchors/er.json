@@ -1,0 +1,139 @@
+{
+  "id": "er",
+  "key": "6",
+  "glyph": "二",
+  "pinyin": "èr",
+  "gloss": "two · pair · duality",
+  "form": "Two horizontal strokes",
+  "formNote": "A counting sign: two parallel lines. Cosmological readings (Heaven and Earth) are later and interpretive.",
+  "summary": "Two — the simplest written number, and in thought the sign of polarity and division. Negated as 不二 it names a non-duality that declines to split experience into subject and object, pure and impure, this and that.",
+  "lorenz": [
+    8.4853,
+    8.4853,
+    27
+  ],
+  "placement": "In the eye of the right wing, mirroring 不: two foci, one unbroken trajectory weaving around both.",
+  "oc": {
+    "form": "*ni[j]-s",
+    "source": "baxter-sagart-2014",
+    "verification": "reference"
+  },
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "èr",
+    "yue": "ji6",
+    "ja": "ni, ji",
+    "ko": "이 i",
+    "vi": "nhì",
+    "fanqie": "而至切",
+    "extra": {
+      "vi": "nhị"
+    },
+    "extraNote": "Readings beyond Unihan’s list, added by Baracus from general knowledge; not yet checked."
+  },
+  "satellites": [
+    {
+      "id": "er-advaya",
+      "glyph": "अद्वय · Advaya",
+      "title": "The Dharma-Gate of Non-Duality",
+      "lang": "Sanskrit → Chinese (Mahāyāna)",
+      "type": "CANONICAL_TRANSLATION",
+      "evidence": "不二 renders Sanskrit advaya, “not-two”. In chapter 9, bodhisattvas each define the gate of non-duality; Mañjuśrī says it lies beyond words; Vimalakīrti answers with silence — remembered in the idiom 一默如雷, “one silence, like thunder”.",
+      "dimension": "translation",
+      "mechanism": "calque",
+      "period": "six_dynasties_tang",
+      "cites": [
+        {
+          "source": "vimalakirti",
+          "locator": "ch. 9 入不二法門品"
+        },
+        {
+          "source": "monier-williams",
+          "locator": "advaya"
+        }
+      ],
+      "status": "CANON",
+      "verification": "unchecked",
+      "reviewed": "2026-11-04"
+    },
+    {
+      "id": "er-advaita",
+      "glyph": "Advaya ≠ Advaita",
+      "title": "Not-Two Is Not “One”",
+      "lang": "Sanskrit philosophy",
+      "type": "CROSS_LINGUISTIC_LEXICAL",
+      "evidence": "Vedāntic advaita affirms a single underlying reality, Brahman. Buddhist advaya (不二) rejects paired extremes through dependent arising (緣起) without positing any one substance beneath them.",
+      "caveat": "Both words combine a- with a Sanskrit word for “two-ness”; the difference is doctrinal, not etymological.",
+      "dimension": "sense",
+      "cites": [
+        {
+          "source": "monier-williams",
+          "locator": "advaya; advaita"
+        }
+      ],
+      "status": "CANON",
+      "verification": "unchecked",
+      "gaps": [
+        "Cite a scholarly comparison of Buddhist advaya and Vedāntic advaita."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "id": "er-daoshu",
+      "glyph": "道樞",
+      "title": "The Pivot of the Way",
+      "lang": "Classical Chinese",
+      "type": "ETYMOLOGICAL_SINITIC",
+      "evidence": "“Where ‘that’ (彼) and ‘this’ (是) no longer find their opposite — this is called the pivot of the Way.” Zhuangzi’s critique of either-or disputation predates the arrival of Buddhism: an indigenous Chinese resonance with 不二.",
+      "dimension": "sense",
+      "period": "pre_qin",
+      "cites": [
+        {
+          "source": "zhuangzi",
+          "locator": "ch. 2 齊物論, §5",
+          "checked": {
+            "on": "2026-11-04",
+            "edition": "https://ctext.org/zhuangzi/adjustment-of-controversies/ens",
+            "note": "彼是莫得其偶，謂之道樞"
+          }
+        }
+      ],
+      "status": "CANON",
+      "verification": "source",
+      "reviewed": "2026-11-04"
+    },
+    {
+      "id": "er-tiadadua",
+      "glyph": "Tiada duanya",
+      "title": "Without a Second",
+      "lang": "Bahasa Melayu · French",
+      "type": "CROSS_LINGUISTIC_LEXICAL",
+      "evidence": "Malay tiada duanya means “peerless, without a second” — a structural echo of “not-two”, though it praises uniqueness rather than naming non-duality. French non-dualité is a modern scholarly term.",
+      "dimension": "sense",
+      "mechanism": "independent_parallel",
+      "cites": [
+        {
+          "source": "kamus-dewan",
+          "locator": "dua (tiada duanya)"
+        }
+      ],
+      "status": "CANON",
+      "verification": "unchecked",
+      "gaps": [
+        "French usage of non-dualité is uncited."
+      ],
+      "reviewed": "2026-11-04"
+    }
+  ],
+  "structure": {
+    "ids": "⿱一一",
+    "parts": [],
+    "components": [
+      "一"
+    ],
+    "source": "mojidata-ids"
+  }
+}

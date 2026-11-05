@@ -1,0 +1,155 @@
+{
+  "id": "dao",
+  "key": "1",
+  "glyph": "道",
+  "pinyin": "dào",
+  "gloss": "way · course · method · to say",
+  "form": "辶 (to walk) + 首 (head)",
+  "formNote": "Usually analysed as phono-semantic: 辶 carries the sense of movement and 首 (OC *l̥uʔ) the sound. Reading the “head” as meaningful — orienting, leading — is popular but interpretive.",
+  "summary": "First a road, and the act of leading someone along it; in classical thought, the self-unfolding course of all things and the path of cultivation. As a verb 道 also means “to say” — the double sense the Daodejing’s first line turns on.",
+  "lorenz": [
+    0,
+    0,
+    46
+  ],
+  "placement": "Above both wings, overlooking the whole course of the trajectory.",
+  "oc": {
+    "form": "*[kə.l]ˤuʔ",
+    "source": "baxter-sagart-2014",
+    "verification": "reference"
+  },
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "dào",
+    "yue": "dou6",
+    "ja": "dō, tō",
+    "ko": "도 do",
+    "vi": "đạo",
+    "fanqie": "徒晧切"
+  },
+  "satellites": [
+    {
+      "id": "dao-form",
+      "glyph": "行 + 首",
+      "title": "A Head at the Crossroads",
+      "lang": "Western Zhou bronze script (金文)",
+      "type": "ETYMOLOGICAL_SINITIC",
+      "evidence": "Early bronze forms set 首 (head) inside 行, a crossroads, sometimes with a foot or a hand added. The modern 辶 is a later reduction of that movement element.",
+      "caveat": "Most specialists take 首 as phonetic. The image of a head moving through a crossroads is evocative, but it is a reading, not a finding.",
+      "dimension": "form",
+      "period": "shang_zhou",
+      "cites": [
+        {
+          "source": "jicheng",
+          "locator": "道 graphs"
+        },
+        {
+          "source": "shuowen",
+          "locator": "道"
+        }
+      ],
+      "status": "CANON",
+      "verification": "reference",
+      "reviewed": "2026-11-04"
+    },
+    {
+      "id": "dao-marga",
+      "glyph": "मार्ग · Mārga",
+      "title": "Path — and Early “Awakening”",
+      "lang": "Sanskrit → Chinese",
+      "type": "CANONICAL_TRANSLATION",
+      "evidence": "Buddhist translators used 道 for mārga, “path”, as in 八正道, the Noble Eightfold Path. Early translators also used it for bodhi, “awakening” — hence 得道, “to attain the Way”. Daoist 道 is a self-so cosmic course; Buddhist mārga is a practice that leads out of suffering: one character, two frames.",
+      "caveat": "For bodhi, 道 was later largely replaced by the transliteration 菩提 and by 覺.",
+      "dimension": "translation",
+      "mechanism": "semantic_extension",
+      "period": "han",
+      "cites": [
+        {
+          "source": "agamas",
+          "locator": "八正道, passim"
+        }
+      ],
+      "status": "CANON",
+      "verification": "unchecked",
+      "reviewed": "2026-11-04"
+    },
+    {
+      "id": "dao-jalan",
+      "glyph": "Jalan · Aliran",
+      "title": "Road and Current",
+      "lang": "Bahasa Melayu",
+      "type": "CROSS_LINGUISTIC_LEXICAL",
+      "evidence": "Malay jalan (“road”; jalan hidup, “way of life”) covers the path sense of 道, while aliran (“current, flow”, also “school of thought”) echoes the water imagery the Daodejing uses for the Way: 上善若水, “the highest good is like water”.",
+      "caveat": "An analogy. Neither word is a standard Malay rendering of 道 as a philosophical term.",
+      "dimension": "sense",
+      "mechanism": "independent_parallel",
+      "cites": [
+        {
+          "source": "kamus-dewan",
+          "locator": "jalan; aliran"
+        },
+        {
+          "source": "daodejing",
+          "locator": "ch. 8"
+        }
+      ],
+      "status": "CANON",
+      "verification": "unchecked",
+      "reviewed": "2026-11-04"
+    },
+    {
+      "id": "dao-logos",
+      "glyph": "Λόγος · la Voie",
+      "title": "Way and Word",
+      "lang": "Greek · French",
+      "type": "CROSS_LINGUISTIC_LEXICAL",
+      "evidence": "道 is both “way” and “to say”: “the way that can be spoken is not the constant Way”. Greek λόγος likewise joins “word” with “rational order”; French renders 道 simply as la Voie, “the Way”.",
+      "caveat": "The parallel is structural. Heraclitus’ λόγος can be spoken and known; the Daodejing stresses what exceeds speech.",
+      "dimension": "sense",
+      "mechanism": "independent_parallel",
+      "cites": [
+        {
+          "source": "daodejing",
+          "locator": "ch. 1",
+          "checked": {
+            "on": "2026-11-04",
+            "edition": "https://wuecampus.uni-wuerzburg.de/moodle/pluginfile.php/3096964/mod_resource/content/1/Dao.pdf",
+            "note": "道可道，非常道"
+          }
+        },
+        {
+          "source": "lsj",
+          "locator": "λόγος"
+        },
+        {
+          "source": "tlfi",
+          "locator": "voie"
+        }
+      ],
+      "status": "CANON",
+      "verification": "partial",
+      "reviewed": "2026-11-04"
+    }
+  ],
+  "structure": {
+    "ids": "⿺辶首",
+    "parts": [
+      "辶",
+      "首"
+    ],
+    "components": [
+      "辶",
+      "首",
+      "丷",
+      "丶",
+      "㇒",
+      "𦣻",
+      "一",
+      "自"
+    ],
+    "source": "mojidata-ids"
+  }
+}

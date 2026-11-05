@@ -1,17 +1,28 @@
 {
   "name": "rushi",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "oxlint",
-    "preview": "vite preview"
+    "lint": "oxlint src",
+    "preview": "vite preview",
+    "predeploy": "npm run check && npm run build",
+    "deploy": "gh-pages -d dist",
+    "check": "node scripts/check-data.js",
+    "test": "node --test tests/*.test.js",
+    "fetch-raw": "node scripts/fetch-raw.mjs",
+    "ingest": "node --no-warnings scripts/ingest.mjs"
   },
   "dependencies": {
+    "@tailwindcss/vite": "^4.3.4",
+    "gh-pages": "^6.3.0",
+    "lucide-react": "^1.68.0",
     "react": "^19.3.1",
-    "react-dom": "^19.3.1"
+    "react-dom": "^19.3.1",
+    "tailwindcss": "^4.3.4",
+    "three": "^0.187.0"
   },
   "devDependencies": {
     "@types/react": "^19.3.0",

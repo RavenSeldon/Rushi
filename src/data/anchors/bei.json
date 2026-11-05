@@ -1,0 +1,108 @@
+{
+  "id": "bei",
+  "key": "7",
+  "glyph": "悲",
+  "pinyin": "bēi",
+  "gloss": "grief · sorrow — and, in Buddhist texts, compassion (karuṇā)",
+  "glossUnihan": "sorrow, grief; sorry, sad",
+  "form": "非 (phonetic) + 心 (heart)",
+  "formNote": "The Shuowen: 悲，痛也。从心，非聲 — “pain; from heart, with 非 as the sound.” Reading the graph as “not-heart” is folk etymology: 非 contributes the sound, not the sense.",
+  "summary": "Grief, sorrow, being pained. Buddhist translators used it for karuṇā, compassion, the wish that beings be free from suffering: a word for sorrow, chosen for the wish to end it.",
+  "coords": [
+    1.1,
+    1.02,
+    0.85
+  ],
+  "placement": "On the right of the sphere's equator, mirroring 慈: the two halves of 慈悲. (Placement is a design choice, not a claim.)",
+  "oc": {
+    "form": "*prəj",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "† Baracus, from general knowledge; not yet checked against B–S 2014."
+  },
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "bēi",
+    "yue": "bei1",
+    "ja": "hi",
+    "ko": "비 bi",
+    "vi": "bi",
+    "fanqie": "府眉切"
+  },
+  "structure": {
+    "ids": "⿱非心",
+    "parts": [
+      "非",
+      "三",
+      "心"
+    ],
+    "components": [
+      "非",
+      "𠄟",
+      "一",
+      "㇀",
+      "丿",
+      "丨",
+      "三",
+      "心",
+      "㇒",
+      "乚",
+      "丶"
+    ],
+    "source": "mojidata-ids"
+  },
+  "satellites": [
+    {
+      "id": "bei-karuna",
+      "glyph": "करुणा · Karuṇā",
+      "title": "Compassion, and Great Compassion",
+      "lang": "Sanskrit → Chinese",
+      "type": "CANONICAL_TRANSLATION",
+      "evidence": "悲 renders karuṇā, the second of the Four Immeasurables. The Abhidharmakośa distinguishes that immeasurable from a Buddha’s great compassion (大悲, mahākaruṇā), which it counts among the qualities unique to a Buddha.",
+      "dimension": "translation",
+      "mechanism": "semantic_extension",
+      "period": "six_dynasties_tang",
+      "cites": [
+        {
+          "source": "abhidharmakosa",
+          "locator": "ch. 7 分別智品: 大悲"
+        },
+        {
+          "source": "monier-williams",
+          "locator": "karuṇā"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "gaps": [
+        "The Kośa locator for 大悲 is Baracus’s recollection; open T1558 ch. 7 and record the passage."
+      ],
+      "drafted": "Baracus",
+      "reviewed": "2026-11-04"
+    },
+    {
+      "id": "bei-qiu",
+      "glyph": "悲哉秋之為氣",
+      "title": "The Grief of Autumn",
+      "lang": "Chuci (楚辭), 九辯",
+      "type": "ETYMOLOGICAL_SINITIC",
+      "evidence": "九辯 in the Chuci opens 悲哉，秋之為氣也 — “how grievous is the air of autumn!” — and made autumn sorrow (悲秋) a lasting theme of Chinese poetry. This is 悲’s native register, a personal grief, before the Buddhist sense.",
+      "caveat": "九辯 is traditionally attributed to Song Yu (宋玉); the attribution is traditional.",
+      "dimension": "sense",
+      "period": "pre_qin",
+      "cites": [
+        {
+          "source": "chuci",
+          "locator": "九辯"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-04"
+    }
+  ]
+}

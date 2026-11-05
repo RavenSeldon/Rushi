@@ -1,0 +1,115 @@
+{
+  "id": "kong",
+  "key": "2",
+  "glyph": "空",
+  "pinyin": "kōng",
+  "gloss": "empty · hollow · the sky — and, in Buddhist texts, emptiness (śūnyatā)",
+  "glossUnihan": "empty, hollow, bare, deserted",
+  "form": "穴 (cave, opening) + 工 (phonetic)",
+  "formNote": "The Shuowen glosses 空 as 竅, “an opening”, with 穴 as the meaning and 工 as the sound. Mojidata IDS breaks 穴 further into 宀 + 儿. Unihan gives two fanqie, 苦紅 (level tone, kōng) and 苦貢 (departing tone, kòng, “to leave empty; free time”).",
+  "summary": "A hollow, an opening, the open sky. Buddhist translators chose it for śūnyatā, the emptiness of independent existence, after an earlier period of reading that idea through 無 (see 無’s card, 本無 → 空).",
+  "coords": [
+    0,
+    0,
+    -0.8383
+  ],
+  "placement": "On the axis below the sphere, at the higher of the system's two lower equilibria (x = y = 0, z ≈ −0.838): a still point beneath the whole flow, with the hollow tube above it left empty. (Placement is a design choice, not a claim.)",
+  "oc": {
+    "form": "*kʰˤoŋ",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "† Baracus, from general knowledge; not yet checked against B–S 2014."
+  },
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "kōng",
+    "yue": "hung1",
+    "ja": "kū",
+    "ko": "공 gong",
+    "vi": "không",
+    "fanqie": "苦紅切, 苦貢切"
+  },
+  "structure": {
+    "ids": "⿱⿱宀儿工",
+    "parts": [
+      "宀",
+      "冖",
+      "儿",
+      "工",
+      "丅"
+    ],
+    "components": [
+      "宀",
+      "丶",
+      "冖",
+      "儿",
+      "丿",
+      "乚",
+      "工",
+      "丅",
+      "一",
+      "丨"
+    ],
+    "source": "mojidata-ids"
+  },
+  "satellites": [
+    {
+      "id": "kong-sunyata",
+      "glyph": "शून्यता · Śūnyatā",
+      "title": "Form Is Emptiness",
+      "lang": "Sanskrit → Chinese (Xuanzang)",
+      "type": "CANONICAL_TRANSLATION",
+      "evidence": "Xuanzang’s Heart Sutra: 色不異空，空不異色；色即是空，空即是色 — “form is not other than emptiness, emptiness is not other than form; form is emptiness, emptiness is form.” 空 had meant a hollow or open space; here it names śūnyatā, the lack of independent existence (svabhāva) in whatever arises from conditions.",
+      "caveat": "Emptiness in this sense is not nothingness; the tradition treats reading it as nihilism as a basic error.",
+      "dimension": "translation",
+      "mechanism": "semantic_extension",
+      "period": "six_dynasties_tang",
+      "cites": [
+        {
+          "source": "xinjing",
+          "locator": "色即是空，空即是色"
+        },
+        {
+          "source": "monier-williams",
+          "locator": "śūnya; śūnyatā"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-04"
+    },
+    {
+      "id": "kong-form",
+      "glyph": "穴 + 工",
+      "title": "An Opening, and Two Tones",
+      "lang": "Seal script (小篆); Middle Chinese",
+      "type": "ETYMOLOGICAL_SINITIC",
+      "evidence": "The Shuowen: 空，竅也, “an opening”, from 穴 (cave) with 工 giving the sound. Unihan records two fanqie, 苦紅 and 苦貢: the level-tone kōng, “empty”, and the departing-tone kòng, “to leave empty”, a derivation by tone like 量’s and 為’s.",
+      "dimension": "form",
+      "period": "han",
+      "cites": [
+        {
+          "source": "shuowen",
+          "locator": "空"
+        },
+        {
+          "source": "unihan",
+          "locator": "kFanqie",
+          "checked": {
+            "on": "2026-11-04",
+            "edition": "Unihan 18.0.0 via @mandel59/mojidata@1.9.3 (data-raw/moji.db, sha256 c8cd43031d6a48bd…)",
+            "note": "kFanqie: 苦紅 苦貢"
+          }
+        }
+      ],
+      "status": "WORKING",
+      "verification": "partial",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-04"
+    }
+  ]
+}

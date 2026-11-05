@@ -1,0 +1,146 @@
+{
+  "id": "wu",
+  "key": "2",
+  "glyph": "無",
+  "pinyin": "wú",
+  "gloss": "not have · without · non-presence",
+  "form": "舞 (a dancer) → 無",
+  "formNote": "The graph began as a dancer; “not have” is a sound loan. The four dots at the bottom of the modern form are generally explained as a reshaping of the dancer’s lower body, not 灬 “fire”.",
+  "summary": "Oracle-bone 無 pictures a dancer holding plumes or branches. The graph was borrowed for the sound of a word meaning “there is not”, and the dance moved to 舞. In philosophy 無 becomes the indeterminate from which determinate things arise.",
+  "lorenz": [
+    0,
+    0,
+    0
+  ],
+  "placement": "On the origin — the attractor’s third equilibrium, an unstable point from which trajectories depart and which they never settle back into.",
+  "simplified": "无",
+  "oc": {
+    "form": "*ma",
+    "source": "baxter-sagart-2014",
+    "verification": "reference"
+  },
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "wú",
+    "yue": "mou4",
+    "ja": "mu, bu",
+    "ko": "무 mu",
+    "vi": "vô",
+    "fanqie": "武夫切"
+  },
+  "satellites": [
+    {
+      "id": "wu-dancer",
+      "glyph": "舞 → 無",
+      "title": "A Dancer, Borrowed for “Not”",
+      "lang": "Oracle-bone script (甲骨文)",
+      "type": "ETYMOLOGICAL_SINITIC",
+      "evidence": "Shang graphs show a figure holding ornaments or branches in both hands, the ancestor of 舞, “dance”. 無 came to write “not have” by phonetic borrowing (假借): the sound, not the picture, carried the new meaning.",
+      "dimension": "form",
+      "period": "shang_zhou",
+      "cites": [
+        {
+          "source": "heji",
+          "locator": "無 graphs"
+        },
+        {
+          "source": "shuowen",
+          "locator": "無"
+        }
+      ],
+      "status": "CANON",
+      "verification": "unchecked",
+      "reviewed": "2026-11-04"
+    },
+    {
+      "id": "wu-sunyata",
+      "glyph": "本無 → 空",
+      "title": "Reading Emptiness Through 無",
+      "lang": "Sanskrit → Chinese",
+      "type": "CANONICAL_TRANSLATION",
+      "evidence": "Early Chinese Buddhists read Prajñāpāramitā thought through Daoist 無 — a method later called 格義, “matching concepts”; Lokakṣema even rendered tathatā, “suchness”, as 本無. Sengzhao’s essay rejects the “Original Non-being” school: emptiness (空, śūnyatā) means things lack independent existence, not that they do not exist — neither simply 有 nor 無.",
+      "caveat": "The standard rendering of śūnyatā is 空, not 無.",
+      "dimension": "translation",
+      "mechanism": "semantic_extension",
+      "period": "six_dynasties_tang",
+      "cites": [
+        {
+          "source": "daoxing-banruo",
+          "locator": "本無品"
+        },
+        {
+          "source": "zhaolun",
+          "locator": "不真空論"
+        }
+      ],
+      "status": "CANON",
+      "verification": "unchecked",
+      "reviewed": "2026-11-04"
+    },
+    {
+      "id": "wu-kosong",
+      "glyph": "Tiada · Kosong",
+      "title": "Absence and Usable Emptiness",
+      "lang": "Bahasa Melayu · French",
+      "type": "CROSS_LINGUISTIC_LEXICAL",
+      "evidence": "Malay tiada and French néant name plain absence; Malay kosong, “empty”, names the hollow of a vessel. Daodejing ch. 11 locates the usefulness of a cup or a room in exactly that unoccupied space.",
+      "dimension": "sense",
+      "mechanism": "independent_parallel",
+      "cites": [
+        {
+          "source": "daodejing",
+          "locator": "ch. 11",
+          "checked": {
+            "on": "2026-11-04",
+            "edition": "https://mail.yellowbridge.com/onlinelit/daodejing11.php",
+            "note": "當其無，有器之用"
+          }
+        },
+        {
+          "source": "kamus-dewan",
+          "locator": "tiada; kosong"
+        },
+        {
+          "source": "tlfi",
+          "locator": "néant"
+        }
+      ],
+      "status": "CANON",
+      "verification": "partial",
+      "reviewed": "2026-11-04"
+    },
+    {
+      "id": "wu-mu",
+      "glyph": "趙州無",
+      "title": "Zhaozhou’s “Wu”",
+      "lang": "Chan / Zen (Jp. mu)",
+      "type": "ETYMOLOGICAL_SINITIC",
+      "evidence": "Asked whether a dog has Buddha-nature, Zhaozhou answers 無. The Wumenguan presents the word not as a factual “no” but as a gate (關) that halts conceptual calculation.",
+      "caveat": "A use of 無 inside Chinese Buddhism, not a translation of a Sanskrit term.",
+      "dimension": "practice",
+      "period": "song_yuan",
+      "cites": [
+        {
+          "source": "wumenguan",
+          "locator": "case 1"
+        }
+      ],
+      "status": "CANON",
+      "verification": "unchecked",
+      "reviewed": "2026-11-04"
+    }
+  ],
+  "structure": {
+    "ids": "⿱{56}灬",
+    "parts": [
+      "灬"
+    ],
+    "components": [
+      "灬"
+    ],
+    "source": "mojidata-ids"
+  }
+}

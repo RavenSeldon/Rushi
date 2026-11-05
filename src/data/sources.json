@@ -1,0 +1,198 @@
+{
+  "$comment": "One entry per work. Claims cite {source, locator}. kind: primary (the text itself), scholarship (a study), reference (dictionary/lexicon), dataset (machine-readable data; must carry a licence). T-numbers are Taishō canon numbers, readable on CBETA.",
+  "baxter-sagart-2014": {
+    "kind": "scholarship",
+    "title": "Old Chinese: A New Reconstruction",
+    "author": "William H. Baxter and Laurent Sagart",
+    "date": "2014",
+    "publisher": "Oxford University Press"
+  },
+  "downer-1959": {
+    "kind": "scholarship",
+    "title": "Derivation by Tone-Change in Classical Chinese",
+    "author": "G. B. Downer",
+    "date": "1959",
+    "publisher": "Bulletin of the School of Oriental and African Studies 22"
+  },
+  "jullien-1996": {
+    "kind": "scholarship",
+    "title": "Traité de l’efficacité",
+    "author": "François Jullien",
+    "date": "1996",
+    "publisher": "Grasset"
+  },
+  "luo-zhenyu-1915": {
+    "kind": "scholarship",
+    "title": "殷虛書契考釋 (Yinxu shuqi kaoshi)",
+    "author": "Luo Zhenyu 羅振玉",
+    "date": "1915"
+  },
+  "shuowen": {
+    "kind": "primary",
+    "title": "說文解字 Shuowen Jiezi",
+    "author": "Xu Shen 許慎",
+    "date": "c. 100 CE",
+    "url": "https://ctext.org/shuo-wen-jie-zi"
+  },
+  "guangyun": {
+    "kind": "primary",
+    "title": "廣韻 Guangyun",
+    "date": "1008"
+  },
+  "heji": {
+    "kind": "primary",
+    "title": "甲骨文合集 Jiaguwen heji (oracle-bone corpus)",
+    "date": "1978–1982"
+  },
+  "jicheng": {
+    "kind": "primary",
+    "title": "殷周金文集成 Yin Zhou jinwen jicheng (bronze corpus)",
+    "date": "1984–1994"
+  },
+  "daodejing": {
+    "kind": "primary",
+    "title": "道德經 Daodejing",
+    "url": "https://ctext.org/dao-de-jing"
+  },
+  "zhuangzi": {
+    "kind": "primary",
+    "title": "莊子 Zhuangzi",
+    "url": "https://ctext.org/zhuangzi"
+  },
+  "analects": {
+    "kind": "primary",
+    "title": "論語 Analects",
+    "url": "https://ctext.org/analects"
+  },
+  "mencius": {
+    "kind": "primary",
+    "title": "孟子 Mencius",
+    "url": "https://ctext.org/mengzi"
+  },
+  "mozi": {
+    "kind": "primary",
+    "title": "墨子 Mozi",
+    "url": "https://ctext.org/mozi"
+  },
+  "chuci": {
+    "kind": "primary",
+    "title": "楚辭 Chuci",
+    "url": "https://ctext.org/chu-ci"
+  },
+  "agamas": {
+    "kind": "primary",
+    "title": "Chinese Āgama translations (阿含經, T1–151)",
+    "url": "https://cbetaonline.dila.edu.tw/"
+  },
+  "daoxing-banruo": {
+    "kind": "primary",
+    "title": "道行般若經 (Aṣṭasāhasrikā), tr. Lokakṣema, T224",
+    "date": "179 CE",
+    "url": "https://cbetaonline.dila.edu.tw/T0224"
+  },
+  "vimalakirti": {
+    "kind": "primary",
+    "title": "維摩詰所說經 (Vimalakīrtinirdeśa), tr. Kumārajīva, T475",
+    "date": "406 CE",
+    "url": "https://cbetaonline.dila.edu.tw/T0475"
+  },
+  "zhonglun": {
+    "kind": "primary",
+    "title": "中論 (Mūlamadhyamakakārikā), tr. Kumārajīva, T1564",
+    "date": "409 CE",
+    "url": "https://cbetaonline.dila.edu.tw/T1564"
+  },
+  "zhaolun": {
+    "kind": "primary",
+    "title": "肇論 Zhaolun (incl. 不真空論), Sengzhao, T1858",
+    "date": "early 5th c.",
+    "url": "https://cbetaonline.dila.edu.tw/T1858"
+  },
+  "xinjing": {
+    "kind": "primary",
+    "title": "般若波羅蜜多心經 (Prajñāpāramitāhṛdaya, the Heart Sutra), tr. Xuanzang, T251",
+    "date": "649 CE",
+    "url": "https://cbetaonline.dila.edu.tw/T0251"
+  },
+  "abhidharmakosa": {
+    "kind": "primary",
+    "title": "阿毘達磨俱舍論 (Abhidharmakośabhāṣya), tr. Xuanzang, T1558",
+    "date": "651–654 CE",
+    "url": "https://cbetaonline.dila.edu.tw/T1558"
+  },
+  "yinming-xuanzang": {
+    "kind": "primary",
+    "title": "因明正理門論 (T1628) and 因明入正理論 (T1630), tr. Xuanzang",
+    "date": "7th c."
+  },
+  "pramanasamuccaya": {
+    "kind": "primary",
+    "title": "Pramāṇasamuccaya 集量論, Dignāga (Chinese tr. Yijing, lost)",
+    "date": "6th c.; tr. 711 CE"
+  },
+  "pure-land": {
+    "kind": "primary",
+    "title": "無量壽經 (T360) and 阿彌陀經 (T366)",
+    "url": "https://cbetaonline.dila.edu.tw/T0360"
+  },
+  "wumenguan": {
+    "kind": "primary",
+    "title": "無門關 Wumenguan, Wumen Huikai, T2005",
+    "date": "1228",
+    "url": "https://cbetaonline.dila.edu.tw/T2005"
+  },
+  "moe-dict": {
+    "kind": "reference",
+    "title": "教育部重編國語辭典修訂本 (Ministry of Education Revised Mandarin Dictionary, Taiwan)",
+    "url": "https://dict.revised.moe.edu.tw/"
+  },
+  "kamus-dewan": {
+    "kind": "reference",
+    "title": "Kamus Dewan",
+    "publisher": "Dewan Bahasa dan Pustaka",
+    "url": "https://prpm.dbp.gov.my/"
+  },
+  "lsj": {
+    "kind": "reference",
+    "title": "Liddell–Scott–Jones Greek–English Lexicon",
+    "url": "https://www.perseus.tufts.edu/hopper/"
+  },
+  "tlfi": {
+    "kind": "reference",
+    "title": "Trésor de la langue française informatisé",
+    "url": "https://www.cnrtl.fr/"
+  },
+  "monier-williams": {
+    "kind": "reference",
+    "title": "A Sanskrit–English Dictionary",
+    "author": "Monier Monier-Williams",
+    "date": "1899",
+    "url": "https://www.sanskrit-lexicon.uni-koeln.de/"
+  },
+  "unihan": {
+    "kind": "dataset",
+    "title": "Unicode Han Database (Unihan)",
+    "publisher": "Unicode Consortium",
+    "url": "https://www.unicode.org/charts/unihan.html",
+    "license": "Unicode License v3",
+    "version": "18.0.0"
+  },
+  "rushi": {
+    "kind": "primary",
+    "title": "Rushi — the project’s own propositions",
+    "author": "Ben Amuwo"
+  },
+  "mojidata-ids": {
+    "kind": "dataset",
+    "title": "Mojidata IDS (Ideographic Description Sequences)",
+    "author": "Ryusei Yamaguchi",
+    "url": "https://github.com/mandel59/mojidata-ids",
+    "license": "CC0-1.0"
+  },
+  "xia-couplet": {
+    "kind": "primary",
+    "title": "Couplet on simplified characters (麵無麥、愛無心…)",
+    "author": "夏進興 (Hsia Chin-hsing), former chief counsellor, Office of the President (Taiwan)",
+    "url": "https://ldope.com/?p=1516"
+  }
+}

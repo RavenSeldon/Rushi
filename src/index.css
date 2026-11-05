@@ -1,111 +1,181 @@
-:root {
-  --text: #6b6375;
-  --text-h: #08060d;
-  --bg: #fff;
-  --border: #e5e4e7;
-  --code-bg: #f4f3ec;
-  --accent: #aa3bff;
-  --accent-bg: rgba(170, 59, 255, 0.1);
-  --accent-border: rgba(170, 59, 255, 0.5);
-  --social-bg: rgba(244, 243, 236, 0.5);
-  --shadow:
-    rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
+@import "tailwindcss";
 
-  --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
-  --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
-  --mono: ui-monospace, Consolas, monospace;
-
-  font: 18px/145% var(--sans);
-  letter-spacing: 0.18px;
-  color-scheme: light dark;
-  color: var(--text);
-  background: var(--bg);
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-
-  @media (max-width: 1024px) {
-    font-size: 16px;
-  }
+@theme {
+  --color-void: #05060B;
+  --color-ink: #080A12;
+  --color-nebula: #183D79;
+  --color-gold: #E4AE60;
+  --color-crimson: #A52F45;
+  --color-starlight: #EAF2FF;
+  --font-serif: "EB Garamond", Georgia, "Times New Roman", "Noto Serif TC", "Songti TC", "Noto Serif CJK TC", "PMingLiU", serif;
+  --font-cjk: "Noto Serif TC", "Songti TC", "Noto Serif CJK TC", "PMingLiU", serif;
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Arial, "Noto Sans TC", sans-serif;
+  --font-mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --text: #9ca3af;
-    --text-h: #f3f4f6;
-    --bg: #16171d;
-    --border: #2e303a;
-    --code-bg: #1f2028;
-    --accent: #c084fc;
-    --accent-bg: rgba(192, 132, 252, 0.15);
-    --accent-border: rgba(192, 132, 252, 0.5);
-    --social-bg: rgba(47, 48, 58, 0.5);
-    --shadow:
-      rgba(0, 0, 0, 0.4) 0 10px 15px -3px, rgba(0, 0, 0, 0.25) 0 4px 6px -2px;
-  }
+:root {
+  color-scheme: dark;
+  --sat-gap: 14px;
+}
 
-  #social .button-icon {
-    filter: invert(1) brightness(2);
-  }
+html,
+body,
+#root {
+  margin: 0;
+  height: 100%;
+  background: #05060B;
+  color: #EAF2FF;
+  overflow: hidden;
+  overscroll-behavior: none;
 }
 
 body {
-  margin: 0;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  -webkit-tap-highlight-color: transparent;
+  /* Keep CJK compounds such as 不二 together when lines wrap. */
+  word-break: keep-all;
+  overflow-wrap: break-word;
 }
 
-#root {
-  width: 1126px;
-  max-width: 100%;
-  margin: 0 auto;
-  text-align: center;
-  border-inline: 1px solid var(--border);
-  min-height: 100svh;
+:focus-visible {
+  outline: 2px solid #E4AE60;
+  outline-offset: 2px;
+  border-radius: 8px;
+}
+
+.galaxy-canvas {
+  position: absolute;
+  inset: 0;
+  width: 100% !important;
+  height: 100% !important;
+  display: block;
+  touch-action: none;
+  cursor: grab;
+}
+.galaxy-canvas:active {
+  cursor: grabbing;
+}
+
+/* ---------------------------------------------------------------------------
+   Labels: zero-size anchors whose transform the scene writes every frame.
+   --------------------------------------------------------------------------- */
+.lbl {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  visibility: hidden;
+  will-change: transform;
+  pointer-events: none;
+}
+.lbl > * {
+  pointer-events: auto;
+}
+
+.lbl-anchor > button {
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translate(-50%, -28px);
   display: flex;
   flex-direction: column;
-  box-sizing: border-box;
+  align-items: center;
+  padding: 0 6px 4px;
+  transition: opacity 0.5s ease, transform 0.5s ease;
 }
-
-h1,
-h2 {
-  font-family: var(--heading);
-  font-weight: 500;
-  color: var(--text-h);
+.lbl-anchor .star-hit {
+  width: 48px;
+  height: 56px;
+  border-radius: 999px;
+  transition: box-shadow 0.4s ease;
 }
-
-h1 {
-  font-size: 56px;
-  letter-spacing: -1.68px;
-  margin: 32px 0;
-  @media (max-width: 1024px) {
-    font-size: 36px;
-    margin: 20px 0;
+ @media (hover: hover) {
+  .lbl-anchor > button:hover .star-hit {
+    box-shadow: 0 0 0 1px rgba(228, 174, 96, 0.35);
   }
 }
-h2 {
-  font-size: 24px;
-  line-height: 118%;
-  letter-spacing: -0.24px;
-  margin: 0 0 8px;
-  @media (max-width: 1024px) {
-    font-size: 20px;
-  }
-}
-p {
-  margin: 0;
+
+.glow-text {
+  text-shadow: 0 0 12px rgba(5, 6, 11, 0.95), 0 0 3px rgba(5, 6, 11, 0.95);
 }
 
-code,
-.counter {
-  font-family: var(--mono);
-  display: inline-flex;
-  border-radius: 4px;
-  color: var(--text-h);
+.lbl-sat > button {
+  position: absolute;
+  width: max-content;
+  max-width: 200px;
+  top: 0;
+  left: var(--sat-gap);
+  transform: translateY(-50%);
+  text-align: left;
+  transition: opacity 0.35s ease;
+}
+.lbl-sat[data-side='l'] > button {
+  left: auto;
+  right: var(--sat-gap);
+  text-align: right;
+}
+.lbl-sat[data-side='c'] > button {
+  left: 0;
+  transform: translate(-50%, calc(-100% - var(--sat-gap)));
+  text-align: center;
+}
+.lbl-sat[data-side='c'][data-vert='b'] > button {
+  transform: translate(-50%, var(--sat-gap));
 }
 
-code {
-  font-size: 15px;
-  line-height: 135%;
-  padding: 4px 8px;
-  background: var(--code-bg);
+.lbl-sat.is-compact > button,
+.lbl-sat.is-compact[data-side] > button {
+  left: 0;
+  right: auto;
+  text-align: center;
+  transform: translate(-50%, 10px);
+}
+.lbl-sat.is-compact[data-vert='t'] > button {
+  transform: translate(-50%, calc(-100% - 10px));
+}
+
+.lbl-bridge > button {
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translate(-50%, -50%);
+  transition: opacity 0.4s ease;
+}
+
+/* ---------------------------------------------------------------------------
+   Surfaces
+   --------------------------------------------------------------------------- */
+.glass {
+  background: rgba(8, 10, 18, 0.82);
+  -webkit-backdrop-filter: blur(18px) saturate(120%);
+  backdrop-filter: blur(18px) saturate(120%);
+  border: 1px solid rgba(234, 242, 255, 0.09);
+}
+
+.scroll-quiet {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(234, 242, 255, 0.14) transparent;
+}
+
+.fade-in {
+  animation: fade-in 0.5s ease both;
+}
+/* Uses the independent `translate` property so it never fights the
+   `transform` that positions labels. */
+@keyframes fade-in {
+  from { opacity: 0; translate: 0 6px; }
+  to { opacity: 1; translate: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fade-in { animation: none; }
+  .lbl-anchor > button, .lbl-sat > button, .lbl-bridge > button { transition: none; }
+}
+
+.prose-rushi p + p {
+  margin-top: 0.75em;
 }

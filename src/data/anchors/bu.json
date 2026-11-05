@@ -1,0 +1,143 @@
+{
+  "id": "bu",
+  "key": "5",
+  "glyph": "不",
+  "pinyin": "bù · fǒu",
+  "gloss": "not · un- · non-",
+  "form": "A pictogram of disputed origin",
+  "formNote": "Most scholars read a flower’s calyx; the Shuowen reads a bird flying up toward the sky (一) and not coming down. Either way, “not” is a sound loan.",
+  "summary": "The everyday negator of Chinese, borrowed for its sound. Joined with 二 it forms 不二, “not two” — the Chinese rendering of Sanskrit advaya.",
+  "lorenz": [
+    -8.4853,
+    -8.4853,
+    27
+  ],
+  "placement": "In the eye of the left wing — one of the two equilibria the trajectory circles forever without ever reaching.",
+  "oc": {
+    "form": "*pə",
+    "source": "baxter-sagart-2014",
+    "verification": "reference"
+  },
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "bù",
+    "yue": "bat1",
+    "ja": "fu, bu, futsu, hi",
+    "ko": "부 bu, 불 bul",
+    "vi": "bất",
+    "fanqie": "甫鳩切, 方久切, 分勿切",
+    "extra": {
+      "cmn": "fǒu"
+    },
+    "extraNote": "Readings beyond Unihan’s list, added by Baracus from general knowledge; not yet checked."
+  },
+  "satellites": [
+    {
+      "id": "bu-oracle",
+      "glyph": "不 · 柎",
+      "title": "Calyx, or Rising Bird",
+      "lang": "Oracle-bone script (甲骨文)",
+      "type": "ETYMOLOGICAL_SINITIC",
+      "evidence": "Two readings of the earliest graph: a calyx with drooping sepals (the majority view; the original sense was later written 柎), or — with the Shuowen — a bird soaring to the sky line and not returning.",
+      "dimension": "form",
+      "period": "shang_zhou",
+      "cites": [
+        {
+          "source": "heji",
+          "locator": "不 graphs"
+        },
+        {
+          "source": "shuowen",
+          "locator": "不"
+        }
+      ],
+      "status": "CANON",
+      "verification": "unchecked",
+      "gaps": [
+        "Name a modern palaeographic source for the calyx reading."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "id": "bu-eight",
+      "glyph": "八不",
+      "title": "The Eight Negations",
+      "lang": "Sanskrit → Chinese (Madhyamaka)",
+      "type": "CANONICAL_TRANSLATION",
+      "evidence": "Kumārajīva’s Nāgārjuna opens with eight negations — 不生亦不滅，不常亦不斷，不一亦不異，不來亦不出 — rendering Sanskrit privatives such as an-utpāda, “non-arising”. Such negation denies without asserting the opposite.",
+      "caveat": "The technical name for this, prasajya-pratiṣedha (“non-implicative negation”), comes from later commentators such as Bhāviveka, applied back to Nāgārjuna.",
+      "dimension": "translation",
+      "mechanism": "calque",
+      "period": "six_dynasties_tang",
+      "cites": [
+        {
+          "source": "zhonglun",
+          "locator": "dedicatory verses"
+        }
+      ],
+      "status": "CANON",
+      "verification": "unchecked",
+      "gaps": [
+        "Cite a source for Bhāviveka and prasajya-pratiṣedha."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "id": "bu-fou",
+      "glyph": "bù ↔ fǒu",
+      "title": "Two Readings, One Tone Shift",
+      "lang": "Middle Chinese → Mandarin",
+      "type": "ETYMOLOGICAL_SINITIC",
+      "evidence": "bù, the ordinary negator, rises to bú before a falling tone — so 不二 is said bú èr. A second reading, fǒu, “or not; to deny”, survives in classical usage, a sense also written 否.",
+      "dimension": "sound",
+      "period": "modern",
+      "cites": [
+        {
+          "source": "guangyun",
+          "locator": "不"
+        },
+        {
+          "source": "moe-dict",
+          "locator": "不"
+        }
+      ],
+      "status": "CANON",
+      "verification": "unchecked",
+      "reviewed": "2026-11-04"
+    },
+    {
+      "id": "bu-tidak",
+      "glyph": "Tidak · Bukan",
+      "title": "Negating Deeds vs. Things",
+      "lang": "Bahasa Melayu",
+      "type": "CROSS_LINGUISTIC_LEXICAL",
+      "evidence": "Malay splits negation by what is negated: tidak negates verbs and adjectives, bukan negates nouns and whole propositions — much as Classical Chinese uses 不 for verbal and 非 for nominal predicates.",
+      "dimension": "sense",
+      "mechanism": "independent_parallel",
+      "cites": [
+        {
+          "source": "kamus-dewan",
+          "locator": "tidak; bukan"
+        }
+      ],
+      "status": "CANON",
+      "verification": "unchecked",
+      "reviewed": "2026-11-04"
+    }
+  ],
+  "structure": {
+    "ids": "⿸丆⿰丨丶",
+    "parts": [],
+    "components": [
+      "丆",
+      "一",
+      "丿",
+      "丨",
+      "丶"
+    ],
+    "source": "mojidata-ids"
+  }
+}

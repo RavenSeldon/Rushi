@@ -1,0 +1,102 @@
+{
+  "id": "ci",
+  "key": "6",
+  "glyph": "慈",
+  "pinyin": "cí",
+  "gloss": "kindness · parental love — and, in Buddhist texts, loving-kindness (maitrī)",
+  "glossUnihan": "kind, charitable, benevolent",
+  "form": "兹 (phonetic) + 心 (heart)",
+  "formNote": "The Shuowen: 慈，愛也。从心，茲聲 — “love; from heart, with 茲 as the sound.” 心 sits at the foot of the graph.",
+  "summary": "Kindness, especially a parent’s for a child (父慈子孝). Buddhist translators gave 慈 the word maitrī, loving-kindness, first of the Four Immeasurables; and Maitreya, the Buddha to come, is also called 慈氏, “the Kind One”.",
+  "coords": [
+    -1.059,
+    1.079,
+    0.796
+  ],
+  "placement": "On the left of the sphere's equator, above 有, forming a triangle with 心 and 悲. (Placement is a design choice, not a claim.)",
+  "oc": {
+    "form": "*[dz]ə",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "† Baracus, from general knowledge; not yet checked against B–S 2014."
+  },
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "cí",
+    "yue": "ci4",
+    "ja": "ji",
+    "ko": "자 ja",
+    "vi": "từ",
+    "fanqie": "疾之切"
+  },
+  "structure": {
+    "ids": "⿱兹心",
+    "parts": [
+      "兹",
+      "心"
+    ],
+    "components": [
+      "兹",
+      "䒑",
+      "丷",
+      "一",
+      "𢆶",
+      "幺",
+      "心",
+      "㇒",
+      "乚",
+      "丶"
+    ],
+    "source": "mojidata-ids"
+  },
+  "satellites": [
+    {
+      "id": "ci-maitri",
+      "glyph": "मैत्री · Maitrī",
+      "title": "Loving-Kindness, and Maitreya as 慈氏",
+      "lang": "Sanskrit → Chinese",
+      "type": "CANONICAL_TRANSLATION",
+      "evidence": "Maitrī, “friendliness, loving-kindness”, derives from mitra, “friend”, and 慈 renders it. Maitreya, the bodhisattva expected as the next Buddha, appears in Chinese both as 彌勒, a sound loan, and as 慈氏, a translation: “the one of kindness”.",
+      "dimension": "translation",
+      "mechanism": "semantic_extension",
+      "period": "six_dynasties_tang",
+      "cites": [
+        {
+          "source": "monier-williams",
+          "locator": "maitrī; maitreya"
+        },
+        {
+          "source": "moe-dict",
+          "locator": "慈氏"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-04"
+    },
+    {
+      "id": "ci-sanbao",
+      "glyph": "三寶 · 一曰慈",
+      "title": "The First Treasure",
+      "lang": "Classical Chinese",
+      "type": "ETYMOLOGICAL_SINITIC",
+      "evidence": "Daodejing ch. 67: 我有三寶，持而保之：一曰慈，二曰儉，三曰不敢為天下先。慈故能勇 — “I have three treasures that I hold and keep: the first is kindness… Being kind, one can be brave.” 慈 was a Daoist virtue long before it was a Buddhist translation.",
+      "dimension": "sense",
+      "period": "pre_qin",
+      "cites": [
+        {
+          "source": "daodejing",
+          "locator": "ch. 67"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-04"
+    }
+  ]
+}

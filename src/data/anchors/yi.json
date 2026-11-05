@@ -1,0 +1,84 @@
+{
+  "id": "yi",
+  "key": "5",
+  "glyph": "一",
+  "pinyin": "yī",
+  "gloss": "one · whole · the first",
+  "glossUnihan": "one; a, an; alone",
+  "form": "A single horizontal stroke",
+  "formNote": "The simplest graph in the script, a counting stroke, as in 二 and 三. Mojidata IDS treats it as a primitive with no components.",
+  "summary": "One: the first number, and in early Chinese cosmology the first thing the Way gives rise to. The Shuowen opens its whole dictionary with it.",
+  "coords": [
+    0,
+    0,
+    1.9432
+  ],
+  "placement": "On the axis above the sphere, at the system's upper equilibrium (x = y = 0, z ≈ 1.943), mirroring 空 at the lower one: the flow turns about the axis that joins them. (Placement is a design choice, not a claim.)",
+  "oc": {
+    "form": "*ʔi[t]",
+    "source": "baxter-sagart-2014",
+    "verification": "reference",
+    "note": "Matches Wiktionary’s B–S basic-vocabulary list (v1.1, Sagart & Ma 2020), “one”; not yet checked against B–S 2014 itself."
+  },
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "yī",
+    "yue": "jat1",
+    "ja": "ichi, itsu",
+    "ko": "일 il",
+    "vi": "nhất",
+    "fanqie": "於悉切"
+  },
+  "structure": {
+    "ids": "一",
+    "parts": [],
+    "components": [],
+    "source": "mojidata-ids"
+  },
+  "satellites": [
+    {
+      "id": "yi-shuowen",
+      "glyph": "惟初太始",
+      "title": "The First Entry of the Shuowen",
+      "lang": "Han lexicography",
+      "type": "ETYMOLOGICAL_SINITIC",
+      "evidence": "The Shuowen begins with 一 and glosses it as a cosmogony: 惟初太始，道立於一，造分天地，化成萬物 — “in the very beginning, the Way was established in the One, which divided Heaven and Earth and transformed into the myriad things.” A dictionary of the script opens with the beginning of the world.",
+      "caveat": "The gloss explains meaning through Han cosmology; it says nothing about the graph’s history.",
+      "dimension": "cosmos",
+      "period": "han",
+      "cites": [
+        {
+          "source": "shuowen",
+          "locator": "一 (the first entry)"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-04"
+    },
+    {
+      "id": "yi-deyi",
+      "glyph": "得一",
+      "title": "Attaining the One",
+      "lang": "Classical Chinese",
+      "type": "ETYMOLOGICAL_SINITIC",
+      "evidence": "Daodejing ch. 39: 昔之得一者：天得一以清，地得一以寧 — “of old, those that attained the One: Heaven attained the One and was clear, Earth attained the One and was settled.” Here 一 is less a number than a wholeness each thing depends on.",
+      "dimension": "sense",
+      "period": "pre_qin",
+      "cites": [
+        {
+          "source": "daodejing",
+          "locator": "ch. 39"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-04"
+    }
+  ]
+}

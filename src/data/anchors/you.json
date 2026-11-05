@@ -1,0 +1,107 @@
+{
+  "id": "you",
+  "key": "1",
+  "glyph": "有",
+  "pinyin": "yǒu",
+  "gloss": "to have · there is · being — and, in Buddhist texts, becoming (bhava)",
+  "glossUnihan": "have, own, possess; exist",
+  "form": "又 (hand) + 月 (here 肉, meat)",
+  "formNote": "Bronze forms show a hand holding a piece of meat, which is commonly read as “to hold, to have”. The Shuowen instead analyses the graph as 月 (moon) with 又 as phonetic. Mojidata IDS describes the modern graph as ⿸𠂇月.",
+  "summary": "To have, and there is: Chinese uses one word for possession and existence. In the Daodejing 有 pairs with 無 as being and non-being; in Buddhist translation it renders bhava, “becoming”, the tenth of the twelve links.",
+  "coords": [
+    -1.077,
+    0.809,
+    0.147
+  ],
+  "placement": "On the left of the sphere, below its equator, facing the reader: being on one side of the hollow axis. (Placement is a design choice, not a claim.)",
+  "oc": {
+    "form": "*[ɢ]ʷəʔ",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "† Baracus, from general knowledge; not yet checked against B–S 2014."
+  },
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "yǒu",
+    "yue": "jau5",
+    "ja": "yū, u",
+    "ko": "유 yu",
+    "vi": "hữu",
+    "fanqie": "云久切"
+  },
+  "structure": {
+    "ids": "⿸𠂇月",
+    "parts": [
+      "月",
+      "二"
+    ],
+    "components": [
+      "𠂇",
+      "一",
+      "丿",
+      "月",
+      "⺆",
+      "二"
+    ],
+    "source": "mojidata-ids"
+  },
+  "satellites": [
+    {
+      "id": "you-bhava",
+      "glyph": "भव · Bhava",
+      "title": "Becoming, in the Twelve Links",
+      "lang": "Sanskrit → Chinese",
+      "type": "CANONICAL_TRANSLATION",
+      "evidence": "In the twelve links of dependent arising, 有 renders bhava, “becoming” or “existence”, between grasping (取, upādāna) and birth (生, jāti). It comes two links after 愛 (tṛṣṇā), so the Pillars’ 愛 and the Ground’s 有 stand in the same chain.",
+      "caveat": "Bhava is coming-to-be, not possession; the translators chose 有 for its existential sense, “there is”.",
+      "dimension": "translation",
+      "mechanism": "semantic_extension",
+      "period": "six_dynasties_tang",
+      "cites": [
+        {
+          "source": "agamas",
+          "locator": "十二因緣: 有 = bhava"
+        },
+        {
+          "source": "monier-williams",
+          "locator": "bhava"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-04"
+    },
+    {
+      "id": "you-form",
+      "glyph": "又 + 肉",
+      "title": "A Hand Holding Meat",
+      "lang": "Bronze script (金文)",
+      "type": "ETYMOLOGICAL_SINITIC",
+      "evidence": "In bronze inscriptions the graph is a right hand (又) holding meat (肉, later written like 月), a picture of having or holding. The Shuowen, working from seal script, took the lower part as 月 “moon” and 又 as the sound.",
+      "caveat": "The hand-and-meat reading is the common modern one; the Shuowen’s analysis differs, and the two should not be merged.",
+      "dimension": "form",
+      "period": "shang_zhou",
+      "cites": [
+        {
+          "source": "jicheng",
+          "locator": "有 graphs"
+        },
+        {
+          "source": "shuowen",
+          "locator": "有"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "gaps": [
+        "Name a modern palaeographic source for the hand-and-meat reading."
+      ],
+      "drafted": "Baracus",
+      "reviewed": "2026-11-04"
+    }
+  ]
+}

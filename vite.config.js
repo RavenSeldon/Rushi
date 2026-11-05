@@ -1,7 +1,21 @@
-import react from '@vitejs/plugin-react'
 import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+import tailwindcss from '@tailwindcss/vite'
 
-// https://vite.dev/config/
 export default defineConfig({
-  plugins: [react()],
+  plugins: [react(), tailwindcss()],
+  base: '/Rushi/',
+  build: {
+    // three.js is most of the weight; keeping it in its own chunk means data
+    // and interface updates don't make returning visitors re-download it.
+    chunkSizeWarningLimit: 800,
+    rollupOptions: {
+      output: {
+        manualChunks(id) {
+          if (id.includes('node_modules/three')) return 'three'
+          if (id.includes('node_modules')) return 'vendor'
+        },
+      },
+    },
+  },
 })
