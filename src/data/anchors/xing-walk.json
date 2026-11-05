@@ -1,0 +1,100 @@
+{
+  "id": "xing-walk",
+  "key": "6",
+  "glyph": "行",
+  "pinyin": "xíng / háng",
+  "gloss": "to walk · act · a row or trade",
+  "form": "彳 + 亍 (visible form)",
+  "formNote": "Mojidata IDS: ⿰彳亍 (from the database, 2026-11-05). This describes the graph’s parts, not its history; the etymology is not yet researched.",
+  "summary": "Walking, doing and a row or profession live under the same graph with different readings. A genuine fork in sense, not one vague metaphor.",
+  "coords": [
+    2.287,
+    1.8092,
+    1.0697
+  ],
+  "placement": "Selected from a numerically integrated arneodo trajectory to distribute stars across its projected shape. This is an artistic placement, not linguistic evidence.",
+  "oc": {
+    "form": "not yet researched",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "Placeholder, NOT an Old Chinese reconstruction. Consult Baxter–Sagart 2014 before entering a form."
+  },
+  "satellites": [
+    {
+      "id": "xing-walk-readings",
+      "glyph": "行 xíng · háng",
+      "title": "One Graph, Different Paths",
+      "lang": "Classical Chinese / lexical record",
+      "type": "SEMANTIC_CONTRAST",
+      "evidence": "Modern dictionaries distinguish xíng for movement and action from háng for rows and trades. Sound and use matter to reading the graph.",
+      "dimension": "sense",
+      "cites": [
+        {
+          "source": "moe-dict",
+          "locator": "行 (xíng; háng)"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "reviewed": "2026-11-05"
+    },
+    {
+      "id": "xing-walk-samskara",
+      "glyph": "संस्कार · saṃskāra",
+      "title": "Formation, Not Walking",
+      "lang": "Sanskrit → Chinese (Buddhist lexicon)",
+      "type": "CANONICAL_TRANSLATION",
+      "evidence": "In the five aggregates, 行 functions as a translation associated with saṃskāra (formations). It must not be confused with ordinary 行, to walk or act.",
+      "caveat": "A proposed equivalence awaiting verification in an aligned Sanskrit–Chinese source; citation assignment is not verification.",
+      "dimension": "translation",
+      "mechanism": "semantic_extension",
+      "cites": [
+        {
+          "source": "xinjing",
+          "locator": "T251, 色受想行識"
+        },
+        {
+          "source": "monier-williams",
+          "locator": "saṃskāra"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "gaps": [
+        "Check the historical source translation as well as both dictionary senses."
+      ],
+      "reviewed": "2026-11-05"
+    }
+  ],
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "xíng",
+    "yue": "hang4",
+    "ja": "kō, gyō, an",
+    "ko": "항 hang, 행 haeng",
+    "vi": "hàng",
+    "fanqie": "胡郎切, 戶庚切, 下浪切, 下更切"
+  },
+  "structure": {
+    "ids": "⿰彳亍",
+    "parts": [
+      "彳",
+      "亍",
+      "丁"
+    ],
+    "components": [
+      "彳",
+      "𰀪",
+      "㇒",
+      "丨",
+      "亍",
+      "一",
+      "丁",
+      "亅"
+    ],
+    "source": "mojidata-ids"
+  }
+}

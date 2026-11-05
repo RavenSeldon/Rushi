@@ -1,0 +1,94 @@
+{
+  "id": "bian",
+  "key": "4",
+  "glyph": "變",
+  "pinyin": "biàn",
+  "gloss": "change · alter · transformation",
+  "form": "䜌 + 攴 (visible composition; verify IDS)",
+  "formNote": "Mojidata IDS: ⿱䜌攵 (from the database, 2026-11-05). This describes the graph’s parts, not its history; the etymology is not yet researched.",
+  "summary": "Change is a central concern of the Yijing; the text considers how change makes continuation possible.",
+  "coords": [
+    -0.6848,
+    -2.2247,
+    0.0216
+  ],
+  "placement": "Selected from a numerically integrated rabinovich trajectory to distribute stars across its projected shape. This is an artistic placement, not linguistic evidence.",
+  "oc": {
+    "form": "not yet researched",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "Placeholder, NOT an Old Chinese reconstruction. Consult Baxter–Sagart 2014 before entering a form."
+  },
+  "satellites": [
+    {
+      "id": "bian-biantong",
+      "glyph": "變通",
+      "title": "Changing with Circumstance",
+      "lang": "Classical Chinese / lexical record",
+      "type": "SEMANTIC_CONTRAST",
+      "evidence": "變通 names adapting a method to circumstances. The everyday compound is not itself the Yijing metaphysics of change.",
+      "dimension": "sense",
+      "cites": [
+        {
+          "source": "moe-dict",
+          "locator": "變通"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "reviewed": "2026-11-05"
+    },
+    {
+      "id": "bian-qiong",
+      "glyph": "窮則變",
+      "title": "At the Limit, Change",
+      "lang": "Classical Chinese",
+      "type": "TEXTUAL_CONNECTION",
+      "evidence": "Xici, part two: 易窮則變，變則通，通則久 — “when change reaches its limit it alters; altering, it gets through; getting through, it lasts.” The everyday 變通 on this card comes from this chain.",
+      "dimension": "sense",
+      "period": "han",
+      "cites": [
+        {
+          "source": "yijing",
+          "locator": "繫辭下, §2"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-05"
+    }
+  ],
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "biàn",
+    "yue": "bin3",
+    "ja": "hen",
+    "ko": "변 byeon",
+    "vi": "biến",
+    "fanqie": "彼眷切"
+  },
+  "simplified": "变",
+  "structure": {
+    "ids": "⿱䜌攵",
+    "parts": [
+      "糹",
+      "言",
+      "攵"
+    ],
+    "components": [
+      "䜌",
+      "糹",
+      "幺",
+      "言",
+      "亠",
+      "二",
+      "口",
+      "攵"
+    ],
+    "source": "mojidata-ids"
+  }
+}

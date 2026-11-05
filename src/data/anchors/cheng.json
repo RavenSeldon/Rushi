@@ -1,0 +1,85 @@
+{
+  "id": "cheng",
+  "key": "3",
+  "glyph": "成",
+  "pinyin": "chéng",
+  "gloss": "become · finish · accomplish",
+  "form": "IDS ⿵戊𠃌",
+  "formNote": "Mojidata IDS: ⿵戊𠃌 (from the database, 2026-11-05). This describes the graph’s parts, not its history; the etymology is not yet researched.",
+  "summary": "To become accomplished or complete. Completion belongs to Becoming because not every process is endless.",
+  "coords": [
+    0.8843,
+    1.9969,
+    0.0152
+  ],
+  "placement": "Selected from a numerically integrated rabinovich trajectory to distribute stars across its projected shape. This is an artistic placement, not linguistic evidence.",
+  "oc": {
+    "form": "not yet researched",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "Placeholder, NOT an Old Chinese reconstruction. Consult Baxter–Sagart 2014 before entering a form."
+  },
+  "satellites": [
+    {
+      "id": "cheng-chengzhuhuaikong",
+      "glyph": "成住壞空",
+      "title": "Formation, Abiding, Decay, Emptiness",
+      "lang": "Sanskrit → Chinese (Abhidharma cosmology)",
+      "type": "CANONICAL_TRANSLATION",
+      "evidence": "The Abhidharmakośa divides a great eon into four ages of twenty intermediate eons each: 成住壞空, formation, abiding, destruction and emptiness, eighty in all. A world completes itself, lasts, comes apart, and lies empty before forming again.",
+      "dimension": "cosmos",
+      "mechanism": "semantic_extension",
+      "period": "six_dynasties_tang",
+      "cites": [
+        {
+          "source": "abhidharmakosa",
+          "locator": "ch. 3 分別世品, p. 62c–63b07",
+          "checked": {
+            "on": "2026-11-05",
+            "edition": "https://raw.githubusercontent.com/cbeta-org/xml-p5/master/T/T29/T29n1558.xml",
+            "note": "如是所說成住壞空，各二十中，積成八十，總此八十…"
+          }
+        },
+        {
+          "source": "monier-williams",
+          "locator": "vivarta; saṃvarta"
+        }
+      ],
+      "gaps": [
+        "Check the Sanskrit names of the four ages (vivarta, saṃvarta …) in the Kośabhāṣya and Monier-Williams."
+      ],
+      "status": "WORKING",
+      "verification": "partial",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-05"
+    }
+  ],
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "chéng",
+    "yue": "sing4",
+    "ja": "sei, jō",
+    "ko": "성 seong",
+    "vi": "thành",
+    "fanqie": "是征切"
+  },
+  "structure": {
+    "ids": "⿵戊𠃌",
+    "parts": [
+      "戊",
+      "戈"
+    ],
+    "components": [
+      "戊",
+      "丿",
+      "戈",
+      "𭠍",
+      "丶",
+      "𠃌"
+    ],
+    "source": "mojidata-ids"
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "id": "nian",
+  "key": "3",
+  "glyph": "念",
+  "pinyin": "niàn",
+  "gloss": "mindfulness · recollection · a thought",
+  "form": "今 + 心 (visible form)",
+  "formNote": "Mojidata IDS: ⿱今心 (from the database, 2026-11-05). This describes the graph’s parts, not its history; the etymology is not yet researched.",
+  "summary": "Keeping something in mind: remembrance, attention, a thought. In Buddhist practice, 念 is not merely a passing idea.",
+  "coords": [
+    -0.2547,
+    -0.0072,
+    0.1273
+  ],
+  "placement": "Selected from a numerically integrated sprott trajectory to distribute stars across its projected shape. This is an artistic placement, not linguistic evidence.",
+  "oc": {
+    "form": "not yet researched",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "Placeholder, NOT an Old Chinese reconstruction. Consult Baxter–Sagart 2014 before entering a form."
+  },
+  "satellites": [
+    {
+      "id": "nian-five-faculties",
+      "glyph": "念根",
+      "title": "A Faculty of Mindfulness",
+      "lang": "Chinese Buddhist textual usage",
+      "type": "TEXTUAL_CONNECTION",
+      "evidence": "The five faculties listed in the Abhidharmakośa include 念根 between effort and concentration: a situated use of mindfulness.",
+      "dimension": "practice",
+      "cites": [
+        {
+          "source": "abhidharmakosa",
+          "locator": "ch. 2 分別根品, T1558 p. 13a22–23"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "reviewed": "2026-11-05"
+    },
+    {
+      "id": "nian-smrti",
+      "glyph": "स्मृति · smṛti",
+      "title": "Mindfulness and Recollection",
+      "lang": "Sanskrit → Chinese (Buddhist lexicon)",
+      "type": "CANONICAL_TRANSLATION",
+      "evidence": "Buddhist 念 is commonly associated with smṛti, mindfulness or recollection. Neither graph nor Sanskrit word can be reduced to a generic thought.",
+      "caveat": "A proposed equivalence awaiting verification in an aligned Sanskrit–Chinese source; citation assignment is not verification.",
+      "dimension": "translation",
+      "mechanism": "semantic_extension",
+      "cites": [
+        {
+          "source": "abhidharmakosa",
+          "locator": "ch. 2, 念根"
+        },
+        {
+          "source": "monier-williams",
+          "locator": "smṛti"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "gaps": [
+        "Check the historical source translation as well as both dictionary senses."
+      ],
+      "reviewed": "2026-11-05"
+    },
+    {
+      "id": "nian-shinian",
+      "glyph": "乃至十念",
+      "title": "Even Ten Recollections",
+      "lang": "Chinese Pure Land",
+      "type": "TEXTUAL_CONNECTION",
+      "evidence": "The vow of the Sutra of Immeasurable Life numbered eighteenth reads: 至心信樂，欲生我國，乃至十念，若不生者，不取正覺 — beings who wish with sincere trust to be born in that land, “even with ten recollections”. Later Pure Land teachers read these 念 as recitations of the Buddha’s name, so 念 came to mean recollecting and saying at once.",
+      "caveat": "Whether 十念 means ten thoughts or ten recitations is a classic Pure Land dispute that the passage alone does not settle; numbering the vows is conventional.",
+      "dimension": "practice",
+      "period": "six_dynasties_tang",
+      "cites": [
+        {
+          "source": "pure-land",
+          "locator": "T360 p. 268a27",
+          "checked": {
+            "on": "2026-11-05",
+            "edition": "https://raw.githubusercontent.com/cbeta-org/xml-p5/master/T/T12/T12n0360.xml",
+            "note": "十方眾生至心信樂欲生我國乃至十念若不生者不取正覺"
+          }
+        }
+      ],
+      "status": "WORKING",
+      "verification": "source",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-05"
+    }
+  ],
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "niàn",
+    "yue": "nim6",
+    "ja": "nen",
+    "ko": "념 nyeom, 염 yeom",
+    "vi": "niệm",
+    "fanqie": "奴店切"
+  },
+  "structure": {
+    "ids": "⿱今心",
+    "parts": [
+      "今",
+      "乛",
+      "心"
+    ],
+    "components": [
+      "今",
+      "乛",
+      "心",
+      "㇒",
+      "乚",
+      "丶"
+    ],
+    "source": "mojidata-ids"
+  }
+}

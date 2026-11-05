@@ -1,0 +1,124 @@
+{
+  "id": "si-death",
+  "key": "8",
+  "glyph": "死",
+  "pinyin": "sǐ",
+  "gloss": "death · to die",
+  "form": "歹 + 匕 (visible form)",
+  "formNote": "Mojidata IDS: ⿸歹匕 (from the database, 2026-11-05). This describes the graph’s parts, not its history; the etymology is not yet researched.",
+  "summary": "Death is not a decorative symbol: in Buddhist accounts of arising it is a condition of suffering.",
+  "coords": [
+    1.9266,
+    1.2357,
+    0.0012
+  ],
+  "placement": "Selected from a numerically integrated rabinovich trajectory to distribute stars across its projected shape. This is an artistic placement, not linguistic evidence.",
+  "oc": {
+    "form": "not yet researched",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "Placeholder, NOT an Old Chinese reconstruction. Consult Baxter–Sagart 2014 before entering a form."
+  },
+  "satellites": [
+    {
+      "id": "si-death-oldage",
+      "glyph": "老死",
+      "title": "Aging and Death",
+      "lang": "Chinese Buddhist textual usage",
+      "type": "TEXTUAL_CONNECTION",
+      "evidence": "Dependent-arising formulations include 老死. The treatment is doctrinal and should not be generalized into an empirical claim about reincarnation.",
+      "dimension": "sense",
+      "cites": [
+        {
+          "source": "agamas",
+          "locator": "緣起, 老死"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "reviewed": "2026-11-05"
+    },
+    {
+      "id": "si-death-marana",
+      "glyph": "मरण · maraṇa",
+      "title": "Death in the Twelve Links",
+      "lang": "Sanskrit → Chinese (Buddhist lexicon)",
+      "type": "CANONICAL_TRANSLATION",
+      "evidence": "In dependent-arising contexts, 死 occurs within 老死, linked to Sanskrit maraṇa. The technical use should be distinguished from broader imagery of death.",
+      "caveat": "A proposed equivalence awaiting verification in an aligned Sanskrit–Chinese source; citation assignment is not verification.",
+      "dimension": "translation",
+      "mechanism": "semantic_extension",
+      "cites": [
+        {
+          "source": "agamas",
+          "locator": "緣起, 老死"
+        },
+        {
+          "source": "monier-williams",
+          "locator": "maraṇa"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "gaps": [
+        "Check the historical source translation as well as both dictionary senses."
+      ],
+      "reviewed": "2026-11-05"
+    },
+    {
+      "id": "si-death-weizhisheng",
+      "glyph": "未知生，焉知死",
+      "title": "Not Yet Knowing Life",
+      "lang": "Classical Chinese",
+      "type": "TEXTUAL_CONNECTION",
+      "evidence": "Analects 11.12: asked about death, Confucius answers 未知生，焉知死 — “not yet knowing life, how could I know death?” In the same exchange: 未能事人，焉能事鬼, not yet able to serve people, how serve the dead?",
+      "dimension": "sense",
+      "period": "pre_qin",
+      "cites": [
+        {
+          "source": "analects",
+          "locator": "11.12",
+          "checked": {
+            "on": "2026-11-05",
+            "edition": "https://github.com/chinese-poetry/chinese-poetry (論語/lunyu.json, simplified characters; a community digital transcription, not a critical edition)",
+            "note": "先进 ¶12: 未能事人，焉能事鬼？…未知生，焉知死？"
+          }
+        }
+      ],
+      "status": "WORKING",
+      "verification": "source",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-05"
+    }
+  ],
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "sǐ",
+    "yue": "sei2",
+    "ja": "shi",
+    "ko": "사 sa",
+    "vi": "tợ tử",
+    "fanqie": "息姊切"
+  },
+  "structure": {
+    "ids": "⿸歹匕",
+    "parts": [
+      "歹",
+      "夕",
+      "匕"
+    ],
+    "components": [
+      "歹",
+      "一",
+      "夕",
+      "𠂊",
+      "丶",
+      "匕",
+      "乚"
+    ],
+    "source": "mojidata-ids"
+  }
+}

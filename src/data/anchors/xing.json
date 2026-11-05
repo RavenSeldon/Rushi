@@ -1,0 +1,73 @@
+{
+  "id": "xing",
+  "key": "5",
+  "glyph": "星",
+  "pinyin": "xīng",
+  "gloss": "star",
+  "form": "日 + 生 (visible contemporary composition)",
+  "formNote": "Mojidata IDS: ⿱日生 (from the database, 2026-11-05). This describes the graph’s parts, not its history; the etymology is not yet researched.",
+  "summary": "A star can be astronomy, constellation, or verse; the archive remembers the stars as named presences.",
+  "coords": [
+    3.955,
+    -4.3177,
+    31.5366
+  ],
+  "placement": "Selected from a numerically integrated chen trajectory to distribute stars across its projected shape. This is an artistic placement, not linguistic evidence.",
+  "oc": {
+    "form": "not yet researched",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "Placeholder, NOT an Old Chinese reconstruction. Consult Baxter–Sagart 2014 before entering a form."
+  },
+  "satellites": [
+    {
+      "id": "xing-sanxing",
+      "glyph": "三星在天",
+      "title": "Three Stars in the Sky",
+      "lang": "Classical Chinese / lexical record",
+      "type": "TEXTUAL_CONNECTION",
+      "evidence": "The Shijing poem 綢繆 uses 三星在天. Its stars belong to poetry; the passage alone does not identify them astronomically.",
+      "dimension": "cosmos",
+      "cites": [
+        {
+          "source": "shijing",
+          "locator": "唐風 · 綢繆, 三星在天"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "reviewed": "2026-11-05"
+    }
+  ],
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "xīng",
+    "yue": "sing1",
+    "ja": "sei, shō",
+    "ko": "성 seong",
+    "vi": "tinh",
+    "fanqie": "桑經切"
+  },
+  "structure": {
+    "ids": "⿱日生",
+    "parts": [
+      "日",
+      "囗",
+      "生",
+      "龶"
+    ],
+    "components": [
+      "日",
+      "囗",
+      "一",
+      "生",
+      "㇒",
+      "龶",
+      "土"
+    ],
+    "source": "mojidata-ids"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "id": "hui",
+  "key": "7",
+  "glyph": "慧",
+  "pinyin": "huì",
+  "gloss": "discernment · wisdom",
+  "form": "彗 + 心 (visible form)",
+  "formNote": "Mojidata IDS: ⿱彗心 (from the database, 2026-11-05). This describes the graph’s parts, not its history; the etymology is not yet researched.",
+  "summary": "Discernment: wisdom as a cultivated ability to see clearly. In Buddhist use 慧 often renders prajñā, while 智 can carry jñāna in other contexts.",
+  "coords": [
+    0.2495,
+    0.1368,
+    0.7418
+  ],
+  "placement": "Selected from a numerically integrated sprott trajectory to distribute stars across its projected shape. This is an artistic placement, not linguistic evidence.",
+  "oc": {
+    "form": "not yet researched",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "Placeholder, NOT an Old Chinese reconstruction. Consult Baxter–Sagart 2014 before entering a form."
+  },
+  "satellites": [
+    {
+      "id": "hui-faculty",
+      "glyph": "慧根",
+      "title": "The Faculty of Wisdom",
+      "lang": "Chinese Buddhist textual usage",
+      "type": "TEXTUAL_CONNECTION",
+      "evidence": "The five faculties culminate in 慧根. A list places it next to concentration, but does not say the two practices are equivalent.",
+      "dimension": "practice",
+      "cites": [
+        {
+          "source": "abhidharmakosa",
+          "locator": "ch. 2 分別根品, T1558 p. 13a22–23"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "reviewed": "2026-11-05"
+    },
+    {
+      "id": "hui-wuzhong-bufan",
+      "glyph": "五種不翻",
+      "title": "Why 般若 Was Kept by Sound",
+      "lang": "Sanskrit → Chinese (translation theory)",
+      "type": "CANONICAL_TRANSLATION",
+      "evidence": "Xuanzang named five kinds of word to transcribe rather than translate. The fifth is 生善故, “to give rise to the good”: 般若尊重，智慧輕淺 — prajñā is weighty, 智慧 is slight. So 慧 can render prajñā in a list, while the sūtras keep 般若 by its sound.",
+      "caveat": "Xuanzang’s rule is reported five centuries later, in the prefatory matter of the Fanyi mingyi ji (1143).",
+      "dimension": "translation",
+      "mechanism": "phonetic_loan",
+      "period": "six_dynasties_tang",
+      "cites": [
+        {
+          "source": "fanyi-mingyi",
+          "locator": "T2131 p. 1055a14–17",
+          "checked": {
+            "on": "2026-11-05",
+            "edition": "https://raw.githubusercontent.com/cbeta-org/xml-p5/master/T/T54/T54n2131.xml",
+            "note": "唐奘法師論五種不翻：一祕密故，如陀羅尼… 五生善故，如般若尊重，智慧輕淺"
+          }
+        }
+      ],
+      "gaps": [
+        "Identify the author of the preface (traditionally Zhou Dunyi)."
+      ],
+      "status": "WORKING",
+      "verification": "source",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-05"
+    }
+  ],
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "huì",
+    "yue": "wai6",
+    "ja": "kei, e",
+    "ko": "혜 hye",
+    "fanqie": "胡桂切"
+  },
+  "structure": {
+    "ids": "⿱彗心",
+    "parts": [
+      "彗",
+      "三",
+      "心"
+    ],
+    "components": [
+      "彗",
+      "三",
+      "丨",
+      "心",
+      "㇒",
+      "乚",
+      "丶"
+    ],
+    "source": "mojidata-ids"
+  }
+}

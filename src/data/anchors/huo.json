@@ -1,0 +1,94 @@
+{
+  "id": "huo",
+  "key": "4",
+  "glyph": "火",
+  "pinyin": "huǒ",
+  "gloss": "fire",
+  "form": "IDS 火",
+  "formNote": "Mojidata IDS: 火 (from the database, 2026-11-05). This describes the graph’s parts, not its history; the etymology is not yet researched.",
+  "summary": "Fire, an event of transformation as well as a traditional symbolic category.",
+  "coords": [
+    1.3245,
+    -4.0212,
+    -0.9497
+  ],
+  "placement": "Selected from a numerically integrated dadras trajectory to distribute stars across its projected shape. This is an artistic placement, not linguistic evidence.",
+  "oc": {
+    "form": "not yet researched",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "Placeholder, NOT an Old Chinese reconstruction. Consult Baxter–Sagart 2014 before entering a form."
+  },
+  "satellites": [
+    {
+      "id": "huo-wuxing",
+      "glyph": "五行 · 火",
+      "title": "Fire as a Phase",
+      "lang": "Classical Chinese / lexical record",
+      "type": "TRADITIONAL_CORRESPONDENCE",
+      "evidence": "洪範 names 火 second. The phase marks a traditional pattern; it is not identical to the modern chemical process of combustion.",
+      "dimension": "symbol",
+      "cites": [
+        {
+          "source": "shangshu",
+          "locator": "洪範, 五行"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "reviewed": "2026-11-05",
+      "caveat": "A correspondence internal to a historical system; not a statement about natural science."
+    },
+    {
+      "id": "huo-tejas",
+      "glyph": "तेजस् · Tejas",
+      "title": "Fire, the Element of Warmth",
+      "lang": "Sanskrit → Chinese",
+      "type": "CANONICAL_TRANSLATION",
+      "evidence": "火 renders tejas, fire, the third of the four great elements 地水火風, whose nature is warmth, 煖.",
+      "dimension": "translation",
+      "mechanism": "semantic_extension",
+      "period": "six_dynasties_tang",
+      "cites": [
+        {
+          "source": "abhidharmakosa",
+          "locator": "ch. 1, p. 3a28–b01",
+          "checked": {
+            "on": "2026-11-05",
+            "edition": "https://raw.githubusercontent.com/cbeta-org/xml-p5/master/T/T29/T29n1558.xml",
+            "note": "大種謂四界，即地水火風，能成持等業，堅濕煖動性"
+          }
+        },
+        {
+          "source": "monier-williams",
+          "locator": "tejas"
+        }
+      ],
+      "gaps": [
+        "Check tejas in Monier-Williams."
+      ],
+      "status": "WORKING",
+      "verification": "partial",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-05"
+    }
+  ],
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "huǒ",
+    "yue": "fo2",
+    "ja": "ka, ko",
+    "ko": "화 hwa",
+    "vi": "hoả",
+    "fanqie": "呼果切"
+  },
+  "structure": {
+    "ids": "火",
+    "parts": [],
+    "components": [],
+    "source": "mojidata-ids"
+  }
+}

@@ -249,3 +249,14 @@ Mojidata IDS for 天 陽 氣 易 時 仁 禮 智 信 孝 忠; Unihan kJapaneseOn
 - Added safe passage-link rendering. Dataset names and annotated edition descriptions no longer become broken web links.
 
 Checked editions: CBETA's public XML TEI P5 files for [T1630](https://raw.githubusercontent.com/cbeta-org/xml-p5/master/T/T32/T32n1630.xml), [T475](https://raw.githubusercontent.com/cbeta-org/xml-p5/master/T/T14/T14n0475.xml), and [T1558](https://raw.githubusercontent.com/cbeta-org/xml-p5/master/T/T29/T29n1558.xml). Each checked citation records the date, edition URL, locator and limits of the check in the data itself.
+
+## 2026-11-05 (evening) — Realms VI–X placeholders replaced (Baracus)
+
+Four VI–X cards from the earlier, unlogged pass had the bare character as their glyph and a dictionary gloss as their whole claim. Each is replaced by a documented claim; the old text survives in `.rushi-pre-vi-x-backup.tgz`.
+
+- 日 `ri-sun` (“The Sun and the Day”) → `ri-shuowen`: the Shuowen sound gloss 日，實也.
+- 月 `yue-month` (“The Moon and the Month”) → `yue-shuowen`: 月，闕也.
+- 夜 `ye-night` (“Night as Time”) → `ye-yeqi`: Mencius 6A8, 夜氣 (checked against a digital transcription).
+- 成 `cheng-complete` (“Accomplished and Complete”) → `cheng-chengzhuhuaikong`: 成住壞空, Abhidharmakośa p. 63b07 (checked, CBETA).
+
+Two of the new claims (`yue-zhiyue`, `bridge-yue-fa`) were first filed on the interpretation dimension; `npm run check` refused them, since only Original Interpretations may live there, and both now sit on sense.

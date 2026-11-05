@@ -1,0 +1,109 @@
+{
+  "id": "si-thought",
+  "key": "8",
+  "glyph": "思",
+  "pinyin": "sī",
+  "gloss": "to think · reflect · consider",
+  "form": "田 + 心 (visible form)",
+  "formNote": "Mojidata IDS: ⿱田心 (from the database, 2026-11-05). This describes the graph’s parts, not its history; the etymology is not yet researched.",
+  "summary": "Thinking is not the opposite of learning. A classic passage makes their dependence on each other explicit.",
+  "coords": [
+    0.0862,
+    0.5854,
+    -0.5522
+  ],
+  "placement": "Selected from a numerically integrated sprott trajectory to distribute stars across its projected shape. This is an artistic placement, not linguistic evidence.",
+  "oc": {
+    "form": "not yet researched",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "Placeholder, NOT an Old Chinese reconstruction. Consult Baxter–Sagart 2014 before entering a form."
+  },
+  "satellites": [
+    {
+      "id": "si-thought-sansierhouxing",
+      "glyph": "三思而後行",
+      "title": "How Many Times to Think?",
+      "lang": "Classical Chinese / lexical record",
+      "type": "TEXTUAL_CONNECTION",
+      "evidence": "Analects 5.20 tells of Ji Wenzi thinking three times before acting; Confucius responds that twice is enough. Deliberation has limits as well as value.",
+      "dimension": "sense",
+      "cites": [
+        {
+          "source": "analects",
+          "locator": "5.20"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "reviewed": "2026-11-05"
+    },
+    {
+      "id": "si-thought-cetana",
+      "glyph": "चेतना · Cetanā",
+      "title": "Volition, a Universal Factor",
+      "lang": "Sanskrit → Chinese",
+      "type": "CANONICAL_TRANSLATION",
+      "evidence": "In the Abhidharmakośa 思 renders cetanā, volition. It is one of ten factors present in every moment of mind: 受想思觸欲，慧念與作意，勝解三摩地，遍於一切心 — the same verse holds 慧, 念 and 三摩地, three more stars of Knowing.",
+      "caveat": "Classical 思 is thinking or longing; cetanā as volition is a technical sense.",
+      "dimension": "translation",
+      "mechanism": "semantic_extension",
+      "period": "six_dynasties_tang",
+      "cites": [
+        {
+          "source": "abhidharmakosa",
+          "locator": "ch. 2 分別根品, p. 19a14",
+          "checked": {
+            "on": "2026-11-05",
+            "edition": "https://raw.githubusercontent.com/cbeta-org/xml-p5/master/T/T29/T29n1558.xml",
+            "note": "頌曰：受想思觸欲，慧念與作意，勝解三摩地，遍於一切心"
+          }
+        },
+        {
+          "source": "monier-williams",
+          "locator": "cetanā"
+        }
+      ],
+      "gaps": [
+        "Check cetanā in Monier-Williams."
+      ],
+      "status": "WORKING",
+      "verification": "partial",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-05"
+    }
+  ],
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "sī",
+    "yue": "si1",
+    "ja": "shi",
+    "ko": "사 sa",
+    "vi": "tư",
+    "fanqie": "息兹切, 相吏切"
+  },
+  "structure": {
+    "ids": "⿱田心",
+    "parts": [
+      "田",
+      "囗",
+      "十",
+      "心"
+    ],
+    "components": [
+      "田",
+      "囗",
+      "十",
+      "一",
+      "丨",
+      "心",
+      "㇒",
+      "乚",
+      "丶"
+    ],
+    "source": "mojidata-ids"
+  }
+}

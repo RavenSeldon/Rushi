@@ -1,0 +1,96 @@
+{
+  "id": "sheng-life",
+  "key": "1",
+  "glyph": "生",
+  "pinyin": "shēng",
+  "gloss": "to be born · arise · life",
+  "form": "IDS ⿰㇒龶",
+  "formNote": "Mojidata IDS: ⿰㇒龶 (from the database, 2026-11-05). This describes the graph’s parts, not its history; the etymology is not yet researched.",
+  "summary": "Birth is an event and arising is a process. The two senses invite reflection but should not erase the specificity of suffering in Buddhist accounts.",
+  "coords": [
+    2.1611,
+    -0.9154,
+    0.0009
+  ],
+  "placement": "Selected from a numerically integrated rabinovich trajectory to distribute stars across its projected shape. This is an artistic placement, not linguistic evidence.",
+  "oc": {
+    "form": "not yet researched",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "Placeholder, NOT an Old Chinese reconstruction. Consult Baxter–Sagart 2014 before entering a form."
+  },
+  "satellites": [
+    {
+      "id": "sheng-life-shengsheng",
+      "glyph": "生生之謂易",
+      "title": "Continuing to Arise",
+      "lang": "Chinese Buddhist textual usage",
+      "type": "TEXTUAL_CONNECTION",
+      "evidence": "The Xici speaks of unceasing generation: 生生之謂易. Becoming is a process in this textual use, not simply an instant of biological birth.",
+      "dimension": "sense",
+      "cites": [
+        {
+          "source": "yijing",
+          "locator": "繫辭上, 生生之謂易"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "reviewed": "2026-11-05"
+    },
+    {
+      "id": "sheng-life-jati",
+      "glyph": "जाति · jāti",
+      "title": "Birth in Dependent Arising",
+      "lang": "Sanskrit → Chinese (Buddhist lexicon)",
+      "type": "CANONICAL_TRANSLATION",
+      "evidence": "In dependent-arising formulations, 生 denotes birth, associated with Sanskrit jāti. This is not a translation of every instance of the English word becoming.",
+      "caveat": "A proposed equivalence awaiting verification in an aligned Sanskrit–Chinese source; citation assignment is not verification.",
+      "dimension": "translation",
+      "mechanism": "semantic_extension",
+      "cites": [
+        {
+          "source": "agamas",
+          "locator": "緣起, 生"
+        },
+        {
+          "source": "monier-williams",
+          "locator": "jāti"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "gaps": [
+        "Check the historical source translation as well as both dictionary senses."
+      ],
+      "reviewed": "2026-11-05"
+    }
+  ],
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "shēng",
+    "yue": "sang1",
+    "ja": "sei, shō",
+    "ko": "생 saeng",
+    "vi": "sinh",
+    "fanqie": "所庚切, 所敬切"
+  },
+  "structure": {
+    "ids": "⿰㇒龶",
+    "parts": [
+      "龶",
+      "土"
+    ],
+    "components": [
+      "㇒",
+      "龶",
+      "土",
+      "十",
+      "一"
+    ],
+    "source": "mojidata-ids"
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "id": "shi-conscious",
+  "key": "2",
+  "glyph": "識",
+  "pinyin": "shí",
+  "gloss": "consciousness · discriminating awareness",
+  "form": "言 + 戠 (visible components)",
+  "formNote": "Mojidata IDS: ⿰訁戠 (from the database, 2026-11-05). This describes the graph’s parts, not its history; the etymology is not yet researched.",
+  "summary": "A character for recognition and consciousness. Buddhist texts give 識 a specialized use that cannot simply be equated with every modern theory of consciousness.",
+  "coords": [
+    0.7843,
+    -0.1729,
+    -0.9492
+  ],
+  "placement": "Selected from a numerically integrated sprott trajectory to distribute stars across its projected shape. This is an artistic placement, not linguistic evidence.",
+  "oc": {
+    "form": "not yet researched",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "Placeholder, NOT an Old Chinese reconstruction. Consult Baxter–Sagart 2014 before entering a form."
+  },
+  "satellites": [
+    {
+      "id": "shi-conscious-aggregates",
+      "glyph": "色受想行識",
+      "title": "The Fifth Aggregate",
+      "lang": "Chinese Buddhist textual usage",
+      "type": "TEXTUAL_CONNECTION",
+      "evidence": "The Heart Sutra lists consciousness (識) among five aggregates. This is a distinct use from the Abhidharmakośa discussion of 心意識.",
+      "dimension": "sense",
+      "cites": [
+        {
+          "source": "xinjing",
+          "locator": "T251, opening 色受想行識"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "reviewed": "2026-11-05"
+    },
+    {
+      "id": "shi-conscious-vijnana",
+      "glyph": "विज्ञान · vijñāna",
+      "title": "Consciousness in the Five Aggregates",
+      "lang": "Sanskrit → Chinese (Buddhist lexicon)",
+      "type": "CANONICAL_TRANSLATION",
+      "evidence": "識 is used for consciousness in the five aggregates. The Sanskrit term vijñāna belongs to this technical context, not to every possible reading of the English word consciousness.",
+      "caveat": "A proposed equivalence awaiting verification in an aligned Sanskrit–Chinese source; citation assignment is not verification.",
+      "dimension": "translation",
+      "mechanism": "semantic_extension",
+      "cites": [
+        {
+          "source": "xinjing",
+          "locator": "T251, 色受想行識"
+        },
+        {
+          "source": "monier-williams",
+          "locator": "vijñāna"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "gaps": [
+        "Check the historical source translation as well as both dictionary senses."
+      ],
+      "reviewed": "2026-11-05"
+    },
+    {
+      "id": "shi-conscious-alaya",
+      "glyph": "阿賴耶識 · Ālaya-vijñāna",
+      "title": "The Storehouse Consciousness",
+      "lang": "Sanskrit → Chinese (Yogācāra)",
+      "type": "CANONICAL_TRANSLATION",
+      "evidence": "Yogācāra counts eight consciousnesses: six of the senses, then manas, transcribed 末那, then the ālaya-vijñāna, 阿賴耶識. The Cheng weishi lun names the first transformation 初阿賴耶識, and makes 末那 the support on which the sixth, 意識, turns.",
+      "caveat": "A hybrid rendering: 阿賴耶 keeps ālaya by sound, while 識 translates vijñāna.",
+      "dimension": "translation",
+      "mechanism": "phonetic_loan",
+      "period": "six_dynasties_tang",
+      "cites": [
+        {
+          "source": "chengweishi",
+          "locator": "T1585 p. 7c15; p. 14a24–25",
+          "checked": {
+            "on": "2026-11-05",
+            "edition": "https://raw.githubusercontent.com/cbeta-org/xml-p5/master/T/T31/T31n1585.xml",
+            "note": "頌曰：初阿賴耶識…; 又與末那為依止故，第六意識依之而轉"
+          }
+        }
+      ],
+      "status": "WORKING",
+      "verification": "source",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-05"
+    }
+  ],
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "shí shì",
+    "yue": "sik1",
+    "ja": "shiki, shoku, shi",
+    "ko": "식 sik, 지 ji",
+    "fanqie": "職吏切, 賞職切"
+  },
+  "simplified": "识",
+  "structure": {
+    "ids": "⿰訁戠",
+    "parts": [
+      "訁",
+      "言",
+      "戠",
+      "音",
+      "戈"
+    ],
+    "components": [
+      "訁",
+      "言",
+      "亠",
+      "二",
+      "口",
+      "戠",
+      "音",
+      "立",
+      "日",
+      "戈",
+      "𭠍",
+      "丶"
+    ],
+    "source": "mojidata-ids"
+  }
+}

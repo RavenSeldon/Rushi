@@ -1,0 +1,90 @@
+{
+  "id": "guang",
+  "key": "1",
+  "glyph": "光",
+  "pinyin": "guāng",
+  "gloss": "light · radiance",
+  "form": "IDS ⿱⺌兀",
+  "formNote": "Mojidata IDS: ⿱⺌兀 (from the database, 2026-11-05). This describes the graph’s parts, not its history; the etymology is not yet researched.",
+  "summary": "Radiance has physical and textual lives; the Pure Land phrase 無量光 offers a specific historical connection.",
+  "coords": [
+    -12.8455,
+    -3.094,
+    46.9465
+  ],
+  "placement": "Selected from a numerically integrated chen trajectory to distribute stars across its projected shape. This is an artistic placement, not linguistic evidence.",
+  "oc": {
+    "form": "not yet researched",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "Placeholder, NOT an Old Chinese reconstruction. Consult Baxter–Sagart 2014 before entering a form."
+  },
+  "satellites": [
+    {
+      "id": "guang-photosynthesis",
+      "glyph": "光合作用",
+      "title": "Light in the Work of Life",
+      "lang": "Chinese Buddhist textual usage",
+      "type": "SEMANTIC_CONTRAST",
+      "evidence": "The modern word 光合作用 names photosynthesis, a biological process involving light. Its physical meaning is distinct from the religious language of 無量光.",
+      "dimension": "sense",
+      "cites": [
+        {
+          "source": "moe-dict",
+          "locator": "光合作用"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "reviewed": "2026-11-05"
+    },
+    {
+      "id": "guang-heguang",
+      "glyph": "和其光，同其塵",
+      "title": "Soften the Light, Join the Dust",
+      "lang": "Classical Chinese",
+      "type": "TEXTUAL_CONNECTION",
+      "evidence": "Daodejing 4 and 56: 挫其銳，解其紛，和其光，同其塵 — “blunt the sharpness, untie the tangles, soften the glare, be one with the dust.” Light here is something to temper, not to maximize; the later idiom 和光同塵 comes from these lines.",
+      "dimension": "sense",
+      "period": "pre_qin",
+      "cites": [
+        {
+          "source": "daodejing",
+          "locator": "chs. 4, 56"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-05"
+    }
+  ],
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "guāng",
+    "yue": "gwong1",
+    "ja": "kō",
+    "ko": "광 gwang",
+    "vi": "quang",
+    "fanqie": "古黃切, 古曠切"
+  },
+  "structure": {
+    "ids": "⿱⺌兀",
+    "parts": [
+      "兀",
+      "儿"
+    ],
+    "components": [
+      "⺌",
+      "兀",
+      "一",
+      "儿",
+      "丿",
+      "乚"
+    ],
+    "source": "mojidata-ids"
+  }
+}

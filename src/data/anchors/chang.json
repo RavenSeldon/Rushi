@@ -1,0 +1,81 @@
+{
+  "id": "chang",
+  "key": "5",
+  "glyph": "長",
+  "pinyin": "cháng / zhǎng",
+  "gloss": "long · grow · elder",
+  "form": "IDS ⿱{76}{25} (numbered parts are components with no Unicode code point)",
+  "formNote": "Mojidata IDS: ⿱{76}{25} (from the database, 2026-11-05). This describes the graph’s parts, not its history; the etymology is not yet researched.",
+  "summary": "Length and growth share a graph but differ by reading and use. A growth metaphor should not erase that distinction.",
+  "coords": [
+    0.3513,
+    0.0328,
+    1.5563
+  ],
+  "placement": "Selected from a numerically integrated rabinovich trajectory to distribute stars across its projected shape. This is an artistic placement, not linguistic evidence.",
+  "oc": {
+    "form": "not yet researched",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "Placeholder, NOT an Old Chinese reconstruction. Consult Baxter–Sagart 2014 before entering a form."
+  },
+  "satellites": [
+    {
+      "id": "chang-two-readings",
+      "glyph": "長 cháng · zhǎng",
+      "title": "Long and Growing",
+      "lang": "Classical Chinese / lexical record",
+      "type": "SEMANTIC_CONTRAST",
+      "evidence": "Dictionaries distinguish cháng, long, from zhǎng, grow or elder. Sound distinguishes related semantic lives of one graph.",
+      "dimension": "sense",
+      "cites": [
+        {
+          "source": "moe-dict",
+          "locator": "長 (cháng; zhǎng)"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "reviewed": "2026-11-05"
+    },
+    {
+      "id": "chang-jiushi",
+      "glyph": "長生久視",
+      "title": "Long Life, Lasting Sight",
+      "lang": "Classical Chinese",
+      "type": "TEXTUAL_CONNECTION",
+      "evidence": "Daodejing 59 ends: 深根固柢，長生久視之道 — “deep roots and a firm base: the way of long life and lasting vision.” 長 here is cháng, length of time; 長 zhǎng, growing up, is the same graph.",
+      "dimension": "sense",
+      "period": "pre_qin",
+      "cites": [
+        {
+          "source": "daodejing",
+          "locator": "ch. 59"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-05"
+    }
+  ],
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "zhǎng",
+    "yue": "coeng4",
+    "ja": "chō",
+    "ko": "장 jang",
+    "vi": "trường",
+    "fanqie": "直良切, 知丈切, 直亮切"
+  },
+  "simplified": "长",
+  "structure": {
+    "ids": "⿱{76}{25}",
+    "parts": [],
+    "components": [],
+    "source": "mojidata-ids"
+  }
+}

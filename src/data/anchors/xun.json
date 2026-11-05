@@ -1,0 +1,97 @@
+{
+  "id": "xun",
+  "key": "3",
+  "glyph": "尋",
+  "pinyin": "xún",
+  "gloss": "to look for · seek · fathom",
+  "form": "IDS ⿳{43}⿰工口寸 (numbered parts are components with no Unicode code point)",
+  "formNote": "Mojidata IDS: ⿳{43}⿰工口寸 (from the database, 2026-11-05). This describes the graph’s parts, not its history; the etymology is not yet researched.",
+  "summary": "To search and to measure are different historical senses. The familiar 尋常 is an instructive lexical orbit.",
+  "coords": [
+    -1.9028,
+    -2.4863,
+    -0.671
+  ],
+  "placement": "Selected from a numerically integrated arneodo trajectory to distribute stars across its projected shape. This is an artistic placement, not linguistic evidence.",
+  "oc": {
+    "form": "not yet researched",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "Placeholder, NOT an Old Chinese reconstruction. Consult Baxter–Sagart 2014 before entering a form."
+  },
+  "satellites": [
+    {
+      "id": "xun-xunchang",
+      "glyph": "尋常",
+      "title": "When a Measure Becomes Ordinary",
+      "lang": "Classical Chinese / lexical record",
+      "type": "ETYMOLOGICAL_SINITIC",
+      "evidence": "尋常 has an ordinary or commonplace sense and an older connection with length measures. The historical route needs checking before any etymological conclusion.",
+      "dimension": "sense",
+      "cites": [
+        {
+          "source": "moe-dict",
+          "locator": "尋常"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "reviewed": "2026-11-05"
+    },
+    {
+      "id": "xun-xunniu",
+      "glyph": "尋牛",
+      "title": "Searching for the Ox",
+      "lang": "Chinese Chan",
+      "type": "TEXTUAL_CONNECTION",
+      "evidence": "The first of Kuoan’s Ten Oxherding Pictures is 尋牛, searching for the ox. The series runs from seeking the ox to forgetting both ox and self, an empty circle, and then returning to the marketplace.",
+      "caveat": "The ox is commonly read as one’s own mind or nature, a reading the pictures invite but do not state. Baracus’s, from general knowledge.",
+      "dimension": "practice",
+      "period": "song_yuan",
+      "cites": [
+        {
+          "source": "shiniu-tu",
+          "locator": "§1 尋牛"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-05"
+    }
+  ],
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "xún",
+    "yue": "cam4",
+    "ja": "jin",
+    "ko": "심 sim",
+    "vi": "tầm",
+    "fanqie": "徐林切"
+  },
+  "simplified": "寻",
+  "structure": {
+    "ids": "⿳{43}⿰工口寸",
+    "parts": [
+      "工",
+      "丅",
+      "口",
+      "寸"
+    ],
+    "components": [
+      "工",
+      "丅",
+      "一",
+      "丨",
+      "口",
+      "寸",
+      "𬺰",
+      "亅",
+      "丶"
+    ],
+    "source": "mojidata-ids"
+  }
+}

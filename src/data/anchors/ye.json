@@ -1,0 +1,79 @@
+{
+  "id": "ye",
+  "key": "6",
+  "glyph": "夜",
+  "pinyin": "yè",
+  "gloss": "night",
+  "form": "IDS ⿱亠⿰亻⿴夂丶",
+  "formNote": "Mojidata IDS: ⿱亠⿰亻⿴夂丶 (from the database, 2026-11-05). This describes the graph’s parts, not its history; the etymology is not yet researched.",
+  "summary": "Night is not the negation of illumination in every register; night can be when stars become visible.",
+  "coords": [
+    21.4779,
+    27.4773,
+    25.5495
+  ],
+  "placement": "Selected from a numerically integrated chen trajectory to distribute stars across its projected shape. This is an artistic placement, not linguistic evidence.",
+  "oc": {
+    "form": "not yet researched",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "Placeholder, NOT an Old Chinese reconstruction. Consult Baxter–Sagart 2014 before entering a form."
+  },
+  "satellites": [
+    {
+      "id": "ye-yeqi",
+      "glyph": "夜氣",
+      "title": "The Night Air",
+      "lang": "Classical Chinese",
+      "type": "TEXTUAL_CONNECTION",
+      "evidence": "Mencius’s Ox Mountain: cut every day, the hill still puts out shoots from 日夜之所息, what rests by day and night. So a person’s goodness is restored by the night air, 夜氣; if 夜氣不足以存, “the night air is not enough to preserve it”, they are not far from the beasts.",
+      "dimension": "sense",
+      "period": "pre_qin",
+      "cites": [
+        {
+          "source": "mencius",
+          "locator": "6A8",
+          "checked": {
+            "on": "2026-11-05",
+            "edition": "https://github.com/chinese-poetry/chinese-poetry (四书五经/mengzi.json; a community digital transcription, not a critical edition)",
+            "note": "告子上 ¶25 in the transcription’s numbering: 牛山之木嘗美矣…是其日夜之所息…夜氣不足以存"
+          }
+        }
+      ],
+      "status": "WORKING",
+      "verification": "source",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-05"
+    }
+  ],
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "yè",
+    "yue": "je6",
+    "ja": "ya",
+    "ko": "야 ya",
+    "vi": "dạ",
+    "fanqie": "羊謝切"
+  },
+  "structure": {
+    "ids": "⿱亠⿰亻⿴夂丶",
+    "parts": [
+      "亠",
+      "亻",
+      "夂"
+    ],
+    "components": [
+      "亠",
+      "丶",
+      "一",
+      "亻",
+      "㇒",
+      "丨",
+      "夂"
+    ],
+    "source": "mojidata-ids"
+  }
+}

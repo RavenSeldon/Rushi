@@ -1358,5 +1358,1086 @@
     "label": "不 · 無",
     "subtitle": "Absence, predication and prohibition",
     "from": "bu"
+  },
+  {
+    "id": "bridge-shi-conscious-xin",
+    "from": "shi-conscious",
+    "to": "xin",
+    "label": "心 · 識",
+    "title": "Names of Mind",
+    "subtitle": "Traditional textual / lexical comparison",
+    "type": "TEXTUAL_CONNECTION",
+    "evidence": "The Abhidharmakośa relates 心, 意 and 識 in one terminological argument. This passage should not be generalized into a permanent equivalence across Buddhist schools.",
+    "dimension": "sense",
+    "cites": [
+      {
+        "source": "abhidharmakosa",
+        "locator": "ch. 2, 心意識體一"
+      }
+    ],
+    "status": "WORKING",
+    "verification": "unchecked",
+    "reviewed": "2026-11-05"
+  },
+  {
+    "id": "bridge-nian-ding",
+    "from": "nian",
+    "to": "ding",
+    "label": "念 · 定",
+    "title": "Mindfulness and Concentration",
+    "subtitle": "Traditional textual / lexical comparison",
+    "type": "TEXTUAL_CONNECTION",
+    "evidence": "Mindfulness and concentration occur together in the listed faculties; sequence is evidence of association, not synonymy.",
+    "dimension": "practice",
+    "cites": [
+      {
+        "source": "abhidharmakosa",
+        "locator": "ch. 2, 信勤念定慧"
+      }
+    ],
+    "status": "WORKING",
+    "verification": "unchecked",
+    "reviewed": "2026-11-05"
+  },
+  {
+    "id": "bridge-hui-zhi-wisdom",
+    "from": "hui",
+    "to": "zhi-wisdom",
+    "label": "慧 · 智",
+    "title": "Two Words for Wisdom",
+    "subtitle": "Traditional textual / lexical comparison",
+    "type": "SEMANTIC_CONTRAST",
+    "evidence": "慧 in the five faculties and 智 in the chapter on knowledge invite comparison. Their Buddhist technical renderings differ by context; a Sanskrit equivalence still needs separate source checking.",
+    "dimension": "sense",
+    "cites": [
+      {
+        "source": "abhidharmakosa",
+        "locator": "ch. 7 分別智品; ch. 2 五根"
+      }
+    ],
+    "status": "WORKING",
+    "verification": "unchecked",
+    "reviewed": "2026-11-05"
+  },
+  {
+    "id": "bridge-wu-awaken-dao",
+    "from": "wu-awaken",
+    "to": "dao",
+    "label": "悟道",
+    "title": "Understanding the Way",
+    "subtitle": "Traditional textual / lexical comparison",
+    "type": "TEXTUAL_CONNECTION",
+    "evidence": "The compound 悟道 joins realization to the Way. It does not imply that all uses of 道 denote enlightenment.",
+    "dimension": "sense",
+    "cites": [
+      {
+        "source": "moe-dict",
+        "locator": "悟道"
+      }
+    ],
+    "status": "WORKING",
+    "verification": "unchecked",
+    "reviewed": "2026-11-05"
+  },
+  {
+    "id": "bridge-jin-mu",
+    "from": "jin",
+    "to": "mu",
+    "label": "金 · 木",
+    "title": "Metal and Wood",
+    "subtitle": "Traditional textual / lexical comparison",
+    "type": "TRADITIONAL_CORRESPONDENCE",
+    "evidence": "金 and 木 both participate in the 洪範 scheme of five phases. The relation is within that scheme, not a scientific transmutation claim.",
+    "dimension": "symbol",
+    "cites": [
+      {
+        "source": "shangshu",
+        "locator": "洪範, 五行"
+      }
+    ],
+    "status": "WORKING",
+    "verification": "unchecked",
+    "reviewed": "2026-11-05"
+  },
+  {
+    "id": "bridge-shui-huo",
+    "from": "shui",
+    "to": "huo",
+    "label": "水 · 火",
+    "title": "Water and Fire",
+    "subtitle": "Traditional textual / lexical comparison",
+    "type": "TRADITIONAL_CORRESPONDENCE",
+    "evidence": "The 洪範 places water and fire as the first two phases. This relation reports a traditional classification.",
+    "dimension": "symbol",
+    "cites": [
+      {
+        "source": "shangshu",
+        "locator": "洪範, 五行"
+      }
+    ],
+    "status": "WORKING",
+    "verification": "unchecked",
+    "reviewed": "2026-11-05"
+  },
+  {
+    "id": "bridge-tu-di",
+    "from": "tu",
+    "to": "di",
+    "label": "土 · 地",
+    "title": "Soil and Earth",
+    "subtitle": "Traditional textual / lexical comparison",
+    "type": "SEMANTIC_CONTRAST",
+    "evidence": "Soil or earthen material 土 overlaps with the broader earth or land 地. One is not always a substitute for the other.",
+    "dimension": "sense",
+    "cites": [
+      {
+        "source": "moe-dict",
+        "locator": "土; 地"
+      }
+    ],
+    "status": "WORKING",
+    "verification": "unchecked",
+    "reviewed": "2026-11-05"
+  },
+  {
+    "id": "bridge-feng-lei",
+    "from": "feng",
+    "to": "lei",
+    "label": "風 · 雷",
+    "title": "Wind and Thunder",
+    "subtitle": "Traditional textual / lexical comparison",
+    "type": "TRADITIONAL_CORRESPONDENCE",
+    "evidence": "Wind and thunder are both images assigned to trigrams: 巽 and 震 respectively. Their relationship here belongs to the symbolic system.",
+    "dimension": "symbol",
+    "cites": [
+      {
+        "source": "yijing",
+        "locator": "說卦傳, 巽風、震雷"
+      }
+    ],
+    "status": "WORKING",
+    "verification": "unchecked",
+    "reviewed": "2026-11-05"
+  },
+  {
+    "id": "bridge-guang-liang",
+    "from": "guang",
+    "to": "liang",
+    "label": "無量光",
+    "title": "Immeasurable Radiance",
+    "subtitle": "Sanskrit → Chinese, Pure Land epithet",
+    "type": "CANONICAL_TRANSLATION",
+    "evidence": "無量光 expresses immeasurable light, a semantic rendering associated with Amitābha. This is distinct from the phonetic rendering 阿彌陀; the exact translation history still needs checking.",
+    "dimension": "translation",
+    "cites": [
+      {
+        "source": "pure-land",
+        "locator": "T360 / T366, 無量光"
+      },
+      {
+        "source": "monier-williams",
+        "locator": "amitābha; amita; ābhā"
+      }
+    ],
+    "status": "WORKING",
+    "verification": "unchecked",
+    "reviewed": "2026-11-05",
+    "mechanism": "calque",
+    "caveat": "Do not identify every instance of 無量光 with one textual translation event; Sanskrit and Chinese usages vary by source."
+  },
+  {
+    "id": "bridge-ming-bright-ming",
+    "from": "ming-bright",
+    "to": "ming",
+    "label": "明 · 名",
+    "title": "Brightness Is Not Naming",
+    "subtitle": "Traditional textual / lexical comparison",
+    "type": "SEMANTIC_CONTRAST",
+    "evidence": "Both can be read míng, but 明 is bright or clear and 名 is a name. Their sound resemblance is not shared etymology.",
+    "dimension": "sense",
+    "cites": [
+      {
+        "source": "moe-dict",
+        "locator": "明; 名"
+      }
+    ],
+    "status": "WORKING",
+    "verification": "unchecked",
+    "reviewed": "2026-11-05"
+  },
+  {
+    "id": "bridge-ri-yue",
+    "from": "ri",
+    "to": "yue",
+    "label": "日 · 月",
+    "title": "Sun and Moon",
+    "subtitle": "Traditional textual / lexical comparison",
+    "type": "TEXTUAL_CONNECTION",
+    "evidence": "日 and 月 recur as a pair, sun and moon, day and month. The shared written component pair in 明 is visible structure, not a historical proof of cosmology.",
+    "dimension": "sense",
+    "cites": [
+      {
+        "source": "moe-dict",
+        "locator": "日; 月"
+      }
+    ],
+    "status": "WORKING",
+    "verification": "unchecked",
+    "reviewed": "2026-11-05"
+  },
+  {
+    "id": "bridge-zhao-kong",
+    "from": "zhao",
+    "to": "kong",
+    "label": "照見五蘊皆空",
+    "title": "Illumination and Emptiness",
+    "subtitle": "Traditional textual / lexical comparison",
+    "type": "TEXTUAL_CONNECTION",
+    "evidence": "The Heart Sutra explicitly joins 照見 and 空 in its opening. Here illumination concerns understanding, not literally shining a lamp into emptiness.",
+    "dimension": "practice",
+    "cites": [
+      {
+        "source": "xinjing",
+        "locator": "T251, 照見五蘊皆空"
+      }
+    ],
+    "status": "WORKING",
+    "verification": "unchecked",
+    "reviewed": "2026-11-05"
+  },
+  {
+    "id": "bridge-men-er",
+    "from": "men",
+    "to": "er",
+    "label": "不二法門",
+    "title": "The Gate of Non-Duality",
+    "subtitle": "Traditional textual / lexical comparison",
+    "type": "TEXTUAL_CONNECTION",
+    "evidence": "The Vimalakīrti chapter names the gateway to non-duality. The text links 門 to 不二 as a metaphorical dharma-gate, without turning a doorway into an etymology.",
+    "dimension": "sense",
+    "cites": [
+      {
+        "source": "vimalakirti",
+        "locator": "ch. 9 入不二法門品"
+      }
+    ],
+    "status": "WORKING",
+    "verification": "unchecked",
+    "reviewed": "2026-11-05"
+  },
+  {
+    "id": "bridge-lu-dao",
+    "from": "lu",
+    "to": "dao",
+    "label": "路 · 道",
+    "title": "Road and Way",
+    "subtitle": "Traditional textual / lexical comparison",
+    "type": "SEMANTIC_CONTRAST",
+    "evidence": "路 is often a concrete road; 道 ranges from route to method to Way. Overlap in meaning should not erase the differences.",
+    "dimension": "sense",
+    "cites": [
+      {
+        "source": "moe-dict",
+        "locator": "路; 道"
+      }
+    ],
+    "status": "WORKING",
+    "verification": "unchecked",
+    "reviewed": "2026-11-05"
+  },
+  {
+    "id": "bridge-qiu-dao",
+    "from": "qiu",
+    "to": "dao",
+    "label": "求道",
+    "title": "Seeking the Way",
+    "subtitle": "Traditional textual / lexical comparison",
+    "type": "TEXTUAL_CONNECTION",
+    "evidence": "求道 combines quest and way. This link points from seeking toward the Pillars without asserting a universal spiritual path.",
+    "dimension": "sense",
+    "cites": [
+      {
+        "source": "moe-dict",
+        "locator": "求道"
+      }
+    ],
+    "status": "WORKING",
+    "verification": "unchecked",
+    "reviewed": "2026-11-05"
+  },
+  {
+    "id": "bridge-xue-si-thought",
+    "from": "xue",
+    "to": "si-thought",
+    "label": "學而不思",
+    "title": "Learning and Reflection",
+    "subtitle": "Traditional textual / lexical comparison",
+    "type": "TEXTUAL_CONNECTION",
+    "evidence": "Confucius pairs learning and thought as mutually necessary. They are two practices, not a compound with one meaning.",
+    "dimension": "practice",
+    "cites": [
+      {
+        "source": "analects",
+        "locator": "2.15"
+      }
+    ],
+    "status": "WORKING",
+    "verification": "unchecked",
+    "reviewed": "2026-11-05"
+  },
+  {
+    "id": "bridge-sheng-life-si-death",
+    "from": "sheng-life",
+    "to": "si-death",
+    "label": "生 · 死",
+    "title": "Birth and Death",
+    "subtitle": "Traditional textual / lexical comparison",
+    "type": "TEXTUAL_CONNECTION",
+    "evidence": "Dependent-arising discourses discuss birth and aging/death in sequence. The cited doctrinal relation does not settle modern metaphysics of dying.",
+    "dimension": "sense",
+    "cites": [
+      {
+        "source": "agamas",
+        "locator": "緣起: 生緣老死"
+      }
+    ],
+    "status": "WORKING",
+    "verification": "unchecked",
+    "reviewed": "2026-11-05"
+  },
+  {
+    "id": "bridge-bian-yi-change",
+    "from": "bian",
+    "to": "yi-change",
+    "label": "變 · 易",
+    "title": "Change and the Changes",
+    "subtitle": "Traditional textual / lexical comparison",
+    "type": "TEXTUAL_CONNECTION",
+    "evidence": "The Changes tradition explicitly describes 變 as opening into 通. This connects the new star to 易 without equating their full semantic histories.",
+    "dimension": "sense",
+    "cites": [
+      {
+        "source": "yijing",
+        "locator": "繫辭下, 窮則變，變則通"
+      }
+    ],
+    "status": "WORKING",
+    "verification": "unchecked",
+    "reviewed": "2026-11-05"
+  },
+  {
+    "id": "bridge-shi-begin-zhong-end",
+    "from": "shi-begin",
+    "to": "zhong-end",
+    "label": "始 · 終",
+    "title": "Attend to End and Beginning",
+    "subtitle": "Traditional textual / lexical comparison",
+    "type": "TEXTUAL_CONNECTION",
+    "evidence": "The Daodejing asks readers to be as careful at the end as at the beginning. The relation is ethical and textual.",
+    "dimension": "sense",
+    "cites": [
+      {
+        "source": "daodejing",
+        "locator": "ch. 64, 慎終如始"
+      }
+    ],
+    "status": "WORKING",
+    "verification": "unchecked",
+    "reviewed": "2026-11-05"
+  },
+  {
+    "id": "bridge-sheng-life-yi",
+    "from": "sheng-life",
+    "to": "yi",
+    "label": "生 · 一",
+    "title": "The One Is Born",
+    "subtitle": "Traditional textual / lexical comparison",
+    "type": "TEXTUAL_CONNECTION",
+    "evidence": "道生一 contains 生 as an action of arising. This literary use does not make biological birth the same as cosmogenesis.",
+    "dimension": "cosmos",
+    "cites": [
+      {
+        "source": "daodejing",
+        "locator": "ch. 42, 道生一"
+      }
+    ],
+    "status": "WORKING",
+    "verification": "unchecked",
+    "reviewed": "2026-11-05"
+  },
+  {
+    "id": "bridge-yi-intent-shi-conscious",
+    "from": "yi-intent",
+    "to": "shi-conscious",
+    "label": "意 · 識",
+    "title": "One Thing, Three Names",
+    "subtitle": "Abhidharmakośa ch. 2",
+    "type": "TEXTUAL_CONNECTION",
+    "evidence": "The Abhidharmakośa: 心意識體一 — citta, manas and vijñāna are one in substance. 意 and 識 differ in function, not in what they are.",
+    "dimension": "sense",
+    "period": "six_dynasties_tang",
+    "cites": [
+      {
+        "source": "abhidharmakosa",
+        "locator": "ch. 2, p. 21c18",
+        "checked": {
+          "on": "2026-11-05",
+          "edition": "https://raw.githubusercontent.com/cbeta-org/xml-p5/master/T/T29/T29n1558.xml",
+          "note": "頌曰：心意識體一"
+        }
+      }
+    ],
+    "status": "WORKING",
+    "verification": "source",
+    "drafted": "Baracus",
+    "reviewed": "2026-11-05"
+  },
+  {
+    "id": "bridge-ding-hui",
+    "from": "ding",
+    "to": "hui",
+    "label": "定慧一體",
+    "title": "Concentration and Wisdom, Not Two",
+    "subtitle": "Platform Sutra",
+    "type": "TEXTUAL_CONNECTION",
+    "evidence": "The Platform Sutra: 定慧一體，不是二。定是慧體，慧是定用 — “concentration and wisdom are one body, not two: concentration is the body of wisdom, wisdom the function of concentration.”",
+    "caveat": "不是二 here is plain Chinese, not the technical advaya of 不二法門; the echo of the Pillars is Rushi’s.",
+    "dimension": "practice",
+    "period": "song_yuan",
+    "cites": [
+      {
+        "source": "platform-sutra",
+        "locator": "T2008 p. 352c14",
+        "checked": {
+          "on": "2026-11-05",
+          "edition": "https://raw.githubusercontent.com/cbeta-org/xml-p5/master/T/T48/T48n2008.xml",
+          "note": "定慧一體不是二，定是慧體，慧是定用"
+        }
+      }
+    ],
+    "status": "WORKING",
+    "verification": "source",
+    "drafted": "Baracus",
+    "reviewed": "2026-11-05"
+  },
+  {
+    "id": "bridge-si-thought-nian",
+    "from": "si-thought",
+    "to": "nian",
+    "label": "思 · 念",
+    "title": "Two of the Ten Universal Factors",
+    "subtitle": "Abhidharmakośa ch. 2",
+    "type": "TEXTUAL_CONNECTION",
+    "evidence": "Volition, 思, and mindfulness, 念, stand in the same verse of factors present in every moment of mind: 受想思觸欲，慧念與作意，勝解三摩地.",
+    "dimension": "sense",
+    "period": "six_dynasties_tang",
+    "cites": [
+      {
+        "source": "abhidharmakosa",
+        "locator": "ch. 2, p. 19a14",
+        "checked": {
+          "on": "2026-11-05",
+          "edition": "https://raw.githubusercontent.com/cbeta-org/xml-p5/master/T/T29/T29n1558.xml",
+          "note": "受想思觸欲，慧念與作意，勝解三摩地，遍於一切心"
+        }
+      }
+    ],
+    "status": "WORKING",
+    "verification": "source",
+    "drafted": "Baracus",
+    "reviewed": "2026-11-05"
+  },
+  {
+    "id": "bridge-hui-zhou-spell",
+    "from": "hui",
+    "to": "zhou-spell",
+    "label": "五種不翻",
+    "title": "Two Words Kept by Sound",
+    "subtitle": "Fanyi mingyi ji, preface",
+    "type": "CANONICAL_TRANSLATION",
+    "evidence": "Xuanzang’s five kinds of untranslated word begin and end with these two stars: first 陀羅尼, kept for secrecy (祕密故), and last 般若, kept because it is weightier than 智慧 (生善故).",
+    "dimension": "translation",
+    "mechanism": "phonetic_loan",
+    "period": "six_dynasties_tang",
+    "cites": [
+      {
+        "source": "fanyi-mingyi",
+        "locator": "T2131 p. 1055a14–17",
+        "checked": {
+          "on": "2026-11-05",
+          "edition": "https://raw.githubusercontent.com/cbeta-org/xml-p5/master/T/T54/T54n2131.xml",
+          "note": "一祕密故，如陀羅尼…五生善故，如般若尊重，智慧輕淺"
+        }
+      }
+    ],
+    "status": "WORKING",
+    "verification": "source",
+    "drafted": "Baracus",
+    "reviewed": "2026-11-05"
+  },
+  {
+    "id": "bridge-lei-shan",
+    "from": "lei",
+    "to": "shan",
+    "label": "震 · 艮",
+    "title": "Moving and Stopping",
+    "subtitle": "Yijing, Shuogua",
+    "type": "TRADITIONAL_CORRESPONDENCE",
+    "evidence": "Thunder is the trigram 震, mountain the trigram 艮. The Shuogua pairs their work, 雷以動之 … 艮以止之, moving and stopping, and the hexagrams 51 震 ䷲ and 52 艮 ䷳ are each other turned upside down.",
+    "dimension": "symbol",
+    "period": "han",
+    "cites": [
+      {
+        "source": "yijing",
+        "locator": "說卦 §4; hexagrams 51–52"
+      }
+    ],
+    "status": "WORKING",
+    "verification": "unchecked",
+    "drafted": "Baracus",
+    "reviewed": "2026-11-05"
+  },
+  {
+    "id": "bridge-mu-huo",
+    "from": "mu",
+    "to": "huo",
+    "label": "木生火",
+    "title": "Wood Gives Birth to Fire",
+    "subtitle": "Chunqiu fanlu",
+    "type": "TRADITIONAL_CORRESPONDENCE",
+    "evidence": "In the generating cycle of the five phases, 木生火，火生土，土生金，金生水，水生木: wood feeds fire, fire leaves earth (ash), earth bears metal, metal gathers water, water grows wood.",
+    "caveat": "The parenthetical glosses are the traditional explanations, not the text. Locator from general knowledge.",
+    "dimension": "symbol",
+    "period": "han",
+    "cites": [
+      {
+        "source": "chunqiu-fanlu",
+        "locator": "五行之義"
+      }
+    ],
+    "status": "WORKING",
+    "verification": "unchecked",
+    "drafted": "Baracus",
+    "reviewed": "2026-11-05"
+  },
+  {
+    "id": "bridge-jin-lei",
+    "from": "jin",
+    "to": "lei",
+    "label": "金剛 · 雷",
+    "title": "One Word, Thunder and Diamond",
+    "subtitle": "vajra",
+    "type": "SEMANTIC_CONTRAST",
+    "evidence": "Sanskrit vajra is Indra’s thunderbolt and also the diamond. Chinese translators rendered it 金剛, adamant, not 雷: of the word’s two faces, China kept the hardness.",
+    "dimension": "translation",
+    "period": "six_dynasties_tang",
+    "cites": [
+      {
+        "source": "monier-williams",
+        "locator": "vajra"
+      },
+      {
+        "source": "diamond",
+        "locator": "title"
+      }
+    ],
+    "status": "WORKING",
+    "verification": "unchecked",
+    "drafted": "Baracus",
+    "reviewed": "2026-11-05"
+  },
+  {
+    "id": "bridge-shan-ren-humane",
+    "from": "shan",
+    "to": "ren-humane",
+    "label": "仁者樂山",
+    "title": "The Humane Delight in Mountains",
+    "subtitle": "Analects 6.23",
+    "type": "TEXTUAL_CONNECTION",
+    "evidence": "Analects 6.23: 知者樂水，仁者樂山。知者動，仁者靜 — “the wise delight in water, the humane in mountains; the wise move, the humane are still.”",
+    "dimension": "symbol",
+    "period": "pre_qin",
+    "cites": [
+      {
+        "source": "analects",
+        "locator": "6.23",
+        "checked": {
+          "on": "2026-11-05",
+          "edition": "https://github.com/chinese-poetry/chinese-poetry (論語/lunyu.json, simplified characters; a community digital transcription, not a critical edition)",
+          "note": "雍也 ¶23: 知者乐水，仁者乐山。知者动，仁者静"
+        }
+      }
+    ],
+    "status": "WORKING",
+    "verification": "source",
+    "drafted": "Baracus",
+    "reviewed": "2026-11-05"
+  },
+  {
+    "id": "bridge-shui-zhi-wisdom",
+    "from": "shui",
+    "to": "zhi-wisdom",
+    "label": "知者樂水",
+    "title": "The Wise Delight in Water",
+    "subtitle": "Analects 6.23",
+    "type": "TEXTUAL_CONNECTION",
+    "evidence": "Analects 6.23: 知者樂水 … 知者動 … 知者樂 — the wise delight in water, move like it, and are joyful.",
+    "caveat": "The Analects writes 知, read zhì in this sense; 智 is the later graph for wisdom as a virtue.",
+    "dimension": "symbol",
+    "period": "pre_qin",
+    "cites": [
+      {
+        "source": "analects",
+        "locator": "6.23",
+        "checked": {
+          "on": "2026-11-05",
+          "edition": "https://github.com/chinese-poetry/chinese-poetry (論語/lunyu.json, simplified characters; a community digital transcription, not a critical edition)",
+          "note": "雍也 ¶23: 知者乐水…知者动…知者乐"
+        }
+      }
+    ],
+    "status": "WORKING",
+    "verification": "source",
+    "drafted": "Baracus",
+    "reviewed": "2026-11-05"
+  },
+  {
+    "id": "bridge-ri-shi-real",
+    "from": "ri",
+    "to": "shi-real",
+    "label": "日，實也",
+    "title": "The Sun Glossed as the Real",
+    "subtitle": "Shuowen",
+    "type": "ETYMOLOGICAL_SINITIC",
+    "evidence": "The Shuowen glosses 日 by the near-homophone 實: the sun is the full, the solid, the real. Rushi’s own name holds the second of these two graphs.",
+    "caveat": "A Han sound gloss, not historical etymology; that it touches 如實 is Rushi’s observation.",
+    "dimension": "sound",
+    "period": "han",
+    "cites": [
+      {
+        "source": "shuowen",
+        "locator": "日部 日"
+      }
+    ],
+    "status": "WORKING",
+    "verification": "unchecked",
+    "drafted": "Baracus",
+    "reviewed": "2026-11-05"
+  },
+  {
+    "id": "bridge-yue-fa",
+    "from": "yue",
+    "to": "fa",
+    "label": "指月",
+    "title": "The Teaching Is the Finger",
+    "subtitle": "Śūraṅgama Sūtra",
+    "type": "TEXTUAL_CONNECTION",
+    "evidence": "The finger-and-moon passage is about 法: 汝等尚以緣心聽法，此法亦緣，非得法性 — hearing the teaching with a conditioned mind, the teaching too is conditioned, not the nature of things. The teaching points; the moon is what it points at.",
+    "dimension": "sense",
+    "period": "six_dynasties_tang",
+    "cites": [
+      {
+        "source": "shurangama",
+        "locator": "T945 p. 111a08–09",
+        "checked": {
+          "on": "2026-11-05",
+          "edition": "https://raw.githubusercontent.com/cbeta-org/xml-p5/master/T/T19/T19n0945.xml",
+          "note": "緣心聽法此法亦緣非得法性如人以手指月示人"
+        }
+      }
+    ],
+    "status": "WORKING",
+    "verification": "source",
+    "drafted": "Baracus",
+    "reviewed": "2026-11-05"
+  },
+  {
+    "id": "bridge-ying-wei",
+    "from": "ying",
+    "to": "wei",
+    "label": "有為法",
+    "title": "All Conditioned Things Are Like a Shadow",
+    "subtitle": "Diamond Sutra",
+    "type": "TEXTUAL_CONNECTION",
+    "evidence": "The Diamond Sutra’s closing verse: 一切有為法，如夢幻泡影，如露亦如電，應作如是觀 — “all conditioned things are like a dream, an illusion, a bubble, a shadow, like dew and lightning: see them so.” 有為 renders saṃskṛta, the made.",
+    "dimension": "sense",
+    "period": "six_dynasties_tang",
+    "cites": [
+      {
+        "source": "diamond",
+        "locator": "T235 p. 752b28",
+        "checked": {
+          "on": "2026-11-05",
+          "edition": "https://raw.githubusercontent.com/cbeta-org/xml-p5/master/T/T08/T08n0235.xml",
+          "note": "一切有為法，如夢幻泡影，如露亦如電，應作如是觀"
+        }
+      }
+    ],
+    "status": "WORKING",
+    "verification": "source",
+    "drafted": "Baracus",
+    "reviewed": "2026-11-05"
+  },
+  {
+    "id": "bridge-zhao-tian",
+    "from": "zhao",
+    "to": "tian",
+    "label": "照之於天",
+    "title": "Illumined by Heaven",
+    "subtitle": "Zhuangzi ch. 2",
+    "type": "TEXTUAL_CONNECTION",
+    "evidence": "Zhuangzi 2: 是以聖人不由，而照之於天 — “so the sage does not go by this or that, but illumines things by Heaven”, letting the natural light show them rather than taking a side.",
+    "dimension": "sense",
+    "period": "pre_qin",
+    "cites": [
+      {
+        "source": "zhuangzi",
+        "locator": "ch. 2 齊物論"
+      }
+    ],
+    "status": "WORKING",
+    "verification": "unchecked",
+    "drafted": "Baracus",
+    "reviewed": "2026-11-05"
+  },
+  {
+    "id": "bridge-xing-de",
+    "from": "xing",
+    "to": "de",
+    "label": "眾星共之",
+    "title": "The Stars Turn Around Virtue",
+    "subtitle": "Analects 2.1",
+    "type": "TEXTUAL_CONNECTION",
+    "evidence": "Analects 2.1: 為政以德，譬如北辰，居其所而眾星共之 — “govern by virtue, like the pole star: it keeps its place and the many stars turn toward it.”",
+    "dimension": "cosmos",
+    "period": "pre_qin",
+    "cites": [
+      {
+        "source": "analects",
+        "locator": "2.1",
+        "checked": {
+          "on": "2026-11-05",
+          "edition": "https://github.com/chinese-poetry/chinese-poetry (論語/lunyu.json, simplified characters; a community digital transcription, not a critical edition)",
+          "note": "为政 ¶1: 为政以德，譬如北辰，居其所而众星共之"
+        }
+      }
+    ],
+    "status": "WORKING",
+    "verification": "source",
+    "drafted": "Baracus",
+    "reviewed": "2026-11-05"
+  },
+  {
+    "id": "bridge-ming-bright-wu",
+    "from": "ming-bright",
+    "to": "wu",
+    "label": "無明",
+    "title": "Not-Light: Ignorance",
+    "subtitle": "avidyā",
+    "type": "CANONICAL_TRANSLATION",
+    "evidence": "無明 renders avidyā, part for part: a- “not”, vidyā “knowing”, which Chinese takes as light. It is the first of the twelve links: 無明緣行, “ignorance conditions formations.”",
+    "dimension": "translation",
+    "mechanism": "calque",
+    "period": "six_dynasties_tang",
+    "cites": [
+      {
+        "source": "abhidharmakosa",
+        "locator": "ch. 3, p. 51a05",
+        "checked": {
+          "on": "2026-11-05",
+          "edition": "https://raw.githubusercontent.com/cbeta-org/xml-p5/master/T/T29/T29n1558.xml",
+          "note": "謂無明緣行，乃至如是純大苦蘊集"
+        }
+      },
+      {
+        "source": "monier-williams",
+        "locator": "avidyā; vidyā"
+      }
+    ],
+    "gaps": [
+      "Check avidyā in Monier-Williams."
+    ],
+    "status": "WORKING",
+    "verification": "partial",
+    "drafted": "Baracus",
+    "reviewed": "2026-11-05"
+  },
+  {
+    "id": "bridge-xue-wen",
+    "from": "xue",
+    "to": "wen",
+    "label": "學問",
+    "title": "Learning and Asking",
+    "subtitle": "Mencius 6A11",
+    "type": "TEXTUAL_CONNECTION",
+    "evidence": "Mencius 6A11 joins them into the word for scholarship: 學問之道無他，求其放心而已矣 — the way of learning-and-asking is only to seek the strayed heart.",
+    "dimension": "sense",
+    "period": "pre_qin",
+    "cites": [
+      {
+        "source": "mencius",
+        "locator": "6A11",
+        "checked": {
+          "on": "2026-11-05",
+          "edition": "https://github.com/chinese-poetry/chinese-poetry (四书五经/mengzi.json; a community digital transcription, not a critical edition)",
+          "note": "學問之道無他，求其放心而已矣"
+        }
+      }
+    ],
+    "status": "WORKING",
+    "verification": "source",
+    "drafted": "Baracus",
+    "reviewed": "2026-11-05"
+  },
+  {
+    "id": "bridge-xing-walk-xue",
+    "from": "xing-walk",
+    "to": "xue",
+    "label": "行有餘力",
+    "title": "Practice First, Then Letters",
+    "subtitle": "Analects 1.6",
+    "type": "TEXTUAL_CONNECTION",
+    "evidence": "Analects 1.6: after filial conduct, care and trust, 行有餘力，則以學文 — “if there is strength left over from conduct, use it to learn letters.” Practice comes before book-learning.",
+    "dimension": "practice",
+    "period": "pre_qin",
+    "cites": [
+      {
+        "source": "analects",
+        "locator": "1.6",
+        "checked": {
+          "on": "2026-11-05",
+          "edition": "https://github.com/chinese-poetry/chinese-poetry (論語/lunyu.json, simplified characters; a community digital transcription, not a critical edition)",
+          "note": "学而 ¶6: 行有余力，则以学文"
+        }
+      }
+    ],
+    "status": "WORKING",
+    "verification": "source",
+    "drafted": "Baracus",
+    "reviewed": "2026-11-05"
+  },
+  {
+    "id": "bridge-qiu-xin",
+    "from": "qiu",
+    "to": "xin",
+    "label": "求其放心",
+    "title": "What Is Sought Is the Heart",
+    "subtitle": "Mencius 6A11",
+    "type": "TEXTUAL_CONNECTION",
+    "evidence": "In Mencius 6A11 the object of seeking is 心: 有放心，而不知求 — people do not know to seek their strayed heart, and learning is only that seeking.",
+    "dimension": "sense",
+    "period": "pre_qin",
+    "cites": [
+      {
+        "source": "mencius",
+        "locator": "6A11",
+        "checked": {
+          "on": "2026-11-05",
+          "edition": "https://github.com/chinese-poetry/chinese-poetry (四书五经/mengzi.json; a community digital transcription, not a critical edition)",
+          "note": "有放心，而不知求。學問之道無他，求其放心而已矣"
+        }
+      }
+    ],
+    "status": "WORKING",
+    "verification": "source",
+    "drafted": "Baracus",
+    "reviewed": "2026-11-05"
+  },
+  {
+    "id": "bridge-lu-yi-right",
+    "from": "lu",
+    "to": "yi-right",
+    "label": "義，人路也",
+    "title": "Rightness Is the Human Road",
+    "subtitle": "Mencius 6A11",
+    "type": "TEXTUAL_CONNECTION",
+    "evidence": "Mencius 6A11: 仁，人心也；義，人路也。舍其路而弗由 … 哀哉 — “humaneness is the human heart, rightness the human road; to abandon the road and not walk it: how sad.”",
+    "dimension": "sense",
+    "period": "pre_qin",
+    "cites": [
+      {
+        "source": "mencius",
+        "locator": "6A11",
+        "checked": {
+          "on": "2026-11-05",
+          "edition": "https://github.com/chinese-poetry/chinese-poetry (四书五经/mengzi.json; a community digital transcription, not a critical edition)",
+          "note": "仁，人心也；義，人路也。舍其路而弗由"
+        }
+      }
+    ],
+    "status": "WORKING",
+    "verification": "source",
+    "drafted": "Baracus",
+    "reviewed": "2026-11-05"
+  },
+  {
+    "id": "bridge-xue-ding",
+    "from": "xue",
+    "to": "ding",
+    "label": "三學",
+    "title": "The Three Trainings",
+    "subtitle": "Śūraṅgama Sūtra",
+    "type": "CANONICAL_TRANSLATION",
+    "evidence": "學 renders śikṣā, training, in 三學, the three trainings of discipline, concentration and wisdom; the Śūraṅgama calls them 三無漏學. Learning, in this sense, is practice.",
+    "dimension": "translation",
+    "mechanism": "semantic_extension",
+    "period": "six_dynasties_tang",
+    "cites": [
+      {
+        "source": "shurangama",
+        "locator": "T945 p. 131c14",
+        "checked": {
+          "on": "2026-11-05",
+          "edition": "https://raw.githubusercontent.com/cbeta-org/xml-p5/master/T/T19/T19n0945.xml",
+          "note": "因戒生定因定發慧是則名為三無漏學"
+        }
+      },
+      {
+        "source": "monier-williams",
+        "locator": "śikṣā"
+      }
+    ],
+    "gaps": [
+      "Check śikṣā in Monier-Williams."
+    ],
+    "status": "WORKING",
+    "verification": "partial",
+    "drafted": "Baracus",
+    "reviewed": "2026-11-05"
+  },
+  {
+    "id": "bridge-bian-hua",
+    "from": "bian",
+    "to": "hua",
+    "label": "變化",
+    "title": "Alteration and Transformation",
+    "subtitle": "Yijing, Xici",
+    "type": "TEXTUAL_CONNECTION",
+    "evidence": "Xici, part one: 變化者，進退之象也 — “alteration and transformation are images of advance and retreat.” Commentators distinguish 變 as change one can see from 化 as change that goes on unseen.",
+    "caveat": "The 變 / 化 distinction is commentarial, not stated in this line.",
+    "dimension": "sense",
+    "period": "han",
+    "cites": [
+      {
+        "source": "yijing",
+        "locator": "繫辭上, §2"
+      }
+    ],
+    "status": "WORKING",
+    "verification": "unchecked",
+    "drafted": "Baracus",
+    "reviewed": "2026-11-05"
+  },
+  {
+    "id": "bridge-chang-sheng-life",
+    "from": "chang",
+    "to": "sheng-life",
+    "label": "長生",
+    "title": "Long Life",
+    "subtitle": "Daodejing chs. 7, 59",
+    "type": "TEXTUAL_CONNECTION",
+    "evidence": "長生 joins the two stars: Daodejing 59’s 長生久視之道 and ch. 7’s 天長地久 … 以其不自生，故能長生 — heaven and earth last because they do not live for themselves.",
+    "dimension": "sense",
+    "period": "pre_qin",
+    "cites": [
+      {
+        "source": "daodejing",
+        "locator": "chs. 7, 59"
+      }
+    ],
+    "status": "WORKING",
+    "verification": "unchecked",
+    "drafted": "Baracus",
+    "reviewed": "2026-11-05"
+  },
+  {
+    "id": "bridge-cheng-kong",
+    "from": "cheng",
+    "to": "kong",
+    "label": "成 … 空",
+    "title": "The Age of Emptiness Follows",
+    "subtitle": "Abhidharmakośa ch. 3",
+    "type": "TEXTUAL_CONNECTION",
+    "evidence": "In 成住壞空 the cosmic cycle begins with 成, formation, and ends with 空, the empty age before a world forms again.",
+    "caveat": "Here 空 is the empty eon, a cosmological sense, not śūnyatā.",
+    "dimension": "cosmos",
+    "period": "six_dynasties_tang",
+    "cites": [
+      {
+        "source": "abhidharmakosa",
+        "locator": "ch. 3, p. 63b07",
+        "checked": {
+          "on": "2026-11-05",
+          "edition": "https://raw.githubusercontent.com/cbeta-org/xml-p5/master/T/T29/T29n1558.xml",
+          "note": "如是所說成住壞空"
+        }
+      }
+    ],
+    "status": "WORKING",
+    "verification": "source",
+    "drafted": "Baracus",
+    "reviewed": "2026-11-05"
+  },
+  {
+    "id": "bridge-sheng-life-wu",
+    "from": "sheng-life",
+    "to": "wu",
+    "label": "無生",
+    "title": "The Unborn",
+    "subtitle": "anutpāda",
+    "type": "CANONICAL_TRANSLATION",
+    "evidence": "無生 renders anutpāda, “non-arising”, part for part. The Lotus Sutra tells of bodhisattvas who attain 無生法忍, the acceptance that dharmas are unborn.",
+    "dimension": "translation",
+    "mechanism": "calque",
+    "period": "six_dynasties_tang",
+    "cites": [
+      {
+        "source": "lotus",
+        "locator": "T262 p. 44a10",
+        "checked": {
+          "on": "2026-11-05",
+          "edition": "https://raw.githubusercontent.com/cbeta-org/xml-p5/master/T/T09/T09n0262.xml",
+          "note": "恒河沙眾生得無生法忍"
+        }
+      },
+      {
+        "source": "monier-williams",
+        "locator": "anutpāda; anutpattika"
+      }
+    ],
+    "gaps": [
+      "Check anutpattika-dharma-kṣānti in Monier-Williams or Edgerton’s BHS dictionary."
+    ],
+    "status": "WORKING",
+    "verification": "partial",
+    "drafted": "Baracus",
+    "reviewed": "2026-11-05"
+  },
+  {
+    "id": "bridge-zhong-end-de",
+    "from": "zhong-end",
+    "to": "de",
+    "label": "慎終追遠",
+    "title": "Care at the End",
+    "subtitle": "Analects 1.9",
+    "type": "TEXTUAL_CONNECTION",
+    "evidence": "Analects 1.9: 慎終追遠，民德歸厚矣 — “take care over the end (of parents), remember those long gone, and the people’s virtue will return to its fullness.”",
+    "dimension": "practice",
+    "period": "pre_qin",
+    "cites": [
+      {
+        "source": "analects",
+        "locator": "1.9",
+        "checked": {
+          "on": "2026-11-05",
+          "edition": "https://github.com/chinese-poetry/chinese-poetry (論語/lunyu.json, simplified characters; a community digital transcription, not a critical edition)",
+          "note": "学而 ¶9: 慎终追远，民德归厚矣"
+        }
+      }
+    ],
+    "status": "WORKING",
+    "verification": "source",
+    "drafted": "Baracus",
+    "reviewed": "2026-11-05"
   }
 ]

@@ -233,5 +233,61 @@
     "title": "妙法蓮華經 (Saddharmapuṇḍarīka, the Lotus Sutra), tr. Kumārajīva, T262",
     "date": "406 CE",
     "url": "https://cbetaonline.dila.edu.tw/T0262"
+  },
+  "shangshu": {
+    "kind": "primary",
+    "title": "尚書 · 洪範 (Shangshu, Great Plan)",
+    "url": "https://ctext.org/shang-shu/great-plan"
+  },
+  "shijing": {
+    "kind": "primary",
+    "title": "詩經 Shijing (Book of Odes)",
+    "url": "https://ctext.org/book-of-poetry"
+  },
+  "chengweishi": {
+    "kind": "primary",
+    "title": "成唯識論 Cheng weishi lun, compiled and tr. Xuanzang, T1585",
+    "date": "659 CE",
+    "url": "https://cbetaonline.dila.edu.tw/T1585"
+  },
+  "platform-sutra": {
+    "kind": "primary",
+    "title": "六祖大師法寶壇經 Platform Sutra, Zongbao edition, T2008",
+    "date": "1291",
+    "url": "https://cbetaonline.dila.edu.tw/T2008"
+  },
+  "shurangama": {
+    "kind": "primary",
+    "title": "大佛頂首楞嚴經 Śūraṅgama Sūtra, T945",
+    "date": "c. 705 CE",
+    "url": "https://cbetaonline.dila.edu.tw/T0945"
+  },
+  "fanyi-mingyi": {
+    "kind": "primary",
+    "title": "翻譯名義集 Fanyi mingyi ji, Fayun, T2131",
+    "date": "1143",
+    "url": "https://cbetaonline.dila.edu.tw/T2131"
+  },
+  "diamond": {
+    "kind": "primary",
+    "title": "金剛般若波羅蜜經 (Vajracchedikā, the Diamond Sutra), tr. Kumārajīva, T235",
+    "date": "402 CE",
+    "url": "https://cbetaonline.dila.edu.tw/T0235"
+  },
+  "chunqiu-fanlu": {
+    "kind": "primary",
+    "title": "春秋繁露 Chunqiu fanlu, attributed to Dong Zhongshu",
+    "url": "https://ctext.org/chun-qiu-fan-lu"
+  },
+  "liezi": {
+    "kind": "primary",
+    "title": "列子 Liezi",
+    "url": "https://ctext.org/liezi"
+  },
+  "shiniu-tu": {
+    "kind": "primary",
+    "title": "十牛圖頌 Ten Oxherding Pictures, Kuoan Shiyuan, with verses",
+    "date": "12th c.",
+    "url": "https://cbetaonline.dila.edu.tw/X1269"
   }
 }

@@ -1,0 +1,90 @@
+{
+  "id": "men",
+  "key": "8",
+  "glyph": "門",
+  "pinyin": "mén",
+  "gloss": "gate · entrance · school",
+  "form": "IDS ⿰𠁣𠃛",
+  "formNote": "Mojidata IDS: ⿰𠁣𠃛 (from the database, 2026-11-05). This describes the graph’s parts, not its history; the etymology is not yet researched.",
+  "summary": "A gate marks threshold and invitation. In Buddhist literature, 法門 becomes a gateway into teaching or practice.",
+  "coords": [
+    -2.9394,
+    -2.2791,
+    2.8334
+  ],
+  "placement": "Selected from a numerically integrated arneodo trajectory to distribute stars across its projected shape. This is an artistic placement, not linguistic evidence.",
+  "oc": {
+    "form": "not yet researched",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "Placeholder, NOT an Old Chinese reconstruction. Consult Baxter–Sagart 2014 before entering a form."
+  },
+  "satellites": [
+    {
+      "id": "men-wumenguan",
+      "glyph": "無門關",
+      "title": "A Gate Called Gateless",
+      "lang": "Chinese Buddhist textual usage",
+      "type": "TEXTUAL_CONNECTION",
+      "evidence": "The Chan collection 無門關 makes a paradox of 門 in its title. The work is a distinct textual orbit from 不二法門.",
+      "dimension": "sense",
+      "cites": [
+        {
+          "source": "wumenguan",
+          "locator": "title, T2005"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "reviewed": "2026-11-05"
+    },
+    {
+      "id": "men-zhongmiao",
+      "glyph": "衆妙之門",
+      "title": "The Gate of All Mysteries",
+      "lang": "Classical Chinese",
+      "type": "TEXTUAL_CONNECTION",
+      "evidence": "Daodejing 1 ends: 玄之又玄，衆妙之門 — “dark and darker still: the gate of all mysteries.” The first chapter of the Way closes on a door.",
+      "dimension": "sense",
+      "period": "pre_qin",
+      "cites": [
+        {
+          "source": "daodejing",
+          "locator": "ch. 1"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-05"
+    }
+  ],
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "mén",
+    "yue": "mun4",
+    "ja": "mon, bon",
+    "ko": "문 mun",
+    "vi": "môn",
+    "fanqie": "莫奔切"
+  },
+  "simplified": "门",
+  "structure": {
+    "ids": "⿰𠁣𠃛",
+    "parts": [],
+    "components": [
+      "𠁣",
+      "丨",
+      "𫜹",
+      "一",
+      "𠃛",
+      "𰀄",
+      "匚",
+      "亅"
+    ],
+    "source": "mojidata-ids"
+  }
+}

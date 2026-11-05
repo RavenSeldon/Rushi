@@ -1,0 +1,96 @@
+{
+  "id": "qiu",
+  "key": "1",
+  "glyph": "求",
+  "pinyin": "qiú",
+  "gloss": "to seek · request",
+  "form": "Independent graph 求; deeper history unchecked",
+  "formNote": "Mojidata IDS: ⿺⿻一氺丶 (from the database, 2026-11-05). This describes the graph’s parts, not its history; the etymology is not yet researched.",
+  "summary": "Seeking can be a request, a search, or a discipline. 求道 is a lexical bridge toward the first realm without claiming the same sense in every tradition.",
+  "coords": [
+    -3.2301,
+    2.1465,
+    10.3876
+  ],
+  "placement": "Selected from a numerically integrated arneodo trajectory to distribute stars across its projected shape. This is an artistic placement, not linguistic evidence.",
+  "oc": {
+    "form": "not yet researched",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "Placeholder, NOT an Old Chinese reconstruction. Consult Baxter–Sagart 2014 before entering a form."
+  },
+  "satellites": [
+    {
+      "id": "qiu-qiuji",
+      "glyph": "君子求諸己",
+      "title": "Seek Within",
+      "lang": "Classical Chinese / lexical record",
+      "type": "TEXTUAL_CONNECTION",
+      "evidence": "Analects 15.21 contrasts the exemplary person who seeks from themselves with the petty person who seeks from others. Seeking can turn inward without becoming self-absorption.",
+      "dimension": "sense",
+      "cites": [
+        {
+          "source": "analects",
+          "locator": "15.21"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "reviewed": "2026-11-05"
+    },
+    {
+      "id": "qiu-fangxin",
+      "glyph": "求其放心",
+      "title": "Seeking the Strayed Heart",
+      "lang": "Classical Chinese",
+      "type": "TEXTUAL_CONNECTION",
+      "evidence": "Mencius: 仁，人心也；義，人路也 … 人有雞犬放，則知求之；有放心，而不知求。學問之道無他，求其放心而已矣 — people seek their strayed chickens and dogs but not their strayed heart; “the way of learning is nothing else: to seek the strayed heart.”",
+      "dimension": "sense",
+      "period": "pre_qin",
+      "cites": [
+        {
+          "source": "mencius",
+          "locator": "6A11",
+          "checked": {
+            "on": "2026-11-05",
+            "edition": "https://github.com/chinese-poetry/chinese-poetry (四书五经/mengzi.json; a community digital transcription, not a critical edition)",
+            "note": "告子上 ¶28 in the transcription’s numbering: 仁，人心也；義，人路也…學問之道無他，求其放心而已矣"
+          }
+        }
+      ],
+      "status": "WORKING",
+      "verification": "source",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-05"
+    }
+  ],
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "qiú",
+    "yue": "kau4",
+    "ja": "kyū",
+    "ko": "구 gu",
+    "vi": "cầu",
+    "fanqie": "巨鳩切"
+  },
+  "structure": {
+    "ids": "⿺⿻一氺丶",
+    "parts": [
+      "氺",
+      "冫"
+    ],
+    "components": [
+      "一",
+      "氺",
+      "冫",
+      "丶",
+      "㇀",
+      "𰛅",
+      "亅"
+    ],
+    "source": "mojidata-ids"
+  }
+}

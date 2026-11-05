@@ -103,5 +103,110 @@
       "xiao",
       "zhong"
     ]
+  },
+  {
+    "id": "knowing",
+    "name": "Knowing",
+    "numeral": "VI",
+    "attractor": "sprott",
+    "position": [
+      0,
+      -155,
+      -105
+    ],
+    "anchors": [
+      "yi-intent",
+      "shi-conscious",
+      "nian",
+      "jue",
+      "wu-awaken",
+      "ding",
+      "hui",
+      "si-thought"
+    ]
+  },
+  {
+    "id": "phases",
+    "name": "Five Phases and More",
+    "numeral": "VII",
+    "attractor": "dadras",
+    "position": [
+      195,
+      -105,
+      -225
+    ],
+    "anchors": [
+      "jin",
+      "mu",
+      "shui",
+      "huo",
+      "tu",
+      "feng",
+      "lei",
+      "shan"
+    ]
+  },
+  {
+    "id": "light",
+    "name": "Light",
+    "numeral": "VIII",
+    "attractor": "chen",
+    "position": [
+      -185,
+      -90,
+      -220
+    ],
+    "anchors": [
+      "guang",
+      "ming-bright",
+      "ri",
+      "yue",
+      "xing",
+      "ye",
+      "ying",
+      "zhao"
+    ]
+  },
+  {
+    "id": "seeking",
+    "name": "Seeking",
+    "numeral": "IX",
+    "attractor": "arneodo",
+    "position": [
+      -165,
+      155,
+      -335
+    ],
+    "anchors": [
+      "qiu",
+      "wen",
+      "xun",
+      "xue",
+      "tan",
+      "xing-walk",
+      "lu",
+      "men"
+    ]
+  },
+  {
+    "id": "becoming",
+    "name": "Becoming",
+    "numeral": "X",
+    "attractor": "rabinovich",
+    "position": [
+      155,
+      150,
+      -365
+    ],
+    "anchors": [
+      "sheng-life",
+      "hua",
+      "cheng",
+      "bian",
+      "chang",
+      "shi-begin",
+      "zhong-end",
+      "si-death"
+    ]
   }
 ]

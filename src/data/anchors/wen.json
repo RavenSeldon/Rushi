@@ -1,0 +1,97 @@
+{
+  "id": "wen",
+  "key": "2",
+  "glyph": "問",
+  "pinyin": "wèn",
+  "gloss": "to ask · inquire",
+  "form": "門 + 口 (visible form)",
+  "formNote": "Mojidata IDS: ⿵門口 (from the database, 2026-11-05). This describes the graph’s parts, not its history; the etymology is not yet researched.",
+  "summary": "A question opens a conversation and can test authority. In the Analects, asking is frequently part of learning.",
+  "coords": [
+    3.3398,
+    -1.654,
+    -10.5558
+  ],
+  "placement": "Selected from a numerically integrated arneodo trajectory to distribute stars across its projected shape. This is an artistic placement, not linguistic evidence.",
+  "oc": {
+    "form": "not yet researched",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "Placeholder, NOT an Old Chinese reconstruction. Consult Baxter–Sagart 2014 before entering a form."
+  },
+  "satellites": [
+    {
+      "id": "wen-wenzheng",
+      "glyph": "問政",
+      "title": "To Ask About Governing",
+      "lang": "Classical Chinese / lexical record",
+      "type": "TEXTUAL_CONNECTION",
+      "evidence": "In Analects 13.1, Zilu asks about governing (問政). A question is situated in a conversation rather than a universal recipe.",
+      "dimension": "sense",
+      "cites": [
+        {
+          "source": "analects",
+          "locator": "13.1"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "reviewed": "2026-11-05"
+    },
+    {
+      "id": "wen-xiawen",
+      "glyph": "不恥下問",
+      "title": "Not Ashamed to Ask Below",
+      "lang": "Classical Chinese",
+      "type": "TEXTUAL_CONNECTION",
+      "evidence": "Analects 5.15: Kong Wenzi earned the name 文 because he was 敏而好學，不恥下問 — “quick, fond of learning, and not ashamed to ask those beneath him.”",
+      "dimension": "sense",
+      "period": "pre_qin",
+      "cites": [
+        {
+          "source": "analects",
+          "locator": "5.15",
+          "checked": {
+            "on": "2026-11-05",
+            "edition": "https://github.com/chinese-poetry/chinese-poetry (論語/lunyu.json, simplified characters; a community digital transcription, not a critical edition)",
+            "note": "公冶长 ¶15: 敏而好学，不耻下问，是以谓之文也"
+          }
+        }
+      ],
+      "status": "WORKING",
+      "verification": "source",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-05"
+    }
+  ],
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "wèn",
+    "yue": "man6",
+    "ja": "mon, bun",
+    "ko": "문 mun",
+    "fanqie": "亡運切"
+  },
+  "simplified": "问",
+  "structure": {
+    "ids": "⿵門口",
+    "parts": [
+      "門",
+      "口"
+    ],
+    "components": [
+      "門",
+      "𠁣",
+      "丨",
+      "𫜹",
+      "𠃛",
+      "𰀄",
+      "亅",
+      "口"
+    ],
+    "source": "mojidata-ids"
+  }
+}

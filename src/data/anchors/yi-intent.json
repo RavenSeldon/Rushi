@@ -1,0 +1,111 @@
+{
+  "id": "yi-intent",
+  "key": "1",
+  "glyph": "意",
+  "pinyin": "yì",
+  "gloss": "intention · meaning · mind",
+  "form": "音 + 心 (visible form)",
+  "formNote": "Mojidata IDS: ⿱音心 (from the database, 2026-11-05). This describes the graph’s parts, not its history; the etymology is not yet researched.",
+  "summary": "Intention and meaning, where cognition begins to matter for action. In Buddhist discussions, mental acts are distinguished from bodily and verbal acts.",
+  "coords": [
+    1.0041,
+    -0.0208,
+    0.9605
+  ],
+  "placement": "Selected from a numerically integrated sprott trajectory to distribute stars across its projected shape. This is an artistic placement, not linguistic evidence.",
+  "oc": {
+    "form": "not yet researched",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "Placeholder, NOT an Old Chinese reconstruction. Consult Baxter–Sagart 2014 before entering a form."
+  },
+  "satellites": [
+    {
+      "id": "yi-intent-three-actions",
+      "glyph": "身口意",
+      "title": "The Three Doors of Action",
+      "lang": "Chinese Buddhist textual usage",
+      "type": "TEXTUAL_CONNECTION",
+      "evidence": "Buddhist analyses distinguish action of body, speech and mind. 意 marks the mental domain, not an assertion that every thought is morally equivalent to an action.",
+      "dimension": "sense",
+      "cites": [
+        {
+          "source": "abhidharmakosa",
+          "locator": "ch. 4 分別業品"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "reviewed": "2026-11-05"
+    },
+    {
+      "id": "yi-intent-manas",
+      "glyph": "मनस् · Manas",
+      "title": "Mind, the Sixth Sense-Base",
+      "lang": "Sanskrit → Chinese",
+      "type": "CANONICAL_TRANSLATION",
+      "evidence": "In Buddhist translation 意 renders manas, the mind counted as a sixth faculty beside eye, ear, nose, tongue and body. The Heart Sutra runs the list as 無眼耳鼻舌身意, “no eye, ear, nose, tongue, body, mind”.",
+      "caveat": "Everyday 意 is intention or meaning; the faculty is a technical Buddhist sense of the same graph.",
+      "dimension": "translation",
+      "mechanism": "semantic_extension",
+      "period": "six_dynasties_tang",
+      "cites": [
+        {
+          "source": "xinjing",
+          "locator": "T251 p. 848c10",
+          "checked": {
+            "on": "2026-11-05",
+            "edition": "https://raw.githubusercontent.com/cbeta-org/xml-p5/master/T/T08/T08n0251.xml",
+            "note": "是故空中無色，無受想行識，無眼耳鼻舌身意"
+          }
+        },
+        {
+          "source": "monier-williams",
+          "locator": "manas"
+        }
+      ],
+      "gaps": [
+        "Check manas in Monier-Williams."
+      ],
+      "status": "WORKING",
+      "verification": "partial",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-05"
+    }
+  ],
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "yì",
+    "yue": "ji3",
+    "ja": "i",
+    "ko": "의 ui",
+    "vi": "ý",
+    "fanqie": "於記切"
+  },
+  "structure": {
+    "ids": "⿱音心",
+    "parts": [
+      "音",
+      "立",
+      "日",
+      "心"
+    ],
+    "components": [
+      "音",
+      "立",
+      "亠",
+      "䒑",
+      "日",
+      "囗",
+      "一",
+      "心",
+      "㇒",
+      "乚",
+      "丶"
+    ],
+    "source": "mojidata-ids"
+  }
+}

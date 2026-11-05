@@ -52,6 +52,47 @@ import zhiWisdom from './anchors/zhi-wisdom.json' with { type: 'json' };
 import xinTrust from './anchors/xin-trust.json' with { type: 'json' };
 import xiao from './anchors/xiao.json' with { type: 'json' };
 import zhong from './anchors/zhong.json' with { type: 'json' };
+// Realms VI–X — WORKING, proposed content (not author-accepted)
+import viX_yiIntent from './anchors/yi-intent.json' with { type: 'json' };
+import viX_shiConscious from './anchors/shi-conscious.json' with { type: 'json' };
+import viX_nian from './anchors/nian.json' with { type: 'json' };
+import viX_jue from './anchors/jue.json' with { type: 'json' };
+import viX_wuAwaken from './anchors/wu-awaken.json' with { type: 'json' };
+import viX_ding from './anchors/ding.json' with { type: 'json' };
+import viX_hui from './anchors/hui.json' with { type: 'json' };
+import viX_siThought from './anchors/si-thought.json' with { type: 'json' };
+import viX_jin from './anchors/jin.json' with { type: 'json' };
+import viX_mu from './anchors/mu.json' with { type: 'json' };
+import viX_shui from './anchors/shui.json' with { type: 'json' };
+import viX_huo from './anchors/huo.json' with { type: 'json' };
+import viX_tu from './anchors/tu.json' with { type: 'json' };
+import viX_feng from './anchors/feng.json' with { type: 'json' };
+import viX_lei from './anchors/lei.json' with { type: 'json' };
+import viX_shan from './anchors/shan.json' with { type: 'json' };
+import viX_guang from './anchors/guang.json' with { type: 'json' };
+import viX_mingBright from './anchors/ming-bright.json' with { type: 'json' };
+import viX_ri from './anchors/ri.json' with { type: 'json' };
+import viX_yue from './anchors/yue.json' with { type: 'json' };
+import viX_xing from './anchors/xing.json' with { type: 'json' };
+import viX_ye from './anchors/ye.json' with { type: 'json' };
+import viX_ying from './anchors/ying.json' with { type: 'json' };
+import viX_zhao from './anchors/zhao.json' with { type: 'json' };
+import viX_qiu from './anchors/qiu.json' with { type: 'json' };
+import viX_wen from './anchors/wen.json' with { type: 'json' };
+import viX_xun from './anchors/xun.json' with { type: 'json' };
+import viX_xue from './anchors/xue.json' with { type: 'json' };
+import viX_tan from './anchors/tan.json' with { type: 'json' };
+import viX_xingWalk from './anchors/xing-walk.json' with { type: 'json' };
+import viX_lu from './anchors/lu.json' with { type: 'json' };
+import viX_men from './anchors/men.json' with { type: 'json' };
+import viX_shengLife from './anchors/sheng-life.json' with { type: 'json' };
+import viX_hua from './anchors/hua.json' with { type: 'json' };
+import viX_cheng from './anchors/cheng.json' with { type: 'json' };
+import viX_bian from './anchors/bian.json' with { type: 'json' };
+import viX_chang from './anchors/chang.json' with { type: 'json' };
+import viX_shiBegin from './anchors/shi-begin.json' with { type: 'json' };
+import viX_zhongEnd from './anchors/zhong-end.json' with { type: 'json' };
+import viX_siDeath from './anchors/si-death.json' with { type: 'json' };
 import { webUrl } from '../lib/citations.js';
 import { EDGE_TYPES } from './edgeTypes.js';
 import { ATTRACTOR_IDS, DIMENSIONS, MECHANISMS, PERIODS, STATUSES, VERIFICATION } from './vocab.js';
@@ -63,6 +104,47 @@ const ANCHOR_FILES = {
   you, kong, xin, fa, yi, ci, bei, ming,
   ru, 'shi-real': shiReal, zhen, yan, 'zhou-spell': zhouSpell, 'sheng-sound': shengSound, fu, 'yin-seal': yinSeal,
   tian, di, 'ren-person': renPerson, 'yin-shade': yinShade, yang, qi, 'yi-change': yiChange, 'shi-time': shiTime, de, 'ren-humane': renHumane, 'yi-right': yiRight, 'li-rite': liRite, 'zhi-wisdom': zhiWisdom, 'xin-trust': xinTrust, xiao, zhong,
+  // Realms VI–X; no existing mapping replaced.
+  'yi-intent': viX_yiIntent,
+  'shi-conscious': viX_shiConscious,
+  'nian': viX_nian,
+  'jue': viX_jue,
+  'wu-awaken': viX_wuAwaken,
+  'ding': viX_ding,
+  'hui': viX_hui,
+  'si-thought': viX_siThought,
+  'jin': viX_jin,
+  'mu': viX_mu,
+  'shui': viX_shui,
+  'huo': viX_huo,
+  'tu': viX_tu,
+  'feng': viX_feng,
+  'lei': viX_lei,
+  'shan': viX_shan,
+  'guang': viX_guang,
+  'ming-bright': viX_mingBright,
+  'ri': viX_ri,
+  'yue': viX_yue,
+  'xing': viX_xing,
+  'ye': viX_ye,
+  'ying': viX_ying,
+  'zhao': viX_zhao,
+  'qiu': viX_qiu,
+  'wen': viX_wen,
+  'xun': viX_xun,
+  'xue': viX_xue,
+  'tan': viX_tan,
+  'xing-walk': viX_xingWalk,
+  'lu': viX_lu,
+  'men': viX_men,
+  'sheng-life': viX_shengLife,
+  'hua': viX_hua,
+  'cheng': viX_cheng,
+  'bian': viX_bian,
+  'chang': viX_chang,
+  'shi-begin': viX_shiBegin,
+  'zhong-end': viX_zhongEnd,
+  'si-death': viX_siDeath,
 };
 
 export const REALMS = realms;

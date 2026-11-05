@@ -143,6 +143,32 @@ export const ATTRACTORS = {
     half: { x: 27, y: 29 },
     look: [0, 0.5, 0],
   },
+  // Realm IX — Arneodo–Coullet–Tresser chaotic system.
+  // β=(−5.5, 3.5, 1, −1), x'=y, y'=z, z'=5.5x−3.5y−z−x³.
+  // Initial state / scale numerically sampled 2026-11-05; source not yet primary-verified.
+  arneodo: {
+    name: 'Arneodo',
+    citation: 'Arneodo, Coullet & Tresser (1980), Phys. Lett. A 79, 259–263; equation also documented by Brown University chaos tutorial',
+    params: { a: -5.5, b: 3.5, c: 1 },
+    deriv: (x, y, z) => [y, z, 5.5 * x - 3.5 * y - z - x * x * x],
+    dt: 0.01, transient: 5000, start: [0.2, 0.2, -0.75],
+    map: { cx: 0, cy: 0, cz: 0, s: 2 },
+    half: { x: 23, y: 28 }, look: [0, 0.5, 0],
+  },
+  // Realm X — Rabinovich–Fabrikant (1979): nonlinear-wave instabilities.
+  // α=0.14, γ=0.1 as used in Scientific Reports (2023), equation (23).
+  // The basis exposes the two horizontal wings without altering the integrator.
+  rabinovich: {
+    name: 'Rabinovich–Fabrikant',
+    citation: 'Rabinovich & Fabrikant (1979), Sov. Phys. JETP 50, 311–317; equations/parameters: Scientific Reports 13 (2023), doi:10.1038/s41598-023-39886-w',
+    params: { alpha: 0.14, gamma: 0.1 },
+    deriv: (x, y, z) => [y * (z - 1 + x * x) + 0.1 * x,
+      x * (3 * z + 1 - x * x) + 0.1 * y, -2 * z * (0.14 + x * y)],
+    dt: 0.01, transient: 5000, start: [-0.4, 0.1, 0.7],
+    map: { cx: 0, cy: 0, cz: 0.8, s: 9, basis: [[0, 1, 0], [1, 0, 0], [0, 0, 1]] },
+    half: { x: 29, y: 28 }, look: [0, 0.5, 0],
+  },
+
 };
 
 /**

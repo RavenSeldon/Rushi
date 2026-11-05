@@ -1,0 +1,72 @@
+{
+  "id": "shi-begin",
+  "key": "6",
+  "glyph": "始",
+  "pinyin": "shǐ",
+  "gloss": "beginning · start",
+  "form": "女 + 台 (visible form)",
+  "formNote": "Mojidata IDS: ⿰女台 (from the database, 2026-11-05). This describes the graph’s parts, not its history; the etymology is not yet researched.",
+  "summary": "The beginning is a philosophical problem as well as a point in time. 道德經 calls the nameless the beginning of heaven and earth.",
+  "coords": [
+    -0.9889,
+    2.3637,
+    0.0808
+  ],
+  "placement": "Selected from a numerically integrated rabinovich trajectory to distribute stars across its projected shape. This is an artistic placement, not linguistic evidence.",
+  "oc": {
+    "form": "not yet researched",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "Placeholder, NOT an Old Chinese reconstruction. Consult Baxter–Sagart 2014 before entering a form."
+  },
+  "satellites": [
+    {
+      "id": "shi-begin-beginning",
+      "glyph": "無名天地之始",
+      "title": "The Nameless Beginning",
+      "lang": "Classical Chinese / lexical record",
+      "type": "TEXTUAL_CONNECTION",
+      "evidence": "Daodejing 1 says 無名天地之始. The sentence stages a philosophical relation between namelessness and beginning, not a dated cosmological observation.",
+      "dimension": "cosmos",
+      "cites": [
+        {
+          "source": "daodejing",
+          "locator": "ch. 1, 無名天地之始"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "reviewed": "2026-11-05"
+    }
+  ],
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "shǐ",
+    "yue": "ci2",
+    "ja": "shi",
+    "ko": "시 si",
+    "vi": "thuỷ",
+    "fanqie": "詩止切"
+  },
+  "structure": {
+    "ids": "⿰女台",
+    "parts": [
+      "女",
+      "台",
+      "厶",
+      "口"
+    ],
+    "components": [
+      "女",
+      "台",
+      "厶",
+      "𠃋",
+      "丶",
+      "口"
+    ],
+    "source": "mojidata-ids"
+  }
+}

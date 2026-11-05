@@ -1,0 +1,68 @@
+{
+  "id": "ri",
+  "key": "3",
+  "glyph": "日",
+  "pinyin": "rì",
+  "gloss": "sun · day",
+  "form": "IDS ⿴囗一",
+  "formNote": "Mojidata IDS: ⿴囗一 (from the database, 2026-11-05). This describes the graph’s parts, not its history; the etymology is not yet researched.",
+  "summary": "Sun, daylight and a unit of time. Its course can order a human calendar without making time itself a celestial object.",
+  "coords": [
+    22.28,
+    13.9796,
+    44.3096
+  ],
+  "placement": "Selected from a numerically integrated chen trajectory to distribute stars across its projected shape. This is an artistic placement, not linguistic evidence.",
+  "oc": {
+    "form": "not yet researched",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "Placeholder, NOT an Old Chinese reconstruction. Consult Baxter–Sagart 2014 before entering a form."
+  },
+  "satellites": [
+    {
+      "id": "ri-shuowen",
+      "glyph": "日，實也",
+      "title": "The Sun Is the Full",
+      "lang": "Han lexicography",
+      "type": "ETYMOLOGICAL_SINITIC",
+      "evidence": "The Shuowen defines by sound: 日，實也。太陽之精不虧 — “日 is 實, the full: the essence of great yang, which never wanes.” Its partner is 月，闕也, “月 is 闕, the wanting.” Sun and moon are glossed by words that sound like them and name their difference.",
+      "caveat": "A sound gloss (聲訓) is Han hermeneutics, not historical etymology.",
+      "dimension": "sound",
+      "period": "han",
+      "cites": [
+        {
+          "source": "shuowen",
+          "locator": "日部 日"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-05"
+    }
+  ],
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "rì",
+    "yue": "jat6",
+    "ja": "nichi, jitsu",
+    "ko": "일 il",
+    "vi": "nhật",
+    "fanqie": "人質切"
+  },
+  "structure": {
+    "ids": "⿴囗一",
+    "parts": [
+      "囗"
+    ],
+    "components": [
+      "囗",
+      "一"
+    ],
+    "source": "mojidata-ids"
+  }
+}

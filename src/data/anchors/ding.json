@@ -1,0 +1,126 @@
+{
+  "id": "ding",
+  "key": "6",
+  "glyph": "定",
+  "pinyin": "dìng",
+  "gloss": "settled · concentration · fixed",
+  "form": "宀 + 疋 (visible components)",
+  "formNote": "Mojidata IDS: ⿱宀𤴓 (from the database, 2026-11-05). This describes the graph’s parts, not its history; the etymology is not yet researched.",
+  "summary": "To settle or fix; in Buddhist vocabularies, concentration and meditative stability. Stability of mind and certainty of belief are not synonyms.",
+  "coords": [
+    1.5713,
+    0.3835,
+    -0.5802
+  ],
+  "placement": "Selected from a numerically integrated sprott trajectory to distribute stars across its projected shape. This is an artistic placement, not linguistic evidence.",
+  "oc": {
+    "form": "not yet researched",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "Placeholder, NOT an Old Chinese reconstruction. Consult Baxter–Sagart 2014 before entering a form."
+  },
+  "satellites": [
+    {
+      "id": "ding-faculty",
+      "glyph": "定根",
+      "title": "The Faculty of Concentration",
+      "lang": "Chinese Buddhist textual usage",
+      "type": "TEXTUAL_CONNECTION",
+      "evidence": "定根 appears alongside faith, effort, mindfulness and wisdom in the five faculties listed by the Abhidharmakośa.",
+      "dimension": "practice",
+      "cites": [
+        {
+          "source": "abhidharmakosa",
+          "locator": "ch. 2 分別根品, T1558 p. 13a22–23"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "reviewed": "2026-11-05"
+    },
+    {
+      "id": "ding-samadhi",
+      "glyph": "समाधि · samādhi",
+      "title": "Collectedness and Concentration",
+      "lang": "Sanskrit → Chinese (Buddhist lexicon)",
+      "type": "CANONICAL_TRANSLATION",
+      "evidence": "定 is a Chinese rendering associated with samādhi, meditative concentration. The lexical correspondence needs checking in a bilingual edition before acceptance.",
+      "caveat": "A proposed equivalence awaiting verification in an aligned Sanskrit–Chinese source; citation assignment is not verification.",
+      "dimension": "translation",
+      "mechanism": "semantic_extension",
+      "cites": [
+        {
+          "source": "abhidharmakosa",
+          "locator": "ch. 2, 定根"
+        },
+        {
+          "source": "monier-williams",
+          "locator": "samādhi"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "gaps": [
+        "Check the historical source translation as well as both dictionary senses."
+      ],
+      "reviewed": "2026-11-05"
+    },
+    {
+      "id": "ding-sanxue",
+      "glyph": "戒 · 定 · 慧",
+      "title": "The Three Trainings",
+      "lang": "Chinese Buddhist textual usage",
+      "type": "TEXTUAL_CONNECTION",
+      "evidence": "The Śūraṅgama Sūtra: 攝心為戒，因戒生定，因定發慧，是則名為三無漏學 — “gathering the mind is discipline; from discipline arises concentration; from concentration, wisdom: these are called the three untainted trainings.”",
+      "caveat": "Many scholars hold the Śūraṅgama to be a Chinese composition of the early eighth century; the triad śīla, samādhi, prajñā is far older.",
+      "dimension": "practice",
+      "period": "six_dynasties_tang",
+      "cites": [
+        {
+          "source": "shurangama",
+          "locator": "T945 p. 131c14",
+          "checked": {
+            "on": "2026-11-05",
+            "edition": "https://raw.githubusercontent.com/cbeta-org/xml-p5/master/T/T19/T19n0945.xml",
+            "note": "攝心為戒因戒生定因定發慧是則名為三無漏學"
+          }
+        }
+      ],
+      "status": "WORKING",
+      "verification": "source",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-05"
+    }
+  ],
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "dìng",
+    "yue": "ding6",
+    "ja": "tei, jō",
+    "ko": "정 jeong",
+    "vi": "định",
+    "fanqie": "徒徑切, 丁定切"
+  },
+  "structure": {
+    "ids": "⿱宀𤴓",
+    "parts": [
+      "宀",
+      "冖",
+      "龰"
+    ],
+    "components": [
+      "宀",
+      "丶",
+      "冖",
+      "𤴓",
+      "一",
+      "龰",
+      "人",
+      "⺊"
+    ],
+    "source": "mojidata-ids"
+  }
+}

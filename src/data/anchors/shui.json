@@ -1,0 +1,119 @@
+{
+  "id": "shui",
+  "key": "3",
+  "glyph": "水",
+  "pinyin": "shuǐ",
+  "gloss": "water",
+  "form": "IDS ⿰㇇𰛅",
+  "formNote": "Mojidata IDS: ⿰㇇𰛅 (from the database, 2026-11-05). This describes the graph’s parts, not its history; the etymology is not yet researched.",
+  "summary": "Water is a physical substance and a word of change. As a phase it participates in a traditional classification.",
+  "coords": [
+    17.9302,
+    2.1482,
+    -11.4713
+  ],
+  "placement": "Selected from a numerically integrated dadras trajectory to distribute stars across its projected shape. This is an artistic placement, not linguistic evidence.",
+  "oc": {
+    "form": "not yet researched",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "Placeholder, NOT an Old Chinese reconstruction. Consult Baxter–Sagart 2014 before entering a form."
+  },
+  "satellites": [
+    {
+      "id": "shui-wuxing",
+      "glyph": "五行 · 水",
+      "title": "Water as a Phase",
+      "lang": "Classical Chinese / lexical record",
+      "type": "TRADITIONAL_CORRESPONDENCE",
+      "evidence": "洪範 names 水 first among five phases. The ordering reports a traditional correspondence, not a claim about what water is made of.",
+      "dimension": "symbol",
+      "cites": [
+        {
+          "source": "shangshu",
+          "locator": "洪範, 五行"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "reviewed": "2026-11-05",
+      "caveat": "A correspondence internal to a historical system; not a statement about natural science."
+    },
+    {
+      "id": "shui-shangshan",
+      "glyph": "上善若水",
+      "title": "The Highest Good Is Like Water",
+      "lang": "Classical Chinese",
+      "type": "TEXTUAL_CONNECTION",
+      "evidence": "Daodejing 8: 上善若水。水善利萬物而不爭 — “the highest good is like water: water benefits the ten thousand things and does not contend.” The chapter goes on that water is therefore 幾於道, close to the Way.",
+      "dimension": "sense",
+      "period": "pre_qin",
+      "cites": [
+        {
+          "source": "daodejing",
+          "locator": "ch. 8"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-05"
+    },
+    {
+      "id": "shui-ap",
+      "glyph": "आपः · Āpaḥ",
+      "title": "Water, a Great Element",
+      "lang": "Sanskrit → Chinese",
+      "type": "CANONICAL_TRANSLATION",
+      "evidence": "The Abhidharmakośa counts four great elements, 地水火風, and defines them by hardness, wetness, warmth and motion: 堅濕煖動. 水 renders āpaḥ, water, as the element of wetness.",
+      "caveat": "Four elements here, not five phases: the Buddhist list has no Metal or Wood.",
+      "dimension": "translation",
+      "mechanism": "semantic_extension",
+      "period": "six_dynasties_tang",
+      "cites": [
+        {
+          "source": "abhidharmakosa",
+          "locator": "ch. 1, p. 3a28–b01",
+          "checked": {
+            "on": "2026-11-05",
+            "edition": "https://raw.githubusercontent.com/cbeta-org/xml-p5/master/T/T29/T29n1558.xml",
+            "note": "大種謂四界，即地水火風，能成持等業，堅濕煖動性"
+          }
+        },
+        {
+          "source": "monier-williams",
+          "locator": "ap"
+        }
+      ],
+      "gaps": [
+        "Check ap in Monier-Williams."
+      ],
+      "status": "WORKING",
+      "verification": "partial",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-05"
+    }
+  ],
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "shuǐ",
+    "yue": "seoi2",
+    "ja": "sui",
+    "ko": "수 su",
+    "vi": "thuỷ",
+    "fanqie": "式軌切"
+  },
+  "structure": {
+    "ids": "⿰㇇𰛅",
+    "parts": [],
+    "components": [
+      "㇇",
+      "𰛅",
+      "亅"
+    ],
+    "source": "mojidata-ids"
+  }
+}

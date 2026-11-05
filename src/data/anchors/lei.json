@@ -1,0 +1,95 @@
+{
+  "id": "lei",
+  "key": "7",
+  "glyph": "雷",
+  "pinyin": "léi",
+  "gloss": "thunder",
+  "form": "雨 + 田 (visible form)",
+  "formNote": "Mojidata IDS: ⿱雨田 (from the database, 2026-11-05). This describes the graph’s parts, not its history; the etymology is not yet researched.",
+  "summary": "Thunder is sound and force; in the trigram imagery, 震 is thunder.",
+  "coords": [
+    7.4505,
+    -0.8021,
+    2.6612
+  ],
+  "placement": "Selected from a numerically integrated dadras trajectory to distribute stars across its projected shape. This is an artistic placement, not linguistic evidence.",
+  "oc": {
+    "form": "not yet researched",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "Placeholder, NOT an Old Chinese reconstruction. Consult Baxter–Sagart 2014 before entering a form."
+  },
+  "satellites": [
+    {
+      "id": "lei-zhen",
+      "glyph": "震為雷",
+      "title": "Thunder in the Trigrams",
+      "lang": "Classical Chinese / lexical record",
+      "type": "TRADITIONAL_CORRESPONDENCE",
+      "evidence": "The 說卦 commentary associates 震 with thunder. The association is a feature of the symbolic system.",
+      "dimension": "symbol",
+      "cites": [
+        {
+          "source": "yijing",
+          "locator": "說卦傳, 震"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "reviewed": "2026-11-05",
+      "caveat": "A correspondence internal to a historical system; not a statement about natural science."
+    },
+    {
+      "id": "lei-shuogua",
+      "glyph": "雷以動之",
+      "title": "Thunder Sets Things Moving",
+      "lang": "Classical Chinese",
+      "type": "TRADITIONAL_CORRESPONDENCE",
+      "evidence": "The Shuogua gives each trigram its work: 雷以動之，風以散之，雨以潤之，日以烜之，艮以止之 — thunder moves things, wind scatters them, rain moistens, the sun dries, Gen stops them.",
+      "dimension": "symbol",
+      "period": "han",
+      "cites": [
+        {
+          "source": "yijing",
+          "locator": "說卦, §4"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-05"
+    }
+  ],
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "léi",
+    "yue": "leoi4",
+    "ja": "rai, rui",
+    "ko": "뇌 noe, 뢰 roe",
+    "vi": "lôi",
+    "fanqie": "魯回切"
+  },
+  "structure": {
+    "ids": "⿱雨田",
+    "parts": [
+      "雨",
+      "田",
+      "囗",
+      "十"
+    ],
+    "components": [
+      "雨",
+      "一",
+      "𠕒",
+      "冂",
+      "丨",
+      "田",
+      "囗",
+      "十"
+    ],
+    "source": "mojidata-ids"
+  }
+}

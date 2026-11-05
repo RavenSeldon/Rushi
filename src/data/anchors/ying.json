@@ -1,0 +1,100 @@
+{
+  "id": "ying",
+  "key": "7",
+  "glyph": "影",
+  "pinyin": "yǐng",
+  "gloss": "shadow · image",
+  "form": "景 + 彡 (visible components)",
+  "formNote": "Mojidata IDS: ⿰景彡 (from the database, 2026-11-05). This describes the graph’s parts, not its history; the etymology is not yet researched.",
+  "summary": "A shadow can be a shape, an image, or the trace of something else. The Zhuangzi lets a shadow answer a question.",
+  "coords": [
+    -3.1729,
+    -4.8958,
+    18.2454
+  ],
+  "placement": "Selected from a numerically integrated chen trajectory to distribute stars across its projected shape. This is an artistic placement, not linguistic evidence.",
+  "oc": {
+    "form": "not yet researched",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "Placeholder, NOT an Old Chinese reconstruction. Consult Baxter–Sagart 2014 before entering a form."
+  },
+  "satellites": [
+    {
+      "id": "ying-shadow",
+      "glyph": "罔兩問景",
+      "title": "The Shadow is Questioned",
+      "lang": "Classical Chinese / lexical record",
+      "type": "TEXTUAL_CONNECTION",
+      "evidence": "In the 齊物論, the penumbra questions the shadow (景). The textual scene asks what determines movement; it should not be mistaken for an optical theory.",
+      "dimension": "sense",
+      "cites": [
+        {
+          "source": "zhuangzi",
+          "locator": "ch. 2 齊物論, 罔兩問景"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "reviewed": "2026-11-05"
+    },
+    {
+      "id": "ying-jing-buxi",
+      "glyph": "景不徙",
+      "title": "The Shadow Does Not Move",
+      "lang": "Classical Chinese (Mohist optics)",
+      "type": "TEXTUAL_CONNECTION",
+      "evidence": "影 was written 景 in early texts; the 彡 was added later. The Mohist Canon uses 景 for shadow in its optics: 景不徙，說在改為 — “the shadow does not move; the explanation lies in its being remade”, moment by moment.",
+      "caveat": "The relation 景 → 影 is the traditional account; check historical forms. The translation follows the usual reading, Baracus’s from general knowledge.",
+      "dimension": "form",
+      "period": "pre_qin",
+      "cites": [
+        {
+          "source": "mozi",
+          "locator": "經下 (Canon B)"
+        },
+        {
+          "source": "shuowen",
+          "locator": "景"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-05"
+    }
+  ],
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "yǐng",
+    "yue": "jing2",
+    "ja": "ei, yō",
+    "ko": "영 yeong",
+    "vi": "ảnh",
+    "fanqie": "於丙切"
+  },
+  "structure": {
+    "ids": "⿰景彡",
+    "parts": [
+      "景",
+      "日",
+      "京",
+      "彡"
+    ],
+    "components": [
+      "景",
+      "日",
+      "囗",
+      "一",
+      "京",
+      "亠",
+      "𱒃",
+      "彡",
+      "㇒"
+    ],
+    "source": "mojidata-ids"
+  }
+}

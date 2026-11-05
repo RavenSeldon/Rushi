@@ -1,0 +1,89 @@
+{
+  "id": "mu",
+  "key": "2",
+  "glyph": "木",
+  "pinyin": "mù",
+  "gloss": "tree · wood",
+  "form": "IDS ⿻十𠆢",
+  "formNote": "Mojidata IDS: ⿻十𠆢 (from the database, 2026-11-05). This describes the graph’s parts, not its history; the etymology is not yet researched.",
+  "summary": "Tree, timber, and one of five phases: the ordinary material and its symbolic life must remain distinguishable.",
+  "coords": [
+    -10.3303,
+    -5.4345,
+    7.1124
+  ],
+  "placement": "Selected from a numerically integrated dadras trajectory to distribute stars across its projected shape. This is an artistic placement, not linguistic evidence.",
+  "oc": {
+    "form": "not yet researched",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "Placeholder, NOT an Old Chinese reconstruction. Consult Baxter–Sagart 2014 before entering a form."
+  },
+  "satellites": [
+    {
+      "id": "mu-wuxing",
+      "glyph": "五行 · 木",
+      "title": "Wood as a Phase",
+      "lang": "Classical Chinese / lexical record",
+      "type": "TRADITIONAL_CORRESPONDENCE",
+      "evidence": "In 洪範, 木 is third in the sequence of five phases; it belongs to a traditional ordering, not a scientific periodic table.",
+      "dimension": "symbol",
+      "cites": [
+        {
+          "source": "shangshu",
+          "locator": "洪範, 五行"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "reviewed": "2026-11-05",
+      "caveat": "A correspondence internal to a historical system; not a statement about natural science."
+    },
+    {
+      "id": "mu-yueling",
+      "glyph": "盛德在木",
+      "title": "Spring’s Virtue Is in Wood",
+      "lang": "Classical Chinese",
+      "type": "TRADITIONAL_CORRESPONDENCE",
+      "evidence": "The Yueling chapter of the Liji files each season under a phase. At the start of spring the announcement is 盛德在木, “the abundant virtue is in Wood”, and the same month takes the sour taste, scaled creatures and the note jue.",
+      "caveat": "A correspondence within a calendrical system; Baracus’s, from general knowledge.",
+      "dimension": "symbol",
+      "period": "pre_qin",
+      "cites": [
+        {
+          "source": "liji",
+          "locator": "月令, 孟春"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-05"
+    }
+  ],
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "mù",
+    "yue": "muk6",
+    "ja": "boku, moku",
+    "ko": "목 mok",
+    "vi": "mộc",
+    "fanqie": "莫卜切"
+  },
+  "structure": {
+    "ids": "⿻十𠆢",
+    "parts": [
+      "十"
+    ],
+    "components": [
+      "十",
+      "一",
+      "丨",
+      "𠆢"
+    ],
+    "source": "mojidata-ids"
+  }
+}

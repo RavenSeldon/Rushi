@@ -1,0 +1,98 @@
+{
+  "id": "tan",
+  "key": "5",
+  "glyph": "探",
+  "pinyin": "tàn",
+  "gloss": "to explore · probe",
+  "form": "扌 + 罙 (visible form)",
+  "formNote": "Mojidata IDS: ⿰扌罙 (from the database, 2026-11-05). This describes the graph’s parts, not its history; the etymology is not yet researched.",
+  "summary": "To probe hidden things, whether literally reaching or intellectually investigating.",
+  "coords": [
+    -0.106,
+    -2.0114,
+    5.1781
+  ],
+  "placement": "Selected from a numerically integrated arneodo trajectory to distribute stars across its projected shape. This is an artistic placement, not linguistic evidence.",
+  "oc": {
+    "form": "not yet researched",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "Placeholder, NOT an Old Chinese reconstruction. Consult Baxter–Sagart 2014 before entering a form."
+  },
+  "satellites": [
+    {
+      "id": "tan-suo",
+      "glyph": "探賾索隱",
+      "title": "Seeking What is Hidden",
+      "lang": "Classical Chinese / lexical record",
+      "type": "TEXTUAL_CONNECTION",
+      "evidence": "The 繫辭 of the Yijing says 探賾索隱. The textual pairing is a strong reason to bring 探 into Seeking.",
+      "dimension": "sense",
+      "cites": [
+        {
+          "source": "yijing",
+          "locator": "繫辭上, 探賾索隱"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "reviewed": "2026-11-05"
+    },
+    {
+      "id": "tan-lizhu",
+      "glyph": "驪龍頷下",
+      "title": "The Pearl Beneath the Black Dragon’s Chin",
+      "lang": "Classical Chinese",
+      "type": "TEXTUAL_CONNECTION",
+      "evidence": "Zhuangzi 32 (Lie Yukou): 千金之珠，必在九重之淵而驪龍頷下 — a pearl worth a thousand gold lies in the ninefold deep under the chin of the black dragon. The idiom 探驪得珠, reaching under the dragon for the pearl, comes from this story.",
+      "caveat": "In the story the pearl was taken while the dragon slept, and the tale is a warning; the idiom’s praise of a successful search is later.",
+      "dimension": "sense",
+      "period": "pre_qin",
+      "cites": [
+        {
+          "source": "zhuangzi",
+          "locator": "ch. 32 列御寇"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-05"
+    }
+  ],
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "tàn",
+    "yue": "taam3",
+    "ja": "tan",
+    "ko": "탐 tam",
+    "vi": "thám",
+    "fanqie": "他含切, 他紺切"
+  },
+  "structure": {
+    "ids": "⿰扌罙",
+    "parts": [
+      "扌",
+      "罙",
+      "木"
+    ],
+    "components": [
+      "扌",
+      "𬺰",
+      "一",
+      "亅",
+      "㇀",
+      "罙",
+      "㓁",
+      "冖",
+      "儿",
+      "木",
+      "十",
+      "𠆢"
+    ],
+    "source": "mojidata-ids"
+  }
+}

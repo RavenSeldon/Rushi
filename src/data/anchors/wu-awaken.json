@@ -1,0 +1,100 @@
+{
+  "id": "wu-awaken",
+  "key": "5",
+  "glyph": "悟",
+  "pinyin": "wù",
+  "gloss": "to understand · realize · awaken",
+  "form": "忄 + 吾 (visible form)",
+  "formNote": "Mojidata IDS: ⿰忄吾 (from the database, 2026-11-05). This describes the graph’s parts, not its history; the etymology is not yet researched.",
+  "summary": "A moment of understanding, sometimes sudden, sometimes cultivated. The character names an insight, not a certificate of its truth.",
+  "coords": [
+    1.6291,
+    -0.345,
+    0.3564
+  ],
+  "placement": "Selected from a numerically integrated sprott trajectory to distribute stars across its projected shape. This is an artistic placement, not linguistic evidence.",
+  "oc": {
+    "form": "not yet researched",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "Placeholder, NOT an Old Chinese reconstruction. Consult Baxter–Sagart 2014 before entering a form."
+  },
+  "satellites": [
+    {
+      "id": "wu-awaken-dawu",
+      "glyph": "恍然大悟",
+      "title": "Sudden Realization in Ordinary Speech",
+      "lang": "Classical Chinese / lexical record",
+      "type": "SEMANTIC_CONTRAST",
+      "evidence": "The idiom 恍然大悟 names a sudden realization in ordinary language. It need not imply religious awakening or verified knowledge.",
+      "dimension": "sense",
+      "cites": [
+        {
+          "source": "moe-dict",
+          "locator": "恍然大悟"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "reviewed": "2026-11-05"
+    },
+    {
+      "id": "wu-awaken-dunwu",
+      "glyph": "頓悟頓修",
+      "title": "Sudden Awakening, Sudden Practice",
+      "lang": "Chinese Chan",
+      "type": "TEXTUAL_CONNECTION",
+      "evidence": "The Platform Sutra makes 頓悟 its watchword: 自性自悟，頓悟頓修，亦無漸次 — “one’s own nature awakens itself; awakening is sudden, practice is sudden, and there are no gradual stages.”",
+      "caveat": "This is the Yuan edition in the Taishō; the Dunhuang manuscript is shorter. The sudden–gradual opposition is partly the polemic of the later Southern school.",
+      "dimension": "practice",
+      "period": "song_yuan",
+      "cites": [
+        {
+          "source": "platform-sutra",
+          "locator": "T2008 p. 358c28",
+          "checked": {
+            "on": "2026-11-05",
+            "edition": "https://raw.githubusercontent.com/cbeta-org/xml-p5/master/T/T48/T48n2008.xml",
+            "note": "自性自悟，頓悟頓修，亦無漸次"
+          }
+        }
+      ],
+      "gaps": [
+        "Compare the Dunhuang text (T2007)."
+      ],
+      "status": "WORKING",
+      "verification": "source",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-05"
+    }
+  ],
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "wù",
+    "yue": "ng6",
+    "ja": "go",
+    "ko": "오 o",
+    "fanqie": "五故切"
+  },
+  "structure": {
+    "ids": "⿰忄吾",
+    "parts": [
+      "忄",
+      "吾",
+      "五",
+      "口"
+    ],
+    "components": [
+      "忄",
+      "吾",
+      "五",
+      "一",
+      "𫝀",
+      "口"
+    ],
+    "source": "mojidata-ids"
+  }
+}

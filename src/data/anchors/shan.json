@@ -1,0 +1,66 @@
+{
+  "id": "shan",
+  "key": "8",
+  "glyph": "山",
+  "pinyin": "shān",
+  "gloss": "mountain",
+  "form": "IDS ⿶凵丨",
+  "formNote": "Mojidata IDS: ⿶凵丨 (from the database, 2026-11-05). This describes the graph’s parts, not its history; the etymology is not yet researched.",
+  "summary": "Mountain as landscape and as the stillness of 艮 in the classical trigram images.",
+  "coords": [
+    -4.4702,
+    -6.0184,
+    2.9039
+  ],
+  "placement": "Selected from a numerically integrated dadras trajectory to distribute stars across its projected shape. This is an artistic placement, not linguistic evidence.",
+  "oc": {
+    "form": "not yet researched",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "Placeholder, NOT an Old Chinese reconstruction. Consult Baxter–Sagart 2014 before entering a form."
+  },
+  "satellites": [
+    {
+      "id": "shan-gen",
+      "glyph": "艮為山",
+      "title": "Mountain in the Trigrams",
+      "lang": "Classical Chinese / lexical record",
+      "type": "TRADITIONAL_CORRESPONDENCE",
+      "evidence": "The 說卦 commentary associates 艮 with mountain. Its meaning is traditional and contextual, not an etymology of 山.",
+      "dimension": "symbol",
+      "cites": [
+        {
+          "source": "yijing",
+          "locator": "說卦傳, 艮"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "reviewed": "2026-11-05",
+      "caveat": "A correspondence internal to a historical system; not a statement about natural science."
+    }
+  ],
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "shān",
+    "yue": "saan1",
+    "ja": "san, sen",
+    "ko": "산 san",
+    "vi": "sơn",
+    "fanqie": "所閒切"
+  },
+  "structure": {
+    "ids": "⿶凵丨",
+    "parts": [
+      "凵"
+    ],
+    "components": [
+      "凵",
+      "丨"
+    ],
+    "source": "mojidata-ids"
+  }
+}

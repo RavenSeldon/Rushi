@@ -1,0 +1,79 @@
+{
+  "id": "xue",
+  "key": "4",
+  "glyph": "學",
+  "pinyin": "xué",
+  "gloss": "to learn · study",
+  "form": "Complex upper component + 子 (visible form)",
+  "formNote": "Mojidata IDS: ⿱𦥯子 (from the database, 2026-11-05). This describes the graph’s parts, not its history; the etymology is not yet researched.",
+  "summary": "Learning in classical sources is practice, repetition and correction, not merely collecting information.",
+  "coords": [
+    3.1415,
+    1.158,
+    -4.2839
+  ],
+  "placement": "Selected from a numerically integrated arneodo trajectory to distribute stars across its projected shape. This is an artistic placement, not linguistic evidence.",
+  "oc": {
+    "form": "not yet researched",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "Placeholder, NOT an Old Chinese reconstruction. Consult Baxter–Sagart 2014 before entering a form."
+  },
+  "satellites": [
+    {
+      "id": "xue-xuexi",
+      "glyph": "學而時習之",
+      "title": "Learning and Practice",
+      "lang": "Classical Chinese / lexical record",
+      "type": "TEXTUAL_CONNECTION",
+      "evidence": "Analects 1.1 opens with 學而時習之. Learning is accompanied by repeated practice; the line should not be flattened into rote memorization.",
+      "dimension": "practice",
+      "cites": [
+        {
+          "source": "analects",
+          "locator": "1.1"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "reviewed": "2026-11-05"
+    }
+  ],
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "xué",
+    "yue": "hok6",
+    "ja": "gaku",
+    "ko": "학 hak",
+    "vi": "học",
+    "fanqie": "胡覺切"
+  },
+  "simplified": "学",
+  "structure": {
+    "ids": "⿱𦥯子",
+    "parts": [
+      "爻",
+      "冖",
+      "子",
+      "了"
+    ],
+    "components": [
+      "𦥯",
+      "𦥑",
+      "𫜹",
+      "爻",
+      "㐅",
+      "乂",
+      "冖",
+      "子",
+      "了",
+      "乛",
+      "亅",
+      "一"
+    ],
+    "source": "mojidata-ids"
+  }
+}

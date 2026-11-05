@@ -1,0 +1,72 @@
+{
+  "id": "zhong-end",
+  "key": "7",
+  "glyph": "終",
+  "pinyin": "zhōng",
+  "gloss": "end · finish",
+  "form": "糸 + 冬 (visible form)",
+  "formNote": "Mojidata IDS: ⿰糹冬 (from the database, 2026-11-05). This describes the graph’s parts, not its history; the etymology is not yet researched.",
+  "summary": "The end can also be a test of beginning: care and attention must persist beyond the first step.",
+  "coords": [
+    1.0444,
+    -2.2785,
+    0.042
+  ],
+  "placement": "Selected from a numerically integrated rabinovich trajectory to distribute stars across its projected shape. This is an artistic placement, not linguistic evidence.",
+  "oc": {
+    "form": "not yet researched",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "Placeholder, NOT an Old Chinese reconstruction. Consult Baxter–Sagart 2014 before entering a form."
+  },
+  "satellites": [
+    {
+      "id": "zhong-end-care",
+      "glyph": "慎終如始",
+      "title": "Care at the End",
+      "lang": "Classical Chinese / lexical record",
+      "type": "TEXTUAL_CONNECTION",
+      "evidence": "Daodejing 64 advises 慎終如始. The passage supports the ethical pairing of ending and beginning without reducing their different meanings.",
+      "dimension": "sense",
+      "cites": [
+        {
+          "source": "daodejing",
+          "locator": "ch. 64, 慎終如始"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "reviewed": "2026-11-05"
+    }
+  ],
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "zhōng",
+    "yue": "zung1",
+    "ja": "shū, shu",
+    "ko": "종 jong",
+    "vi": "chung",
+    "fanqie": "職戎切"
+  },
+  "simplified": "终",
+  "structure": {
+    "ids": "⿰糹冬",
+    "parts": [
+      "糹",
+      "幺",
+      "冬",
+      "夂"
+    ],
+    "components": [
+      "糹",
+      "幺",
+      "冬",
+      "夂",
+      "⺀"
+    ],
+    "source": "mojidata-ids"
+  }
+}

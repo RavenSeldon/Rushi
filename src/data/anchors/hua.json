@@ -1,0 +1,90 @@
+{
+  "id": "hua",
+  "key": "2",
+  "glyph": "化",
+  "pinyin": "huà",
+  "gloss": "transform · change",
+  "form": "亻 + 匕 (visible form)",
+  "formNote": "Mojidata IDS: ⿰亻匕 (from the database, 2026-11-05). This describes the graph’s parts, not its history; the etymology is not yet researched.",
+  "summary": "Transformation is more than replacing one state with another. The Zhuangzi closes 齊物論 with 物化, the transformation of things.",
+  "coords": [
+    -2.0947,
+    0.7619,
+    0.0051
+  ],
+  "placement": "Selected from a numerically integrated rabinovich trajectory to distribute stars across its projected shape. This is an artistic placement, not linguistic evidence.",
+  "oc": {
+    "form": "not yet researched",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "Placeholder, NOT an Old Chinese reconstruction. Consult Baxter–Sagart 2014 before entering a form."
+  },
+  "satellites": [
+    {
+      "id": "hua-wuhua",
+      "glyph": "物化",
+      "title": "Transformation of Things",
+      "lang": "Classical Chinese / lexical record",
+      "type": "TEXTUAL_CONNECTION",
+      "evidence": "At the end of 齊物論, the butterfly dream leads to 物化. This is a passage about transformation, not a literal biological metamorphosis account.",
+      "dimension": "sense",
+      "cites": [
+        {
+          "source": "zhuangzi",
+          "locator": "ch. 2 齊物論, end 物化"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "reviewed": "2026-11-05"
+    },
+    {
+      "id": "hua-zaohua",
+      "glyph": "造化",
+      "title": "The Great Smith of Change",
+      "lang": "Classical Chinese",
+      "type": "TEXTUAL_CONNECTION",
+      "evidence": "Zhuangzi 6 (Dazongshi): 今一以天地為大鑪，以造化為大冶，惡乎往而不可哉 — “take heaven and earth as the great furnace and the maker-of-change as the great smith: where could I go that would not do?”, said by a dying man who will not ask to be recast as anything in particular.",
+      "dimension": "sense",
+      "period": "pre_qin",
+      "cites": [
+        {
+          "source": "zhuangzi",
+          "locator": "ch. 6 大宗師"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-05"
+    }
+  ],
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "huà",
+    "yue": "faa3",
+    "ja": "ka, ke",
+    "ko": "화 hwa",
+    "vi": "hoá",
+    "fanqie": "呼霸切"
+  },
+  "structure": {
+    "ids": "⿰亻匕",
+    "parts": [
+      "亻",
+      "匕"
+    ],
+    "components": [
+      "亻",
+      "㇒",
+      "丨",
+      "匕",
+      "乚",
+      "一"
+    ],
+    "source": "mojidata-ids"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "id": "tu",
+  "key": "5",
+  "glyph": "土",
+  "pinyin": "tǔ",
+  "gloss": "earth · soil",
+  "form": "IDS ⿱十一",
+  "formNote": "Mojidata IDS: ⿱十一 (from the database, 2026-11-05). This describes the graph’s parts, not its history; the etymology is not yet researched.",
+  "summary": "Soil and earth; also a node in a fivefold framework of correlations. This is distinct from 地 as a more expansive word for land or earth.",
+  "coords": [
+    10.0031,
+    -2.5027,
+    -6.529
+  ],
+  "placement": "Selected from a numerically integrated dadras trajectory to distribute stars across its projected shape. This is an artistic placement, not linguistic evidence.",
+  "oc": {
+    "form": "not yet researched",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "Placeholder, NOT an Old Chinese reconstruction. Consult Baxter–Sagart 2014 before entering a form."
+  },
+  "satellites": [
+    {
+      "id": "tu-wuxing",
+      "glyph": "五行 · 土",
+      "title": "Earth as a Phase",
+      "lang": "Classical Chinese / lexical record",
+      "type": "TRADITIONAL_CORRESPONDENCE",
+      "evidence": "洪範 lists 土 fifth among five phases. This symbolic 土 is not a scientific statement about the planet.",
+      "dimension": "symbol",
+      "cites": [
+        {
+          "source": "shangshu",
+          "locator": "洪範, 五行"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "reviewed": "2026-11-05",
+      "caveat": "A correspondence internal to a historical system; not a statement about natural science."
+    },
+    {
+      "id": "tu-jiase",
+      "glyph": "土爰稼穡",
+      "title": "Earth Is Sowing and Reaping",
+      "lang": "Classical Chinese",
+      "type": "TRADITIONAL_CORRESPONDENCE",
+      "evidence": "The Hongfan names each phase by what it does: 水曰潤下，火曰炎上，木曰曲直，金曰從革，土爰稼穡 — water soaks downward, fire flames upward, wood bends and straightens, metal yields and is reshaped, and earth is where sowing and reaping happen.",
+      "caveat": "Only Earth takes 爰 rather than 曰; commentators have read the change as setting Earth apart. Baracus’s, from general knowledge.",
+      "dimension": "symbol",
+      "period": "pre_qin",
+      "cites": [
+        {
+          "source": "shangshu",
+          "locator": "洪範"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-05"
+    }
+  ],
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "tǔ",
+    "yue": "tou2",
+    "ja": "do, to",
+    "ko": "토 to",
+    "vi": "thổ",
+    "fanqie": "他魯切, 徒古切"
+  },
+  "structure": {
+    "ids": "⿱十一",
+    "parts": [
+      "十"
+    ],
+    "components": [
+      "十",
+      "一",
+      "丨"
+    ],
+    "source": "mojidata-ids"
+  }
+}

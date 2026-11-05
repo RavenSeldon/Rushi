@@ -1,0 +1,115 @@
+{
+  "id": "jue",
+  "key": "4",
+  "glyph": "覺",
+  "pinyin": "jué",
+  "gloss": "to notice · awaken · perceive",
+  "form": "IDS ⿱𦥯見",
+  "formNote": "Mojidata IDS: ⿱𦥯見 (from the database, 2026-11-05). This describes the graph’s parts, not its history; the etymology is not yet researched.",
+  "summary": "The act of noticing can become the metaphor of awakening. The ordinary word 覺 should not automatically be read as technical Buddhist enlightenment.",
+  "coords": [
+    0.7396,
+    0.0438,
+    0.0242
+  ],
+  "placement": "Selected from a numerically integrated sprott trajectory to distribute stars across its projected shape. This is an artistic placement, not linguistic evidence.",
+  "oc": {
+    "form": "not yet researched",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "Placeholder, NOT an Old Chinese reconstruction. Consult Baxter–Sagart 2014 before entering a form."
+  },
+  "satellites": [
+    {
+      "id": "jue-range",
+      "glyph": "覺察 · 覺悟",
+      "title": "Noticing and Awakening",
+      "lang": "Classical Chinese / lexical record",
+      "type": "SEMANTIC_CONTRAST",
+      "evidence": "The same character appears in terms for noticing and awakening. The distinction is a difference of usage, not evidence that the experiences are identical.",
+      "dimension": "sense",
+      "cites": [
+        {
+          "source": "moe-dict",
+          "locator": "覺; 覺察; 覺悟"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "reviewed": "2026-11-05"
+    },
+    {
+      "id": "jue-zhengjue",
+      "glyph": "正覺 · Sambodhi",
+      "title": "Right Awakening",
+      "lang": "Sanskrit → Chinese",
+      "type": "CANONICAL_TRANSLATION",
+      "evidence": "覺 renders bodhi, awakening, and 正覺 renders sambodhi, full awakening. In the Sutra of Immeasurable Life the vows end one after another with 不取正覺, “may I not take right awakening” unless the vow is fulfilled.",
+      "dimension": "translation",
+      "mechanism": "semantic_extension",
+      "period": "six_dynasties_tang",
+      "cites": [
+        {
+          "source": "pure-land",
+          "locator": "T360 p. 267c17 ff.",
+          "checked": {
+            "on": "2026-11-05",
+            "edition": "https://raw.githubusercontent.com/cbeta-org/xml-p5/master/T/T12/T12n0360.xml",
+            "note": "設我得佛，國有地獄、餓鬼、畜生者，不取正覺 — the formula recurs through the vows"
+          }
+        },
+        {
+          "source": "monier-williams",
+          "locator": "bodhi; saṃbodhi"
+        }
+      ],
+      "gaps": [
+        "Check bodhi and saṃbodhi in Monier-Williams."
+      ],
+      "status": "WORKING",
+      "verification": "partial",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-05"
+    }
+  ],
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "jué",
+    "yue": "gok3",
+    "ja": "kaku, kō",
+    "ko": "각 gak",
+    "vi": "giác",
+    "fanqie": "古孝切, 古岳切"
+  },
+  "simplified": "觉",
+  "structure": {
+    "ids": "⿱𦥯見",
+    "parts": [
+      "爻",
+      "冖",
+      "見",
+      "目",
+      "儿"
+    ],
+    "components": [
+      "𦥯",
+      "𦥑",
+      "𫜹",
+      "爻",
+      "㐅",
+      "乂",
+      "冖",
+      "見",
+      "目",
+      "囗",
+      "𠄠",
+      "儿",
+      "丿",
+      "乚"
+    ],
+    "source": "mojidata-ids"
+  }
+}

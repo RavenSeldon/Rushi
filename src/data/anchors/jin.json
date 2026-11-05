@@ -1,0 +1,107 @@
+{
+  "id": "jin",
+  "key": "1",
+  "glyph": "金",
+  "pinyin": "jīn",
+  "gloss": "metal · gold",
+  "form": "IDS ⿱𠆢⿻王丷",
+  "formNote": "Mojidata IDS: ⿱𠆢⿻王丷 (from the database, 2026-11-05). This describes the graph’s parts, not its history; the etymology is not yet researched.",
+  "summary": "Metal as substance and as one of the five traditional phases. Its membership in a correlative scheme is not a claim about modern physics.",
+  "coords": [
+    12.2824,
+    3.4094,
+    8.1154
+  ],
+  "placement": "Selected from a numerically integrated dadras trajectory to distribute stars across its projected shape. This is an artistic placement, not linguistic evidence.",
+  "oc": {
+    "form": "not yet researched",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "Placeholder, NOT an Old Chinese reconstruction. Consult Baxter–Sagart 2014 before entering a form."
+  },
+  "satellites": [
+    {
+      "id": "jin-wuxing",
+      "glyph": "五行 · 金",
+      "title": "Metal as a Phase",
+      "lang": "Classical Chinese / lexical record",
+      "type": "TRADITIONAL_CORRESPONDENCE",
+      "evidence": "洪範 orders five processes or categories as 水、火、木、金、土. 金 is fourth in that passage, not an element in the modern chemical sense.",
+      "dimension": "symbol",
+      "cites": [
+        {
+          "source": "shangshu",
+          "locator": "洪範, 五行"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "reviewed": "2026-11-05",
+      "caveat": "A correspondence internal to a historical system; not a statement about natural science."
+    },
+    {
+      "id": "jin-vajra",
+      "glyph": "金剛 · Vajra",
+      "title": "Adamant, Thunderbolt",
+      "lang": "Sanskrit → Chinese",
+      "type": "CANONICAL_TRANSLATION",
+      "evidence": "金剛, “the hardest metal”, renders vajra, the thunderbolt and diamond that cuts and cannot be cut. Kumārajīva titled the Vajracchedikā 金剛般若波羅蜜經.",
+      "caveat": "The Five Phases’ 金 and the Buddhist 金剛 share a graph, not a system.",
+      "dimension": "translation",
+      "mechanism": "semantic_extension",
+      "period": "six_dynasties_tang",
+      "cites": [
+        {
+          "source": "diamond",
+          "locator": "T235 p. 748c17 (title)",
+          "checked": {
+            "on": "2026-11-05",
+            "edition": "https://raw.githubusercontent.com/cbeta-org/xml-p5/master/T/T08/T08n0235.xml",
+            "note": "金剛般若波羅蜜經，姚秦天竺三藏鳩摩羅什譯"
+          }
+        },
+        {
+          "source": "monier-williams",
+          "locator": "vajra"
+        }
+      ],
+      "gaps": [
+        "Check vajra in Monier-Williams."
+      ],
+      "status": "WORKING",
+      "verification": "partial",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-05"
+    }
+  ],
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "jīn",
+    "yue": "gam1",
+    "ja": "kin, kon",
+    "ko": "금 geum, 김 gim",
+    "vi": "kim",
+    "fanqie": "居吟切"
+  },
+  "structure": {
+    "ids": "⿱𠆢⿻王丷",
+    "parts": [
+      "王",
+      "土"
+    ],
+    "components": [
+      "𠆢",
+      "王",
+      "一",
+      "土",
+      "十",
+      "丷",
+      "丶",
+      "㇒"
+    ],
+    "source": "mojidata-ids"
+  }
+}

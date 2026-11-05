@@ -1,0 +1,90 @@
+{
+  "id": "lu",
+  "key": "7",
+  "glyph": "路",
+  "pinyin": "lù",
+  "gloss": "road · route",
+  "form": "足 + 各 (visible form)",
+  "formNote": "Mojidata IDS: ⿰𧾷各 (from the database, 2026-11-05). This describes the graph’s parts, not its history; the etymology is not yet researched.",
+  "summary": "The traversable road is more concrete than many uses of 道, while their meanings can overlap.",
+  "coords": [
+    -0.7342,
+    1.0839,
+    -4.5606
+  ],
+  "placement": "Selected from a numerically integrated arneodo trajectory to distribute stars across its projected shape. This is an artistic placement, not linguistic evidence.",
+  "oc": {
+    "form": "not yet researched",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "Placeholder, NOT an Old Chinese reconstruction. Consult Baxter–Sagart 2014 before entering a form."
+  },
+  "satellites": [
+    {
+      "id": "lu-fork",
+      "glyph": "歧路",
+      "title": "A Fork in the Road",
+      "lang": "Classical Chinese / lexical record",
+      "type": "TEXTUAL_CONNECTION",
+      "evidence": "歧路 names a forked road. In the Seeking realm it is a concrete lexical example of the problem of choosing among paths, not a historical religious doctrine.",
+      "dimension": "sense",
+      "cites": [
+        {
+          "source": "moe-dict",
+          "locator": "歧路"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "reviewed": "2026-11-05"
+    },
+    {
+      "id": "lu-wangyang",
+      "glyph": "多歧亡羊",
+      "title": "Too Many Forks, the Sheep Is Lost",
+      "lang": "Classical Chinese",
+      "type": "TEXTUAL_CONNECTION",
+      "evidence": "Liezi, Shuofu: a neighbour’s sheep is lost because the road forks and forks again, and the moral drawn is 大道以多歧亡羊，學者以多方喪生 — the great road loses its sheep through many forks, the learner loses their life through many methods.",
+      "caveat": "The Liezi’s date is disputed; many place its received text around 300 CE.",
+      "dimension": "sense",
+      "period": "six_dynasties_tang",
+      "cites": [
+        {
+          "source": "liezi",
+          "locator": "說符"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-05"
+    }
+  ],
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "lù",
+    "yue": "lou6",
+    "ja": "ro",
+    "ko": "노 no, 로 ro",
+    "vi": "lộ",
+    "fanqie": "洛故切"
+  },
+  "structure": {
+    "ids": "⿰𧾷各",
+    "parts": [
+      "各",
+      "夂",
+      "口"
+    ],
+    "components": [
+      "𧾷",
+      "各",
+      "夂",
+      "口"
+    ],
+    "source": "mojidata-ids"
+  }
+}

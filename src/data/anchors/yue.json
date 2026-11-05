@@ -1,0 +1,94 @@
+{
+  "id": "yue",
+  "key": "4",
+  "glyph": "月",
+  "pinyin": "yuè",
+  "gloss": "moon · month",
+  "form": "IDS ⿵⺆二",
+  "formNote": "Mojidata IDS: ⿵⺆二 (from the database, 2026-11-05). This describes the graph’s parts, not its history; the etymology is not yet researched.",
+  "summary": "The moon becomes a month in ordinary language; 月 also appears in the visible structure of 明.",
+  "coords": [
+    -18.2233,
+    -23.6996,
+    22.0974
+  ],
+  "placement": "Selected from a numerically integrated chen trajectory to distribute stars across its projected shape. This is an artistic placement, not linguistic evidence.",
+  "oc": {
+    "form": "not yet researched",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "Placeholder, NOT an Old Chinese reconstruction. Consult Baxter–Sagart 2014 before entering a form."
+  },
+  "satellites": [
+    {
+      "id": "yue-shuowen",
+      "glyph": "月，闕也",
+      "title": "The Moon Is the Wanting",
+      "lang": "Han lexicography",
+      "type": "ETYMOLOGICAL_SINITIC",
+      "evidence": "The Shuowen: 月，闕也。大陰之精 — “月 is 闕, the gap: the essence of great yin.” The moon is named for its waning, against 日，實也, the sun that is always full.",
+      "caveat": "A sound gloss (聲訓) is Han hermeneutics, not historical etymology.",
+      "dimension": "sound",
+      "period": "han",
+      "cites": [
+        {
+          "source": "shuowen",
+          "locator": "月部 月"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-05"
+    },
+    {
+      "id": "yue-zhiyue",
+      "glyph": "以手指月",
+      "title": "The Finger Pointing at the Moon",
+      "lang": "Chinese Buddhist textual usage",
+      "type": "TEXTUAL_CONNECTION",
+      "evidence": "The Śūraṅgama Sūtra: 如人以手指月示人，彼人因指當應看月 — “as when someone points at the moon to show it to another, that person should follow the finger and look at the moon.” To take the finger for the moon is to lose both.",
+      "dimension": "sense",
+      "period": "six_dynasties_tang",
+      "cites": [
+        {
+          "source": "shurangama",
+          "locator": "T945 p. 111a09",
+          "checked": {
+            "on": "2026-11-05",
+            "edition": "https://raw.githubusercontent.com/cbeta-org/xml-p5/master/T/T19/T19n0945.xml",
+            "note": "汝等尚以緣心聽法，此法亦緣，非得法性。如人以手指月示人，彼人因指當應看月"
+          }
+        }
+      ],
+      "status": "WORKING",
+      "verification": "source",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-05"
+    }
+  ],
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "yuè",
+    "yue": "jyut6",
+    "ja": "getsu, gatsu",
+    "ko": "월 wol",
+    "vi": "nguyệt",
+    "fanqie": "魚厥切"
+  },
+  "structure": {
+    "ids": "⿵⺆二",
+    "parts": [
+      "二"
+    ],
+    "components": [
+      "⺆",
+      "二",
+      "一"
+    ],
+    "source": "mojidata-ids"
+  }
+}

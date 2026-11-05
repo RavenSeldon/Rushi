@@ -1,0 +1,91 @@
+{
+  "id": "ming-bright",
+  "key": "2",
+  "glyph": "明",
+  "pinyin": "míng",
+  "gloss": "bright · clear · understand",
+  "form": "日 + 月 (visible contemporary composition)",
+  "formNote": "Mojidata IDS: ⿰日月 (from the database, 2026-11-05). This describes the graph’s parts, not its history; the etymology is not yet researched.",
+  "summary": "Brightness from sun and moon in the received written form; lexical clarity must be distinguished from 名, a name, even though both read míng.",
+  "coords": [
+    5.2135,
+    8.0278,
+    7.0586
+  ],
+  "placement": "Selected from a numerically integrated chen trajectory to distribute stars across its projected shape. This is an artistic placement, not linguistic evidence.",
+  "oc": {
+    "form": "not yet researched",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "Placeholder, NOT an Old Chinese reconstruction. Consult Baxter–Sagart 2014 before entering a form."
+  },
+  "satellites": [
+    {
+      "id": "ming-bright-mingde",
+      "glyph": "明明德",
+      "title": "Making Bright the Bright Virtue",
+      "lang": "Classical Chinese / lexical record",
+      "type": "TEXTUAL_CONNECTION",
+      "evidence": "The opening of 大學 speaks of 明明德. This is ethical and textual illumination, not a physical optics claim.",
+      "dimension": "sense",
+      "cites": [
+        {
+          "source": "liji",
+          "locator": "大學, opening 明明德"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "reviewed": "2026-11-05"
+    },
+    {
+      "id": "ming-bright-rimoon",
+      "glyph": "日 + 月",
+      "title": "Two Visible Components, Not a Theory of Origins",
+      "lang": "Chinese graphic structure",
+      "type": "GRAPHIC_STRUCTURE",
+      "evidence": "The received graph 明 visibly combines 日 and 月. This observation concerns graphic composition; it does not settle the disputed history of older forms.",
+      "caveat": "Do not infer that the graph was originally invented by combining two celestial objects without early-form evidence.",
+      "dimension": "form",
+      "cites": [
+        {
+          "source": "mojidata-ids",
+          "locator": "明, IDS composition"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "reviewed": "2026-11-05"
+    }
+  ],
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "míng",
+    "yue": "ming4",
+    "ja": "mei, myō",
+    "ko": "명 myeong",
+    "vi": "minh",
+    "fanqie": "武兵切"
+  },
+  "structure": {
+    "ids": "⿰日月",
+    "parts": [
+      "日",
+      "囗",
+      "月",
+      "二"
+    ],
+    "components": [
+      "日",
+      "囗",
+      "一",
+      "月",
+      "⺆",
+      "二"
+    ],
+    "source": "mojidata-ids"
+  }
+}

@@ -1,6 +1,6 @@
 # Rushi — Project Log and Handoff
 
-Read this first when resuming work, in a new session or after a break. Last updated 2026-11-05 (languages, closed questions, one branch).
+Read this first when resuming work, in a new session or after a break. Last updated 2026-11-05, evening (Realms VI–X deepened).
 
 ## Where Things Stand
 
@@ -16,23 +16,23 @@ Read this first when resuming work, in a new session or after a break. Last upda
 | Realm V — The Constant Virtues | WORKING: 德 仁 義 禮 智 信 孝 忠 on Rössler, tilted; 16 satellites, 4 within, 9 to other systems |
 | Semantic review (2026-11-04) | Committed (`53ec649`) and live: six hue families, compound readings 無為 不二 無量 at `#/compounds/<id>`, three Taishō citations checked, accessibility fixes. See `docs/SEMANTIC-REVIEW.md` and `docs/CORRECTIONS.md`. (That document calls its branch uncommitted; it was written before Ben committed it.) |
 | **2026-11-05 pass** | **Working tree, uncommitted:** ten language connections, MMK 24.18 and five other passages checked, every OPEN QUESTION closed (below) |
-| Ledger | 5 systems · 40 anchors · 158 claims (40 canon, 118 working, 0 open) · 51 of 249 citations checked · 26 known gaps (the new claims name their own) |
+| Realms VI–X | WORKING: Knowing (Sprott), Five Phases (Dadras), Light (Chen), Seeking (Arneodo), Becoming (Rabinovich–Fabrikant). Deepened 2026-11-05 evening; see that section |
+| **2026-11-05 evening pass** | **Working tree, uncommitted:** readings for 40 anchors, 28 satellites + 4 replacements, 25 bridges, 35 citations checked |
+| Ledger | 10 systems · 80 anchors · 279 claims (40 canon, 239 working, 0 open) · 86 of 390 citations checked · 45 known gaps |
 | Icons | Maitrism Cosmogram, cropped to its ring, as transparent PNGs (32/48/192/512) plus a 180 px touch icon on the void colour |
 
-### Branches: One Line of History
+### Branches
 
-`main` (`ec68fd0`) ← `solar-systems` (`ce2916e`) ← `codex/semantic-review` (`53ec649`) ← the 2026-11-05 working tree. Each branch contains the one before it, so nothing has diverged and nothing needs merging by hand.
-
-To make `main` the one stable branch that holds everything (Ben runs this; the old branches stay as they are, as history):
+`main` is the one canonical tree. Every other branch (`solar-systems`, `codex/semantic-review`, local and on GitHub) was checked on 2026-11-05 to have no commit outside `main`, so the commands below remove them without losing history. The evening pass is uncommitted on `main`. To publish it (Ben runs this):
 
 ```bash
 cd ~/Root/rushi
-git status                                  # only the 2026-11-05 changes should be listed
-git add -A
-git commit -m "Language connections, MMK 24.18 checked, open questions closed"
-git switch main
-git merge --ff-only codex/semantic-review   # fast-forward only: refuses rather than rewrites
+git status                                  # src/, scripts/archive/ and docs/ only
+git add src scripts docs
+git commit -m "Realms VI–X deepened: readings, 53 claims, 35 citations checked"
 git push origin main
+git push origin --delete solar-systems codex/semantic-review
+git branch -d solar-systems codex/semantic-review   # -d refuses anything unmerged
 npm run deploy                              # check + build, then publish
 ```
 
@@ -79,6 +79,48 @@ In development builds, `window.__rushi` is the live scene (read-only use: tests,
 - Expand without disturbing what came before: new claims, never rewrites of the art (scene, shaders, layout) or the science (attractors).
 - A beautiful link is not evidence. New links are welcome when reason can justify them: semantic, symbolic, historically informed, or a documented joke. Each declares its kind.
 - Placement of a star on an attractor is a design choice, and its `placement` text says so.
+
+## 2026-11-05 (evening) — Realms VI–X Deepened
+
+### What Was Already There
+
+An earlier pass, not recorded in this log, had already built Realms VI–X in the working tree. It added five systems, two new attractors (Arneodo for IX, Rabinovich–Fabrikant for X), 40 anchors with one or two satellites each, and 20 bridges. Its claims carry no `drafted` field. This pass keeps all of that work, except the four placeholder cards listed in `docs/CORRECTIONS.md`.
+
+### What This Pass Added (all WORKING, drafted by Baracus)
+
+- **Readings and structure** for all 40 new anchors from `npm run ingest -- readings` (Unihan 18.0.0 / Mojidata IDS). Every file in I–V is byte-identical to before. Form boxes that said "pending IDS verification" now show the IDS from the database.
+- **29 satellites** (4 of them replacing placeholders) and **25 bridges**, 10 within systems and 15 between them.
+- **35 more citations checked against an edition** (51 → 86 of 390 overall), from CBETA XML and, for the Analects and Mencius, the chinese-poetry digital transcription. That transcription is not a critical edition, and its Analects copy is in simplified characters. Each check records what it says.
+- **New sources:** `chengweishi` (T1585), `platform-sutra` (T2008), `shurangama` (T945), `fanyi-mingyi` (T2131), `diamond` (T235), `chunqiu-fanlu`, `liezi`, `shiniu-tu`.
+
+| # | System | Satellites | Within | To other systems | Highlights |
+|---|---|---|---|---|---|
+| VI | Knowing | 19 | 4 | 6 | 定慧一體，不是二 (Platform Sutra, checked); 五種不翻 links 慧 (般若) to 咒 (陀羅尼); 思 and 念 in the Kośa's ten universal factors; 阿賴耶識 |
+| VII | Five Phases | 16 | 6 | 3 | 知者樂水，仁者樂山 → 智 and 仁; 震 · 艮 move and stop; 金剛 vajra, thunder and diamond; 水 and 火 as Kośa great elements |
+| VIII | Light | 12 | 1 | 9 | 日，實也 → 實 (Rushi's own name); 無明 → 無 (calque of avidyā); 指月 → 法; 有為法如夢幻泡影 → 為; 北辰 → 德 |
+| IX | Seeking | 15 | 2 | 7 | 學問之道…求其放心 → 心; 義，人路也 → 義; 三學 → 定; 尋牛; 多歧亡羊 |
+| X | Becoming | 14 | 4 | 5 | 成住壞空 → 空; 無生 → 無; 慎終追遠 → 德; 窮則變 |
+
+The content script is archived as `scripts/archive/2026-11-05-deepen-vi-x.mjs`; it is idempotent, so a re-run changes nothing.
+
+### Acceptance, as Measured
+
+- `npm run check` passes: 10 systems, 80 anchors, 279 claims (40 canon, 239 working), 96 bridges (56 between systems), 45 named gaps.
+- `npm test` 19 / 19; `npm run lint` 0 warnings, 0 errors; `npm run build` passes. All four ran in a clean Linux copy with a fresh `npm ci`.
+- The CSS, vendor and three.js chunks are byte-identical to the previous build; only the app's data chunk changed.
+- Viewed in headless Chromium at 390 px (VIII 光, VI 定) and 1440 px (the 定慧一體 bridge, Realm X), with no page errors. Not yet seen on a real GPU or phone.
+- The state before this pass is backed up in `.rushi-pre-vi-x-backup.tgz` (git-ignored).
+
+### Housekeeping for Ben
+
+- `data-raw/` holds `moji.db` (needed by `npm run ingest`); the download leftovers were removed on 2026-11-05.
+- Still Ben's alone: acceptance of every WORKING claim in VI–X, and the Old Chinese forms for these 40 anchors (left as "not yet researched"; Baracus did not guess them).
+
+### Next
+
+- Realm VIII has one bridge within the system; it earns its place through links outward. A documented within-system link (for example 日 · 月 · 明 and the Shuowen's 朙, from 囧 and 月) needs a palaeographic source first.
+- Open Daodejing chs. 1, 4, 8, 56, 59 and Zhuangzi chs. 2, 6, 32 in an edition (ctext was unreachable again from this workspace), and the Monier-Williams entries the new claims name.
+- XI–XIII (Hungry Ghosts, Future, Fermi Paradox) still need membership decisions and three more attractors.
 
 ## 2026-11-05 — Languages, Closed Questions, One Branch
 

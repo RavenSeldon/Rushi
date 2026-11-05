@@ -1,0 +1,103 @@
+{
+  "id": "feng",
+  "key": "6",
+  "glyph": "風",
+  "pinyin": "fēng",
+  "gloss": "wind",
+  "form": "Traditional form 風; IDS not yet checked",
+  "formNote": "Mojidata IDS: ⿵𠘨⿱一虫 (from the database, 2026-11-05). This describes the graph’s parts, not its history; the etymology is not yet researched.",
+  "summary": "Wind moves unseen but is legible in effects. In the eight-trigram system, wind is assigned to 巽.",
+  "coords": [
+    -6.7744,
+    1.7826,
+    -3.3028
+  ],
+  "placement": "Selected from a numerically integrated dadras trajectory to distribute stars across its projected shape. This is an artistic placement, not linguistic evidence.",
+  "oc": {
+    "form": "not yet researched",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "Placeholder, NOT an Old Chinese reconstruction. Consult Baxter–Sagart 2014 before entering a form."
+  },
+  "satellites": [
+    {
+      "id": "feng-xun",
+      "glyph": "巽為風",
+      "title": "Wind in the Trigrams",
+      "lang": "Classical Chinese / lexical record",
+      "type": "TRADITIONAL_CORRESPONDENCE",
+      "evidence": "The 說卦 commentary associates the trigram 巽 with wind. It is a traditional correspondence, not a claim about weather prediction.",
+      "dimension": "symbol",
+      "cites": [
+        {
+          "source": "yijing",
+          "locator": "說卦傳, 巽"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "reviewed": "2026-11-05",
+      "caveat": "A correspondence internal to a historical system; not a statement about natural science."
+    },
+    {
+      "id": "feng-vayu",
+      "glyph": "वायु · vāyu",
+      "title": "Wind in the Four Great Elements",
+      "lang": "Sanskrit → Chinese (Buddhist lexicon)",
+      "type": "CANONICAL_TRANSLATION",
+      "evidence": "In Buddhist lists of the four great elements, 地水火風 includes 風, corresponding to the Sanskrit vāyu. This scheme is distinct from the Yijing trigrams and the five phases.",
+      "caveat": "A proposed equivalence awaiting verification in an aligned Sanskrit–Chinese source; citation assignment is not verification.",
+      "dimension": "translation",
+      "mechanism": "semantic_extension",
+      "cites": [
+        {
+          "source": "abhidharmakosa",
+          "locator": "ch. 1, 地水火風"
+        },
+        {
+          "source": "monier-williams",
+          "locator": "vāyu"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "gaps": [
+        "Check the historical source translation as well as both dictionary senses."
+      ],
+      "reviewed": "2026-11-05"
+    }
+  ],
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "fēng",
+    "yue": "fung1",
+    "ja": "fū, fu",
+    "ko": "풍 pung",
+    "vi": "phong",
+    "fanqie": "方戎切, 方鳳切"
+  },
+  "simplified": "风",
+  "structure": {
+    "ids": "⿵𠘨⿱一虫",
+    "parts": [
+      "虫",
+      "中"
+    ],
+    "components": [
+      "𠘨",
+      "丿",
+      "⺄",
+      "一",
+      "虫",
+      "中",
+      "口",
+      "丨",
+      "㇀",
+      "丶"
+    ],
+    "source": "mojidata-ids"
+  }
+}

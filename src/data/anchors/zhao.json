@@ -1,0 +1,74 @@
+{
+  "id": "zhao",
+  "key": "8",
+  "glyph": "照",
+  "pinyin": "zhào",
+  "gloss": "to shine upon · illuminate · perceive",
+  "form": "昭 + 灬 (visible components)",
+  "formNote": "Mojidata IDS: ⿱昭灬 (from the database, 2026-11-05). This describes the graph’s parts, not its history; the etymology is not yet researched.",
+  "summary": "Illumination as a verb: to shine, to look, to discern. In the Heart Sutra it introduces an act of seeing.",
+  "coords": [
+    -20.9822,
+    -17.5843,
+    37.7504
+  ],
+  "placement": "Selected from a numerically integrated chen trajectory to distribute stars across its projected shape. This is an artistic placement, not linguistic evidence.",
+  "oc": {
+    "form": "not yet researched",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "Placeholder, NOT an Old Chinese reconstruction. Consult Baxter–Sagart 2014 before entering a form."
+  },
+  "satellites": [
+    {
+      "id": "zhao-photograph",
+      "glyph": "照相",
+      "title": "Illumination and Photography",
+      "lang": "Chinese Buddhist textual usage",
+      "type": "SEMANTIC_CONTRAST",
+      "evidence": "照相 is photography in ordinary modern language. It gives 照 a technical everyday life distinct from contemplative 照見.",
+      "dimension": "sense",
+      "cites": [
+        {
+          "source": "moe-dict",
+          "locator": "照相"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "reviewed": "2026-11-05"
+    }
+  ],
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "zhào",
+    "yue": "ziu3",
+    "ja": "shō",
+    "ko": "조 jo",
+    "vi": "chiếu",
+    "fanqie": "之少切"
+  },
+  "structure": {
+    "ids": "⿱昭灬",
+    "parts": [
+      "昭",
+      "日",
+      "召",
+      "灬"
+    ],
+    "components": [
+      "昭",
+      "日",
+      "囗",
+      "一",
+      "召",
+      "刀",
+      "口",
+      "灬"
+    ],
+    "source": "mojidata-ids"
+  }
+}
