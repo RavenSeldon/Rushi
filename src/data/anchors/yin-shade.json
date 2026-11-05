@@ -1,0 +1,102 @@
+{
+  "id": "yin-shade",
+  "key": "4",
+  "glyph": "陰",
+  "simplified": "阴",
+  "pinyin": "yīn",
+  "gloss": "shade · the shady side · yin",
+  "glossUnihan": "the passive, female principle in Chinese philosophy (yin); dark; secret",
+  "form": "阝 (hill) + 侌",
+  "formNote": "The Shuowen: 陰，闇也。水之南、山之北也 — “dark: the south bank of a river, the north slope of a hill.” Mojidata IDS: ⿰阝侌.",
+  "summary": "The shady side of a hill: from a word of landscape, yin became half of the pair that runs through Chinese cosmology, medicine and divination. It is the dark, the receptive, the cool; never alone, always with 陽.",
+  "coords": [
+    -5.526,
+    -2.81,
+    0.779
+  ],
+  "placement": "Just above the centre, on the left, facing 陽 across the axis. (Placement is a design choice, not a claim.)",
+  "oc": {
+    "form": "*q(r)um",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "† Baracus, from general knowledge; not yet checked against B–S 2014."
+  },
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "yīn",
+    "yue": "jam1",
+    "ja": "in, on, an",
+    "ko": "음 eum",
+    "vi": "âm",
+    "fanqie": "於金切"
+  },
+  "structure": {
+    "ids": "⿰阝侌",
+    "parts": [
+      "阝",
+      "侌",
+      "今",
+      "云"
+    ],
+    "components": [
+      "阝",
+      "侌",
+      "今",
+      "乛",
+      "云",
+      "二",
+      "厶"
+    ],
+    "source": "mojidata-ids"
+  },
+  "satellites": [
+    {
+      "id": "yin-shade-form",
+      "glyph": "水南山北",
+      "title": "The Shady Slope",
+      "lang": "Han lexicography",
+      "type": "ETYMOLOGICAL_SINITIC",
+      "evidence": "The Shuowen: 陰，闇也。水之南、山之北也. Yin is first a place: the south bank of a river and the north slope of a hill, both out of the sun. The cosmology grew from a way of reading terrain.",
+      "dimension": "form",
+      "period": "han",
+      "cites": [
+        {
+          "source": "shuowen",
+          "locator": "陰"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-04"
+    },
+    {
+      "id": "yin-shade-onmyodo",
+      "glyph": "陰陽道 · onmyōdō",
+      "title": "The Way of Yin and Yang in Japan",
+      "lang": "Japanese",
+      "type": "ETYMOLOGICAL_SINITIC",
+      "evidence": "In Japan the court discipline of calendars, divination and protection was 陰陽道, onmyōdō. Unihan’s Japanese readings give 陰 on and 陽 yō; in the compound they join as on-myō, by sound linking (連声).",
+      "caveat": "The sound-linking explanation and the history of onmyōdō are Baracus’s, from general knowledge; only the readings are checked.",
+      "dimension": "sinosphere",
+      "cites": [
+        {
+          "source": "unihan",
+          "locator": "kJapaneseOn: 陰, 陽",
+          "checked": {
+            "on": "2026-11-04",
+            "edition": "Unihan 18.0.0 via @mandel59/mojidata@1.9.3 (data-raw/moji.db)",
+            "note": "陰 IN ON AN · 陽 YOU"
+          }
+        }
+      ],
+      "status": "WORKING",
+      "verification": "source",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-04"
+    }
+  ]
+}

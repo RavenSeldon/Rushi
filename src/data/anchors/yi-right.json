@@ -1,0 +1,100 @@
+{
+  "id": "yi-right",
+  "key": "3",
+  "glyph": "義",
+  "simplified": "义",
+  "pinyin": "yì",
+  "gloss": "rightness · duty · meaning",
+  "glossUnihan": "right conduct, righteousness",
+  "form": "𦍌 (sheep) + 我 (I)",
+  "formNote": "Mojidata IDS: ⿱𦍌我. The Shuowen: 義，己之威儀也, “one’s own dignified bearing”, from 我 and 羊. In later Chinese 義 also means “meaning”, as in 意義.",
+  "summary": "Rightness: what one owes, and the bearing of a person who does it. Mencius put it next to humaneness, 仁義, and in Vietnam nhân nghĩa became a national ideal.",
+  "coords": [
+    -8.516,
+    0.376,
+    0.014
+  ],
+  "placement": "On the left of the disk, opposite 智: rightness, facing discernment. (Placement is a design choice, not a claim.)",
+  "oc": {
+    "form": "*ŋ(r)aj-s",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "† Baracus, from general knowledge; not yet checked against B–S 2014."
+  },
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "yì",
+    "yue": "ji6",
+    "ja": "gi",
+    "ko": "의 ui",
+    "vi": "nghĩa",
+    "fanqie": "宜寄切"
+  },
+  "structure": {
+    "ids": "⿱𦍌我",
+    "parts": [
+      "土",
+      "我",
+      "扌"
+    ],
+    "components": [
+      "𦍌",
+      "䒑",
+      "丷",
+      "一",
+      "土",
+      "十",
+      "我",
+      "㇒",
+      "扌",
+      "𬺰",
+      "㇀"
+    ],
+    "source": "mojidata-ids"
+  },
+  "satellites": [
+    {
+      "id": "yi-right-duan",
+      "glyph": "羞惡之心",
+      "title": "The Sprout of Rightness",
+      "lang": "Classical Chinese",
+      "type": "ETYMOLOGICAL_SINITIC",
+      "evidence": "Mencius 2A6: 羞惡之心，義之端也 — “the heart of shame and aversion is the sprout of rightness.” One of the four sprouts, with humaneness, propriety and wisdom (see 仁 · 心).",
+      "dimension": "sense",
+      "period": "pre_qin",
+      "cites": [
+        {
+          "source": "mencius",
+          "locator": "2A6"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-04"
+    },
+    {
+      "id": "yi-right-shesheng",
+      "glyph": "舍生取義",
+      "title": "Giving Up Life for What Is Right",
+      "lang": "Classical Chinese",
+      "type": "ETYMOLOGICAL_SINITIC",
+      "evidence": "Mencius 6A10: fish and bear’s paw cannot both be had; life and rightness cannot both be kept, 二者不可得兼，舍生而取義者也 — “give up life and take rightness”.",
+      "dimension": "sense",
+      "period": "pre_qin",
+      "cites": [
+        {
+          "source": "mencius",
+          "locator": "6A10"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-04"
+    }
+  ]
+}

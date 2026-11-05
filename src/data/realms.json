@@ -61,5 +61,47 @@
       "fu",
       "yin-seal"
     ]
+  },
+  {
+    "id": "heaven",
+    "name": "Heaven and Change",
+    "numeral": "IV",
+    "attractor": "halvorsen",
+    "position": [
+      -90,
+      150,
+      -170
+    ],
+    "anchors": [
+      "tian",
+      "di",
+      "ren-person",
+      "yin-shade",
+      "yang",
+      "qi",
+      "yi-change",
+      "shi-time"
+    ]
+  },
+  {
+    "id": "virtues",
+    "name": "The Constant Virtues",
+    "numeral": "V",
+    "attractor": "rossler",
+    "position": [
+      120,
+      60,
+      -230
+    ],
+    "anchors": [
+      "de",
+      "ren-humane",
+      "yi-right",
+      "li-rite",
+      "zhi-wisdom",
+      "xin-trust",
+      "xiao",
+      "zhong"
+    ]
   }
 ]

@@ -1,0 +1,107 @@
+{
+  "id": "li-rite",
+  "key": "4",
+  "glyph": "禮",
+  "simplified": "礼",
+  "pinyin": "lǐ",
+  "gloss": "ritual · propriety · rites",
+  "glossUnihan": "social custom; manners; courtesy; rites",
+  "form": "礻 (altar) + 豊 (ritual vessel)",
+  "formNote": "Mojidata IDS: ⿰礻豊. The Shuowen: 禮，履也。所以事神致福也 — “to tread: that by which one serves the spirits and brings blessing.” 豊 pictures a vessel full of offerings.",
+  "summary": "Ritual and propriety: the forms of conduct, from sacrifice to greeting. The Shuowen glosses it as 履, “to tread”, a path walked; Confucius said that returning to ritual is humaneness.",
+  "coords": [
+    -1.113,
+    -9.615,
+    0.025
+  ],
+  "placement": "At the foot of the disk, below 仁: ritual as the ground the band runs on. (Placement is a design choice, not a claim.)",
+  "oc": {
+    "form": "*[r]ˤijʔ",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "† Baracus, from general knowledge; not yet checked against B–S 2014."
+  },
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "lǐ",
+    "yue": "lai5",
+    "ja": "rei, rai",
+    "ko": "례 rye, 예 ye",
+    "vi": "lễ",
+    "fanqie": "盧啓切"
+  },
+  "structure": {
+    "ids": "⿰礻豊",
+    "parts": [
+      "礻",
+      "豊",
+      "曲",
+      "豆"
+    ],
+    "components": [
+      "礻",
+      "豊",
+      "曲",
+      "口",
+      "卄",
+      "豆",
+      "𠮛",
+      "䒑"
+    ],
+    "source": "mojidata-ids"
+  },
+  "satellites": [
+    {
+      "id": "li-rite-form",
+      "glyph": "禮，履也",
+      "title": "What One Treads",
+      "lang": "Han lexicography",
+      "type": "ETYMOLOGICAL_SINITIC",
+      "evidence": "The Shuowen glosses 禮 by sound with 履, “to tread, a shoe”: 所以事神致福也, “that by which one serves the spirits and brings blessing”. The vessel 豊 holds the offering.",
+      "dimension": "form",
+      "period": "han",
+      "cites": [
+        {
+          "source": "shuowen",
+          "locator": "禮"
+        },
+        {
+          "source": "mojidata-ids",
+          "locator": "禮 ⿰礻豊",
+          "checked": {
+            "on": "2026-11-04",
+            "edition": "Mojidata IDS via @mandel59/mojidata@1.9.3 (data-raw/moji.db)",
+            "note": "禮 ⿰礻豊"
+          }
+        }
+      ],
+      "status": "WORKING",
+      "verification": "partial",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-04"
+    },
+    {
+      "id": "li-rite-duan",
+      "glyph": "辭讓之心",
+      "title": "The Sprout of Propriety",
+      "lang": "Classical Chinese",
+      "type": "ETYMOLOGICAL_SINITIC",
+      "evidence": "Mencius 2A6: 辭讓之心，禮之端也 — “the heart of declining and yielding is the sprout of propriety.” Ritual begins in the impulse to step aside for another.",
+      "dimension": "sense",
+      "period": "pre_qin",
+      "cites": [
+        {
+          "source": "mencius",
+          "locator": "2A6"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-04"
+    }
+  ]
+}

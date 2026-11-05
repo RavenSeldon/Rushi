@@ -11,7 +11,7 @@ if (errors.length) {
   process.exit(1);
 }
 console.log(`✓ contract holds — ${REALMS.length} systems, ${ANCHORS.length} anchors, ${sats} relationships, ${BRIDGES.length} bridges (${ledger.crossRealm || 0} between systems)`);
-for (const r of REALMS) console.log(`  ${r.numeral.padEnd(4)} ${r.name.padEnd(16)} ${r.attractor.padEnd(10)} ${r.anchors.map((id) => ANCHORS.find((a) => a.id === id)?.glyph || id).join(' ')}`);
+for (const r of REALMS) console.log(`  ${r.numeral.padEnd(4)} ${r.name.padEnd(21)} ${r.attractor.padEnd(10)} ${r.anchors.map((id) => ANCHORS.find((a) => a.id === id)?.glyph || id).join(' ')}`);
 console.log(`  status:       ${fmt(ledger.byStatus)}`);
 console.log(`  verification: ${fmt(ledger.byVerification)}  (of ${ledger.claims} claims)`);
 console.log(`  citations:    ${ledger.citationsChecked} of ${ledger.citations} checked against an edition of the source`);

@@ -125,6 +125,19 @@
     "title": "和合本 Chinese Union Version of the Bible",
     "date": "1919"
   },
+  "yijing": {
+    "kind": "primary",
+    "title": "周易 Zhouyi (Yijing), with its commentaries incl. 繫辭 Xici and 說卦 Shuogua"
+  },
+  "liji": {
+    "kind": "primary",
+    "title": "禮記 Liji (Record of Rites)"
+  },
+  "binh-ngo": {
+    "kind": "primary",
+    "title": "平吳大誥 Bình Ngô đại cáo, Nguyễn Trãi",
+    "date": "1428"
+  },
   "abhidharmakosa": {
     "kind": "primary",
     "title": "阿毘達磨俱舍論 (Abhidharmakośabhāṣya), tr. Xuanzang, T1558",

@@ -12,7 +12,9 @@ Read this first when resuming work, in a new session or after a break. Last upda
 | **Solar-systems engine** | **Built 2026-11-04** (working tree): four levels, one attractor per system, level of detail, routes, travel, arcs between systems, pathfinder |
 | **Realm II — The Ground** | **Drafted 2026-11-04**, all WORKING: 有 空 心 法 一 慈 悲 名 on the Aizawa attractor; 18 satellites, 13 bridges (9 into the Pillars) |
 | **Realm III — Words of Power** | **Drafted 2026-11-04**, all WORKING: 如 實 真 言 咒 聲 符 印 on the Thomas attractor; 20 satellites, 12 bridges (7 into I and II) |
-| Ledger | 3 systems · 24 anchors · 102 claims (38 canon, 3 open, 61 working) · 20 of 166 citations opened · 19 known gaps |
+| **Realm IV — Heaven and Change** | **Drafted 2026-11-04**, WORKING: 天 地 人 陰 陽 氣 易 時 on Halvorsen, seen down its axis; 14 satellites, 7 bridges |
+| **Realm V — The Constant Virtues** | **Drafted 2026-11-04**, WORKING: 德 仁 義 禮 智 信 孝 忠 on Rössler, tilted; 12 satellites, 12 bridges |
+| Ledger | 5 systems · 40 anchors · 146 claims (38 canon, 3 open, 105 working) · 35 of 224 citations opened · 21 known gaps |
 | Icons | Maitrism Cosmogram, cropped to its ring, as transparent PNGs (32/48/192/512) plus a 180 px touch icon on the void colour |
 
 ### Commands
@@ -35,11 +37,11 @@ In development builds, `window.__rushi` is the live scene (read-only use: tests,
 2. Whether 量 ↔ 司 stays as Ben's proposition (OPEN QUESTION).
 3. Accept or drop 愛 → 爱, "Love Without a Heart" (WORKING).
 4. Accept the Unihan-sourced readings (WORKING, verified against the database).
-5. **Accept, revise or drop Realm II's and Realm III's WORKING claims** (all WORKING, drafted by Baracus). Open these first: `bridge-dao-yi` and `bridge-yi-er` (ch. 42, still unchecked), `bridge-kong-dao` and `bridge-kong-ming` (MMK 24.18: does the Taishō read 無 or 空?).
+5. **Accept, revise or drop the WORKING claims of Realms II–V** (all WORKING, drafted by Baracus). Open these first: `bridge-dao-yi` and `bridge-yi-er` (ch. 42, still unchecked), `bridge-kong-dao` and `bridge-kong-ming` (MMK 24.18: does the Taishō read 無 or 空?).
 6. ~~Duplicates~~ **Decided 2026-11-04: folded.** `wu-you` → `bridge-you-wu` (CANON), `dao-ziran` → `bridge-fa-dao` (WORKING: one added sentence). Old links redirect.
 7. 心's Old Chinese: *s.[r]əm (B–S 2014, as recalled) or *səm (B–S v1.1 list)?
 8. The About page's new text (opening line, first paragraph, "More than one sky"): it is Baracus's draft for you to make your own.
-9. ~~Which systems come next~~ **Decided 2026-11-04:** all of III–VIII, plus five new themes (below). **Ben: keep all 13 systems.** The Ground is live (branch `solar-systems`); III Words of Power is drafted in the working tree. Still open: the membership of the five new systems.
+9. ~~Which systems come next~~ **Decided 2026-11-04:** all of III–VIII, plus five new themes (below). **Ben: keep all 13 systems.** The Ground is live (branch `solar-systems`); III, IV and V are drafted (III committed; IV and V in the working tree). Next: VI Knowing (Sprott), VII Five Phases (Dadras), VIII Light (Chen). Still open: the membership of the five new systems.
 10. Future anchor ids: homophones will collide (明 vs 名 míng; 意 / 義 / 易 yì; 信 vs 心 xīn). Proposal: pinyin plus a gloss word, e.g. `ming-bright`, `yi-intent`.
 
 ### Conventions

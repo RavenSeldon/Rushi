@@ -837,5 +837,493 @@
     ],
     "drafted": "Baracus",
     "reviewed": "2026-11-04"
+  },
+  {
+    "id": "bridge-yin-yang",
+    "from": "yin-shade",
+    "to": "yang",
+    "label": "負陰抱陽",
+    "title": "陰 ↔ 陽 · Carrying Yin, Embracing Yang",
+    "subtitle": "Daodejing ch. 42",
+    "type": "ETYMOLOGICAL_SINITIC",
+    "evidence": "Ch. 42, after 道生一…三生萬物: 萬物負陰而抱陽，沖氣以為和 — “the myriad things carry yin on their backs and hold yang in their arms; blending qi, they make harmony.” The same chapter that opens with the Way giving rise to one.",
+    "dimension": "cosmos",
+    "period": "pre_qin",
+    "cites": [
+      {
+        "source": "daodejing",
+        "locator": "ch. 42"
+      }
+    ],
+    "status": "WORKING",
+    "verification": "unchecked",
+    "gaps": [
+      "Open Daodejing ch. 42 in a reliable edition and record the passage."
+    ],
+    "drafted": "Baracus",
+    "reviewed": "2026-11-04"
+  },
+  {
+    "id": "bridge-tian-di",
+    "from": "tian",
+    "to": "di",
+    "label": "輕清 · 重濁",
+    "title": "天 ↔ 地 · The Light Rose, the Heavy Settled",
+    "subtitle": "Shuowen",
+    "type": "ETYMOLOGICAL_SINITIC",
+    "evidence": "The Shuowen’s entry for 地: 元气初分，輕清陽為天，重濁陰為地 — “when the primal qi first divided, the light and clear, yang, became Heaven; the heavy and turbid, yin, became Earth.” Heaven, Earth, yin, yang and qi in one sentence.",
+    "dimension": "cosmos",
+    "period": "han",
+    "cites": [
+      {
+        "source": "shuowen",
+        "locator": "地"
+      }
+    ],
+    "status": "WORKING",
+    "verification": "unchecked",
+    "drafted": "Baracus",
+    "reviewed": "2026-11-04"
+  },
+  {
+    "id": "bridge-tian-ren",
+    "from": "tian",
+    "to": "ren-person",
+    "label": "三才",
+    "title": "天 ↔ 人 · The Three Powers",
+    "subtitle": "Yijing, Shuogua",
+    "type": "ETYMOLOGICAL_SINITIC",
+    "evidence": "The Shuogua: 立天之道曰陰與陽，立地之道曰柔與剛，立人之道曰仁與義。兼三才而兩之 — “the way of Heaven is yin and yang, of Earth soft and hard, of the human humaneness and rightness; the three powers, each doubled.” Hence six lines to a hexagram.",
+    "dimension": "cosmos",
+    "period": "han",
+    "cites": [
+      {
+        "source": "yijing",
+        "locator": "說卦 2"
+      }
+    ],
+    "status": "WORKING",
+    "verification": "unchecked",
+    "drafted": "Baracus",
+    "reviewed": "2026-11-04"
+  },
+  {
+    "id": "bridge-yi-shi",
+    "from": "yi-change",
+    "to": "shi-time",
+    "label": "變通趣時",
+    "title": "易 ↔ 時 · Change Follows the Time",
+    "subtitle": "Yijing, Xici",
+    "type": "ETYMOLOGICAL_SINITIC",
+    "evidence": "The Xici: 剛柔者，立本者也；變通者，趣時者也 — “the firm and the yielding set up the root; change and continuity follow the time.” To change well is to change in time.",
+    "dimension": "sense",
+    "period": "han",
+    "cites": [
+      {
+        "source": "yijing",
+        "locator": "繫辭下 1"
+      }
+    ],
+    "status": "WORKING",
+    "verification": "unchecked",
+    "drafted": "Baracus",
+    "reviewed": "2026-11-04"
+  },
+  {
+    "id": "bridge-yang-dao",
+    "from": "yang",
+    "to": "dao",
+    "label": "一陰一陽",
+    "title": "陽 ↔ 道 · One Yin, One Yang: That Is the Way",
+    "subtitle": "Yijing, Xici",
+    "type": "ETYMOLOGICAL_SINITIC",
+    "evidence": "The Xici: 一陰一陽之謂道 — “one yin, one yang: that is called the Way.” Where the Daodejing says the Way cannot be told, the Xici gives it a rhythm: alternation itself.",
+    "dimension": "cosmos",
+    "period": "han",
+    "cites": [
+      {
+        "source": "yijing",
+        "locator": "繫辭上 5"
+      }
+    ],
+    "status": "WORKING",
+    "verification": "unchecked",
+    "drafted": "Baracus",
+    "reviewed": "2026-11-04"
+  },
+  {
+    "id": "bridge-tian-yi",
+    "from": "tian",
+    "to": "yi",
+    "label": "一 in 天",
+    "title": "天 ↔ 一 · One Over the Great",
+    "subtitle": "Graphic structure",
+    "type": "GRAPHIC_STRUCTURE",
+    "evidence": "Mojidata IDS: 天 is 一 over 大. The Shuowen reads it the same way, 从一大: the stroke of one above the great person.",
+    "dimension": "form",
+    "cites": [
+      {
+        "source": "mojidata-ids",
+        "locator": "天 ⿱一大",
+        "checked": {
+          "on": "2026-11-04",
+          "edition": "Mojidata IDS via @mandel59/mojidata@1.9.3 (data-raw/moji.db)",
+          "note": "天 ⿱一大"
+        }
+      },
+      {
+        "source": "shuowen",
+        "locator": "天"
+      }
+    ],
+    "status": "WORKING",
+    "verification": "partial",
+    "drafted": "Baracus",
+    "reviewed": "2026-11-04"
+  },
+  {
+    "id": "bridge-ren-ren",
+    "from": "ren-person",
+    "to": "ren-humane",
+    "label": "仁者人也",
+    "title": "人 ↔ 仁 · Humaneness Is Being Human",
+    "subtitle": "Mencius 7B16; graphic structure",
+    "type": "ETYMOLOGICAL_SINITIC",
+    "evidence": "Mencius 7B16: 仁也者，人也 — “humaneness is being human.” The two words are homophones (rén), and the graph of 仁 contains 人 (Mojidata IDS: ⿰亻二).",
+    "dimension": "sense",
+    "period": "pre_qin",
+    "cites": [
+      {
+        "source": "mencius",
+        "locator": "7B16"
+      },
+      {
+        "source": "mojidata-ids",
+        "locator": "仁 ⿰亻二",
+        "checked": {
+          "on": "2026-11-04",
+          "edition": "Mojidata IDS via @mandel59/mojidata@1.9.3 (data-raw/moji.db)",
+          "note": "仁 ⿰亻二"
+        }
+      }
+    ],
+    "status": "WORKING",
+    "verification": "partial",
+    "drafted": "Baracus",
+    "reviewed": "2026-11-04"
+  },
+  {
+    "id": "bridge-li-ren",
+    "from": "li-rite",
+    "to": "ren-humane",
+    "label": "克己復禮",
+    "title": "禮 ↔ 仁 · Returning to Ritual Is Humaneness",
+    "subtitle": "Analects 12.1",
+    "type": "ETYMOLOGICAL_SINITIC",
+    "evidence": "Analects 12.1: 顏淵問仁。子曰：克己復禮為仁 — “Yan Yuan asked about humaneness. The Master said: to overcome oneself and return to ritual is humaneness.”",
+    "dimension": "sense",
+    "period": "pre_qin",
+    "cites": [
+      {
+        "source": "analects",
+        "locator": "12.1"
+      }
+    ],
+    "status": "WORKING",
+    "verification": "unchecked",
+    "drafted": "Baracus",
+    "reviewed": "2026-11-04"
+  },
+  {
+    "id": "bridge-xiao-ren",
+    "from": "xiao",
+    "to": "ren-humane",
+    "label": "為仁之本",
+    "title": "孝 ↔ 仁 · The Root of Humaneness",
+    "subtitle": "Analects 1.2",
+    "type": "ETYMOLOGICAL_SINITIC",
+    "evidence": "Analects 1.2, Youzi: 孝弟也者，其為仁之本與 — “filial devotion and respect for elders: are they not the root of humaneness?”",
+    "dimension": "sense",
+    "period": "pre_qin",
+    "cites": [
+      {
+        "source": "analects",
+        "locator": "1.2"
+      }
+    ],
+    "status": "WORKING",
+    "verification": "unchecked",
+    "drafted": "Baracus",
+    "reviewed": "2026-11-04"
+  },
+  {
+    "id": "bridge-zhong-xin",
+    "from": "zhong",
+    "to": "xin-trust",
+    "label": "主忠信",
+    "title": "忠 ↔ 信 · Hold to Wholeheartedness and Good Faith",
+    "subtitle": "Analects 1.8",
+    "type": "ETYMOLOGICAL_SINITIC",
+    "evidence": "Analects 1.8: 主忠信，無友不如己者，過則勿憚改 — “hold to wholeheartedness and good faith; … when you err, do not fear to change.” The pair recurs through the Analects.",
+    "dimension": "sense",
+    "period": "pre_qin",
+    "cites": [
+      {
+        "source": "analects",
+        "locator": "1.8"
+      }
+    ],
+    "status": "WORKING",
+    "verification": "unchecked",
+    "drafted": "Baracus",
+    "reviewed": "2026-11-04"
+  },
+  {
+    "id": "bridge-ren-yi",
+    "from": "ren-humane",
+    "to": "yi-right",
+    "label": "仁義 · nhân nghĩa",
+    "title": "仁 ↔ 義 · Humaneness and Rightness",
+    "subtitle": "Mencius 1A1; Vietnam, 1428",
+    "type": "ETYMOLOGICAL_SINITIC",
+    "evidence": "Mencius opens by refusing profit: 王何必曰利？亦有仁義而已矣 — “why must the king speak of profit? There is humaneness and rightness, that is all.” In Vietnam, Nguyễn Trãi’s proclamation of 1428 begins 仁義之舉，要在安民, nhân nghĩa: “the work of humaneness and rightness lies in giving the people peace.”",
+    "caveat": "The Unihan Vietnamese readings (nhân, nghĩa) are checked; the quotation from the Bình Ngô đại cáo is Baracus’s, from general knowledge.",
+    "dimension": "sense",
+    "period": "pre_qin",
+    "cites": [
+      {
+        "source": "mencius",
+        "locator": "1A1"
+      },
+      {
+        "source": "binh-ngo",
+        "locator": "opening line"
+      },
+      {
+        "source": "unihan",
+        "locator": "kVietnamese: 仁, 義",
+        "checked": {
+          "on": "2026-11-04",
+          "edition": "Unihan 18.0.0 via @mandel59/mojidata@1.9.3 (data-raw/moji.db)",
+          "note": "仁 nhân · 義 nghĩa"
+        }
+      }
+    ],
+    "status": "WORKING",
+    "verification": "partial",
+    "drafted": "Baracus",
+    "reviewed": "2026-11-04"
+  },
+  {
+    "id": "bridge-de-dao",
+    "from": "de",
+    "to": "dao",
+    "label": "道生 · 德畜",
+    "title": "德 ↔ 道 · The Way Gives Birth, Virtue Rears",
+    "subtitle": "Daodejing ch. 51",
+    "type": "ETYMOLOGICAL_SINITIC",
+    "evidence": "Ch. 51: 道生之，德畜之，物形之，勢成之 — “the Way gives them birth, virtue rears them, things give them shape, circumstance completes them.” The book is the classic of 道 and 德, and here is why they go together.",
+    "dimension": "cosmos",
+    "period": "pre_qin",
+    "cites": [
+      {
+        "source": "daodejing",
+        "locator": "ch. 51"
+      }
+    ],
+    "status": "WORKING",
+    "verification": "unchecked",
+    "drafted": "Baracus",
+    "reviewed": "2026-11-04"
+  },
+  {
+    "id": "bridge-ren-ai",
+    "from": "ren-humane",
+    "to": "ai",
+    "label": "愛人",
+    "title": "仁 ↔ 愛 · To Love People",
+    "subtitle": "Analects 12.22",
+    "type": "ETYMOLOGICAL_SINITIC",
+    "evidence": "Analects 12.22: 樊遲問仁。子曰：「愛人。」 — “Fan Chi asked about humaneness. The Master said: love people.” The shortest definition of the central virtue is 愛.",
+    "caveat": "The check recorded here is the one logged on 2026-11-04 in CORRECTIONS.md (ctext.org), made in support of 愛’s card.",
+    "dimension": "sense",
+    "period": "pre_qin",
+    "cites": [
+      {
+        "source": "analects",
+        "locator": "12.22",
+        "checked": {
+          "on": "2026-11-04",
+          "edition": "https://ctext.org/analects (opened 2026-11-04; recorded in docs/CORRECTIONS.md)",
+          "note": "樊遲問仁。子曰：「愛人。」"
+        }
+      }
+    ],
+    "status": "WORKING",
+    "verification": "source",
+    "drafted": "Baracus",
+    "reviewed": "2026-11-04"
+  },
+  {
+    "id": "bridge-ren-xin",
+    "from": "ren-humane",
+    "to": "xin",
+    "label": "仁之端",
+    "title": "仁 ↔ 心 · The Sprout of Humaneness",
+    "subtitle": "Mencius 2A6",
+    "type": "ETYMOLOGICAL_SINITIC",
+    "evidence": "Mencius 2A6: 人皆有不忍人之心 — “everyone has a heart that cannot bear the suffering of others” — and 惻隱之心，仁之端也, “the heart of compassion is the sprout of humaneness”. For Mencius the virtues begin in the heart as sprouts that must be grown.",
+    "dimension": "sense",
+    "period": "pre_qin",
+    "cites": [
+      {
+        "source": "mencius",
+        "locator": "2A6"
+      }
+    ],
+    "status": "WORKING",
+    "verification": "unchecked",
+    "drafted": "Baracus",
+    "folded": [
+      "xin-mencius"
+    ],
+    "reviewed": "2026-11-04"
+  },
+  {
+    "id": "bridge-ren-er",
+    "from": "ren-humane",
+    "to": "er",
+    "label": "二 in 仁",
+    "title": "仁 ↔ 二 · A Person, and Two",
+    "subtitle": "Graphic structure",
+    "type": "GRAPHIC_STRUCTURE",
+    "evidence": "Mojidata IDS: 仁 is 亻 beside 二. The Shuowen: 仁，親也。从人从二 — “closeness: from person and two.” The virtue is drawn as a relation.",
+    "caveat": "Some scholars take 二 here as a mark rather than the numeral; the Shuowen’s “person and two” is the traditional reading.",
+    "dimension": "form",
+    "cites": [
+      {
+        "source": "mojidata-ids",
+        "locator": "仁 ⿰亻二",
+        "checked": {
+          "on": "2026-11-04",
+          "edition": "Mojidata IDS via @mandel59/mojidata@1.9.3 (data-raw/moji.db)",
+          "note": "仁 ⿰亻二"
+        }
+      },
+      {
+        "source": "shuowen",
+        "locator": "仁"
+      }
+    ],
+    "status": "WORKING",
+    "verification": "partial",
+    "drafted": "Baracus",
+    "reviewed": "2026-11-04"
+  },
+  {
+    "id": "bridge-xin-yan",
+    "from": "xin-trust",
+    "to": "yan",
+    "label": "言 in 信",
+    "title": "信 ↔ 言 · A Person Standing by Their Word",
+    "subtitle": "Graphic structure",
+    "type": "GRAPHIC_STRUCTURE",
+    "evidence": "Mojidata IDS: 信 is 亻 beside 言. The Shuowen: 信，誠也。从人从言 — “sincerity: from person and word.”",
+    "dimension": "form",
+    "cites": [
+      {
+        "source": "mojidata-ids",
+        "locator": "信 ⿰亻言",
+        "checked": {
+          "on": "2026-11-04",
+          "edition": "Mojidata IDS via @mandel59/mojidata@1.9.3 (data-raw/moji.db)",
+          "note": "信 ⿰亻言"
+        }
+      },
+      {
+        "source": "shuowen",
+        "locator": "信"
+      }
+    ],
+    "status": "WORKING",
+    "verification": "partial",
+    "drafted": "Baracus",
+    "reviewed": "2026-11-04"
+  },
+  {
+    "id": "bridge-xiao-ci",
+    "from": "xiao",
+    "to": "ci",
+    "label": "父慈子孝",
+    "title": "孝 ↔ 慈 · Kindness Down, Devotion Up",
+    "subtitle": "Liji, Liyun",
+    "type": "ETYMOLOGICAL_SINITIC",
+    "evidence": "The Liyun chapter of the Liji lists the ten duties of people: 父慈、子孝、兄良、弟弟、夫義、婦聽、長惠、幼順、君仁、臣忠 — the father kind, the child devoted … the ruler humane, the minister loyal. 慈 runs down the generations, 孝 runs up.",
+    "caveat": "The list encodes a hierarchy of its time; Rushi records the pairing, not the order of persons.",
+    "dimension": "sense",
+    "period": "han",
+    "cites": [
+      {
+        "source": "liji",
+        "locator": "禮運 (Liyun)"
+      }
+    ],
+    "status": "WORKING",
+    "verification": "unchecked",
+    "drafted": "Baracus",
+    "reviewed": "2026-11-04"
+  },
+  {
+    "id": "bridge-zhong-xin-heart",
+    "from": "zhong",
+    "to": "xin",
+    "label": "心 in 忠",
+    "title": "忠 ↔ 心 · The Heart Under the Centre",
+    "subtitle": "Graphic structure",
+    "type": "GRAPHIC_STRUCTURE",
+    "evidence": "Mojidata IDS: 忠 is 中 over 心. The Shuowen: 忠，敬也。从心，中聲 — the heart for meaning, 中 for sound. One more graph with 心 at its foot, like 慈 and 悲.",
+    "caveat": "Reading 忠 as “a centred heart” takes the phonetic 中 as meaning; it is a popular gloss, not the Shuowen’s.",
+    "dimension": "form",
+    "cites": [
+      {
+        "source": "mojidata-ids",
+        "locator": "忠 ⿱中心",
+        "checked": {
+          "on": "2026-11-04",
+          "edition": "Mojidata IDS via @mandel59/mojidata@1.9.3 (data-raw/moji.db)",
+          "note": "忠 ⿱中心"
+        }
+      },
+      {
+        "source": "shuowen",
+        "locator": "忠"
+      }
+    ],
+    "status": "WORKING",
+    "verification": "partial",
+    "drafted": "Baracus",
+    "reviewed": "2026-11-04"
+  },
+  {
+    "id": "bridge-zhong-dao",
+    "from": "zhong",
+    "to": "dao",
+    "label": "忠恕",
+    "title": "忠 ↔ 道 · The Master’s Way Is One Thread",
+    "subtitle": "Analects 4.15",
+    "type": "ETYMOLOGICAL_SINITIC",
+    "evidence": "Analects 4.15: the Master said his way had one thread through it; Zengzi explained, 夫子之道，忠恕而已矣 — “the Master’s way is wholeheartedness and fellow-feeling, nothing more.”",
+    "dimension": "sense",
+    "period": "pre_qin",
+    "cites": [
+      {
+        "source": "analects",
+        "locator": "4.15"
+      }
+    ],
+    "status": "WORKING",
+    "verification": "unchecked",
+    "drafted": "Baracus",
+    "reviewed": "2026-11-04"
   }
 ]

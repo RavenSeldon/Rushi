@@ -1,0 +1,51 @@
+{
+  "id": "ren-humane",
+  "key": "2",
+  "glyph": "仁",
+  "pinyin": "rén",
+  "gloss": "humaneness · benevolence · co-humanity",
+  "glossUnihan": "humaneness, benevolence, kindness",
+  "form": "亻 (person) + 二 (two)",
+  "formNote": "Mojidata IDS: ⿰亻二. The Shuowen: 仁，親也。从人从二 — “closeness: from person and two.” A virtue that exists only between people.",
+  "summary": "Humaneness, the central Confucian virtue: graphically a person and two, a virtue that only exists between people. Asked what it is, Confucius said 愛人, “to love people”; Mencius said it simply is being human.",
+  "coords": [
+    0.00702,
+    -0.0351,
+    0.0351
+  ],
+  "placement": "At the fixed point at the centre of the Rössler spiral (x ≈ 0.007, y ≈ −0.035, z ≈ 0.035), which the disk winds around: humaneness, the root the other virtues turn on. (Placement is a design choice, not a claim.)",
+  "oc": {
+    "form": "*ni[ŋ]",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "† Baracus, from general knowledge; not yet checked against B–S 2014."
+  },
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "rén",
+    "yue": "jan4",
+    "ja": "jin, nin, ni",
+    "ko": "인 in",
+    "vi": "nhân",
+    "fanqie": "如鄰切"
+  },
+  "structure": {
+    "ids": "⿰亻二",
+    "parts": [
+      "亻",
+      "二"
+    ],
+    "components": [
+      "亻",
+      "㇒",
+      "丨",
+      "二",
+      "一"
+    ],
+    "source": "mojidata-ids"
+  },
+  "satellites": []
+}

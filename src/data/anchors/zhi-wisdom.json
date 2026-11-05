@@ -1,0 +1,102 @@
+{
+  "id": "zhi-wisdom",
+  "key": "5",
+  "glyph": "智",
+  "pinyin": "zhì",
+  "gloss": "wisdom · discernment",
+  "glossUnihan": "wisdom, knowledge, intelligence",
+  "form": "知 (to know) + 日",
+  "formNote": "Mojidata IDS: ⿱知日. 智 is 知, “to know”, with 日 below; in early texts 知 often writes the word itself.",
+  "summary": "Wisdom as discernment: knowing right from wrong. Mencius found its sprout in the heart that tells 是 from 非; in Buddhist translation 智 renders jñāna, and with 慧 makes 智慧, wisdom.",
+  "coords": [
+    8.444,
+    -1.977,
+    0.573
+  ],
+  "placement": "On the right of the disk, opposite 義. (Placement is a design choice, not a claim.)",
+  "oc": {
+    "form": "*tre-s",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "† Baracus, from general knowledge; not yet checked against B–S 2014."
+  },
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "zhì",
+    "yue": "zi3",
+    "ja": "chi",
+    "ko": "지 ji",
+    "vi": "trí",
+    "fanqie": "知義切"
+  },
+  "structure": {
+    "ids": "⿱知日",
+    "parts": [
+      "知",
+      "矢",
+      "口",
+      "日",
+      "囗"
+    ],
+    "components": [
+      "知",
+      "矢",
+      "𠂉",
+      "大",
+      "口",
+      "日",
+      "囗",
+      "一"
+    ],
+    "source": "mojidata-ids"
+  },
+  "satellites": [
+    {
+      "id": "zhi-wisdom-duan",
+      "glyph": "是非之心",
+      "title": "The Sprout of Wisdom",
+      "lang": "Classical Chinese",
+      "type": "ETYMOLOGICAL_SINITIC",
+      "evidence": "Mencius 2A6: 是非之心，智之端也 — “the heart that tells right from wrong is the sprout of wisdom.” 是 and 非, “this” and “not”, are the same pair as 是 and 彼 on 二’s card.",
+      "dimension": "sense",
+      "period": "pre_qin",
+      "cites": [
+        {
+          "source": "mencius",
+          "locator": "2A6"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-04"
+    },
+    {
+      "id": "zhi-wisdom-form",
+      "glyph": "知 + 日",
+      "title": "Knowing, Under the Sun",
+      "lang": "Graphic structure",
+      "type": "GRAPHIC_STRUCTURE",
+      "evidence": "Mojidata IDS: 智 is 知 over 日. The graph for wisdom contains the graph for knowing.",
+      "dimension": "form",
+      "cites": [
+        {
+          "source": "mojidata-ids",
+          "locator": "智 ⿱知日",
+          "checked": {
+            "on": "2026-11-04",
+            "edition": "Mojidata IDS via @mandel59/mojidata@1.9.3 (data-raw/moji.db)",
+            "note": "智 ⿱知日"
+          }
+        }
+      ],
+      "status": "WORKING",
+      "verification": "source",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-04"
+    }
+  ]
+}

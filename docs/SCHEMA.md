@@ -72,7 +72,8 @@ Bridges add `from`, `to`, `label` (drawn at the midpoint) and `subtitle`. A brid
 
 - The first realm (the Pillars) sits at the origin, so its sky is exactly v1.0's.
 - Every anchor belongs to exactly one realm. Anchor ids are unique across all realms, and no realm id may equal an anchor id or `cosmos`.
-- Where a pinyin id would collide with a homophone in a planned system, the id adds a gloss word: `shi-real` (實; 時 and 識 are planned), `sheng-sound` (聲; 生), `yin-seal` (印; 陰), `zhou-spell` (咒; 宙).
+- Where a pinyin id would collide with a homophone in a planned system, the id adds a gloss word: `shi-real` (實; 時 and 識 are planned), `sheng-sound` (聲; 生), `yin-seal` (印; 陰), `zhou-spell` (咒; 宙), and in IV–V `ren-person` / `ren-humane`, `yin-shade`, `yi-change`, `yi-right`, `shi-time`, `li-rite`, `zhi-wisdom`, `xin-trust`. Satellite ids take the full anchor id as prefix where a bare pinyin prefix is taken.
+- An attractor's `map` may carry a `basis` (right, up, toward the viewer) to view it along a chosen direction: Halvorsen is seen down x = y = z, Rössler is tilted.
 - The equations, parameters and screen fit of each attractor live in `src/scene/attractors.js`; `node scripts/fit-attractors.mjs` prints the measured bounding boxes the fit constants came from.
 
 ## Anchor Fields

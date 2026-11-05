@@ -1,0 +1,87 @@
+{
+  "id": "yang",
+  "key": "5",
+  "glyph": "陽",
+  "simplified": "阳",
+  "pinyin": "yáng",
+  "gloss": "sunlit · bright · yang",
+  "glossUnihan": "the active, male principle in Chinese philosophy (yang); light; sun",
+  "form": "阝 (hill) + 昜 (sun rising)",
+  "formNote": "The Shuowen: 陽，高、明也 — “high and bright.” 昜 shows the sun above the horizon; with 阝, the sunlit slope. Mojidata IDS: ⿰阝昜.",
+  "summary": "The sunny slope, the bright, the high: yang, the active half of the pair. The Xici defines the Way itself through it: 一陰一陽之謂道, one yin and one yang, that is the Way.",
+  "coords": [
+    -0.68,
+    -4.461,
+    2.854
+  ],
+  "placement": "Just above the centre, on the right, facing 陰. (Placement is a design choice, not a claim.)",
+  "oc": {
+    "form": "*laŋ",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "† Baracus, from general knowledge; not yet checked against B–S 2014."
+  },
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "yáng",
+    "yue": "joeng4",
+    "ja": "yō",
+    "ko": "양 yang",
+    "vi": "dương",
+    "fanqie": "與章切"
+  },
+  "structure": {
+    "ids": "⿰阝昜",
+    "parts": [
+      "阝",
+      "昜",
+      "旦",
+      "勿"
+    ],
+    "components": [
+      "阝",
+      "昜",
+      "旦",
+      "日",
+      "一",
+      "勿",
+      "勹",
+      "丿"
+    ],
+    "source": "mojidata-ids"
+  },
+  "satellites": [
+    {
+      "id": "yang-form",
+      "glyph": "高明",
+      "title": "High and Bright",
+      "lang": "Han lexicography",
+      "type": "ETYMOLOGICAL_SINITIC",
+      "evidence": "The Shuowen: 陽，高、明也, “high and bright”. The phonetic 昜 pictures the sun risen over the horizon; the hill radical makes it the slope that catches the light.",
+      "dimension": "form",
+      "period": "han",
+      "cites": [
+        {
+          "source": "shuowen",
+          "locator": "陽"
+        },
+        {
+          "source": "mojidata-ids",
+          "locator": "陽 ⿰阝昜",
+          "checked": {
+            "on": "2026-11-04",
+            "edition": "Mojidata IDS via @mandel59/mojidata@1.9.3 (data-raw/moji.db)",
+            "note": "陽 ⿰阝昜"
+          }
+        }
+      ],
+      "status": "WORKING",
+      "verification": "partial",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-04"
+    }
+  ]
+}

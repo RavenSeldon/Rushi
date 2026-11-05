@@ -623,12 +623,34 @@ export class Galaxy {
   // tall phone screen is not left with a thin line of tiny galaxies.
   _cosmosDir(realmIds) {
     let best = null;
-    for (const deg of [0, 20, -20, 40, -40, 60, -60]) {
+    const cam = new PerspectiveCamera(FOV, this.size.w / this.size.h, 0.5, 6000);
+    const v = new Vector3();
+    for (const deg of [0, 20, -20, 40, -40, 60, -60, 80, -80]) {
       const dir = COSMOS_DIR.clone().applyAxisAngle(new Vector3(0, 1, 0), (deg * Math.PI) / 180);
-      const { half } = this._cosmosFrame(realmIds, dir);
+      const { centre, half } = this._cosmosFrame(realmIds, dir);
       const d = this._fit(half.x, half.y, 70, 70);
-      // Prefer the straight-on view unless another bearing is clearly closer.
-      if (!best || d < best.d * (deg === 0 ? 1 : 0.9)) best = { dir, d };
+      // Each system's name must stay legible: penalise bearings whose name
+      // labels would overlap on this screen.
+      cam.position.copy(centre).addScaledVector(dir, d);
+      cam.lookAt(centre);
+      cam.updateMatrixWorld();
+      // A name's box: the numeral above, the name in small capitals below.
+      const boxes = realmIds.map((id) => {
+        v.copy(this.layout.realms[id].labelPos).project(cam);
+        const name = REALMS.find((r) => r.id === id).name;
+        return { x: (v.x * this.size.w) / 2, y: (-v.y * this.size.h) / 2, w: name.length * 7.6 + 16, h: 40 };
+      });
+      let overlap = 0;
+      for (let i = 0; i < boxes.length; i++)
+        for (let j = i + 1; j < boxes.length; j++) {
+          const a = boxes[i], c = boxes[j];
+          const ox = (a.w + c.w) / 2 - Math.abs(a.x - c.x);
+          const oy = (a.h + c.h) / 2 - Math.abs(a.y - c.y);
+          if (ox > 0 && oy > 0) overlap += Math.min(ox, oy);
+        }
+      const score = d * (1 + overlap / 25);
+      // Prefer the straight-on view unless another bearing is clearly better.
+      if (!best || score < best.score * (deg === 0 ? 1 : 0.9)) best = { dir, score };
     }
     return best.dir;
   }
@@ -671,7 +693,26 @@ export class Galaxy {
       const upv = new Vector3().crossVectors(dir, right);
       const hx = Math.max(Math.abs(p0.clone().sub(look).dot(right)), Math.abs(p1.clone().sub(look).dot(right)));
       const hy = Math.max(Math.abs(p0.clone().sub(look).dot(upv)), Math.abs(p1.clone().sub(look).dot(upv)));
-      const d = Math.max(16, this._fit(hx + 2, hy + 2, 70, 70));
+      let d = Math.max(16, this._fit(hx + 2, hy + 2, 70, 70));
+      if (b.cross) {
+        // Between systems the two ends can sit at very different depths, so
+        // check them in perspective and step back until both are on screen.
+        const cam = new PerspectiveCamera(FOV, this.size.w / this.size.h, 0.5, 6000);
+        const { w, h } = this._available();
+        const lim = [Math.min(0.85, (w / this.size.w) * 0.85), Math.min(0.8, (h / this.size.h) * 0.8)];
+        const v = new Vector3();
+        for (let i = 0; i < 24; i++) {
+          cam.position.copy(look).addScaledVector(dir, d);
+          cam.lookAt(look);
+          cam.updateMatrixWorld();
+          const ok = [p0, p1].every((p) => {
+            v.copy(p).project(cam);
+            return v.z < 1 && Math.abs(v.x) < lim[0] && Math.abs(v.y) < lim[1];
+          });
+          if (ok) break;
+          d *= 1.12;
+        }
+      }
       return { pos: look.clone().addScaledVector(dir, d), look, mode: 'CONNECTION' };
     }
     if (anchorId) {

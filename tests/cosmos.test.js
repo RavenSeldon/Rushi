@@ -84,6 +84,8 @@ test('routes: every v1.0 link still resolves to what it showed', () => {
   assert.deepEqual(parseHash('#/dao/dao-ziran'), { level: 'connection', realmId: 'pillars', anchorId: 'dao', edgeId: 'bridge-fa-dao' });
   assert.deepEqual(parseHash('#/ming/ming-shi'), { level: 'connection', realmId: 'ground', anchorId: 'ming', edgeId: 'bridge-ming-shi' });
   assert.equal(parseHash('#/words/shi-real').anchorId, 'shi-real');
+  assert.equal(parseHash('#/xin/xin-mencius').edgeId, 'bridge-ren-xin');
+  assert.equal(parseHash('#/virtues/ren-humane').realmId, 'virtues');
   // A mismatched realm segment is corrected by the anchor, never an error.
   assert.equal(parseHash('#/ground/dao').realmId, 'pillars');
   // Unknown segments fall back gracefully.

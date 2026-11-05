@@ -1,0 +1,54 @@
+{
+  "id": "zhong",
+  "key": "8",
+  "glyph": "忠",
+  "pinyin": "zhōng",
+  "gloss": "loyalty · doing one’s utmost",
+  "glossUnihan": "loyalty, devotion, fidelity",
+  "form": "中 + 心 (heart)",
+  "formNote": "Mojidata IDS: ⿱中心. The Shuowen: 忠，敬也。从心，中聲 — “reverence: from heart, with 中 as phonetic.” Reading it as “a centred heart” treats the phonetic as meaning.",
+  "summary": "Loyalty, but first doing one’s utmost for others: Zengzi said the Master’s whole way was 忠 and 恕, wholeheartedness and fellow-feeling. Later it hardened into loyalty to a ruler.",
+  "coords": [
+    10.285,
+    -0.925,
+    12.014
+  ],
+  "placement": "On the falling side of the fold, facing 孝 across it. (Placement is a design choice, not a claim.)",
+  "oc": {
+    "form": "*truŋ",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "† Baracus, from general knowledge; not yet checked against B–S 2014."
+  },
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "zhōng",
+    "yue": "zung1",
+    "ja": "chū",
+    "ko": "충 chung",
+    "vi": "trung",
+    "fanqie": "陟弓切"
+  },
+  "structure": {
+    "ids": "⿱中心",
+    "parts": [
+      "中",
+      "口",
+      "心"
+    ],
+    "components": [
+      "中",
+      "口",
+      "丨",
+      "心",
+      "㇒",
+      "乚",
+      "丶"
+    ],
+    "source": "mojidata-ids"
+  },
+  "satellites": []
+}

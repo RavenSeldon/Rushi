@@ -1,0 +1,76 @@
+{
+  "id": "di",
+  "key": "2",
+  "glyph": "地",
+  "pinyin": "dì",
+  "gloss": "earth · ground · place",
+  "glossUnihan": "earth; soil, ground; region",
+  "form": "土 (soil) + 也",
+  "formNote": "Mojidata IDS: ⿰土也. The Shuowen explains 地 cosmologically, as what settled when the primal qi divided (see 天 · 地).",
+  "summary": "The earth, the ground, a place: in correlative cosmology, the heavy and turbid that settled below when the light and clear rose to become Heaven. Its trigram is 坤, the receptive.",
+  "coords": [
+    -7.482,
+    5.901,
+    -4.872
+  ],
+  "placement": "At the tip of the lower-left lobe: Earth, one of the Three Powers. (Placement is a design choice, not a claim.)",
+  "oc": {
+    "form": "*[l]ˤej-s",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "† Baracus, from general knowledge; not yet checked against B–S 2014."
+  },
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "de dì",
+    "yue": "dei6",
+    "ja": "chi, ji",
+    "ko": "지 ji",
+    "vi": "địa",
+    "fanqie": "徒四切"
+  },
+  "structure": {
+    "ids": "⿰土也",
+    "parts": [
+      "土",
+      "十",
+      "也",
+      "乜"
+    ],
+    "components": [
+      "土",
+      "十",
+      "一",
+      "丨",
+      "也",
+      "乜"
+    ],
+    "source": "mojidata-ids"
+  },
+  "satellites": [
+    {
+      "id": "di-kun",
+      "glyph": "坤為地",
+      "title": "The Receptive",
+      "lang": "Yijing (說卦)",
+      "type": "TRADITIONAL_CORRESPONDENCE",
+      "evidence": "The Shuogua lists each trigram’s images: 乾為天，坤為地 — “Qian is Heaven, Kun is Earth.” The six broken lines of 坤 stand for what receives and bears.",
+      "caveat": "A correspondence within the Yijing’s symbolic system, not a claim about the earth.",
+      "dimension": "symbol",
+      "period": "han",
+      "cites": [
+        {
+          "source": "yijing",
+          "locator": "說卦 (Shuogua)"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-04"
+    }
+  ]
+}

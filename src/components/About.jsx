@@ -105,7 +105,8 @@ export default function About({ onClose }) {
             <p>
               Rushi is a map of relationships between Chinese characters and the words other languages have used for
               them, gathered into solar systems of about eight: the Pillars (道 無 為 愛 不 二 量 司), the Ground
-              (有 空 心 法 一 慈 悲 名) and Words of Power (如 實 真 言 咒 聲 符 印), with more to come. It is built to be explored the way one explores a night sky:
+              (有 空 心 法 一 慈 悲 名), Words of Power (如 實 真 言 咒 聲 符 印), Heaven and Change (天 地 人 陰 陽 氣 易 時)
+              and the Constant Virtues (德 仁 義 禮 智 信 孝 忠), with more to come. It is built to be explored the way one explores a night sky:
               the cosmos first, then a single system, a single constellation, a single line.
             </p>
             <p>
@@ -192,6 +193,18 @@ a = 0.95, b = 0.7, c = 0.6, d = 3.5, e = 0.25, f = 0.1`}
               change, which turns the attractor 120° about the line x = y = z. On that line the flow stands still wherever
               sin x = b x: at the origin, where 如 sits, and at x = y = z ≈ ±2.576; 實 sits at the positive one, the one
               this attractor winds around. So 如實 runs along the axis the whole system turns about.
+            </p>
+            <p className="text-[15px] text-slate-300">
+              Heaven and Change is the <b className="font-medium text-starlight">Halvorsen attractor</b>, also unchanged
+              when x → y → z, seen straight down its axis of symmetry: from there it has three lobes, 120° apart, and 天, 地
+              and 人, the Three Powers of the Yijing, take one each. The origin is a fixed point near the centre, and 氣 sits
+              there.
+            </p>
+            <p className="text-[15px] text-slate-300">
+              The Constant Virtues is the <b className="font-medium text-starlight">Rössler attractor</b>, tilted so its
+              two parts show: a flat spiral disk, and one fold where the path lifts away and falls back. 仁 sits on the
+              fixed point at the centre of the disk; 德 at the top of the fold, because the Shuowen glosses 德 as 升, “to
+              rise”.
             </p>
             <p className="text-[15px] text-slate-300">
               Moving between systems passes through the cosmos, where every system appears at once and faint threads mark the

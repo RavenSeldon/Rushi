@@ -1,0 +1,123 @@
+{
+  "id": "de",
+  "key": "1",
+  "glyph": "德",
+  "pinyin": "dé",
+  "gloss": "virtue · power · moral force",
+  "glossUnihan": "ethics, morality, virtue",
+  "form": "彳 (going) + 𢛳 (直 + 心)",
+  "formNote": "Mojidata IDS: ⿰彳𢛳. The Shuowen: 德，升也, “to rise”; it also lists 惪, 外得於人，內得於己也, “gained from others outwardly, gained in oneself inwardly”, a gloss by sound with 得, “to get”.",
+  "summary": "Virtue in the old sense of power: the efficacy a thing or person has by being what it is. The Daodejing is the classic of the Way (道) and its power (德); Confucians made it moral character.",
+  "coords": [
+    7.001,
+    0.751,
+    21.828
+  ],
+  "placement": "At the summit of the Rössler fold, the one place where the flow rises: the Shuowen glosses 德 as 升, “to rise”. (Placement is a design choice, not a claim.)",
+  "oc": {
+    "form": "*tˤək",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "† Baracus, from general knowledge; not yet checked against B–S 2014."
+  },
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "dé",
+    "yue": "dak1",
+    "ja": "toku",
+    "ko": "덕 deok",
+    "vi": "đức",
+    "fanqie": "多則切"
+  },
+  "structure": {
+    "ids": "⿰彳𢛳",
+    "parts": [
+      "彳",
+      "十",
+      "罒",
+      "心"
+    ],
+    "components": [
+      "彳",
+      "𰀪",
+      "㇒",
+      "丨",
+      "𢛳",
+      "十",
+      "一",
+      "罒",
+      "囗",
+      "心",
+      "乚",
+      "丶"
+    ],
+    "source": "mojidata-ids"
+  },
+  "satellites": [
+    {
+      "id": "de-rise",
+      "glyph": "德，升也",
+      "title": "To Rise; to Get",
+      "lang": "Han lexicography",
+      "type": "ETYMOLOGICAL_SINITIC",
+      "evidence": "The Shuowen glosses 德 as 升, “to rise”, and glosses its variant 惪 as what is gained outwardly from others and inwardly in oneself (外得於人，內得於己). Virtue as what one has come to possess.",
+      "caveat": "Glosses by sound (德 / 得); they record Han understanding, not origin.",
+      "dimension": "form",
+      "period": "han",
+      "cites": [
+        {
+          "source": "shuowen",
+          "locator": "德; 惪"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-04"
+    },
+    {
+      "id": "de-shangde",
+      "glyph": "上德不德",
+      "title": "The Highest Virtue Is Not Virtuous",
+      "lang": "Classical Chinese",
+      "type": "ETYMOLOGICAL_SINITIC",
+      "evidence": "Daodejing ch. 38: 上德不德，是以有德；下德不失德，是以無德 — “the highest virtue does not cling to virtue, and so has it; the lowest never lets go of virtue, and so lacks it.” Power that is held on to is lost.",
+      "dimension": "sense",
+      "period": "pre_qin",
+      "cites": [
+        {
+          "source": "daodejing",
+          "locator": "ch. 38"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-04"
+    },
+    {
+      "id": "de-arete",
+      "glyph": "ἀρετή · aretē",
+      "title": "Excellence, Elsewhere",
+      "lang": "Ancient Greek",
+      "type": "CROSS_LINGUISTIC_LEXICAL",
+      "evidence": "Greek ἀρετή is the excellence of a thing at being what it is: a knife’s sharpness, a horse’s speed, a person’s virtue. Like 德, it names a power before it names a morality.",
+      "caveat": "An analogy, not a translation. The two systems differ greatly, and no early text renders one by the other.",
+      "dimension": "sense",
+      "mechanism": "independent_parallel",
+      "cites": [
+        {
+          "source": "lsj",
+          "locator": "ἀρετή"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-04"
+    }
+  ]
+}

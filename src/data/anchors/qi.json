@@ -1,0 +1,134 @@
+{
+  "id": "qi",
+  "key": "6",
+  "glyph": "氣",
+  "simplified": "气",
+  "pinyin": "qì",
+  "gloss": "breath · vapour · vital energy",
+  "glossUnihan": "air, gas, steam, vapor; spirit",
+  "form": "气 (vapour) + 米 (rice)",
+  "formNote": "Mojidata IDS: ⿹气米. The Shuowen distinguishes 气, 雲气也, “cloud vapour”, from 氣, 饋客芻米也, “fodder and rice given to guests”. The graph for the gift was borrowed for the word for vapour.",
+  "summary": "Breath, vapour, the stuff of life: in early Chinese thought, what condenses into things and disperses at death. Its graph once meant rice given to guests; in Japanese it is ki, in Korean gi.",
+  "coords": [
+    0,
+    0,
+    0
+  ],
+  "placement": "At the origin, a fixed point of the system near the centre of the three lobes: the qi that the whole flow turns around. (Placement is a design choice, not a claim.)",
+  "oc": {
+    "form": "*C.qʰət-s",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "† Baracus, from general knowledge; not yet checked against B–S 2014."
+  },
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "qì",
+    "yue": "hei3",
+    "ja": "ki, ke",
+    "ko": "기 gi",
+    "vi": "khí",
+    "fanqie": "去旣切, 許旣切"
+  },
+  "structure": {
+    "ids": "⿹气米",
+    "parts": [
+      "气",
+      "米",
+      "木"
+    ],
+    "components": [
+      "气",
+      "𠂉",
+      "一",
+      "⺄",
+      "米",
+      "丷",
+      "丶",
+      "㇒",
+      "木",
+      "十",
+      "𠆢"
+    ],
+    "source": "mojidata-ids"
+  },
+  "satellites": [
+    {
+      "id": "qi-form",
+      "glyph": "气 · 米",
+      "title": "Vapour, and Rice for Guests",
+      "lang": "Han lexicography",
+      "type": "ETYMOLOGICAL_SINITIC",
+      "evidence": "The Shuowen has two entries: 气，雲气也, “cloud vapour”, and 氣，饋客芻米也, “fodder and rice given to guests”, with 米 in it (Mojidata IDS: ⿹气米). The word for breath came to be written with the graph for a meal shared.",
+      "dimension": "form",
+      "period": "han",
+      "cites": [
+        {
+          "source": "shuowen",
+          "locator": "气; 氣"
+        },
+        {
+          "source": "mojidata-ids",
+          "locator": "氣 ⿹气米",
+          "checked": {
+            "on": "2026-11-04",
+            "edition": "Mojidata IDS via @mandel59/mojidata@1.9.3 (data-raw/moji.db)",
+            "note": "氣 ⿹气米"
+          }
+        }
+      ],
+      "status": "WORKING",
+      "verification": "partial",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-04"
+    },
+    {
+      "id": "qi-zhuangzi",
+      "glyph": "氣之聚也",
+      "title": "Life Is the Gathering of Qi",
+      "lang": "Classical Chinese",
+      "type": "ETYMOLOGICAL_SINITIC",
+      "evidence": "Zhuangzi ch. 22: 人之生，氣之聚也；聚則為生，散則為死 — “a person’s life is the gathering of qi; gathered, it is life; scattered, it is death.” Birth and death as one substance condensing and dispersing.",
+      "dimension": "cosmos",
+      "period": "pre_qin",
+      "cites": [
+        {
+          "source": "zhuangzi",
+          "locator": "ch. 22 知北遊"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-04"
+    },
+    {
+      "id": "qi-pneuma",
+      "glyph": "πνεῦμα · prāṇa",
+      "title": "Breath as Life, Elsewhere",
+      "lang": "Greek; Sanskrit",
+      "type": "CROSS_LINGUISTIC_LEXICAL",
+      "evidence": "Greek πνεῦμα (wind, breath, spirit) and Sanskrit prāṇa (breath, the life-force) also make breath the stuff of life. Three traditions, without contact at the start, reached for the air moving in a body.",
+      "caveat": "An analogy: the three concepts differ in their systems (qi also makes up rocks and weather), and none renders the others in early texts.",
+      "dimension": "sense",
+      "mechanism": "independent_parallel",
+      "cites": [
+        {
+          "source": "lsj",
+          "locator": "πνεῦμα"
+        },
+        {
+          "source": "monier-williams",
+          "locator": "prāṇa"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-04"
+    }
+  ]
+}

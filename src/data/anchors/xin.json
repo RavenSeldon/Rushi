@@ -77,26 +77,6 @@
       "reviewed": "2026-11-04"
     },
     {
-      "id": "xin-mencius",
-      "glyph": "惻隱之心",
-      "title": "The Heart That Cannot Bear Suffering",
-      "lang": "Classical Chinese",
-      "type": "ETYMOLOGICAL_SINITIC",
-      "evidence": "Mencius 2A6: 人皆有不忍人之心 — “everyone has a heart that cannot bear the suffering of others” — and 惻隱之心，仁之端也, “the heart of compassion is the sprout of humaneness”. For Mencius the virtues begin in the heart as sprouts that must be grown.",
-      "dimension": "sense",
-      "period": "pre_qin",
-      "cites": [
-        {
-          "source": "mencius",
-          "locator": "2A6"
-        }
-      ],
-      "status": "WORKING",
-      "verification": "unchecked",
-      "drafted": "Baracus",
-      "reviewed": "2026-11-04"
-    },
-    {
       "id": "xin-mansion",
       "glyph": "心宿 · Antares",
       "title": "The Heart Mansion",

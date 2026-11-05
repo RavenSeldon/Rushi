@@ -1,0 +1,91 @@
+{
+  "id": "tian",
+  "key": "1",
+  "glyph": "天",
+  "pinyin": "tiān",
+  "gloss": "heaven · sky · nature — and what is given (天命)",
+  "glossUnihan": "sky, heaven; god, celestial",
+  "form": "一 + 大",
+  "formNote": "The Shuowen: 天，顛也。至高無上，从一大 — “the crown of the head; highest, with nothing above; from 一 and 大.” Early forms show a person (大) with a large head; the head is what is highest.",
+  "summary": "The sky, Heaven, and what is given rather than chosen: Confucius knew the mandate of Heaven at fifty, Zhuangzi heard the piping of Heaven. In the Yijing’s cosmology 天 is the first of the Three Powers, with Earth and the human.",
+  "coords": [
+    -8.606,
+    -9.073,
+    6.129
+  ],
+  "placement": "At the tip of the upper lobe. Halvorsen’s system is unchanged when x → y → z, so seen down the line x = y = z it shows three lobes, 120° apart: 天, 地 and 人 take one each, the Three Powers. (Placement is a design choice, not a claim.)",
+  "oc": {
+    "form": "*l̥ˤi[n]",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "† Baracus, from general knowledge; not yet checked against B–S 2014."
+  },
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "tiān",
+    "yue": "tin1",
+    "ja": "ten",
+    "ko": "천 cheon",
+    "vi": "thiên",
+    "fanqie": "他前切"
+  },
+  "structure": {
+    "ids": "⿱一大",
+    "parts": [
+      "大",
+      "人"
+    ],
+    "components": [
+      "一",
+      "大",
+      "人"
+    ],
+    "source": "mojidata-ids"
+  },
+  "satellites": [
+    {
+      "id": "tian-form",
+      "glyph": "天，顛也",
+      "title": "The Crown of the Head",
+      "lang": "Han lexicography",
+      "type": "ETYMOLOGICAL_SINITIC",
+      "evidence": "The Shuowen glosses 天 by a near-homophone, 顛, “the crown of the head”, and adds 至高無上, “highest, with nothing above”. Heaven is first the top of a person, then the top of the world.",
+      "caveat": "Glossing by sound (聲訓) is a Han method; it records how the word was understood, not necessarily where it came from.",
+      "dimension": "form",
+      "period": "han",
+      "cites": [
+        {
+          "source": "shuowen",
+          "locator": "天"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-04"
+    },
+    {
+      "id": "tian-ming",
+      "glyph": "天命",
+      "title": "The Mandate of Heaven",
+      "lang": "Classical Chinese",
+      "type": "ETYMOLOGICAL_SINITIC",
+      "evidence": "Analects 2.4: 五十而知天命 — “at fifty I knew the mandate of Heaven.” 命, “command, fate”, given by 天: what is set for a person, to be understood rather than chosen.",
+      "dimension": "sense",
+      "period": "pre_qin",
+      "cites": [
+        {
+          "source": "analects",
+          "locator": "2.4"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-04"
+    }
+  ]
+}

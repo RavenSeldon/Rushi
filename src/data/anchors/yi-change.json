@@ -1,0 +1,107 @@
+{
+  "id": "yi-change",
+  "key": "7",
+  "glyph": "易",
+  "pinyin": "yì",
+  "gloss": "change · the Changes (the Yijing) · easy",
+  "glossUnihan": "change; easy",
+  "form": "日 + 勿",
+  "formNote": "The Shuowen: 易，蜥易 … 象形 — “a lizard (the chameleon?); a pictograph”, and adds 祕書說：日月為易，象陰陽也, “the occult books say sun and moon make 易, picturing yin and yang.” Mojidata IDS gives ⿱日勿: the lower part is 勿, not 月.",
+  "summary": "Change, and the Book of Changes: the Yijing’s sixty-four hexagrams model a world that never stops turning. 易 also means easy, and commentators made three meanings of it: the simple, the changing and the unchanging.",
+  "coords": [
+    -4.878,
+    -1.166,
+    -11.761
+  ],
+  "placement": "Below the centre on the left, between the lower lobes, beside 時: change, with time. (Placement is a design choice, not a claim.)",
+  "oc": {
+    "form": "*lek",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "† Baracus, from general knowledge; not yet checked against B–S 2014."
+  },
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "yì",
+    "yue": "ji6",
+    "ja": "eki, i",
+    "ko": "역 yeok, 이 i",
+    "vi": "dịch",
+    "fanqie": "以豉切, 羊益切"
+  },
+  "structure": {
+    "ids": "⿱日勿",
+    "parts": [
+      "日",
+      "囗",
+      "勿",
+      "勹"
+    ],
+    "components": [
+      "日",
+      "囗",
+      "一",
+      "勿",
+      "勹",
+      "㇒",
+      "𠃌",
+      "丿"
+    ],
+    "source": "mojidata-ids"
+  },
+  "satellites": [
+    {
+      "id": "yi-change-form",
+      "glyph": "日月為易",
+      "title": "A Lizard, or Sun and Moon",
+      "lang": "Han lexicography",
+      "type": "ETYMOLOGICAL_SINITIC",
+      "evidence": "The Shuowen gives two readings of the graph: a lizard, the creature that changes colour, and, from the occult books, 日月為易, “sun and moon make 易”, picturing yin and yang.",
+      "caveat": "Mojidata IDS analyses the modern graph as 日 over 勿, not 月; the sun-and-moon reading is the Shuowen’s report, not the graph’s structure.",
+      "dimension": "form",
+      "period": "han",
+      "cites": [
+        {
+          "source": "shuowen",
+          "locator": "易"
+        },
+        {
+          "source": "mojidata-ids",
+          "locator": "易 ⿱日勿",
+          "checked": {
+            "on": "2026-11-04",
+            "edition": "Mojidata IDS via @mandel59/mojidata@1.9.3 (data-raw/moji.db)",
+            "note": "易 ⿱日勿"
+          }
+        }
+      ],
+      "status": "WORKING",
+      "verification": "partial",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-04"
+    },
+    {
+      "id": "yi-change-shengsheng",
+      "glyph": "生生之謂易",
+      "title": "Generating Generation",
+      "lang": "Yijing (繫辭)",
+      "type": "ETYMOLOGICAL_SINITIC",
+      "evidence": "The Xici: 生生之謂易 — “generation upon generation: that is called change.” Change is not decay but the continuing production of life.",
+      "dimension": "cosmos",
+      "period": "han",
+      "cites": [
+        {
+          "source": "yijing",
+          "locator": "繫辭上 5"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-04"
+    }
+  ]
+}

@@ -32,6 +32,23 @@ import zhouSpell from './anchors/zhou-spell.json' with { type: 'json' };
 import shengSound from './anchors/sheng-sound.json' with { type: 'json' };
 import fu from './anchors/fu.json' with { type: 'json' };
 import yinSeal from './anchors/yin-seal.json' with { type: 'json' };
+// Realm IV — Heaven and Change; Realm V — The Constant Virtues
+import tian from './anchors/tian.json' with { type: 'json' };
+import di from './anchors/di.json' with { type: 'json' };
+import renPerson from './anchors/ren-person.json' with { type: 'json' };
+import yinShade from './anchors/yin-shade.json' with { type: 'json' };
+import yang from './anchors/yang.json' with { type: 'json' };
+import qi from './anchors/qi.json' with { type: 'json' };
+import yiChange from './anchors/yi-change.json' with { type: 'json' };
+import shiTime from './anchors/shi-time.json' with { type: 'json' };
+import de from './anchors/de.json' with { type: 'json' };
+import renHumane from './anchors/ren-humane.json' with { type: 'json' };
+import yiRight from './anchors/yi-right.json' with { type: 'json' };
+import liRite from './anchors/li-rite.json' with { type: 'json' };
+import zhiWisdom from './anchors/zhi-wisdom.json' with { type: 'json' };
+import xinTrust from './anchors/xin-trust.json' with { type: 'json' };
+import xiao from './anchors/xiao.json' with { type: 'json' };
+import zhong from './anchors/zhong.json' with { type: 'json' };
 import { EDGE_TYPES } from './edgeTypes.js';
 import { ATTRACTOR_IDS, DIMENSIONS, MECHANISMS, PERIODS, STATUSES, VERIFICATION } from './vocab.js';
 
@@ -41,6 +58,7 @@ const ANCHOR_FILES = {
   dao, wu, wei, ai, bu, er, liang, si,
   you, kong, xin, fa, yi, ci, bei, ming,
   ru, 'shi-real': shiReal, zhen, yan, 'zhou-spell': zhouSpell, 'sheng-sound': shengSound, fu, 'yin-seal': yinSeal,
+  tian, di, 'ren-person': renPerson, 'yin-shade': yinShade, yang, qi, 'yi-change': yiChange, 'shi-time': shiTime, de, 'ren-humane': renHumane, 'yi-right': yiRight, 'li-rite': liRite, 'zhi-wisdom': zhiWisdom, 'xin-trust': xinTrust, xiao, zhong,
 };
 
 export const REALMS = realms;

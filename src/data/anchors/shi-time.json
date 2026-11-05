@@ -1,0 +1,109 @@
+{
+  "id": "shi-time",
+  "key": "8",
+  "glyph": "時",
+  "simplified": "时",
+  "pinyin": "shí",
+  "gloss": "time · season · the right moment",
+  "glossUnihan": "time, season; era, age, period",
+  "form": "日 (sun) + 寺 (phonetic)",
+  "formNote": "The Shuowen: 時，四時也 — “the four seasons.” Mojidata IDS: ⿰日寺. Time is first the sun’s round of seasons.",
+  "summary": "The seasons, time, and the timely: for Mencius, Confucius was the sage of timeliness. In the Yijing, wisdom is acting in step with the moment, 與時偕行.",
+  "coords": [
+    3.628,
+    -1.387,
+    -4.978
+  ],
+  "placement": "Below the centre on the right, beside 易. (Placement is a design choice, not a claim.)",
+  "oc": {
+    "form": "*də",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "† Baracus, from general knowledge; not yet checked against B–S 2014."
+  },
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "shí",
+    "yue": "si4",
+    "ja": "ji, shi",
+    "ko": "시 si",
+    "vi": "thì",
+    "fanqie": "市之切"
+  },
+  "structure": {
+    "ids": "⿰日寺",
+    "parts": [
+      "日",
+      "囗",
+      "寺",
+      "士",
+      "寸"
+    ],
+    "components": [
+      "日",
+      "囗",
+      "一",
+      "寺",
+      "士",
+      "丄",
+      "寸",
+      "𬺰",
+      "丶"
+    ],
+    "source": "mojidata-ids"
+  },
+  "satellites": [
+    {
+      "id": "shi-time-form",
+      "glyph": "四時",
+      "title": "The Four Seasons",
+      "lang": "Han lexicography",
+      "type": "ETYMOLOGICAL_SINITIC",
+      "evidence": "The Shuowen: 時，四時也, “the four seasons”, with 日, the sun, as meaning and 寺 as sound. Time begins as the year’s turning.",
+      "dimension": "form",
+      "period": "han",
+      "cites": [
+        {
+          "source": "shuowen",
+          "locator": "時"
+        },
+        {
+          "source": "mojidata-ids",
+          "locator": "時 ⿰日寺",
+          "checked": {
+            "on": "2026-11-04",
+            "edition": "Mojidata IDS via @mandel59/mojidata@1.9.3 (data-raw/moji.db)",
+            "note": "時 ⿰日寺"
+          }
+        }
+      ],
+      "status": "WORKING",
+      "verification": "partial",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-04"
+    },
+    {
+      "id": "shi-time-sage",
+      "glyph": "聖之時者",
+      "title": "The Sage of the Timely",
+      "lang": "Classical Chinese",
+      "type": "ETYMOLOGICAL_SINITIC",
+      "evidence": "Mencius 5B1 compares the sages: Bo Yi the pure, Yi Yin the responsible, Liuxia Hui the accommodating, and 孔子，聖之時者也 — “Confucius was the sage of timeliness”: he did what each moment asked.",
+      "dimension": "sense",
+      "period": "pre_qin",
+      "cites": [
+        {
+          "source": "mencius",
+          "locator": "5B1"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-04"
+    }
+  ]
+}

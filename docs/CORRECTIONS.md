@@ -197,3 +197,39 @@ The ch. 25 check (Würzburg edition) moved with `dao-ziran`. `wu-sunyata` (本�
 ### A visible change to the Pillars, from the earlier fold
 
 道's Star view now has four satellites, not five, since 道法自然 became `bridge-fa-dao`. The ring is re-spaced; nothing else in the Pillars moved.
+
+## 2026-11-04 — Realms IV and V (WORKING, drafted by Baracus)
+
+### IV — Heaven and Change, on the Halvorsen attractor
+
+天 地 人 陰 陽 氣 易 時, seen down the axis x = y = z, where the attractor has three lobes. 天 地 人 take one each (the Three Powers, 三才). 氣 sits at the origin, a fixed point of the system. There are 14 satellites and 7 bridges, 3 of the bridges into other systems: 一陰一陽之謂道 (陽 ↔ 道), 一 in 天 (天 ↔ 一) and 仁者人也 (人 ↔ 仁).
+
+### V — The Constant Virtues, on the Rössler attractor (tilted view)
+
+德 仁 義 禮 智 信 孝 忠. 仁 sits on the fixed point at the centre of the spiral disk, and 德 at the summit of the fold (the Shuowen: 德，升也). There are 12 satellites and 12 bridges, 8 of the bridges into other systems: 道生之德畜之, 愛人, 仁之端, 二 in 仁, 言 in 信, 父慈子孝, 心 in 忠, 忠恕.
+
+### Folds and reuse
+
+- `xin-mencius` (惻隱之心) was folded into `bridge-ren-xin`; the old link redirects.
+- `bridge-ren-ai` reuses the Analects 12.22 check logged earlier today (ctext.org), and says so in its caveat.
+
+### Sources registered
+
+`yijing` (with Xici and Shuogua), `liji`, `binh-ngo` (Nguyễn Trãi, 1428).
+
+### Checked against the database this session
+
+Mojidata IDS for 天 陽 氣 易 時 仁 禮 智 信 孝 忠; Unihan kJapaneseOn for 陰 and 陽; kVietnamese for 仁 and 義.
+
+### Flagged
+
+- Daodejing ch. 42 (負陰抱陽) is still unopened, like 道生一.
+- The 五常 attribution (Dong Zhongshu) needs a Han source.
+- The Bình Ngô đại cáo line and the onmyōdō sound-linking are Baracus's, from general knowledge.
+- Every Old Chinese form is † unchecked.
+
+### Engine
+
+- Attractors may carry a viewing basis.
+- The cosmos bearing now also avoids overlapping system names on narrow screens.
+- The Pillars are unaffected (re-checked).

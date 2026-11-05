@@ -1,0 +1,86 @@
+{
+  "id": "xiao",
+  "key": "7",
+  "glyph": "孝",
+  "pinyin": "xiào",
+  "gloss": "filial devotion · care for parents",
+  "glossUnihan": "filial piety, obedience; mourning",
+  "form": "耂 (elder) + 子 (child)",
+  "formNote": "Mojidata IDS: ⿱耂子. The Shuowen: 孝，善事父母者。从老省，从子，子承老也 — “one who serves parents well: from 老 abbreviated and 子; the child bearing up the old.”",
+  "summary": "Devotion to parents: graphically a child under an elder, holding them up. Confucians made it the root of humaneness and the model for loyalty.",
+  "coords": [
+    1.985,
+    2.914,
+    11.814
+  ],
+  "placement": "On the rising side of the fold, between 仁 below and 德 above. (Placement is a design choice, not a claim.)",
+  "oc": {
+    "form": "*qʰˤru-s",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "† Baracus, from general knowledge; not yet checked against B–S 2014."
+  },
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "xiào",
+    "yue": "haau3",
+    "ja": "kō, kyō",
+    "ko": "효 hyo",
+    "vi": "hiếu",
+    "fanqie": "呼敎切"
+  },
+  "structure": {
+    "ids": "⿱耂子",
+    "parts": [
+      "耂",
+      "土",
+      "子",
+      "了"
+    ],
+    "components": [
+      "耂",
+      "土",
+      "十",
+      "一",
+      "㇒",
+      "子",
+      "了",
+      "乛",
+      "亅"
+    ],
+    "source": "mojidata-ids"
+  },
+  "satellites": [
+    {
+      "id": "xiao-form",
+      "glyph": "子承老",
+      "title": "The Child Bearing Up the Old",
+      "lang": "Han lexicography",
+      "type": "GRAPHIC_STRUCTURE",
+      "evidence": "孝 is 耂 over 子 (Mojidata IDS). The Shuowen reads it as 子承老也, “the child bearing up the old”: the graph puts the child beneath the elder, carrying them.",
+      "dimension": "form",
+      "cites": [
+        {
+          "source": "mojidata-ids",
+          "locator": "孝 ⿱耂子",
+          "checked": {
+            "on": "2026-11-04",
+            "edition": "Mojidata IDS via @mandel59/mojidata@1.9.3 (data-raw/moji.db)",
+            "note": "孝 ⿱耂子"
+          }
+        },
+        {
+          "source": "shuowen",
+          "locator": "孝"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "partial",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-04"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "ren-person",
+  "key": "3",
+  "glyph": "人",
+  "pinyin": "rén",
+  "gloss": "person · human being · others",
+  "glossUnihan": "man; people; mankind; someone else",
+  "form": "A person in profile",
+  "formNote": "A pictograph of a standing person seen from the side. As a component it is written 亻, as in 仁 and 信.",
+  "summary": "A person, the human: in the Yijing the third of the Three Powers, standing between Heaven and Earth. The Shuowen calls it the most precious nature born of Heaven and Earth; Mencius says that humaneness, 仁, simply is being human.",
+  "coords": [
+    3.105,
+    -11.817,
+    -8.085
+  ],
+  "placement": "At the tip of the lower-right lobe: the human, the third of the Three Powers. (Placement is a design choice, not a claim.)",
+  "oc": {
+    "form": "*ni[ŋ]",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "† Baracus, from general knowledge; not yet checked against B–S 2014."
+  },
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "rén",
+    "yue": "jan4",
+    "ja": "jin, nin",
+    "ko": "인 in",
+    "vi": "nhân",
+    "fanqie": "如鄰切"
+  },
+  "structure": {
+    "ids": "人",
+    "parts": [],
+    "components": [],
+    "source": "mojidata-ids"
+  },
+  "satellites": [
+    {
+      "id": "ren-person-form",
+      "glyph": "最貴者",
+      "title": "The Most Precious of Heaven and Earth",
+      "lang": "Han lexicography",
+      "type": "ETYMOLOGICAL_SINITIC",
+      "evidence": "The Shuowen: 人，天地之性最貴者也 — “the person: of the natures born of Heaven and Earth, the most precious.” The graph is a pictograph of a person standing in profile.",
+      "dimension": "form",
+      "period": "han",
+      "cites": [
+        {
+          "source": "shuowen",
+          "locator": "人"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-04"
+    }
+  ]
+}

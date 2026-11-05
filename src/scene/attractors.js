@@ -89,8 +89,9 @@ export const ATTRACTORS = {
     dt: 0.005,
     transient: 4000,
     start: [-1.48, -1.51, 2.04],
-    map: { cx: -2.91, cy: -2.91, cz: -2.91, s: 2.28 },
-    half: { x: 27, y: 29 },
+    // Seen down its axis of symmetry: three lobes, 120° apart.
+    map: { cx: -3.494, cy: -3.696, cz: -0.733, s: 1.9, basis: 'diagonal' },
+    half: { x: 27, y: 27 },
     look: [0, 0.5, 0],
   },
   rossler: {
@@ -101,7 +102,8 @@ export const ATTRACTORS = {
     dt: 0.01,
     transient: 5000,
     start: [0.1, 0, 0],
-    map: { cx: 1.15, cy: -1.47, cz: 11.16, s: 2.06 },
+    // Tilted so the spiral disk and its single fold are both in view.
+    map: { cx: 1.17, cy: 3.714, cz: 4.952, s: 1.83, basis: [[1, 0, 0], [0, 0.6, 0.8], [0, -0.8, 0.6]] },
     half: { x: 27, y: 31 },
     look: [0, 0.5, 0],
   },
@@ -143,11 +145,24 @@ export const ATTRACTORS = {
   },
 };
 
-/** Attractor space → the system's local world frame. */
+/**
+ * Attractor space → the system's local world frame. By default the
+ * attractor's z axis stands upright and y is depth. A `basis` [right, up,
+ * toward the viewer] instead views the attractor along a chosen direction
+ * (Halvorsen is seen down its axis of symmetry, x = y = z).
+ */
 export function toLocal(attractorId, x, y, z) {
   const { cx, cy, cz, s } = ATTRACTORS[attractorId].map;
-  return [(x - cx) * s, (z - cz) * s, (y - cy) * s];
+  const basis = ATTRACTORS[attractorId].map.basis === 'diagonal' ? DIAGONAL_BASIS : ATTRACTORS[attractorId].map.basis;
+  const d = [x - cx, y - cy, z - cz];
+  if (!basis) return [d[0] * s, d[2] * s, d[1] * s];
+  const dot = (v) => (d[0] * v[0] + d[1] * v[1] + d[2] * v[2]) * s;
+  return [dot(basis[0]), dot(basis[1]), dot(basis[2])];
 }
+
+// Right, up and toward-the-viewer for a view straight down the line x = y = z.
+const R2 = Math.SQRT1_2, R3 = 1 / Math.sqrt(3), R6 = 1 / Math.sqrt(6);
+export const DIAGONAL_BASIS = [[R2, -R2, 0], [-R6, -R6, 2 * R6], [R3, R3, R3]];
 
 /**
  * Sample an attractor. Returns a Float32Array of [x,y,z, speed] per sample,

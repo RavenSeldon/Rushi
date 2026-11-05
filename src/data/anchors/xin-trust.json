@@ -1,0 +1,103 @@
+{
+  "id": "xin-trust",
+  "key": "6",
+  "glyph": "信",
+  "pinyin": "xìn",
+  "gloss": "trust · good faith · a letter",
+  "glossUnihan": "trust, believe; letter",
+  "form": "亻 (person) + 言 (word)",
+  "formNote": "Mojidata IDS: ⿰亻言. The Shuowen: 信，誠也。从人从言 — “sincerity: from person and word.” A person standing by their word. It also means a letter.",
+  "summary": "Good faith: a person standing by their word. Confucius said that without it he could not see how a person could get on. With 仁 義 禮 智 it makes the five constants, 五常.",
+  "coords": [
+    -0.732,
+    3.206,
+    2.72
+  ],
+  "placement": "At the top of the disk, above 仁, where the band starts to lift toward the fold. (Placement is a design choice, not a claim.)",
+  "oc": {
+    "form": "*s-ni[ŋ]-s",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "† Baracus, from general knowledge; not yet checked against B–S 2014."
+  },
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "xìn",
+    "yue": "seon3",
+    "ja": "shin",
+    "ko": "신 sin",
+    "vi": "tín",
+    "fanqie": "息晉切"
+  },
+  "structure": {
+    "ids": "⿰亻言",
+    "parts": [
+      "亻",
+      "言",
+      "亠",
+      "二",
+      "口"
+    ],
+    "components": [
+      "亻",
+      "㇒",
+      "丨",
+      "言",
+      "亠",
+      "丶",
+      "一",
+      "二",
+      "口"
+    ],
+    "source": "mojidata-ids"
+  },
+  "satellites": [
+    {
+      "id": "xin-trust-wuxin",
+      "glyph": "人而無信",
+      "title": "A Person Without Good Faith",
+      "lang": "Classical Chinese",
+      "type": "ETYMOLOGICAL_SINITIC",
+      "evidence": "Analects 2.22: 人而無信，不知其可也。大車無輗，小車無軏，其何以行之哉 — “a person without good faith: I do not see how they can manage. A cart without its yoke-pin: how could it move?”",
+      "dimension": "sense",
+      "period": "pre_qin",
+      "cites": [
+        {
+          "source": "analects",
+          "locator": "2.22"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-04"
+    },
+    {
+      "id": "xin-trust-wuchang",
+      "glyph": "五常 · 仁義禮智信",
+      "title": "The Five Constants",
+      "lang": "Han thought",
+      "type": "ETYMOLOGICAL_SINITIC",
+      "evidence": "Han Confucians named five constant virtues, 仁義禮智信, adding 信 to Mencius’s four. This system takes its name from them.",
+      "caveat": "The attribution to Dong Zhongshu and the Han date are Baracus’s, from general knowledge.",
+      "dimension": "sense",
+      "period": "han",
+      "cites": [
+        {
+          "source": "moe-dict",
+          "locator": "五常"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "gaps": [
+        "Cite a Han primary source for 五常 (e.g. Dong Zhongshu, or the Baihu tong)."
+      ],
+      "drafted": "Baracus",
+      "reviewed": "2026-11-04"
+    }
+  ]
+}
