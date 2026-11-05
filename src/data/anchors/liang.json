@@ -65,22 +65,29 @@
       "title": "Valid Means of Knowing",
       "lang": "Sanskrit → Chinese (因明)",
       "type": "CANONICAL_TRANSLATION",
-      "evidence": "In Buddhist epistemology 量 renders pramāṇa, a valid means of knowing: direct perception (現量, pratyakṣa) and inference (比量, anumāna).",
+      "evidence": "In Buddhist epistemology, 量 renders pramāṇa, a valid means of knowing. The Nyāyapraveśa distinguishes 現量, direct perception free from conceptual discrimination, from 比量, inference through evidential signs. They are two ways of knowing, not two degrees of certainty.",
       "dimension": "translation",
       "mechanism": "semantic_extension",
       "period": "six_dynasties_tang",
       "cites": [
         {
           "source": "yinming-xuanzang",
-          "locator": "現量; 比量"
+          "locator": "T32, no. 1630, p. 12b27–c05",
+          "url": "https://cbetaonline.dila.edu.tw/zh/T1630_001",
+          "checked": {
+            "on": "2026-11-04",
+            "edition": "https://raw.githubusercontent.com/cbeta-org/xml-p5/master/T/T32/T32n1630.xml",
+            "note": "The passage distinguishes 現量 from 比量 and describes inference through signs. Sanskrit equivalences are not verified by this Chinese passage alone."
+          }
         },
         {
           "source": "pramanasamuccaya"
         }
       ],
       "status": "CANON",
-      "verification": "unchecked",
-      "reviewed": "2026-11-04"
+      "verification": "partial",
+      "reviewed": "2026-11-04",
+      "caveat": "Xuanzang translated this primer by Śaṅkarasvāmin. It is not Dignāga’s Pramāṇasamuccaya; the Chinese translation of the latter is attributed to Yijing and is lost."
     },
     {
       "id": "liang-wuliang",

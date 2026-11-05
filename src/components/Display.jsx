@@ -1,13 +1,12 @@
 import { useEffect, useRef } from 'react';
 import { X } from 'lucide-react';
-import { ANCHORS, BRIDGES, EDGE_TYPES, EDGE_TYPE_ORDER } from '../data/index.js';
+import { EDGE_MAP, EDGE_TYPES, EDGE_DETAIL_ORDER } from '../data/index.js';
 import { TIERS, TIER_ORDER } from '../scene/Galaxy.js';
 import LineSwatch from './LineSwatch.jsx';
 
 const COUNTS = (() => {
-  const c = Object.fromEntries(EDGE_TYPE_ORDER.map((k) => [k, 0]));
-  ANCHORS.forEach((a) => a.satellites.forEach((s) => c[s.type]++));
-  BRIDGES.forEach((b) => c[b.type]++);
+  const c = Object.fromEntries(EDGE_DETAIL_ORDER.map((k) => [k, 0]));
+  Object.values(EDGE_MAP).forEach((e) => c[e.type]++);
   return c;
 })();
 
@@ -29,7 +28,7 @@ export default function Display({ filters, onToggle, reducedMotion, onMotion, ti
       ref={ref}
       role="dialog"
       aria-label="Display and line key"
-      className="glass fade-in absolute right-0 top-11 w-[min(320px,calc(100vw-2rem))] space-y-5 rounded-2xl p-4 text-[13px]"
+      className="glass fade-in absolute right-0 top-11 w-[min(320px,calc(100vw-2rem))] max-h-[calc(100dvh-6rem)] overflow-y-auto space-y-5 rounded-2xl p-4 text-[13px]"
     >
       <div className="flex items-center justify-between">
         <span className="text-[11px] uppercase tracking-[0.18em] text-slate-500">Lines</span>
@@ -38,7 +37,7 @@ export default function Display({ filters, onToggle, reducedMotion, onMotion, ti
         </button>
       </div>
       <ul className="-mt-2 space-y-0.5">
-        {EDGE_TYPE_ORDER.map((id) => {
+        {EDGE_DETAIL_ORDER.filter((id) => COUNTS[id] > 0).map((id) => {
           const t = EDGE_TYPES[id];
           const on = filters[id];
           return (

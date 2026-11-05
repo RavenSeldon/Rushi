@@ -1,6 +1,6 @@
 // `npm run check` — the contract, enforced. Fails on any error; reports known
 // gaps and the verification ledger so they stay visible rather than forgotten.
-import { validateData, ANCHORS, BRIDGES, REALMS } from '../src/data/index.js';
+import { validateData, ANCHORS, BRIDGES, REALMS, COMPOUNDS, RELATIONS, COMPOUND_CLAIMS } from '../src/data/index.js';
 
 const { errors, warnings, ledger } = validateData();
 const sats = ANCHORS.reduce((n, a) => n + a.satellites.length, 0);
@@ -11,6 +11,7 @@ if (errors.length) {
   process.exit(1);
 }
 console.log(`✓ contract holds — ${REALMS.length} systems, ${ANCHORS.length} anchors, ${sats} relationships, ${BRIDGES.length} bridges (${ledger.crossRealm || 0} between systems)`);
+console.log(`  compounds:    ${COMPOUNDS.length} nodes, ${COMPOUND_CLAIMS.length} additional senses, ${RELATIONS.length} anchor–compound relation(s)`);
 for (const r of REALMS) console.log(`  ${r.numeral.padEnd(4)} ${r.name.padEnd(21)} ${r.attractor.padEnd(10)} ${r.anchors.map((id) => ANCHORS.find((a) => a.id === id)?.glyph || id).join(' ')}`);
 console.log(`  status:       ${fmt(ledger.byStatus)}`);
 console.log(`  verification: ${fmt(ledger.byVerification)}  (of ${ledger.claims} claims)`);

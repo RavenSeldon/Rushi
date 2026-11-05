@@ -77,26 +77,6 @@
       "verification": "unchecked",
       "drafted": "Baracus",
       "reviewed": "2026-11-04"
-    },
-    {
-      "id": "ci-sanbao",
-      "glyph": "三寶 · 一曰慈",
-      "title": "The First Treasure",
-      "lang": "Classical Chinese",
-      "type": "ETYMOLOGICAL_SINITIC",
-      "evidence": "Daodejing ch. 67: 我有三寶，持而保之：一曰慈，二曰儉，三曰不敢為天下先。慈故能勇 — “I have three treasures that I hold and keep: the first is kindness… Being kind, one can be brave.” 慈 was a Daoist virtue long before it was a Buddhist translation.",
-      "dimension": "sense",
-      "period": "pre_qin",
-      "cites": [
-        {
-          "source": "daodejing",
-          "locator": "ch. 67"
-        }
-      ],
-      "status": "WORKING",
-      "verification": "unchecked",
-      "drafted": "Baracus",
-      "reviewed": "2026-11-04"
     }
   ]
 }

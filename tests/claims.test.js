@@ -33,12 +33,11 @@ test('pathfinding over the real bridges', () => {
   const chain = findChain('dao', 'si', BRIDGES);
   assert.deepEqual(chain.map((b) => b.id), ['bridge-dao-wu', 'bridge-wu-liang', 'bridge-liang-si']);
   assert.equal(chainStrength(chain).tier, 'proposed'); // 量 ↔ 司 is an interpretation
-  // In v1.0 the Pillars were two islands: 不 二 愛 did not connect to 道 無 為 量 司.
-  // Realm II joins them through 一 (Daodejing ch. 42: 道生一，一生二).
+  // The negation contrast gives a shorter route; that makes it comparative.
   const joined = findChain('dao', 'bu', BRIDGES);
-  assert.deepEqual(joined.map((b) => b.id), ['bridge-dao-yi', 'bridge-yi-er', 'bridge-bu-er']);
-  assert.equal(chainStrength(joined).tier, 'documented');
-  assert.equal(chainStrength(joined).includesUnsettled, true); // the 一 bridges are WORKING
+  assert.deepEqual(joined.map((b) => b.id), ['bridge-dao-wu', 'bridge-bu-wu']);
+  assert.equal(chainStrength(joined).tier, 'comparative');
+  assert.equal(chainStrength(joined).includesUnsettled, true); // the contrast is WORKING
   assert.ok(ANCHORS.length >= 8);
 });
 

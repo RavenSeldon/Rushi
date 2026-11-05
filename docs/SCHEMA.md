@@ -1,4 +1,4 @@
-# Rushi Data Schema (v2.1: solar systems)
+# Rushi Data Schema (v2.2: compound readings)
 
 Everything Rushi knows lives in `src/data/` as plain JSON, readable without the app. `npm run check` enforces this contract, and `npm test` enforces the weakest-link rule.
 
@@ -114,3 +114,18 @@ npm run ingest -- add 空 kong ground   # scaffold a new anchor in realm "ground
 ## The Weakest-Link Rule (`src/lib/claims.js`)
 
 Claim types are ranked in three tiers: **documented** (Translation, Etymology & Usage, Graphic Structure, Traditional Correspondence) > **comparative** (Analogy) > **proposed** (Interpretation). A chain takes the lowest tier it contains and lists every kind it passed through. `npm test` checks this for every combination of three types.
+
+
+## Compound nodes and semantic relations (v2.2)
+
+- `compounds.json`: `{id, glyph, pinyin, components, bridge, summary, senses}`. Components are ordered anchor IDs; their glyphs must spell the compound. `bridge` points to the existing visual bridge, which points back with `compound`. `senses` references existing claim IDs in `EDGE_MAP`, so a satellite and a compound share one source record.
+- `compoundClaims.json`: additional sense claims using the same claim contract and verification ledger. Every such claim must belong to a compound.
+- `relations.json`: anchor → compound claims with the bridge fields plus `compound`. These are semantic edges, not fabricated anchor → anchor lines. `bridge-ai-er` retains its historical ID but now terminates at `buer`.
+- `NODE_MAP` covers anchors and compounds. `GRAPH_EDGES` adds semantic relations and generated `MEMBERSHIPS` to the existing visual `BRIDGES`. Membership records describe written composition only, are excluded from the citation ledger, and carry an explicit path warning. `BRIDGES` remains anchor-only for the renderer.
+- `#/compounds/<id>` is a dedicated shareable reading URL. The route carries `compoundId` while reusing the first component's realm/camera context. The reading focuses the existing compound bridge. Escape returns to the component. Legacy bridge URLs remain valid; `ai-maitradvaita` aliases `bridge-ai-er`, and `ci-sanbao` aliases `bridge-dao-ci`.
+
+`TEXTUAL_CONNECTION` is documentary in kind; `SEMANTIC_CONTRAST` is comparative. Chain results separately flag unchecked/partly checked citations and written membership. A documentary type is not a verification certificate.
+
+`EDGE_TYPE_ORDER` is the six main hue families; `EDGE_DETAIL_ORDER` includes retained structural/correspondence subtypes for individual controls. Every active type is filterable. Labels and patterns accompany color.
+
+Citations may have an optional `url` for a specific passage. Only HTTP(S) URLs without embedded whitespace become links. A checked edition may still be a descriptive string (e.g. a local dataset version); it displays as an explained check mark, never a broken relative URL.

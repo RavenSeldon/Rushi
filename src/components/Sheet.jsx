@@ -1,6 +1,6 @@
 import { forwardRef } from 'react';
 import { ArrowLeft, ChevronDown, ChevronLeft, ChevronRight, ChevronUp, X } from 'lucide-react';
-import { ANCHOR_MAP, ANCHOR_REALM, EDGE_TYPES, REALM_MAP, anchorsOf, bridgesOf } from '../data/index.js';
+import { ANCHOR_MAP, ANCHOR_REALM, COMPOUND_MAP, NODE_MAP, EDGE_MAP, EDGE_TYPES, SOURCES, compoundsOf, relationsOf, REALM_MAP, anchorsOf, bridgesOf } from '../data/index.js';
 import LineSwatch from './LineSwatch.jsx';
 import Provenance, { Readings } from './Provenance.jsx';
 
@@ -14,14 +14,14 @@ function TypeBadge({ type }) {
   );
 }
 
-function EdgeCard({ edge }) {
+function EdgeCard({ edge, onCompound }) {
   const t = EDGE_TYPES[edge.type];
   const isInterp = edge.type === 'INTERPRETIVE_SYNTHESIS';
   return (
     <article
       className="fade-in rounded-2xl border p-5 space-y-3.5"
       style={{ borderColor: `${t.color}55`, background: 'rgba(234,242,255,0.025)' }}
-      aria-labelledby="edge-title"
+      aria-labelledby={`edge-title-${edge.id}`}
     >
       <div className="flex flex-wrap items-center justify-between gap-2">
         <TypeBadge type={edge.type} />
@@ -29,17 +29,17 @@ function EdgeCard({ edge }) {
       </div>
       <div>
         <p className="font-serif text-[22px] leading-snug text-starlight">
-          {edge.kind === 'satellite' && (edge.glyph.includes('↔') || edge.glyph.startsWith(edge.fromGlyph)) ? (
+          {(edge.kind === 'sense' || edge.kind === 'satellite') && (edge.kind === 'sense' || edge.glyph.includes('↔') || edge.glyph.startsWith(edge.fromGlyph)) ? (
             edge.glyph
           ) : (
             <>
               {edge.fromGlyph}
               <span className="mx-2 text-slate-500" aria-label="relates to">↔</span>
-              {edge.kind === 'bridge' ? edge.toGlyph : edge.glyph}
+              {['bridge', 'relation'].includes(edge.kind) ? edge.toGlyph : edge.glyph}
             </>
           )}
         </p>
-        <h3 id="edge-title" className="mt-1 text-sm font-medium text-slate-200">
+        <h3 id={`edge-title-${edge.id}`} className="mt-1 text-sm font-medium text-slate-200">
           {edge.title}
         </h3>
       </div>
@@ -53,6 +53,9 @@ function EdgeCard({ edge }) {
           {edge.caveat}
         </p>
       )}
+      {edge.compound && onCompound && <button type="button" onClick={() => onCompound(edge.compound)} className="rounded-lg border border-white/20 px-3 py-2 text-sm text-gold">
+        Explore compound {COMPOUND_MAP[edge.compound].glyph} →
+      </button>}
       <Provenance claim={edge} />
       <p className="border-t border-white/5 pt-3 text-[12px] leading-relaxed text-slate-500">
         <span className="text-slate-400">What kind of claim?</span> {t.description}
@@ -61,8 +64,65 @@ function EdgeCard({ edge }) {
   );
 }
 
+function CompoundReading({ compound, onAnchor }) {
+  return (
+    <>
+      <header>
+        <h2 className="font-cjk text-5xl text-amber-50">{compound.glyph}</h2>
+        <p className="mt-2 font-serif text-xl">{compound.pinyin}</p>
+        <p className="mt-4 leading-relaxed text-slate-200">{compound.summary}</p>
+        <p className="mt-3 text-xs text-slate-400">Written components · composition is not equivalence</p>
+        <div className="mt-2 flex gap-3">
+          {compound.components.map((id) => (
+            <button type="button" key={id} onClick={() => onAnchor(id)}
+              className="rounded-lg border border-white/20 px-4 py-2 font-cjk text-xl text-gold">
+              {ANCHOR_MAP[id].glyph}
+            </button>
+          ))}
+        </div>
+      </header>
+      <section aria-label="Distinct senses" className="space-y-5">
+        {compound.senses.map((id) => <EdgeCard key={id} edge={{ ...EDGE_MAP[id], kind: 'sense' }} />)}
+      </section>
+      {relationsOf(compound.id).map((r) => (
+        <div key={r.id} className="space-y-3">
+          <EdgeCard edge={EDGE_MAP[r.id]} />
+          <button type="button" onClick={() => onAnchor(r.from)}
+            className="rounded-lg border border-white/20 px-3 py-2 text-gold">
+            Travel to {NODE_MAP[r.from].glyph} →
+          </button>
+        </div>
+      ))}
+    </>
+  );
+}
+
+function CompoundLinks({ anchorId, onCompound, onEdge }) {
+  const compounds = compoundsOf(anchorId);
+  const relations = relationsOf(anchorId);
+  if (!compounds.length && !relations.length) return null;
+  return (
+    <section aria-label="Compounds and interpretations" className="space-y-2">
+      <h3 className="text-xs uppercase tracking-wider text-slate-400">Compounds and interpretations</h3>
+      {compounds.map((c) => (
+        <button key={c.id} type="button" onClick={() => onCompound(c.id)}
+          className="mr-2 rounded-lg border border-white/20 px-3 py-2 text-gold">
+          {c.glyph} · {c.pinyin} →
+        </button>
+      ))}
+      {relations.map((r) => (
+        <button key={r.id} type="button" onClick={() => onEdge(r.id)}
+          className="flex w-full items-center gap-2 rounded-lg border border-white/20 px-3 py-2 text-left text-sm"
+          style={{ color: EDGE_TYPES[r.type].textColor }}>
+          <LineSwatch type={r.type} />{r.title} · Original interpretation
+        </button>
+      ))}
+    </section>
+  );
+}
+
 const Sheet = forwardRef(function Sheet(
-  { anchor, realm, edge, filters, onAnchor, onEdge, onBack, onClose, compact, collapsed, onToggleCollapsed },
+  { anchor, compound, realm, edge, filters, onAnchor, onEdge, onCompound, onBack, onClose, compact, collapsed, onToggleCollapsed },
   ref
 ) {
   // Previous / next stay within the star's own system.
@@ -76,7 +136,7 @@ const Sheet = forwardRef(function Sheet(
   return (
     <aside
       ref={ref}
-      aria-label={`Reading: ${anchor.glyph} ${anchor.pinyin}`}
+      aria-label={`Reading: ${(compound || anchor).glyph} ${(compound || anchor).pinyin}`}
       className={
         compact
           ? `glass fixed inset-x-0 bottom-0 z-30 flex flex-col rounded-t-3xl border-b-0 pb-[env(safe-area-inset-bottom)] transition-[height] duration-300 ${
@@ -105,7 +165,7 @@ const Sheet = forwardRef(function Sheet(
         >
           <ArrowLeft className="h-3.5 w-3.5" aria-hidden="true" />
           {!(compact && collapsed) &&
-            (edge ? (
+            (compound ? <span>Back to {anchor.glyph}</span> : edge ? (
               <span className="whitespace-nowrap">
                 Back to <span className="font-cjk text-slate-200">{anchor.glyph}</span>
               </span>
@@ -116,8 +176,8 @@ const Sheet = forwardRef(function Sheet(
 
         {compact && collapsed && (
           <button type="button" onClick={onToggleCollapsed} className="flex min-w-0 items-baseline gap-2 truncate">
-            <span className="font-cjk text-xl text-amber-100">{anchor.glyph}</span>
-            <span className="truncate text-[13px] text-slate-300">{edge ? edge.title : anchor.pinyin}</span>
+            <span className="font-cjk text-xl text-amber-100">{(compound || anchor).glyph}</span>
+            <span className="truncate text-[13px] text-slate-300">{compound ? compound.pinyin : edge ? edge.title : anchor.pinyin}</span>
           </button>
         )}
 
@@ -163,6 +223,9 @@ const Sheet = forwardRef(function Sheet(
       </div>
 
       <div className={`scroll-quiet flex-1 overflow-y-auto overscroll-contain ${compact ? 'px-5 py-5' : 'px-7 py-7'} space-y-7 ${compact && collapsed ? 'hidden' : ''}`}>
+        {compound ? (
+          <CompoundReading compound={compound} onAnchor={onAnchor} />
+        ) : <>
         <header key={anchor.id} className="fade-in">
           <div className="flex items-end gap-4">
             <h2 className="font-cjk text-[64px] leading-[0.95] text-amber-50">{anchor.glyph}</h2>
@@ -176,8 +239,8 @@ const Sheet = forwardRef(function Sheet(
                     †
                   </sup>
                 )}
-                <span className="ml-1.5" title={anchor.oc.note ? `Old Chinese reconstruction, Baxter & Sagart 2014. ${anchor.oc.note}` : 'Old Chinese reconstruction, Baxter & Sagart 2014'}>
-                  Old Chinese · B–S 2014{anchor.oc.verification === 'unchecked' ? ' · unchecked' : ''}
+                <span className="ml-1.5" title={`Old Chinese reconstruction: ${SOURCES[anchor.oc.source]?.title}. ${anchor.oc.note || ''}`}>
+                  Old Chinese · {SOURCES[anchor.oc.source]?.shortTitle || SOURCES[anchor.oc.source]?.title}{anchor.oc.verification === 'unchecked' ? ' · unchecked' : ''}
                 </span>
               </p>
             </div>
@@ -201,7 +264,8 @@ const Sheet = forwardRef(function Sheet(
           </details>
         </header>
 
-        {edge && <EdgeCard key={edge.id} edge={edge} />}
+        {edge && <EdgeCard key={edge.id} edge={edge} onCompound={onCompound} />}
+        <CompoundLinks anchorId={anchor.id} onCompound={onCompound} onEdge={onEdge} />
 
         <section aria-labelledby="rel-h">
           <h3 id="rel-h" className="mb-2 text-[11px] uppercase tracking-[0.18em] text-slate-500">
@@ -288,6 +352,7 @@ const Sheet = forwardRef(function Sheet(
         <p className="pb-6 text-[11.5px] leading-relaxed text-slate-500">
           Placement: {anchor.placement}
         </p>
+        </>}
       </div>
     </aside>
   );

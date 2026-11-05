@@ -1,4 +1,4 @@
-import { ANCHOR_MAP, ANCHOR_REALM, COSMOS, EDGE_MAP, FOLDED, REALMS, REALM_MAP } from '../data/index.js';
+import { COMPOUND_MAP, ANCHOR_MAP, ANCHOR_REALM, COSMOS, EDGE_MAP, FOLDED, REALMS, REALM_MAP } from '../data/index.js';
 
 // URL scheme (shareable, back-button friendly), one level per segment:
 //   #/cosmos                         every system at once
@@ -27,12 +27,21 @@ export function parseHash(hash = '') {
   const firstRealm = REALMS[0].id;
   if (parts[0] === COSMOS) return { level: 'cosmos', realmId: null, anchorId: null, edgeId: null };
 
+  if (parts[0] === 'compounds' && COMPOUND_MAP[parts[1]]) {
+    const c = COMPOUND_MAP[parts[1]];
+    return { level: 'star', realmId: ANCHOR_REALM[c.components[0]], anchorId: c.components[0], edgeId: null, compoundId: c.id };
+  }
+
   let realmId = null;
   if (REALM_MAP[parts[0]]) realmId = parts.shift();
 
   let anchorId = ANCHOR_MAP[parts[0]] ? parts[0] : null;
   // A claim folded into a bridge is found under its new id.
   const edge = EDGE_MAP[parts[1]] || EDGE_MAP[FOLDED[parts[1]]] || null;
+  if (edge?.kind === 'sense') {
+    const compound = Object.values(COMPOUND_MAP).find((c) => c.senses.includes(edge.id));
+    if (compound) return parseHash(`#/compounds/${compound.id}`);
+  }
   // An edge read from an anchor it does not touch is read from its own anchor.
   if (edge && edge.from !== anchorId && edge.to !== anchorId) anchorId = edge.from;
   // The anchor decides the realm; a mismatched realm segment is corrected.
@@ -44,7 +53,8 @@ export function parseHash(hash = '') {
   return { level, realmId, anchorId, edgeId };
 }
 
-export function formatHash({ level, realmId, anchorId, edgeId } = {}) {
+export function formatHash({ level, realmId, anchorId, edgeId, compoundId } = {}) {
+  if (COMPOUND_MAP[compoundId]) return `#/compounds/${compoundId}`;
   if (level === 'cosmos') return `#/${COSMOS}`;
   const realm = (anchorId && ANCHOR_REALM[anchorId]) || realmId || REALMS[0].id;
   if (!anchorId) return `#/${realm}`;

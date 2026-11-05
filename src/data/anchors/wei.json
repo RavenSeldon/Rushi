@@ -91,23 +91,37 @@
       "title": "The Unconditioned",
       "lang": "Sanskrit → Chinese",
       "type": "CANONICAL_TRANSLATION",
-      "evidence": "Buddhist translators paired 有為 (saṃskṛta, “conditioned, put together”) with 無為 (asaṃskṛta, “unconditioned”), a category that includes nirvāṇa. A Daoist term was repurposed for a technical one.",
+      "evidence": "In Buddhist translation, 有為 (saṃskṛta) is conditioned and 無為 (asaṃskṛta) unconditioned. The Abhidharmakośa distinguishes three unconditioned categories: space and two kinds of cessation. This technical classification is distinct from Daoist discussions of action.",
       "dimension": "translation",
       "mechanism": "semantic_extension",
       "period": "six_dynasties_tang",
       "cites": [
         {
           "source": "abhidharmakosa",
-          "locator": "有為法 / 無為法"
+          "locator": "T29, no. 1558, p. 1c02–05; fascicle 1",
+          "url": "https://cbetaonline.dila.edu.tw/zh/T1558_001",
+          "checked": {
+            "on": "2026-11-04",
+            "edition": "https://raw.githubusercontent.com/cbeta-org/xml-p5/master/T/T29/T29n1558.xml",
+            "note": "Verses 1c02–05 enumerate space and two cessations as three kinds of 無為; Sanskrit equivalences not checked here."
+          }
         },
         {
           "source": "agamas",
           "locator": "無為"
+        },
+        {
+          "source": "monier-williams",
+          "locator": "saṃskṛta; asaṃskṛta"
         }
       ],
       "status": "CANON",
-      "verification": "unchecked",
-      "reviewed": "2026-11-04"
+      "verification": "partial",
+      "reviewed": "2026-11-04",
+      "caveat": "The Chinese passage supports the threefold classification; the Sanskrit equivalences still need a checked bilingual source.",
+      "gaps": [
+        "Check asaṃskṛta and saṃskṛta against a bilingual edition."
+      ]
     },
     {
       "id": "wei-nonagir",

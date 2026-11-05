@@ -1,12 +1,12 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { ArrowLeftRight, X } from 'lucide-react';
-import { ANCHOR_MAP, ANCHOR_REALM, BRIDGES, EDGE_TYPES, REALMS, REALM_MAP, anchorsOf } from '../data/index.js';
+import { NODE_MAP, COMPOUNDS, ANCHOR_REALM, GRAPH_EDGES, EDGE_TYPES, REALMS, REALM_MAP, anchorsOf } from '../data/index.js';
 import { chainStrength, findChain } from '../lib/claims.js';
 import LineSwatch from './LineSwatch.jsx';
 
 const TIER_NOTE = {
-  documented: 'Every link in it is documented: a translation, a usage, a graph or a traditional correspondence.',
-  comparative: 'At least one link is an analogy across languages, so the chain is a comparison, not a history.',
+  documented: 'Every link has a documentary relation type. Check the individual verification ledgers before treating the chain as established evidence.',
+  comparative: 'At least one link is an analogy or semantic contrast, so the chain is a comparison.',
   proposed: 'At least one link is Rushi’s own proposition, so the chain as a whole is a proposal.',
 };
 
@@ -29,6 +29,9 @@ function AnchorSelect({ id, label, value, onChange }) {
             ))}
           </optgroup>
         ))}
+        <optgroup label="Compounds">
+          {COMPOUNDS.map((c) => <option key={c.id} value={c.id}>{c.glyph} {c.pinyin}</option>)}
+        </optgroup>
       </select>
     </label>
   );
@@ -38,9 +41,9 @@ function AnchorSelect({ id, label, value, onChange }) {
  * "How are these connected?" The shortest chain of bridges between two
  * stars, across every system, with its strength by the weakest-link rule.
  */
-export default function Pathfinder({ initialFrom, onEdge, onClose }) {
+export default function Pathfinder({ initialFrom, onEdge, onCompound, onClose }) {
   const ref = useRef(null);
-  const [from, setFrom] = useState(() => (ANCHOR_MAP[initialFrom] ? initialFrom : REALMS[0].anchors[0]));
+  const [from, setFrom] = useState(() => (NODE_MAP[initialFrom] ? initialFrom : REALMS[0].anchors[0]));
   const [to, setTo] = useState(() => {
     const pick = REALMS.length > 1 ? REALMS[1].anchors[0] : REALMS[0].anchors[1];
     return pick === from ? REALMS[0].anchors[1] : pick;
@@ -54,7 +57,7 @@ export default function Pathfinder({ initialFrom, onEdge, onClose }) {
     return () => window.removeEventListener('pointerdown', onDown);
   }, [onClose]);
 
-  const chain = useMemo(() => findChain(from, to, BRIDGES), [from, to]);
+  const chain = useMemo(() => findChain(from, to, GRAPH_EDGES), [from, to]);
   const strength = chain && chain.length ? chainStrength(chain) : null;
 
   // Walk the chain in reading order, so each step names where it starts.
@@ -77,7 +80,7 @@ export default function Pathfinder({ initialFrom, onEdge, onClose }) {
       ref={ref}
       role="dialog"
       aria-label="How are these connected?"
-      className="glass fade-in absolute right-0 top-11 w-[min(360px,calc(100vw-2rem))] space-y-4 rounded-2xl p-4 text-[13px]"
+      className="glass fade-in absolute right-0 top-11 w-[min(360px,calc(100vw-2rem))] max-h-[calc(100dvh-6rem)] overflow-y-auto space-y-4 rounded-2xl p-4 text-[13px]"
     >
       <div className="flex items-center justify-between">
         <span className="text-[11px] uppercase tracking-[0.18em] text-slate-500">How are these connected?</span>
@@ -108,7 +111,7 @@ export default function Pathfinder({ initialFrom, onEdge, onClose }) {
           <p className="text-slate-400">Choose two different stars.</p>
         ) : !chain ? (
           <p className="leading-relaxed text-slate-300">
-            No chain of bridges joins {ANCHOR_MAP[from].glyph} and {ANCHOR_MAP[to].glyph} yet. Rushi draws a bridge only
+            No chain of bridges joins {NODE_MAP[from].glyph} and {NODE_MAP[to].glyph} yet. Rushi draws a bridge only
             when a source, a graph or a declared proposition earns it, so an absence here is information too.
           </p>
         ) : (
@@ -121,15 +124,15 @@ export default function Pathfinder({ initialFrom, onEdge, onClose }) {
                   <li key={bridge.id}>
                     <button
                       type="button"
-                      onClick={() => onEdge(bridge.id, a)}
+                      onClick={() => bridge.kind === 'membership' ? onCompound(bridge.compound) : onEdge(bridge.id, a)}
                       className="flex w-full items-start gap-2.5 rounded-xl border border-white/5 bg-white/[0.015] px-3 py-2 text-left transition hover:border-white/15"
                     >
                       <span className="mt-0.5 w-4 shrink-0 text-[11px] text-slate-500">{i + 1}</span>
                       <span className="min-w-0 flex-1">
                         <span className="block font-cjk text-[15px] text-starlight">
-                          {ANCHOR_MAP[a].glyph}
+                          {NODE_MAP[a].glyph}
                           <span className="mx-1.5 text-slate-500" aria-label="to">→</span>
-                          {ANCHOR_MAP[b].glyph}
+                          {NODE_MAP[b].glyph}
                           {realmTag(a) !== realmTag(b) && (
                             <span className="ml-2 font-sans text-[10px] tracking-wide text-slate-500">
                               {realmTag(a)} → {realmTag(b)}
@@ -159,6 +162,8 @@ export default function Pathfinder({ initialFrom, onEdge, onClose }) {
               </p>
               <p className="mt-1 text-slate-400">
                 Passes through: {strength.kinds.map((k) => EDGE_TYPES[k].shortLabel).join(' · ')}.
+                {strength.includesUnverified && ' Some citations remain unchecked or only partly checked.'}
+                {strength.includesMembership && ' Includes written composition; a component does not mean the whole compound.'}
                 {strength.includesUnsettled && ' Includes claims not yet accepted (working or open questions).'}
               </p>
             </div>

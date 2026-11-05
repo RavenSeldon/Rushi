@@ -64,6 +64,8 @@ export const TYPE_TIER = {
   CANONICAL_TRANSLATION: 'documented',
   ETYMOLOGICAL_SINITIC: 'documented',
   GRAPHIC_STRUCTURE: 'documented',
+  TEXTUAL_CONNECTION: 'documented',
+  SEMANTIC_CONTRAST: 'comparative',
   TRADITIONAL_CORRESPONDENCE: 'documented',
   CROSS_LINGUISTIC_LEXICAL: 'comparative',
   INTERPRETIVE_SYNTHESIS: 'proposed',

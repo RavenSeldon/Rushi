@@ -6,6 +6,9 @@
 import realms from './realms.json' with { type: 'json' };
 import SOURCES from './sources.json' with { type: 'json' };
 import BRIDGES from './bridges.json' with { type: 'json' };
+import COMPOUNDS from './compounds.json' with { type: 'json' };
+import RELATIONS from './relations.json' with { type: 'json' };
+import COMPOUND_CLAIMS from './compoundClaims.json' with { type: 'json' };
 import dao from './anchors/dao.json' with { type: 'json' };
 import wu from './anchors/wu.json' with { type: 'json' };
 import wei from './anchors/wei.json' with { type: 'json' };
@@ -49,6 +52,7 @@ import zhiWisdom from './anchors/zhi-wisdom.json' with { type: 'json' };
 import xinTrust from './anchors/xin-trust.json' with { type: 'json' };
 import xiao from './anchors/xiao.json' with { type: 'json' };
 import zhong from './anchors/zhong.json' with { type: 'json' };
+import { webUrl } from '../lib/citations.js';
 import { EDGE_TYPES } from './edgeTypes.js';
 import { ATTRACTOR_IDS, DIMENSIONS, MECHANISMS, PERIODS, STATUSES, VERIFICATION } from './vocab.js';
 
@@ -77,8 +81,20 @@ export const anchorsOf = (realmId) => (REALM_MAP[realmId]?.anchors || []).map((i
 // realms and keep their field name `lorenz`; every later anchor uses `coords`.
 export const coordsOf = (a) => a.coords || a.lorenz;
 
-export { BRIDGES, SOURCES, EDGE_TYPES };
-export { PALETTE, EDGE_TYPE_ORDER } from './edgeTypes.js';
+export { BRIDGES, SOURCES, EDGE_TYPES, COMPOUNDS, RELATIONS, COMPOUND_CLAIMS };
+export const COMPOUND_MAP = Object.fromEntries(COMPOUNDS.map((c) => [c.id, c]));
+export const NODE_MAP = { ...ANCHOR_MAP, ...COMPOUND_MAP };
+export const compoundsOf = (id) => COMPOUNDS.filter((c) => c.components.includes(id));
+export const relationsOf = (id) => RELATIONS.filter((r) => r.from === id || r.to === id);
+// Membership describes written composition only. Keep it separate from semantic
+// bridges so pathfinding cannot silently equate a character with a compound.
+export const MEMBERSHIPS = COMPOUNDS.flatMap((c) => (c.components || []).map((id) => ({
+  id: `member-${c.id}-${id}`, from: id, to: c.id, compound: c.id,
+  kind: 'membership', type: 'GRAPHIC_STRUCTURE', status: 'WORKING',
+  title: `${ANCHOR_MAP[id]?.glyph || id} is a written component of ${c.glyph}`,
+})));
+export const GRAPH_EDGES = [...BRIDGES, ...RELATIONS, ...MEMBERSHIPS];
+export { PALETTE, EDGE_TYPE_ORDER, EDGE_DETAIL_ORDER } from './edgeTypes.js';
 
 // Every relationship, flattened into one lookup: id → edge.
 // kind 'satellite': anchor → outside term. kind 'bridge': anchor → anchor.
@@ -99,12 +115,17 @@ export const EDGE_MAP = (() => {
       toGlyph: ANCHOR_MAP[b.to]?.glyph,
     };
   }
+  for (const r of RELATIONS) map[r.id] = {
+    ...r, kind: 'relation', glyph: r.label, lang: r.subtitle,
+    fromGlyph: NODE_MAP[r.from]?.glyph, toGlyph: NODE_MAP[r.to]?.glyph,
+  };
+  for (const c of COMPOUND_CLAIMS) map[c.id] = { ...c, kind: 'sense' };
   return map;
 })();
 
 // A claim folded into another keeps its old id as an alias, so links to it
 // still resolve: { 'wu-you': 'bridge-you-wu', … }.
-export const FOLDED = Object.fromEntries(BRIDGES.flatMap((b) => (b.folded || []).map((old) => [old, b.id])));
+export const FOLDED = Object.fromEntries([...BRIDGES, ...RELATIONS].flatMap((b) => (b.folded || []).map((old) => [old, b.id])));
 
 export const bridgesOf = (anchorId) => BRIDGES.filter((b) => b.from === anchorId || b.to === anchorId);
 // A bridge whose two ends live in different solar systems.
@@ -144,6 +165,7 @@ export function validateData() {
   const checkCites = (cites, where) => {
     if (!Array.isArray(cites) || cites.length === 0) errors.push(`${where} cites nothing`);
     for (const c of cites || []) {
+      if (c.url && !webUrl(c.url)) errors.push(`${where}: invalid citation URL`);
       if (!SOURCES[c.source] || c.source.startsWith('$')) errors.push(`${where} cites unknown source "${c.source}"`);
       else usedSources.add(c.source);
     }
@@ -193,7 +215,7 @@ export function validateData() {
   for (const r of REALMS) {
     if (realmIds.has(r.id)) errors.push(`duplicate realm id "${r.id}"`);
     realmIds.add(r.id);
-    if (r.id === COSMOS) errors.push(`realm id "${COSMOS}" is reserved for the cosmos view`);
+    if ([COSMOS, 'compounds'].includes(r.id)) errors.push(`realm id "${COSMOS}" is reserved for the cosmos view`);
     for (const f of ['name', 'numeral']) if (!r[f]) errors.push(`realm ${r.id} missing ${f}`);
     if (!ATTRACTOR_IDS.includes(r.attractor)) errors.push(`realm ${r.id}: unknown attractor "${r.attractor}"`);
     if (!Array.isArray(r.position) || r.position.length !== 3 || !r.position.every(Number.isFinite)) errors.push(`realm ${r.id} needs position [x,y,z]`);
@@ -211,7 +233,7 @@ export function validateData() {
     }
   }
   for (const id of Object.keys(ANCHOR_FILES)) if (!member[id]) warnings.push(`anchor file ${id} is imported but listed in no realm`);
-  for (const id of Object.keys(member)) if (realmIds.has(id)) errors.push(`anchor id "${id}" collides with a realm id`);
+  for (const id of Object.keys(member)) if (realmIds.has(id) || id === 'compounds') errors.push(`anchor id "${id}" collides with a realm id`);
 
   for (const a of ANCHORS) {
     if (!a) continue;
@@ -242,6 +264,29 @@ export function validateData() {
     if (ANCHOR_MAP[b.from] && ANCHOR_MAP[b.to] && isCrossRealm(b)) ledger.crossRealm = (ledger.crossRealm || 0) + 1;
     checkClaim({ ...b, glyph: b.label, lang: b.subtitle }, `bridge ${b.id}`);
   }
+  for (const c of COMPOUNDS) {
+    seen(c.id, 'compound');
+    if (REALM_MAP[c.id] || ['cosmos', 'compounds'].includes(c.id)) errors.push(`compound ${c.id}: reserved id`);
+    if (!c.glyph || !c.pinyin || !c.summary) errors.push(`compound ${c.id}: missing display fields`);
+    if (!Array.isArray(c.components) || c.components.length < 2 || new Set(c.components).size !== c.components.length || c.components.some((id) => !ANCHOR_MAP[id])) errors.push(`compound ${c.id}: invalid components`);
+    if (c.glyph !== (c.components || []).map((id) => ANCHOR_MAP[id]?.glyph || '').join('')) errors.push(`compound ${c.id}: spelling disagrees with components`);
+    const bridge = BRIDGES.find((b) => b.id === c.bridge);
+    if (!bridge || bridge.compound !== c.id || !c.components.includes(bridge.from) || !c.components.includes(bridge.to)) errors.push(`compound ${c.id}: invalid bridge`);
+    if (!c.senses?.length || new Set(c.senses).size !== c.senses.length || c.senses.some((id) => !EDGE_MAP[id] || ['bridge','relation'].includes(EDGE_MAP[id].kind))) errors.push(`compound ${c.id}: invalid senses`);
+  }
+  for (const c of COMPOUND_CLAIMS) {
+    seen(c.id, 'compound sense');
+    checkClaim(c, `compound sense ${c.id}`);
+    if (!COMPOUNDS.some((compound) => compound.senses.includes(c.id))) errors.push(`compound sense ${c.id}: no owner`);
+  }
+  for (const r of RELATIONS) {
+    seen(r.id, 'relation');
+    if (!ANCHOR_MAP[r.from] || !COMPOUND_MAP[r.to] || r.compound !== r.to) errors.push(`relation ${r.id}: expected anchor → compound`);
+    checkClaim({ ...r, glyph: r.label, lang: r.subtitle }, `relation ${r.id}`);
+  }
+  for (const c of [...BRIDGES, ...RELATIONS]) if (c.compound && !COMPOUND_MAP[c.compound]) errors.push(`${c.id}: unknown compound`);
+  const aliases = [...BRIDGES, ...RELATIONS].flatMap((b) => b.folded || []);
+  if (new Set(aliases).size !== aliases.length) errors.push('duplicate folded alias');
   for (const [old, to] of Object.entries(FOLDED)) if (ids.has(old)) errors.push(`folded id "${old}" (now ${to}) is still in use`);
   ledger.uncitedSources = Object.keys(SOURCES).filter((k) => !k.startsWith('$') && !usedSources.has(k));
   for (const k of ledger.uncitedSources) warnings.push(`source ${k} is registered but nothing cites it`);

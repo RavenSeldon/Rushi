@@ -41,14 +41,20 @@
       "title": "The Dharma-Gate of Non-Duality",
       "lang": "Sanskrit → Chinese (Mahāyāna)",
       "type": "CANONICAL_TRANSLATION",
-      "evidence": "不二 renders Sanskrit advaya, “not-two”. In chapter 9, bodhisattvas each define the gate of non-duality; Mañjuśrī says it lies beyond words; Vimalakīrti answers with silence — remembered in the idiom 一默如雷, “one silence, like thunder”.",
+      "evidence": "不二 renders Sanskrit advaya, “not-two”. In chapter 9 of the Vimalakīrtinirdeśa, bodhisattvas discuss entry into non-duality; Mañjuśrī sets it beyond verbal explanation, and Vimalakīrti responds in silence.",
       "dimension": "translation",
       "mechanism": "calque",
       "period": "six_dynasties_tang",
       "cites": [
         {
           "source": "vimalakirti",
-          "locator": "ch. 9 入不二法門品"
+          "locator": "ch. 9; T14, no. 475, p. 551c16–26",
+          "url": "https://cbetaonline.dila.edu.tw/zh/T0475_002",
+          "checked": {
+            "on": "2026-11-04",
+            "edition": "https://raw.githubusercontent.com/cbeta-org/xml-p5/master/T/T14/T14n0475.xml",
+            "note": "Chapter 9 ends with Mañjuśrī’s response and Vimalakīrti’s silence; this check establishes the Chinese passage, not the Sanskrit lexical correspondence."
+          }
         },
         {
           "source": "monier-williams",
@@ -56,7 +62,7 @@
         }
       ],
       "status": "CANON",
-      "verification": "unchecked",
+      "verification": "partial",
       "reviewed": "2026-11-04"
     },
     {
@@ -64,9 +70,9 @@
       "glyph": "Advaya ≠ Advaita",
       "title": "Not-Two Is Not “One”",
       "lang": "Sanskrit philosophy",
-      "type": "CROSS_LINGUISTIC_LEXICAL",
-      "evidence": "Vedāntic advaita affirms a single underlying reality, Brahman. Buddhist advaya (不二) rejects paired extremes through dependent arising (緣起) without positing any one substance beneath them.",
-      "caveat": "Both words combine a- with a Sanskrit word for “two-ness”; the difference is doctrinal, not etymological.",
+      "type": "SEMANTIC_CONTRAST",
+      "evidence": "Buddhist advaya and Vedāntic advaita are both rendered “non-duality”, but their philosophical uses need context. Advaita Vedānta articulates non-duality through Brahman; Madhyamaka argues through dependent arising and emptiness. Neither label is a complete account of every school using it.",
+      "caveat": "A comparison of philosophical uses, not an etymological contrast. The Sanskrit dictionary establishes lexical meanings; a detailed comparison of the traditions still needs specialist sources.",
       "dimension": "sense",
       "cites": [
         {
@@ -77,7 +83,7 @@
       "status": "CANON",
       "verification": "unchecked",
       "gaps": [
-        "Cite a scholarly comparison of Buddhist advaya and Vedāntic advaita."
+        "Specialist sources for the doctrinal comparison; the dictionary alone does not establish it."
       ],
       "reviewed": "2026-11-04"
     },
@@ -86,7 +92,7 @@
       "glyph": "道樞",
       "title": "The Pivot of the Way",
       "lang": "Classical Chinese",
-      "type": "ETYMOLOGICAL_SINITIC",
+      "type": "TEXTUAL_CONNECTION",
       "evidence": "“Where ‘that’ (彼) and ‘this’ (是) no longer find their opposite — this is called the pivot of the Way.” Zhuangzi’s critique of either-or disputation predates the arrival of Buddhism: an indigenous Chinese resonance with 不二.",
       "dimension": "sense",
       "period": "pre_qin",

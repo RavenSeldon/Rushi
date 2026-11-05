@@ -1,3 +1,4 @@
+import { citationUrl, webUrl } from '../lib/citations.js';
 import { BookOpen } from 'lucide-react';
 import { SOURCES, formatCite } from '../data/index.js';
 import { DIMENSIONS, MECHANISMS, PERIODS, STATUSES } from '../data/vocab.js';
@@ -46,19 +47,21 @@ export default function Provenance({ claim }) {
             {claim.cites.map((c) => {
               const s = SOURCES[c.source];
               const text = formatCite(c);
+              const href = citationUrl(c, s);
+              const edition = webUrl(c.checked?.edition);
               return (
                 <li key={c.source + (c.locator || '')}>
-                  {s?.url ? (
-                    <a href={s.url} target="_blank" rel="noreferrer" className="underline decoration-white/15 underline-offset-2 hover:text-starlight">
+                  {href ? (
+                    <a href={href} target="_blank" rel="noreferrer" className="underline decoration-white/15 underline-offset-2 hover:text-starlight">
                       {text}
                     </a>
                   ) : (
                     text
                   )}
                   {s?.author && <span className="text-slate-500"> — {s.author}{s.date ? `, ${s.date}` : ''}</span>}
-                  {c.checked && (
+                  {c.checked && (edition ? (
                     <a
-                      href={c.checked.edition}
+                      href={edition}
                       target="_blank"
                       rel="noreferrer"
                       className="ml-1 text-emerald-300/80 hover:text-emerald-200"
@@ -67,7 +70,9 @@ export default function Provenance({ claim }) {
                     >
                       ✓
                     </a>
-                  )}
+                  ) : (
+                    <span className="ml-1 text-emerald-300" title={`Checked ${c.checked.on}: ${c.checked.edition}`} aria-label={`Checked ${c.checked.on}: ${c.checked.edition}`}>✓</span>
+                  ))}
                 </li>
               );
             })}

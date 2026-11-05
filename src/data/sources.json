@@ -5,7 +5,8 @@
     "title": "Old Chinese: A New Reconstruction",
     "author": "William H. Baxter and Laurent Sagart",
     "date": "2014",
-    "publisher": "Oxford University Press"
+    "publisher": "Oxford University Press",
+    "shortTitle": "B–S 2014"
   },
   "downer-1959": {
     "kind": "scholarship",
@@ -146,8 +147,9 @@
   },
   "yinming-xuanzang": {
     "kind": "primary",
-    "title": "因明正理門論 (T1628) and 因明入正理論 (T1630), tr. Xuanzang",
-    "date": "7th c."
+    "title": "因明入正理論 (Nyāyapraveśa), Śaṅkarasvāmin, tr. Xuanzang, T1630",
+    "date": "647 CE",
+    "url": "https://cbetaonline.dila.edu.tw/zh/T1630"
   },
   "pramanasamuccaya": {
     "kind": "primary",

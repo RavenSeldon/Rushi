@@ -13,9 +13,13 @@ The project's one non-negotiable rule: **a beautiful line is not evidence.** Eve
 | Type | Pattern | Meaning |
 |---|---|---|
 | Attested Translation | solid gold | A documented rendering in translated texts; checkable against the canon |
-| Sinitic Etymology & Usage | solid blue | Evidence internal to Chinese: script forms, Old Chinese sound, tone derivation, classical texts |
+| Sinitic Etymology | solid blue | Script history, reconstructed sound and word formation |
+| Textual Connection | solid violet | A connection in a named passage; not a claim of common origin |
+| Semantic Contrast | dashed coral | Contextual differences in meaning or use |
 | Analogy Across Languages | dashed silver | A parallel in another language. Not a translation, not a cognate |
 | Original Interpretation | dotted crimson | A proposition made by Rushi itself, never presented as historical fact |
+
+Blue also covers explicitly labeled Graphic Structure; violet covers explicitly labeled Traditional Correspondence (dashed). These existing subtypes keep their identity within six hue families and have separate controls under Lines. A relation type does not certify that its citations have been checked.
 
 Crimson is reserved for interpretation. It is never used as decoration. Uncertainty lives in each card's `caveat` field and should never be deleted to make a card read more confidently. Each claim also carries a `status` (CANON, WORKING or OPEN QUESTION; unsettled claims draw fainter and carry a "?") and a `verification` ledger saying what its citations have actually been checked against. Scholarly corrections and their reasons are logged in [`docs/CORRECTIONS.md`](docs/CORRECTIONS.md).
 
@@ -60,6 +64,14 @@ See [`docs/SCHEMA.md`](docs/SCHEMA.md) for every field. In short:
 Run `npm run check` after any change. It fails on contract errors and reports the verification ledger.
 
 Deep links follow the data: `#/cosmos`, `#/ground`, `#/pillars/dao`, `#/pillars/dao/dao-marga`, `#/ground/yi/bridge-dao-yi`. Every v1.0 link (`#/dao`, `#/dao/dao-marga`, `#/bu/bridge-bu-er`) still works.
+
+## Compound readings
+
+無為, 不二 and 無量 are first-class semantic nodes at `#/compounds/wuwei`, `#/compounds/buer` and `#/compounds/wuliang`. Open them from either written component, a compound bridge, or the Paths selector. The sky reuses the existing component bridge; the reading sheet distinguishes senses and sources without adding particles or permanent labels.
+
+The semantic graph includes separate written-membership records. Membership is not translation or equivalence. Maitrādvaita now relates 愛 to 不二, remains an **OPEN QUESTION / Original Interpretation**, and does not assert an ancient Sanskrit term or equate Buddhist advaya with Advaita Vedānta. Its old links still resolve.
+
+See [the implementation review](docs/SEMANTIC-REVIEW.md) for scope, validation and deferred recommendations.
 
 ## Performance design
 

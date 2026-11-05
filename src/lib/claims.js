@@ -23,7 +23,7 @@ export function chainStrength(edges) {
     if (!weakest || CLAIM_TIERS[t].rank < CLAIM_TIERS[weakest].rank) weakest = t;
   }
   const open = edges.some((e) => e.status && e.status !== 'CANON');
-  return { tier: weakest, label: CLAIM_TIERS[weakest].label, kinds, includesUnsettled: open };
+  return { tier: weakest, label: CLAIM_TIERS[weakest].label, kinds, includesUnsettled: open, includesUnverified: edges.some((e) => e.kind !== 'membership' && e.verification !== 'source'), includesMembership: edges.some((e) => e.kind === 'membership') };
 }
 
 // Shortest chain between two anchors through bridges (breadth-first).

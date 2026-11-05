@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { ChevronLeft, ChevronRight, Info, Orbit, RotateCcw, Route, SlidersHorizontal } from 'lucide-react';
-import { ANCHOR_MAP, EDGE_MAP, EDGE_TYPES, REALMS, REALM_MAP, anchorsOf } from './data/index.js';
+import { ANCHOR_MAP, COMPOUND_MAP, EDGE_MAP, EDGE_TYPES, REALMS, REALM_MAP, anchorsOf } from './data/index.js';
 import { Galaxy } from './scene/Galaxy.js';
 import { formatHash, parseHash } from './lib/route.js';
 import { load, save } from './lib/storage.js';
@@ -122,6 +122,10 @@ export default function App() {
 
   const anchor = route.anchorId ? ANCHOR_MAP[route.anchorId] : null;
   const edge = route.edgeId ? EDGE_MAP[route.edgeId] : null;
+  const compound = COMPOUND_MAP[route.compoundId];
+  // Compound reading and semantic relations reuse the existing camera without
+  // pretending that a compound is a single-character star or drawing a false edge.
+  const sceneEdge = compound ? EDGE_MAP[compound.bridge] : edge && ['bridge', 'satellite'].includes(edge.kind) ? edge : null;
   const inCosmos = route.level === 'cosmos';
   // The system the dock and number keys refer to: in the cosmos view, the one
   // last visited.
@@ -153,11 +157,17 @@ export default function App() {
     },
     [dismissIntro]
   );
+  const goCompound = useCallback((compoundId) => {
+    dismissIntro();
+    setCollapsed(false);
+    navigate({ compoundId });
+  }, [dismissIntro]);
   const goEdge = useCallback(
     (edgeId, fallbackAnchor) => {
       if (!edgeId) return navigate({ level: 'star', anchorId: route.anchorId });
       const e = EDGE_MAP[edgeId];
-      const a = fallbackAnchor && (e.from === fallbackAnchor || e.to === fallbackAnchor)
+      if (!e) return;
+      const a = ANCHOR_MAP[fallbackAnchor] && (e.from === fallbackAnchor || e.to === fallbackAnchor)
         ? fallbackAnchor
         : route.anchorId && (e.from === route.anchorId || e.to === route.anchorId) ? route.anchorId : e.from;
       dismissIntro();
@@ -184,7 +194,8 @@ export default function App() {
   );
   // Connection → Star → System → Cosmos; in the cosmos, recentre.
   const stepBack = useCallback(() => {
-    if (route.edgeId) navigate({ level: 'star', anchorId: route.anchorId });
+    if (route.compoundId) navigate({ level: 'star', anchorId: route.anchorId });
+    else if (route.edgeId) navigate({ level: 'star', anchorId: route.anchorId });
     else if (route.anchorId) navigate({ level: 'system', realmId: route.realmId });
     else if (!inCosmos && REALMS.length > 1) navigate({ level: 'cosmos' });
     else galaxyRef.current?.recenter();
@@ -197,7 +208,7 @@ export default function App() {
       const r0 = parseHash(window.location.hash);
       g = new Galaxy(mountRef.current, {
         labels: labelsRef.current,
-        view: { level: r0.level, realmId: r0.realmId, anchorId: r0.anchorId, edge: r0.edgeId ? EDGE_MAP[r0.edgeId] : null },
+        view: { level: r0.level, realmId: r0.realmId, anchorId: r0.anchorId, edge: r0.compoundId ? EDGE_MAP[COMPOUND_MAP[r0.compoundId].bridge] : r0.edgeId && ['bridge', 'satellite'].includes(EDGE_MAP[r0.edgeId]?.kind) ? EDGE_MAP[r0.edgeId] : null },
         reducedMotion,
         tier: tierState.tier,
         autoTier: tierState.auto,
@@ -233,10 +244,10 @@ export default function App() {
   }, [webgl]);
 
   useEffect(() => {
-    galaxyRef.current?.setView({ level: route.level, realmId: route.realmId, anchorId: route.anchorId, edge });
+    galaxyRef.current?.setView({ level: route.level, realmId: route.realmId, anchorId: route.anchorId, edge: sceneEdge });
     if (route.anchorId || route.level === 'cosmos') setMoved(true);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [route.level, route.realmId, route.anchorId, route.edgeId]);
+  }, [route.level, route.realmId, route.anchorId, route.edgeId, route.compoundId]);
   useEffect(() => galaxyRef.current?.setFilters(filters), [filters]);
   useEffect(() => galaxyRef.current?.setReducedMotion(reducedMotion), [reducedMotion]);
 
@@ -256,14 +267,14 @@ export default function App() {
     const ro = new ResizeObserver(apply);
     ro.observe(el);
     return () => ro.disconnect();
-  }, [anchor, compact, collapsed, webgl]);
+  }, [anchor, compound, compact, collapsed, webgl]);
 
   // ---- keyboard -------------------------------------------------------------
   useEffect(() => {
     const onKey = (e) => {
       if (e.metaKey || e.ctrlKey || e.altKey) return;
       const tag = e.target?.tagName;
-      if (tag === 'INPUT' || tag === 'TEXTAREA' || e.target?.isContentEditable) return;
+      if (tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT' || e.target?.isContentEditable) return;
       if (e.key === 'Escape') {
         if (showAbout) return setShowAbout(false);
         if (showDisplay) return setShowDisplay(false);
@@ -304,15 +315,20 @@ export default function App() {
   const toggleFilter = (id) => setFilters((f) => ({ ...f, [id]: !f[id] }));
 
   const docTitle = useMemo(() => {
+    if (compound) return `${compound.glyph} · Compounds · 如實 Rushi`;
     if (edge && anchor) return `${edge.title} · ${anchor.glyph} · 如實 Rushi`;
     if (anchor) return `${anchor.glyph} ${anchor.pinyin} · 如實 Rushi`;
     if (inCosmos) return '如實 Rushi — The Cosmos';
     if (realm.id !== REALMS[0].id) return `${realm.numeral} · ${realm.name} · 如實 Rushi`;
     return '如實 Rushi — Eight Characters as a Navigable Cosmos';
-  }, [anchor, edge, inCosmos, realm]);
+  }, [anchor, compound, edge, inCosmos, realm]);
   useEffect(() => {
     document.title = docTitle;
   }, [docTitle]);
+
+  useEffect(() => {
+    if (route.anchorId) document.getElementById('main-reading')?.focus({ preventScroll: true });
+  }, [route.anchorId, route.edgeId, route.compoundId]);
 
   const sheetOpen = !!anchor;
   const dockShifted = sheetOpen && !compact;
@@ -321,6 +337,7 @@ export default function App() {
     <div className="relative h-full w-full overflow-hidden bg-void text-starlight select-none">
       <a
         href="#main-reading"
+        onClick={(e) => { e.preventDefault(); document.getElementById('main-reading')?.focus(); }}
         className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[60] focus:rounded-lg focus:bg-ink focus:px-3 focus:py-2"
       >
         Skip to reading
@@ -332,7 +349,7 @@ export default function App() {
         <Labels
           refFor={refFor}
           route={route}
-          edge={edge}
+          edge={sceneEdge}
           filters={filters}
           onAnchor={goAnchor}
           onEdge={goEdge}
@@ -391,7 +408,7 @@ export default function App() {
               <button
                 type="button"
                 onClick={() => goAnchor(anchor.id)}
-                aria-current={!edge ? 'page' : undefined}
+                aria-current={!edge && !compound ? 'page' : undefined}
                 className={`flex shrink-0 items-baseline gap-1.5 rounded-lg px-1 py-1 ${edge ? 'text-slate-400 hover:text-starlight' : 'text-amber-100'}`}
               >
                 <span className="font-cjk text-[16px]">{anchor.glyph}</span>
@@ -399,11 +416,11 @@ export default function App() {
               </button>
             </>
           )}
-          {edge && (
+          {(edge || compound) && (
             <>
               <span className="text-slate-600" aria-hidden="true">/</span>
               <span aria-current="page" className="truncate font-serif text-[15px] text-amber-100">
-                {edge.kind === 'bridge' ? edge.label : edge.glyph}
+                {compound ? compound.glyph : edge.kind === 'bridge' ? edge.label : edge.glyph}
               </span>
             </>
           )}
@@ -427,6 +444,7 @@ export default function App() {
           </button>
           <button
             type="button"
+            aria-label="Display and line key"
             data-display-toggle
             onClick={() => {
               setShowDisplay((v) => !v);
@@ -440,13 +458,14 @@ export default function App() {
           </button>
           <button
             type="button"
+            aria-label="About Rushi"
             onClick={() => setShowAbout(true)}
             className="flex h-9 items-center gap-2 rounded-full px-3 text-[13px] text-slate-300 transition hover:bg-white/5 hover:text-starlight"
           >
             <Info className="h-4 w-4" aria-hidden="true" />
             <span className="hidden sm:inline">About</span>
           </button>
-          {showPaths && <Pathfinder initialFrom={route.anchorId || realmAnchors[0]?.id} onEdge={goEdge} onClose={() => setShowPaths(false)} />}
+          {showPaths && <Pathfinder initialFrom={route.anchorId || realmAnchors[0]?.id} onEdge={(id, from) => { goEdge(id, from); setShowPaths(false); }} onCompound={(id) => { goCompound(id); setShowPaths(false); }} onClose={() => setShowPaths(false)} />}
           {showDisplay && (
             <Display
               filters={filters}
@@ -469,6 +488,8 @@ export default function App() {
           <Sheet
             ref={sheetRef}
             anchor={anchor}
+            compound={compound}
+            onCompound={goCompound}
             realm={realm}
             edge={edge}
             filters={filters}

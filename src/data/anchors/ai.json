@@ -12,7 +12,7 @@
     10,
     41
   ],
-  "placement": "High on the right wing, beside 二 — the two ends of the Maitrādvaita proposition.",
+  "placement": "High on the right wing, near 二. This inherited placement is visual; the Maitrādvaita proposition relates 愛 to the compound 不二, not to 二 alone.",
   "simplified": "爱",
   "oc": {
     "form": "*[q]ˤə[p]-s",
@@ -59,7 +59,7 @@
       "glyph": "तृष्णा · मैत्री",
       "title": "Craving vs. Loving-Kindness",
       "lang": "Sanskrit → Chinese",
-      "type": "CANONICAL_TRANSLATION",
+      "type": "SEMANTIC_CONTRAST",
       "evidence": "Among the twelve links, 愛 translates tṛṣṇā, “thirst, craving”. Loving-kindness, maitrī, is usually 慈 — first of the Four Immeasurables 慈悲喜捨 — and is distinct from karuṇā (悲), the wish that beings be free from suffering.",
       "caveat": "愛 is not the standard rendering of maitrī.",
       "dimension": "translation",
@@ -84,7 +84,7 @@
       "glyph": "兼愛 · 仁",
       "title": "Impartial Care vs. Graded Love",
       "lang": "Classical Chinese",
-      "type": "ETYMOLOGICAL_SINITIC",
+      "type": "SEMANTIC_CONTRAST",
       "evidence": "Mohists argued for 兼愛, care extended to all equally. Mencius attacked it as denying the special claim of one’s own father, defending a love graded outward from family — the Confucian 仁, later often called 仁愛.",
       "dimension": "sense",
       "period": "pre_qin",
@@ -131,30 +131,11 @@
       "reviewed": "2026-11-04"
     },
     {
-      "id": "ai-maitradvaita",
-      "glyph": "愛 ↔ 不二",
-      "title": "Maitrādvaita — a Proposition",
-      "lang": "Buddhist concepts, read together",
-      "type": "INTERPRETIVE_SYNTHESIS",
-      "evidence": "Proposed reading: where the line between self and other is seen through (不二, advaya), care for others may arise as naturally as care for oneself.",
-      "caveat": "It sits near — but is not identical to — the Mahāyāna pairing of wisdom (prajñā) with compassion (karuṇā). No canonical text defines 不二 this way.",
-      "dimension": "interpretation",
-      "cites": [
-        {
-          "source": "rushi"
-        }
-      ],
-      "status": "OPEN_QUESTION",
-      "statusNote": "Wording awaits Ben’s decision (roadmap: Decisions Only Ben Can Make).",
-      "verification": "unchecked",
-      "reviewed": "2026-11-04"
-    },
-    {
       "id": "ai-wuxin",
       "glyph": "愛 → 爱",
       "title": "Love Without a Heart",
       "lang": "Modern Chinese — a joke about simplification",
-      "type": "ETYMOLOGICAL_SINITIC",
+      "type": "TEXTUAL_CONNECTION",
       "evidence": "Simplified 爱 drops the 心 at the centre of 愛 and writes 友, “friend”, in its place. A couplet by 夏進興 makes the joke: 麵無麥、愛無心、單翅能飛 / 餘不食、親不見、無門可開 — noodles without wheat, love without a heart, one wing that still flies; surplus without food, kin who cannot see, no gate yet it opens.",
       "caveat": "A joke, not an etymology. Simplified forms were chosen for ease of writing, often by regularising older cursive handwriting, not to take meaning out. The couplet speaks for one side of a long and political debate.",
       "dimension": "form",

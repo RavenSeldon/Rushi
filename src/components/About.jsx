@@ -75,11 +75,20 @@ export default function About({ onClose }) {
     return () => prev?.focus?.();
   }, []);
 
+  const trapFocus = (event) => {
+    if (event.key !== 'Tab') return;
+    const nodes = [...event.currentTarget.querySelectorAll('button, a[href], select, [tabindex="0"]')];
+    const first = nodes[0], last = nodes[nodes.length - 1];
+    if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last?.focus(); }
+    else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first?.focus(); }
+  };
+
   return (
     <div className="fixed inset-0 z-50 flex items-end justify-center bg-void/60 sm:items-center" onClick={onClose}>
       <div
         role="dialog"
         aria-modal="true"
+        onKeyDown={trapFocus}
         aria-labelledby="about-h"
         onClick={(e) => e.stopPropagation()}
         className="glass fade-in scroll-quiet max-h-[88dvh] w-full max-w-[640px] overflow-y-auto rounded-t-3xl p-6 pb-[max(1.5rem,env(safe-area-inset-bottom))] sm:rounded-3xl sm:p-9"
@@ -123,8 +132,9 @@ export default function About({ onClose }) {
               <LineKey />
             </div>
             <p className="mt-4 text-[15px] text-slate-300">
-              The patterns are the important part: solid lines are documented; dashed lines are comparisons; dotted
-              crimson lines are this project’s own proposals. Where an origin or a reading is debated, the card says so
+              Read the text labels alongside the colours and patterns. Blue also includes graphic structure; violet
+              includes reported traditional correspondences. Dotted crimson lines are this project’s own proposals.
+              A relation type does not certify its evidence: each card has a separate verification ledger. Where an origin or a reading is debated, the card says so
               in a note rather than smoothing it over.
             </p>
           </section>

@@ -1,0 +1,46 @@
+[
+  {
+    "id": "wuwei-daoist",
+    "glyph": "無為",
+    "title": "Acting without forcing",
+    "lang": "Chinese textual tradition",
+    "type": "TEXTUAL_CONNECTION",
+    "evidence": "Daodejing 37 associates 無為 with the spontaneous transformation of things. “Acting without forcing” is an explanatory reading, not the Buddhist technical definition “unconditioned”.",
+    "dimension": "sense",
+    "cites": [
+      {
+        "source": "daodejing",
+        "locator": "ch. 37",
+        "url": "https://ctext.org/dao-de-jing/zh"
+      }
+    ],
+    "status": "WORKING",
+    "verification": "unchecked",
+    "reviewed": "2026-11-04",
+    "caveat": "The interpretation of 無為 varies across passages and commentators."
+  },
+  {
+    "id": "wuliang-four",
+    "glyph": "慈 · 悲 · 喜 · 捨",
+    "title": "Four Immeasurables",
+    "lang": "Chinese textual tradition",
+    "type": "TEXTUAL_CONNECTION",
+    "evidence": "The Abhidharmakośa lists four immeasurables: friendliness, compassion, appreciative joy and equanimity. These are distinct dispositions with immeasurable beings as their scope; they are not four interchangeable words for love.",
+    "dimension": "sense",
+    "cites": [
+      {
+        "source": "abhidharmakosa",
+        "locator": "T29, no. 1558, p. 150b20–23; fascicle 29",
+        "url": "https://raw.githubusercontent.com/cbeta-org/xml-p5/master/T/T29/T29n1558.xml",
+        "checked": {
+          "on": "2026-11-04",
+          "edition": "https://raw.githubusercontent.com/cbeta-org/xml-p5/master/T/T29/T29n1558.xml",
+          "note": "The passage lists 慈、悲、喜、捨 and explains immeasurable beings as their object."
+        }
+      }
+    ],
+    "status": "WORKING",
+    "verification": "source",
+    "reviewed": "2026-11-04"
+  }
+]

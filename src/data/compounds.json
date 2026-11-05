@@ -1,0 +1,47 @@
+[
+  {
+    "id": "wuwei",
+    "glyph": "無為",
+    "pinyin": "wúwéi",
+    "components": [
+      "wu",
+      "wei"
+    ],
+    "bridge": "bridge-wu-wei",
+    "summary": "One written compound, distinct Daoist and Buddhist uses. Neither sense should silently stand in for the other.",
+    "senses": [
+      "wuwei-daoist",
+      "wei-asamskrta"
+    ]
+  },
+  {
+    "id": "buer",
+    "glyph": "不二",
+    "pinyin": "bù èr (spoken bú èr)",
+    "components": [
+      "bu",
+      "er"
+    ],
+    "bridge": "bridge-bu-er",
+    "summary": "“Not two”: a Buddhist term explored through the gate of non-duality. Its components identify the word, not a doctrine about the numeral 二.",
+    "senses": [
+      "er-advaya",
+      "er-advaita"
+    ]
+  },
+  {
+    "id": "wuliang",
+    "glyph": "無量",
+    "pinyin": "wúliàng",
+    "components": [
+      "wu",
+      "liang"
+    ],
+    "bridge": "bridge-wu-liang",
+    "summary": "“Without measure”: read the Four Immeasurables and the Pure Land names in their own textual contexts.",
+    "senses": [
+      "wuliang-four",
+      "liang-wuliang"
+    ]
+  }
+]

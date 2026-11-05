@@ -233,3 +233,19 @@ Mojidata IDS for 天 陽 氣 易 時 仁 禮 智 信 孝 忠; Unihan kJapaneseOn
 - Attractors may carry a viewing basis.
 - The cosmos bearing now also avoids overlapping system names on narrow screens.
 - The Pillars are unaffected (re-checked).
+
+
+## 2026-11-04 — Semantic graph review (Codex)
+
+- Preserved the earlier corrections to 不, 愛, 量 and Buddhist terminology. This pass does not re-certify the inherited palaeographic or reconstruction claims.
+- Separated textual connections from graph/sound etymology, including the classical bridges and usage satellites. 愛's craving/care and Mohist/Confucian comparisons, and advaya/advaita, now explicitly identify semantic contrasts. The advaya/advaita comparison states its specialist-source gap.
+- Added the competing-reading caveat to 道可道: the familiar speech reading is not the only interpretation of the verb. The existing classical citation does not settle this scholarly debate.
+- Corrected the composite bibliography label used by 量: the inspected source is **因明入正理論, T1630**, by Śaṅkarasvāmin, translated by Xuanzang (647), not a single work comprising both T1628 and T1630. The existing correction about Yijing's lost Pramāṇasamuccaya translation is retained.
+- Checked T1630, p. 12b27–c05 against CBETA XML: the distinction between 現量 and 比量. Expanded the existing card rather than adding two redundant satellites. Its Sanskrit correspondence remains separately unverified.
+- Checked the conclusion of T475, chapter 9, p. 551c16–26 against CBETA XML. Removed the later “thunderous silence” idiom from the card's account of that passage; the passage itself narrates silence. Chinese textual verification does not verify a Sanskrit lexical pairing.
+- Checked T1558, p. 1c02–05 (three unconditioned categories) and p. 150b20–23, 150c02–07 (Four Immeasurables) against CBETA XML. Added a compact four-disposition reading; kept the Buddhist 無為 sense separate from the Daoist one. Unchecked bilingual correspondences remain explicit gaps.
+- Replaced the drawn 愛–二 Maitrādvaita shortcut with an anchor–compound relation **愛 → 不二**. It retains OPEN_QUESTION status and its original claim ID. The redundant satellite is folded into it, preserving its URL. The creative Sanskrit-style name is expressly not presented as an attested term.
+- Added 道–慈 (Daodejing 67) and 不–無 (contextual negation contrast, Analects 1.8/1.16). Folded the prior 慈 “First Treasure” satellite into the bridge. These additions remain WORKING and unchecked where the relevant edition could not be opened; search snippets were not recorded as source verification.
+- Added safe passage-link rendering. Dataset names and annotated edition descriptions no longer become broken web links.
+
+Checked editions: CBETA's public XML TEI P5 files for [T1630](https://raw.githubusercontent.com/cbeta-org/xml-p5/master/T/T32/T32n1630.xml), [T475](https://raw.githubusercontent.com/cbeta-org/xml-p5/master/T/T14/T14n0475.xml), and [T1558](https://raw.githubusercontent.com/cbeta-org/xml-p5/master/T/T29/T29n1558.xml). Each checked citation records the date, edition URL, locator and limits of the check in the data itself.
