@@ -523,5 +523,319 @@
     ],
     "drafted": "Baracus",
     "reviewed": "2026-11-04"
+  },
+  {
+    "id": "bridge-ru-shi",
+    "from": "ru",
+    "to": "shi-real",
+    "label": "如實",
+    "title": "如 ↔ 實 · As It Really Is",
+    "subtitle": "yathābhūta",
+    "type": "CANONICAL_TRANSLATION",
+    "evidence": "如實 renders Sanskrit yathābhūta, “as it has come to be”: yathā, “as”, for 如, and bhūta, “what has become, what is”, for 實. 如實知見, knowing and seeing as it really is, recurs throughout the Āgamas. It is this project’s name.",
+    "dimension": "translation",
+    "mechanism": "calque",
+    "period": "six_dynasties_tang",
+    "cites": [
+      {
+        "source": "agamas",
+        "locator": "如實知見"
+      },
+      {
+        "source": "monier-williams",
+        "locator": "yathābhūta"
+      }
+    ],
+    "status": "WORKING",
+    "verification": "unchecked",
+    "drafted": "Baracus",
+    "reviewed": "2026-11-04"
+  },
+  {
+    "id": "bridge-zhen-yan",
+    "from": "zhen",
+    "to": "yan",
+    "label": "真言",
+    "title": "真 ↔ 言 · The True Word",
+    "subtitle": "mantra; Japanese shingon",
+    "type": "CANONICAL_TRANSLATION",
+    "evidence": "真言, “true word”, renders mantra. In Japan the Shingon school (真言宗), founded by Kūkai, is named for it; Unihan’s Japanese readings give 真 shin and 言 gon, hence shingon.",
+    "dimension": "translation",
+    "mechanism": "semantic_extension",
+    "period": "six_dynasties_tang",
+    "cites": [
+      {
+        "source": "monier-williams",
+        "locator": "mantra"
+      },
+      {
+        "source": "unihan",
+        "locator": "kJapaneseOn: 真, 言",
+        "checked": {
+          "on": "2026-11-04",
+          "edition": "Unihan 18.0.0 via @mandel59/mojidata@1.9.3 (data-raw/moji.db)",
+          "note": "真 SHIN · 言 GEN GON"
+        }
+      }
+    ],
+    "status": "WORKING",
+    "verification": "partial",
+    "drafted": "Baracus",
+    "reviewed": "2026-11-04"
+  },
+  {
+    "id": "bridge-zhen-ru",
+    "from": "zhen",
+    "to": "ru",
+    "label": "真如",
+    "title": "真 ↔ 如 · True Suchness",
+    "subtitle": "tathatā",
+    "type": "CANONICAL_TRANSLATION",
+    "evidence": "真如, “true suchness”, renders tathatā, the way things are before they are named. Kumārajīva often wrote 如 or 如如 alone; 真如 became the standard term in later translation.",
+    "caveat": "The history of the renderings is Baracus’s, from general knowledge; check it against the translations before accepting.",
+    "dimension": "translation",
+    "mechanism": "semantic_extension",
+    "period": "six_dynasties_tang",
+    "cites": [
+      {
+        "source": "monier-williams",
+        "locator": "tathatā"
+      },
+      {
+        "source": "vimalakirti",
+        "locator": "如, 如如"
+      }
+    ],
+    "status": "WORKING",
+    "verification": "unchecked",
+    "gaps": [
+      "Cite where 真如 first becomes standard (e.g. Xuanzang’s translations)."
+    ],
+    "drafted": "Baracus",
+    "reviewed": "2026-11-04"
+  },
+  {
+    "id": "bridge-zhen-shi",
+    "from": "zhen",
+    "to": "shi-real",
+    "label": "真實",
+    "title": "真 ↔ 實 · True, and Not False",
+    "subtitle": "Heart Sutra",
+    "type": "ETYMOLOGICAL_SINITIC",
+    "evidence": "The Heart Sutra says its mantra 能除一切苦，真實不虛: “it removes all suffering, true and not false.” 真實 joins the two words for “true”: 真, the genuine as against the counterfeit, and 實, the solid as against the empty.",
+    "dimension": "sense",
+    "period": "six_dynasties_tang",
+    "cites": [
+      {
+        "source": "xinjing",
+        "locator": "真實不虛"
+      }
+    ],
+    "status": "WORKING",
+    "verification": "unchecked",
+    "drafted": "Baracus",
+    "reviewed": "2026-11-04"
+  },
+  {
+    "id": "bridge-fu-yin",
+    "from": "fu",
+    "to": "yin-seal",
+    "label": "符 · 印",
+    "title": "符 ↔ 印 · Tally and Seal",
+    "subtitle": "Shuowen",
+    "type": "ETYMOLOGICAL_SINITIC",
+    "evidence": "The Shuowen glosses both with 信, “credence, proof”: 符，信也, and 印，執政所持信也. A tally proves by fitting, a seal by its mark; both make a message trustworthy, and both point toward 信.",
+    "dimension": "sense",
+    "period": "han",
+    "cites": [
+      {
+        "source": "shuowen",
+        "locator": "符; 印"
+      }
+    ],
+    "status": "WORKING",
+    "verification": "unchecked",
+    "drafted": "Baracus",
+    "reviewed": "2026-11-04"
+  },
+  {
+    "id": "bridge-ming-shi",
+    "from": "ming",
+    "to": "shi-real",
+    "label": "名 · 實",
+    "title": "名 ↔ 實 · The Name Is the Guest of Reality",
+    "subtitle": "Zhuangzi ch. 1",
+    "type": "ETYMOLOGICAL_SINITIC",
+    "evidence": "Zhuangzi ch. 1: declining the throne, Xu You says 名者，實之賓也 — “a name is the guest of reality.” The pair 名 / 實 (name and actuality) runs through early Chinese philosophy, and 實 is half of Rushi’s own name, 如實.",
+    "dimension": "sense",
+    "period": "pre_qin",
+    "cites": [
+      {
+        "source": "zhuangzi",
+        "locator": "ch. 1 逍遙遊"
+      }
+    ],
+    "status": "WORKING",
+    "verification": "unchecked",
+    "drafted": "Baracus",
+    "folded": [
+      "ming-shi"
+    ],
+    "reviewed": "2026-11-04"
+  },
+  {
+    "id": "bridge-ming-yan",
+    "from": "ming",
+    "to": "yan",
+    "label": "名 · 言",
+    "title": "名 ↔ 言 · Rectifying Names",
+    "subtitle": "Analects 13.3",
+    "type": "ETYMOLOGICAL_SINITIC",
+    "evidence": "Analects 13.3: 名不正，則言不順；言不順，則事不成 — “if names are not correct, speech does not accord with things; if speech does not accord, affairs do not succeed.” For Confucius, order begins with calling things what they are.",
+    "dimension": "sense",
+    "period": "pre_qin",
+    "cites": [
+      {
+        "source": "analects",
+        "locator": "13.3"
+      }
+    ],
+    "status": "WORKING",
+    "verification": "unchecked",
+    "drafted": "Baracus",
+    "folded": [
+      "ming-zhengming"
+    ],
+    "reviewed": "2026-11-04"
+  },
+  {
+    "id": "bridge-zhou-wu",
+    "from": "zhou-spell",
+    "to": "wu",
+    "label": "無上咒",
+    "title": "咒 ↔ 無 · The Unsurpassed Mantra",
+    "subtitle": "Heart Sutra",
+    "type": "CANONICAL_TRANSLATION",
+    "evidence": "The Heart Sutra calls the perfection of wisdom 是大神咒，是大明咒，是無上咒，是無等等咒: a great spirit-mantra, a great knowledge-mantra, an unsurpassed mantra, an unequalled mantra. 無上 renders anuttara, “with nothing above”.",
+    "dimension": "translation",
+    "mechanism": "calque",
+    "period": "six_dynasties_tang",
+    "cites": [
+      {
+        "source": "xinjing",
+        "locator": "是無上咒，是無等等咒"
+      },
+      {
+        "source": "monier-williams",
+        "locator": "anuttara"
+      }
+    ],
+    "status": "WORKING",
+    "verification": "unchecked",
+    "drafted": "Baracus",
+    "reviewed": "2026-11-04"
+  },
+  {
+    "id": "bridge-shi-xin",
+    "from": "shi-real",
+    "to": "xin",
+    "label": "虛心 · 實腹",
+    "title": "實 ↔ 心 · Empty the Heart, Fill the Belly",
+    "subtitle": "Daodejing ch. 3",
+    "type": "ETYMOLOGICAL_SINITIC",
+    "evidence": "Ch. 3: 是以聖人之治，虛其心，實其腹 — “so the sage governs by emptying their hearts and filling their bellies.” 實 is a verb here, “to fill”, set against 虛, “to empty”; the heart is what is emptied.",
+    "dimension": "sense",
+    "period": "pre_qin",
+    "cites": [
+      {
+        "source": "daodejing",
+        "locator": "ch. 3"
+      }
+    ],
+    "status": "WORKING",
+    "verification": "unchecked",
+    "drafted": "Baracus",
+    "reviewed": "2026-11-04"
+  },
+  {
+    "id": "bridge-shi-wu",
+    "from": "shi-real",
+    "to": "wu",
+    "label": "實相無相",
+    "title": "實 ↔ 無 · The True Mark Is No Mark",
+    "subtitle": "Wumenguan case 6",
+    "type": "ETYMOLOGICAL_SINITIC",
+    "evidence": "In case 6 of the Wumenguan the Buddha holds up a flower, and says he entrusts to Mahākāśyapa 涅槃妙心，實相無相: “the wondrous mind of nirvāṇa, the true mark that is no mark.” Reality, in this line, is marked by having no mark.",
+    "dimension": "sense",
+    "period": "song_yuan",
+    "cites": [
+      {
+        "source": "wumenguan",
+        "locator": "case 6 世尊拈花"
+      }
+    ],
+    "status": "WORKING",
+    "verification": "unchecked",
+    "drafted": "Baracus",
+    "reviewed": "2026-11-04"
+  },
+  {
+    "id": "bridge-ru-wu",
+    "from": "ru",
+    "to": "wu",
+    "label": "本無 → 如",
+    "title": "如 ↔ 無 · Suchness, Once Written as Non-Being",
+    "subtitle": "Buddhist translation, Han to Tang",
+    "type": "CANONICAL_TRANSLATION",
+    "evidence": "Lokakṣema rendered tathatā, “suchness”, as 本無, “original non-being”, in the Daoxing banruo jing (see 無’s card). Later translators wrote 如, “thus”, and 真如: the same idea moved from a word of absence to a word of likeness.",
+    "caveat": "Lokakṣema’s 本無 is recorded on 無’s card; the later history of 如 is Baracus’s, from general knowledge.",
+    "dimension": "translation",
+    "mechanism": "semantic_extension",
+    "period": "six_dynasties_tang",
+    "cites": [
+      {
+        "source": "daoxing-banruo",
+        "locator": "本無 (tathatā)"
+      },
+      {
+        "source": "monier-williams",
+        "locator": "tathatā"
+      }
+    ],
+    "status": "WORKING",
+    "verification": "unchecked",
+    "drafted": "Baracus",
+    "reviewed": "2026-11-04"
+  },
+  {
+    "id": "bridge-yan-dao",
+    "from": "yan",
+    "to": "dao",
+    "label": "λόγος → 道",
+    "title": "言 ↔ 道 · In the Beginning Was the Word",
+    "subtitle": "John 1:1, Chinese Union Version",
+    "type": "CANONICAL_TRANSLATION",
+    "evidence": "The Chinese Union Version (1919) opens the Gospel of John: 太初有道，道與神同在，道就是神. Greek λόγος means first “word, speech, account”, closest to 言, but the translators chose 道, which also means “to say”, as in 道可道.",
+    "caveat": "Baracus recalls that Robert Morrison’s earlier translation (1823) used 言 here; check before citing it.",
+    "dimension": "translation",
+    "mechanism": "semantic_extension",
+    "period": "modern",
+    "cites": [
+      {
+        "source": "cuv",
+        "locator": "John 1:1"
+      },
+      {
+        "source": "lsj",
+        "locator": "λόγος"
+      }
+    ],
+    "status": "WORKING",
+    "verification": "unchecked",
+    "gaps": [
+      "Check Morrison’s 1823 rendering of John 1:1 (言?)."
+    ],
+    "drafted": "Baracus",
+    "reviewed": "2026-11-04"
   }
 ]

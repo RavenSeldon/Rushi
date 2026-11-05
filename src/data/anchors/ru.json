@@ -1,0 +1,99 @@
+{
+  "id": "ru",
+  "key": "1",
+  "glyph": "如",
+  "pinyin": "rú",
+  "gloss": "like · as · thus — and, in Buddhist texts, suchness (tathatā)",
+  "glossUnihan": "if, supposing; as if; like, as",
+  "form": "女 + 口",
+  "formNote": "The Shuowen glosses 如 as 從隨, “to follow”, and analyses it as 女 with 口. Mojidata IDS gives ⿰女口. The graph’s deeper origin is uncertain.",
+  "summary": "Like, as, thus: the word of likeness and of manner. Buddhist translators made it carry tathatā, “suchness”, the way things are, and tathāgata, the Buddha as the one “thus come”. With 實 it names this project: 如實, as it really is.",
+  "coords": [
+    0,
+    0,
+    0
+  ],
+  "placement": "At the origin, a fixed point on the Thomas system’s axis of symmetry: renaming x → y → z turns the attractor 120° about this axis. 實 sits at another fixed point on the same axis, so 如實 runs along the axis itself. (Placement is a design choice, not a claim.)",
+  "oc": {
+    "form": "*na",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "† Baracus, from general knowledge; not yet checked against B–S 2014."
+  },
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "rú",
+    "yue": "jyu4",
+    "ja": "jo, nyo",
+    "ko": "여 yeo",
+    "vi": "như",
+    "fanqie": "人諸切, 人恕切"
+  },
+  "structure": {
+    "ids": "⿰女口",
+    "parts": [
+      "女",
+      "口"
+    ],
+    "components": [
+      "女",
+      "口"
+    ],
+    "source": "mojidata-ids"
+  },
+  "satellites": [
+    {
+      "id": "ru-tathagata",
+      "glyph": "तथागत · Tathāgata",
+      "title": "The Thus-Come One",
+      "lang": "Sanskrit → Chinese",
+      "type": "CANONICAL_TRANSLATION",
+      "evidence": "如來 renders tathāgata, a title of the Buddha: tathā, “thus”, for 如, and āgata, “come”, for 來. The Sanskrit can also be parsed tathā-gata, “thus gone”; the Chinese chose the coming.",
+      "dimension": "translation",
+      "mechanism": "calque",
+      "period": "six_dynasties_tang",
+      "cites": [
+        {
+          "source": "monier-williams",
+          "locator": "tathāgata"
+        },
+        {
+          "source": "vimalakirti",
+          "locator": "如來, passim"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-04"
+    },
+    {
+      "id": "ru-rushiwowen",
+      "glyph": "如是我聞",
+      "title": "Thus Have I Heard",
+      "lang": "Sanskrit → Chinese",
+      "type": "CANONICAL_TRANSLATION",
+      "evidence": "Sūtras open with evaṃ mayā śrutam, “thus by me was heard”, rendered 如是我聞; Kumārajīva’s Vimalakīrti begins so. 如是 renders evam, “thus”: every sūtra begins with 如.",
+      "dimension": "translation",
+      "mechanism": "calque",
+      "period": "six_dynasties_tang",
+      "cites": [
+        {
+          "source": "vimalakirti",
+          "locator": "ch. 1, opening"
+        },
+        {
+          "source": "monier-williams",
+          "locator": "evam"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-04"
+    }
+  ]
+}

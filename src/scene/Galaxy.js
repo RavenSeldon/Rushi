@@ -143,7 +143,9 @@ export class Galaxy {
     this.renderer = renderer;
 
     this.scene = new Scene();
-    this.camera = new PerspectiveCamera(FOV, 1, 0.5, 1200);
+    // Far enough for the whole cosmos on a narrow phone. Nothing in the scene
+    // writes depth, so a deeper frustum changes no pixel at the System level.
+    this.camera = new PerspectiveCamera(FOV, 1, 0.5, 6000);
 
     this._onLost = (e) => {
       e.preventDefault();
@@ -595,30 +597,47 @@ export class Galaxy {
   }
 
   _cosmosDistance(realmIds) {
-    const { half } = this._cosmosFrame(realmIds);
+    const { half } = this._cosmosFrame(realmIds, this._cosmosDir(realmIds));
     return this._fit(half.x, half.y, 40, 40);
   }
 
-  // Centre and half-extents of a set of systems, seen from COSMOS_DIR.
-  _cosmosFrame(realmIds) {
+  // Centre and half-extents of a set of systems, seen from direction `dir`.
+  _cosmosFrame(realmIds, dir = COSMOS_DIR) {
     const rs = realmIds.map((id) => this.layout.realms[id]);
     const centre = new Vector3();
     rs.forEach((r) => centre.add(r.look));
     centre.divideScalar(rs.length);
+    const right = new Vector3().crossVectors(new Vector3(0, 1, 0), dir).normalize();
+    const up = new Vector3().crossVectors(dir, right).normalize();
     let x = 0;
     let y = 0;
     for (const r of rs) {
       const off = r.look.clone().sub(centre);
-      x = Math.max(x, Math.abs(off.x) + r.half.x, Math.abs(off.z) * 0.4 + r.half.x);
-      y = Math.max(y, Math.abs(off.y) + Math.abs(off.z) * COSMOS_DIR.y + r.half.y * 0.9);
+      x = Math.max(x, Math.abs(off.dot(right)) + r.half.x);
+      y = Math.max(y, Math.abs(off.dot(up)) + r.half.y * 0.9);
     }
     return { centre, half: { x, y } };
   }
 
+  // The cosmos is seen from whichever bearing frames the systems closest, so a
+  // tall phone screen is not left with a thin line of tiny galaxies.
+  _cosmosDir(realmIds) {
+    let best = null;
+    for (const deg of [0, 20, -20, 40, -40, 60, -60]) {
+      const dir = COSMOS_DIR.clone().applyAxisAngle(new Vector3(0, 1, 0), (deg * Math.PI) / 180);
+      const { half } = this._cosmosFrame(realmIds, dir);
+      const d = this._fit(half.x, half.y, 70, 70);
+      // Prefer the straight-on view unless another bearing is clearly closer.
+      if (!best || d < best.d * (deg === 0 ? 1 : 0.9)) best = { dir, d };
+    }
+    return best.dir;
+  }
+
   _cosmosPose(realmIds = this.realmIds, scale = 1) {
-    const { centre, half } = this._cosmosFrame(realmIds);
+    const dir = this._cosmosDir(realmIds);
+    const { centre, half } = this._cosmosFrame(realmIds, dir);
     const d = this._fit(half.x, half.y, 70, 70) * 1.08 * scale;
-    return { pos: centre.clone().addScaledVector(COSMOS_DIR, d), look: centre.clone(), mode: 'COSMOS' };
+    return { pos: centre.clone().addScaledVector(dir, d), look: centre.clone(), mode: 'COSMOS' };
   }
 
   _systemPose(realmId) {

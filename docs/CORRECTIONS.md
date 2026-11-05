@@ -177,3 +177,23 @@ Two satellites repeated bridges added with Realm II. Per Ben's instruction ("no 
 | `dao-ziran` 道法自然 (道) | `bridge-fa-dao` | WORKING: the accepted wording plus Baracus's sentence on 法 as the verb of the chain; its caveat says which is which |
 
 The ch. 25 check (Würzburg edition) moved with `dao-ziran`. `wu-sunyata` (本無 → 空) is not a repetition and stays a satellite.
+
+## 2026-11-04 — Realm III, Words of Power (WORKING, drafted by Baracus)
+
+- **8 anchors** on the Thomas attractor: 如 實 真 言 咒 聲 符 印. 如 sits at the origin and 實 at x = y = z ≈ 2.576. Both are fixed points on the axis about which the system's x → y → z symmetry turns it, so 如實 runs along the axis. A third fixed point on that axis (≈ −2.576) is far from this attractor; checked numerically (closest approach 5.05, against 0.38 for the positive one).
+- **Ids** take a gloss word where a planned homophone would collide: `shi-real`, `sheng-sound`, `yin-seal`, `zhou-spell`.
+- **20 satellites and 12 bridges**, 7 of the bridges into I and II. All are WORKING. Languages used: Sanskrit, Greek (ἀλήθεια, λόγος), Japanese (shingon), Vietnamese (bùa).
+- **Two satellites folded** into new bridges (Ben's rule: no repetition): `ming-shi` → `bridge-ming-shi` (名 · 實), and `ming-zhengming` → `bridge-ming-yan` (名 · 言). Old links redirect.
+- **Sources registered:** `xiyuji` (大唐西域記, T2087) and `cuv` (Chinese Union Version, 1919).
+- **Checked against the database this session:** IDS for 實 and 聲; Unihan kJapaneseOn for 真 (SHIN) and 言 (GEN, GON); kVietnamese for 符 (bùa).
+- **Flagged:** whether Morrison (1823) used 言 for λόγος; 咒 as a later form of 祝; 印 = 抑; when 真如 became standard; a Daoist source for 符籙. The Old Chinese forms are all † unchecked, and 咒's is a guess by way of 祝.
+
+### Engine
+
+- Camera far plane raised from 1,200 to 6,000 so the cosmos fits on narrow phones. Nothing writes depth, so the Pillars' System view stays bit-identical (re-checked).
+- The cosmos view now picks the bearing that frames the systems most closely.
+- Bridge labels in later realms keep clear of the stars' name boxes. The first realm keeps v1.0's rule.
+
+### A visible change to the Pillars, from the earlier fold
+
+道's Star view now has four satellites, not five, since 道法自然 became `bridge-fa-dao`. The ring is re-spaced; nothing else in the Pillars moved.

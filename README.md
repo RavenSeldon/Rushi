@@ -1,8 +1,8 @@
 # 如實 Rushi
 
-**Chinese characters mapped as a navigable cosmos of solar systems: the Pillars (道 無 為 愛 不 二 量 司) and the Ground (有 空 心 法 一 慈 悲 名).**
+**Chinese characters mapped as a navigable cosmos of solar systems: the Pillars (道 無 為 愛 不 二 量 司), the Ground (有 空 心 法 一 慈 悲 名) and Words of Power (如 實 真 言 咒 聲 符 印).**
 
-Rushi (如實, rúshí, "as it really is", the Chinese rendering of Sanskrit *yathābhūta*) sets characters as stars along numerically integrated strange attractors, one attractor per system: Lorenz for the Pillars, Aizawa for the Ground. It is seen at four levels, Cosmos → System → Star → Connection. Each star carries a constellation of relationships: script history, Buddhist translation, classical usage, and analogies in Malay, Greek and French. Every line declares what kind of claim it is.
+Rushi (如實, rúshí, "as it really is", the Chinese rendering of Sanskrit *yathābhūta*) sets characters as stars along numerically integrated strange attractors, one attractor per system: Lorenz for the Pillars, Aizawa for the Ground, Thomas for Words of Power. It is seen at four levels, Cosmos → System → Star → Connection. Each star carries a constellation of relationships: script history, Buddhist translation, classical usage, and analogies in Malay, Greek and French. Every line declares what kind of claim it is.
 
 Live: <https://ravenseldon.github.io/Rushi/>
 

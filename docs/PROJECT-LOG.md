@@ -11,7 +11,8 @@ Read this first when resuming work, in a new session or after a break. Last upda
 | Phase 1 — Deepen the Eight | Under way: readings and components from Unihan 18.0.0 / Mojidata IDS |
 | **Solar-systems engine** | **Built 2026-11-04** (working tree): four levels, one attractor per system, level of detail, routes, travel, arcs between systems, pathfinder |
 | **Realm II — The Ground** | **Drafted 2026-11-04**, all WORKING: 有 空 心 法 一 慈 悲 名 on the Aizawa attractor; 18 satellites, 13 bridges (9 into the Pillars) |
-| Ledger | 2 systems · 16 anchors · 72 claims (38 canon, 3 open, 31 working) · 16 of 122 citations opened · 14 known gaps |
+| **Realm III — Words of Power** | **Drafted 2026-11-04**, all WORKING: 如 實 真 言 咒 聲 符 印 on the Thomas attractor; 20 satellites, 12 bridges (7 into I and II) |
+| Ledger | 3 systems · 24 anchors · 102 claims (38 canon, 3 open, 61 working) · 20 of 166 citations opened · 19 known gaps |
 | Icons | Maitrism Cosmogram, cropped to its ring, as transparent PNGs (32/48/192/512) plus a 180 px touch icon on the void colour |
 
 ### Commands
@@ -34,11 +35,11 @@ In development builds, `window.__rushi` is the live scene (read-only use: tests,
 2. Whether 量 ↔ 司 stays as Ben's proposition (OPEN QUESTION).
 3. Accept or drop 愛 → 爱, "Love Without a Heart" (WORKING).
 4. Accept the Unihan-sourced readings (WORKING, verified against the database).
-5. **Accept, revise or drop Realm II's 31 claims** (all WORKING, drafted by Baracus). Open these first: `bridge-dao-yi` and `bridge-yi-er` (ch. 42, still unchecked), `bridge-kong-dao` and `bridge-kong-ming` (MMK 24.18: does the Taishō read 無 or 空?).
+5. **Accept, revise or drop Realm II's and Realm III's WORKING claims** (all WORKING, drafted by Baracus). Open these first: `bridge-dao-yi` and `bridge-yi-er` (ch. 42, still unchecked), `bridge-kong-dao` and `bridge-kong-ming` (MMK 24.18: does the Taishō read 無 or 空?).
 6. ~~Duplicates~~ **Decided 2026-11-04: folded.** `wu-you` → `bridge-you-wu` (CANON), `dao-ziran` → `bridge-fa-dao` (WORKING: one added sentence). Old links redirect.
 7. 心's Old Chinese: *s.[r]əm (B–S 2014, as recalled) or *səm (B–S v1.1 list)?
 8. The About page's new text (opening line, first paragraph, "More than one sky"): it is Baracus's draft for you to make your own.
-9. ~~Which systems come next~~ **Decided 2026-11-04:** all of III–VIII, plus five new themes (below). **Ben: keep all 13 systems.** For now, only the Ground is published, for visual testing. Still open: the membership of the five new systems.
+9. ~~Which systems come next~~ **Decided 2026-11-04:** all of III–VIII, plus five new themes (below). **Ben: keep all 13 systems.** The Ground is live (branch `solar-systems`); III Words of Power is drafted in the working tree. Still open: the membership of the five new systems.
 10. Future anchor ids: homophones will collide (明 vs 名 míng; 意 / 義 / 易 yì; 信 vs 心 xīn). Proposal: pinyin plus a gloss word, e.g. `ming-bright`, `yi-intent`.
 
 ### Conventions
@@ -120,7 +121,7 @@ Every character below appears in no other system. "Kind" says what most of the c
 
 **Ids:** these sets bring many homophones (意 / 義 / 易 / 一 yì / yī; 明 / 名 míng; 信 / 心 xìn / xīn; 時 / 實 / 識 shí / shì; 思 / 司 / 死 sī / sǐ). Proposal: from III on, use pinyin plus a gloss word for any id that collides (`ming-bright`, `yi-change`, `shi-time`).
 
-**Suggested order:** III Words of Power first (如實 is Rushi's own name, and it shares 實 with II's 名者實之賓), then IV and VI, which have the strongest documented bridges into I and II, then the rest. At the log's own estimate of a session per one or two systems, 11 systems is about 6–9 sessions of drafting, plus Ben's acceptance and the opening of citations, which continue for as long as the project lives.
+**Suggested order:** III Words of Power first (drafted 2026-11-04) (如實 is Rushi's own name, and it shares 實 with II's 名者實之賓), then IV and VI, which have the strongest documented bridges into I and II, then the rest. At the log's own estimate of a session per one or two systems, 11 systems is about 6–9 sessions of drafting, plus Ben's acceptance and the opening of citations, which continue for as long as the project lives.
 
 ### Honest Effort Estimate
 

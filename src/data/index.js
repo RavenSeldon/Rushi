@@ -23,12 +23,25 @@ import yi from './anchors/yi.json' with { type: 'json' };
 import ci from './anchors/ci.json' with { type: 'json' };
 import bei from './anchors/bei.json' with { type: 'json' };
 import ming from './anchors/ming.json' with { type: 'json' };
+// Realm III — Words of Power
+import ru from './anchors/ru.json' with { type: 'json' };
+import shiReal from './anchors/shi-real.json' with { type: 'json' };
+import zhen from './anchors/zhen.json' with { type: 'json' };
+import yan from './anchors/yan.json' with { type: 'json' };
+import zhouSpell from './anchors/zhou-spell.json' with { type: 'json' };
+import shengSound from './anchors/sheng-sound.json' with { type: 'json' };
+import fu from './anchors/fu.json' with { type: 'json' };
+import yinSeal from './anchors/yin-seal.json' with { type: 'json' };
 import { EDGE_TYPES } from './edgeTypes.js';
 import { ATTRACTOR_IDS, DIMENSIONS, MECHANISMS, PERIODS, STATUSES, VERIFICATION } from './vocab.js';
 
 // Every anchor file must be imported here (Vite and Node both read this
 // module, so no globbing). A realm that lists an unimported id fails the check.
-const ANCHOR_FILES = { dao, wu, wei, ai, bu, er, liang, si, you, kong, xin, fa, yi, ci, bei, ming };
+const ANCHOR_FILES = {
+  dao, wu, wei, ai, bu, er, liang, si,
+  you, kong, xin, fa, yi, ci, bei, ming,
+  ru, 'shi-real': shiReal, zhen, yan, 'zhou-spell': zhouSpell, 'sheng-sound': shengSound, fu, 'yin-seal': yinSeal,
+};
 
 export const REALMS = realms;
 export const REALM_MAP = Object.fromEntries(realms.map((r) => [r.id, r]));

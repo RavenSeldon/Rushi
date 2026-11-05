@@ -114,6 +114,17 @@
     "date": "649 CE",
     "url": "https://cbetaonline.dila.edu.tw/T0251"
   },
+  "xiyuji": {
+    "kind": "primary",
+    "title": "大唐西域記 (Great Tang Records on the Western Regions), Xuanzang and Bianji, T2087",
+    "date": "646 CE",
+    "url": "https://cbetaonline.dila.edu.tw/T2087"
+  },
+  "cuv": {
+    "kind": "primary",
+    "title": "和合本 Chinese Union Version of the Bible",
+    "date": "1919"
+  },
   "abhidharmakosa": {
     "kind": "primary",
     "title": "阿毘達磨俱舍論 (Abhidharmakośabhāṣya), tr. Xuanzang, T1558",

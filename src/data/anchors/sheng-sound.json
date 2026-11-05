@@ -1,0 +1,132 @@
+{
+  "id": "sheng-sound",
+  "key": "6",
+  "glyph": "聲",
+  "simplified": "声",
+  "pinyin": "shēng",
+  "gloss": "sound · voice · tone",
+  "glossUnihan": "sound, voice, noise; tone; music",
+  "form": "殸 (stone chime) + 耳 (ear)",
+  "formNote": "The Shuowen: 聲，音也。从耳，殸聲 — “sound: from ear, with 殸 as phonetic.” 殸 is the old form of 磬, the hanging stone chime. Mojidata IDS: ⿱殸耳.",
+  "summary": "Sound, voice, and tone: the same word names a noise, a person’s voice and the four tones of Middle Chinese. Buddhist translators used it for the śrāvaka, the disciple who hears the teaching’s voice.",
+  "coords": [
+    0.639,
+    0.797,
+    -0.525
+  ],
+  "placement": "Low on the left, below 如: sound, under the saying. (Placement is a design choice, not a claim.)",
+  "oc": {
+    "form": "*l̥eŋ",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "† Baracus, from general knowledge; not yet checked against B–S 2014."
+  },
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "shēng",
+    "yue": "sing1",
+    "ja": "sei, shō",
+    "ko": "성 seong",
+    "vi": "thanh",
+    "fanqie": "書盈切"
+  },
+  "structure": {
+    "ids": "⿱殸耳",
+    "parts": [
+      "殸",
+      "声",
+      "殳",
+      "耳"
+    ],
+    "components": [
+      "殸",
+      "声",
+      "士",
+      "𠃜",
+      "殳",
+      "𠘧",
+      "又",
+      "耳"
+    ],
+    "source": "mojidata-ids"
+  },
+  "satellites": [
+    {
+      "id": "sheng-form",
+      "glyph": "殸 + 耳",
+      "title": "The Chime and the Ear",
+      "lang": "Seal script (小篆)",
+      "type": "GRAPHIC_STRUCTURE",
+      "evidence": "聲 is 殸 over 耳 (Mojidata IDS): the stone chime and the ear. The Shuowen reads 耳 as the meaning and 殸 as the sound, so the graph pairs a struck stone with the one who hears it.",
+      "dimension": "form",
+      "cites": [
+        {
+          "source": "mojidata-ids",
+          "locator": "聲 ⿱殸耳",
+          "checked": {
+            "on": "2026-11-04",
+            "edition": "Mojidata IDS via @mandel59/mojidata@1.9.3 (data-raw/moji.db)",
+            "note": "聲 ⿱殸耳"
+          }
+        },
+        {
+          "source": "shuowen",
+          "locator": "聲"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "partial",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-04"
+    },
+    {
+      "id": "sheng-sravaka",
+      "glyph": "श्रावक · Śrāvaka",
+      "title": "聲聞: Those Who Hear the Voice",
+      "lang": "Sanskrit → Chinese",
+      "type": "CANONICAL_TRANSLATION",
+      "evidence": "Śrāvaka, “hearer”, from śru, “to hear”, is rendered 聲聞, “voice-hearer”: the disciple who hears the Buddha’s voice. The Chinese adds the voice that the Sanskrit leaves implied.",
+      "dimension": "translation",
+      "mechanism": "semantic_extension",
+      "period": "six_dynasties_tang",
+      "cites": [
+        {
+          "source": "monier-williams",
+          "locator": "śrāvaka"
+        },
+        {
+          "source": "vimalakirti",
+          "locator": "聲聞, passim"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-04"
+    },
+    {
+      "id": "sheng-sisheng",
+      "glyph": "四聲 · 平上去入",
+      "title": "The Four Tones",
+      "lang": "Middle Chinese",
+      "type": "ETYMOLOGICAL_SINITIC",
+      "evidence": "In the Southern Qi, scholars led by Shen Yue named the four tones of Middle Chinese: 平 level, 上 rising, 去 departing, 入 entering. The Guangyun (1008) arranges every syllable by them. 聲 is also the word for a tone.",
+      "caveat": "The attribution to Shen Yue is traditional; his treatise on the tones is lost.",
+      "dimension": "sound",
+      "period": "six_dynasties_tang",
+      "cites": [
+        {
+          "source": "guangyun",
+          "locator": "arrangement by tone"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-04"
+    }
+  ]
+}

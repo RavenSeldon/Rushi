@@ -1,0 +1,117 @@
+{
+  "id": "zhen",
+  "key": "3",
+  "glyph": "真",
+  "pinyin": "zhēn",
+  "gloss": "true · genuine · real",
+  "glossUnihan": "real, actual, true, genuine",
+  "form": "Modern 十 + 具; seal form 匕 目 乚 八",
+  "formNote": "The Shuowen: 真，僊人變形而登天也 — “an immortal changing form and rising to Heaven”, analysing the seal form as 匕 (transformation), 目 (eye), 乚 (hidden) and 八 (the carriage). The modern split ⿱十具 is visual only.",
+  "summary": "True, genuine: the real thing as against the counterfeit. Daoists spoke of the 真人, the true person; Buddhist translators wrote 真如 for suchness and 真言 for mantra; the Shingon school in Japan takes its name from it.",
+  "coords": [
+    -0.244,
+    3.615,
+    1.811
+  ],
+  "placement": "On the left of the band, above 如 and across the axis from 實, so that 真 reaches 如, 實 and 言 alike: 真如, 真實, 真言. (Placement is a design choice, not a claim.)",
+  "oc": {
+    "form": "*ti[n]",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "† Baracus, from general knowledge; not yet checked against B–S 2014."
+  },
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "zhēn",
+    "yue": "zan1",
+    "ja": "shin",
+    "ko": "진 jin",
+    "vi": "chân",
+    "fanqie": "側鄰切"
+  },
+  "structure": {
+    "ids": "⿱十具",
+    "parts": [
+      "十",
+      "具",
+      "八"
+    ],
+    "components": [
+      "十",
+      "一",
+      "丨",
+      "具",
+      "八",
+      "丿",
+      "㇏"
+    ],
+    "source": "mojidata-ids"
+  },
+  "satellites": [
+    {
+      "id": "zhen-form",
+      "glyph": "僊人變形",
+      "title": "An Immortal Rising to Heaven",
+      "lang": "Seal script (小篆)",
+      "type": "ETYMOLOGICAL_SINITIC",
+      "evidence": "The Shuowen explains 真 as 僊人變形而登天也, “an immortal changing form and rising to Heaven”. In the Han dictionary the true is first the transfigured: what is real is what has become fully itself.",
+      "caveat": "A Han, Daoist-coloured explanation of the seal form. Modern palaeographers read the early graph differently, and the second sentence is a gloss on the Shuowen, not a claim about the graph’s origin.",
+      "dimension": "form",
+      "period": "han",
+      "cites": [
+        {
+          "source": "shuowen",
+          "locator": "真"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-04"
+    },
+    {
+      "id": "zhen-zhenren",
+      "glyph": "古之真人",
+      "title": "The True Person of Old",
+      "lang": "Classical Chinese",
+      "type": "ETYMOLOGICAL_SINITIC",
+      "evidence": "Zhuangzi ch. 6: 古之真人，其寢不夢，其覺無憂 — “the true person of old slept without dreams and woke without cares.” 真 here is not a property of statements but of a way of being.",
+      "dimension": "sense",
+      "period": "pre_qin",
+      "cites": [
+        {
+          "source": "zhuangzi",
+          "locator": "ch. 6 大宗師"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-04"
+    },
+    {
+      "id": "zhen-aletheia",
+      "glyph": "ἀλήθεια · Alētheia",
+      "title": "Truth as the Unhidden",
+      "lang": "Ancient Greek",
+      "type": "CROSS_LINGUISTIC_LEXICAL",
+      "evidence": "Greek ἀλήθεια, “truth”, is built from a-, “not”, and the root of λήθη, “forgetting, concealment”: the true is what is not hidden. 真 has no such shape, but both words answer the same question: what is the case when nothing is covered over.",
+      "caveat": "An analogy, not a translation: no text renders one by the other. The reading “unconcealment” owes much to Heidegger, and philologists dispute how much of the etymology Greek speakers heard.",
+      "dimension": "sense",
+      "mechanism": "independent_parallel",
+      "cites": [
+        {
+          "source": "lsj",
+          "locator": "ἀλήθεια; λήθη"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-04"
+    }
+  ]
+}

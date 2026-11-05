@@ -1,0 +1,122 @@
+{
+  "id": "zhou-spell",
+  "key": "5",
+  "glyph": "咒",
+  "pinyin": "zhòu",
+  "gloss": "spell · incantation · mantra — also to curse",
+  "glossUnihan": "curse, damn, incantation",
+  "form": "Mojidata IDS: 吅 (two mouths) + 几",
+  "formNote": "The Shuowen has no entry for 咒; it is a later graph (also written 呪) commonly related to 祝, “to invoke”. The two mouths of 吅 make it a graph of speaking twice over. Its everyday sense is “to curse”.",
+  "summary": "A spoken formula with power: a spell, a curse, and in Buddhist texts the mantra and the dhāraṇī. Some are translated; the most important are carried by sound alone, because what they are is how they sound.",
+  "coords": [
+    -0.646,
+    3.786,
+    1.113
+  ],
+  "placement": "On the far left of the band, beside 如 and 真: the spoken formula at the edge of speech. (Placement is a design choice, not a claim.)",
+  "oc": {
+    "form": "*[t]uk-s (?)",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "† Baracus’s guess by way of 祝 (*[t]uk); uncertain. Check B–S 2014 for 呪 / 咒."
+  },
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "zhòu",
+    "yue": "zau3",
+    "ja": "shu, shū, ju",
+    "vi": "chú",
+    "fanqie": "職救切"
+  },
+  "structure": {
+    "ids": "⿱吅几",
+    "parts": [
+      "吅",
+      "口",
+      "几"
+    ],
+    "components": [
+      "吅",
+      "口",
+      "几",
+      "丿",
+      "㇈"
+    ],
+    "source": "mojidata-ids"
+  },
+  "satellites": [
+    {
+      "id": "zhou-dharani",
+      "glyph": "धारणी · Dhāraṇī",
+      "title": "陀羅尼: What Holds",
+      "lang": "Sanskrit → Chinese",
+      "type": "CANONICAL_TRANSLATION",
+      "evidence": "Dhāraṇī, from dhṛ, “to hold”, is a formula that holds a teaching in memory. Chinese both transcribes it by sound, 陀羅尼, and translates it, 總持, “holding all”, and often simply calls it 咒.",
+      "dimension": "translation",
+      "mechanism": "phonetic_loan",
+      "period": "six_dynasties_tang",
+      "cites": [
+        {
+          "source": "monier-williams",
+          "locator": "dhāraṇī; dhṛ"
+        },
+        {
+          "source": "moe-dict",
+          "locator": "陀羅尼; 總持"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-04"
+    },
+    {
+      "id": "zhou-gate",
+      "glyph": "揭諦揭諦",
+      "title": "Gone, Gone Beyond",
+      "lang": "Sanskrit by sound (Heart Sutra)",
+      "type": "CANONICAL_TRANSLATION",
+      "evidence": "The Heart Sutra ends with its mantra, given by sound, not meaning: 揭諦揭諦，波羅揭諦，波羅僧揭諦，菩提薩婆訶 (gate gate pāragate pārasaṃgate bodhi svāhā). A mantra crosses languages as sound; to translate it would change what it is.",
+      "caveat": "Reported, never prescribed.",
+      "dimension": "practice",
+      "mechanism": "phonetic_loan",
+      "period": "six_dynasties_tang",
+      "cites": [
+        {
+          "source": "xinjing",
+          "locator": "即說咒曰"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-04"
+    },
+    {
+      "id": "zhou-zhu",
+      "glyph": "咒 · 祝",
+      "title": "Invocation and Curse",
+      "lang": "Chinese",
+      "type": "ETYMOLOGICAL_SINITIC",
+      "evidence": "The Shuowen lists 祝, 祭主贊詞者, “the one who speaks the praises at a sacrifice”. 咒 is commonly treated as a later form of the same word: the invoker’s speech, which can bless or curse.",
+      "caveat": "The relation of 咒 to 祝 is the common view, drafted by Baracus from general knowledge; it needs a palaeographic source.",
+      "dimension": "form",
+      "cites": [
+        {
+          "source": "shuowen",
+          "locator": "祝"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "gaps": [
+        "Cite a source for 咒 / 呪 as a later form of 祝."
+      ],
+      "drafted": "Baracus",
+      "reviewed": "2026-11-04"
+    }
+  ]
+}

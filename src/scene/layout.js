@@ -107,7 +107,9 @@ export function buildLayout() {
     // of each star's own name (drawn just below it) and of bridge labels
     // already placed, and may search a little further along the curve.
     const careful = realmId !== REALMS[0].id;
-    const avoid = careful ? [...own.map((a) => a.pos), ...own.map((a) => a.pos.clone().add(new Vector3(0, -2.8, 0))), ...(placed[realmId] || [])] : own.map((a) => a.pos);
+    // A star's name sits below it and is wider than it is tall.
+    const nameBox = (p) => [[0, -2.8], [-2.4, -2.8], [2.4, -2.8], [0, -4.4]].map(([dx, dy]) => p.clone().add(new Vector3(dx, dy, 0)));
+    const avoid = careful ? [...own.map((a) => a.pos), ...own.flatMap((a) => nameBox(a.pos)), ...(placed[realmId] || [])] : own.map((a) => a.pos);
     let label = curve.getPoint(0.5);
     let best = -Infinity;
     const [t0, t1] = careful ? [0.2, 0.801] : [0.3, 0.701];

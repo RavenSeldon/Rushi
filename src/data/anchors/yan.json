@@ -1,0 +1,93 @@
+{
+  "id": "yan",
+  "key": "4",
+  "glyph": "言",
+  "pinyin": "yán",
+  "gloss": "speech · words · to say",
+  "glossUnihan": "words, speech; speak, say; Kangxi radical 149",
+  "form": "Mojidata IDS: 亠 + 二 + 口",
+  "formNote": "The Shuowen: 直言曰言，論難曰語 — “speaking directly is 言; disputing is 語.” As a component it becomes 訁, the radical of words and speaking (as in 信, 語, 說).",
+  "summary": "Speech, words, to say: the radical of every word about words. The Daodejing distrusts it (知者不言), Confucius builds order on it (名不正，則言不順), and the Chinese Bible nearly chose it for the Logos.",
+  "coords": [
+    1.689,
+    -0.322,
+    3.657
+  ],
+  "placement": "At the very top of the band, on its far side, above 實: speech at the summit. (Placement is a design choice, not a claim.)",
+  "oc": {
+    "form": "*ŋan",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "† Baracus, from general knowledge; not yet checked against B–S 2014."
+  },
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "yán",
+    "yue": "jin4",
+    "ja": "gen, gon, gin",
+    "ko": "언 eon",
+    "vi": "ngôn",
+    "fanqie": "語軒切"
+  },
+  "structure": {
+    "ids": "⿳亠二口",
+    "parts": [
+      "亠",
+      "二",
+      "口"
+    ],
+    "components": [
+      "亠",
+      "丶",
+      "一",
+      "二",
+      "口"
+    ],
+    "source": "mojidata-ids"
+  },
+  "satellites": [
+    {
+      "id": "yan-zhizhe",
+      "glyph": "知者不言",
+      "title": "Those Who Know Do Not Speak",
+      "lang": "Classical Chinese",
+      "type": "ETYMOLOGICAL_SINITIC",
+      "evidence": "Daodejing ch. 56: 知者不言，言者不知 — “those who know do not speak; those who speak do not know.” A text of five thousand characters that distrusts words: the tension is part of the book.",
+      "dimension": "sense",
+      "period": "pre_qin",
+      "cites": [
+        {
+          "source": "daodejing",
+          "locator": "ch. 56"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-04"
+    },
+    {
+      "id": "yan-zhiyan",
+      "glyph": "直言曰言",
+      "title": "Direct Speech, and Dispute",
+      "lang": "Han lexicography",
+      "type": "ETYMOLOGICAL_SINITIC",
+      "evidence": "The Shuowen separates two words for speaking: 直言曰言，論難曰語 — 言 is saying a thing straight, 語 is answering and arguing. The plain statement and the exchange are different acts.",
+      "dimension": "sense",
+      "period": "han",
+      "cites": [
+        {
+          "source": "shuowen",
+          "locator": "言"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-04"
+    }
+  ]
+}

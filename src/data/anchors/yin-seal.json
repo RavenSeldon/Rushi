@@ -1,0 +1,122 @@
+{
+  "id": "yin-seal",
+  "key": "8",
+  "glyph": "印",
+  "pinyin": "yìn",
+  "gloss": "seal · stamp · print — and, in Buddhist texts, the mudrā",
+  "glossUnihan": "print, seal, stamp, chop, mark",
+  "form": "爪 (hand) + 卩 (kneeling figure)",
+  "formNote": "The Shuowen: 印，執政所持信也。从爪从卩 — “what those in office hold as proof: from hand, from 卩.” Early forms show a hand over a kneeling person, which many read as the same word as 抑, “to press down”.",
+  "summary": "A seal pressed into clay or onto paper, and so a print or a mark. Buddhist translators gave it mudrā, the sealing gesture of the hands; Xuanzang wrote 印度 for India and glossed it as “moon”.",
+  "coords": [
+    3.419,
+    2.659,
+    0.949
+  ],
+  "placement": "On the right of the band, beside 實: the seal that marks a thing as real. (Placement is a design choice, not a claim.)",
+  "oc": {
+    "form": "*ʔi[n]-s",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "† Baracus, from general knowledge; not yet checked against B–S 2014."
+  },
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "yìn",
+    "yue": "jan3",
+    "ja": "in",
+    "ko": "인 in",
+    "vi": "ấn",
+    "fanqie": "於刃切"
+  },
+  "structure": {
+    "ids": "⿰{72}卩",
+    "parts": [
+      "卩"
+    ],
+    "components": [
+      "卩"
+    ],
+    "source": "mojidata-ids"
+  },
+  "satellites": [
+    {
+      "id": "yin-mudra",
+      "glyph": "मुद्रा · Mudrā",
+      "title": "Seal of the Hands",
+      "lang": "Sanskrit → Chinese",
+      "type": "CANONICAL_TRANSLATION",
+      "evidence": "Mudrā means “seal, stamp” in Sanskrit, and also a ritual gesture; 印 renders it, so 手印 and 印相 name the gestures of the hands in Buddhist images and practice. One word covers the stamp and the gesture in both languages.",
+      "dimension": "translation",
+      "mechanism": "semantic_extension",
+      "period": "six_dynasties_tang",
+      "cites": [
+        {
+          "source": "monier-williams",
+          "locator": "mudrā"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-04"
+    },
+    {
+      "id": "yin-india",
+      "glyph": "印度",
+      "title": "India, Named for the Moon",
+      "lang": "Sanskrit → Chinese (Xuanzang)",
+      "type": "CANONICAL_TRANSLATION",
+      "evidence": "Xuanzang, Datang Xiyu ji ch. 2: 舊云身毒，或曰賢豆，今從正音，宜云印度。印度者，唐言月 — “formerly called Shendu or Xiandou; by the correct sound it should be Yindu, and Yindu in Tang speech means ‘moon’.” He hears Sanskrit indu, “moon”, in the name.",
+      "caveat": "The name derives from Sindhu, the Indus; the moon is Xuanzang’s gloss, not the etymology.",
+      "dimension": "translation",
+      "mechanism": "phonetic_loan",
+      "period": "six_dynasties_tang",
+      "cites": [
+        {
+          "source": "xiyuji",
+          "locator": "ch. 2 (印度總述)"
+        },
+        {
+          "source": "monier-williams",
+          "locator": "indu; sindhu"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-04"
+    },
+    {
+      "id": "yin-form",
+      "glyph": "爪 + 卩",
+      "title": "A Hand Pressing Down",
+      "lang": "Oracle-bone script (甲骨文)",
+      "type": "ETYMOLOGICAL_SINITIC",
+      "evidence": "Oracle-bone forms of 印 show a hand (爪) over a kneeling figure (卩), pressing down; many palaeographers take 印 and 抑, “to press, to restrain”, as one word in origin. A seal is a pressing.",
+      "caveat": "The 印 / 抑 identification is a common modern reading, drafted by Baracus from general knowledge.",
+      "dimension": "form",
+      "period": "shang_zhou",
+      "cites": [
+        {
+          "source": "heji",
+          "locator": "印 / 抑 graphs"
+        },
+        {
+          "source": "shuowen",
+          "locator": "印"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "gaps": [
+        "Name a palaeographic source for 印 = 抑."
+      ],
+      "drafted": "Baracus",
+      "reviewed": "2026-11-04"
+    }
+  ]
+}

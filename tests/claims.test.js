@@ -43,7 +43,7 @@ test('pathfinding over the real bridges', () => {
 });
 
 test('every new claim enters as WORKING until the author accepts it', () => {
-  // Realm II was drafted by Baracus; nothing in it may claim to be CANON yet.
-  for (const id of REALM_MAP.ground.anchors) for (const s of ANCHOR_MAP[id].satellites) assert.equal(s.status, 'WORKING', s.id);
+  // Realms II and III were drafted by Baracus; nothing in them may claim to be CANON yet.
+  for (const realm of ['ground', 'words']) for (const id of REALM_MAP[realm].anchors) for (const s of ANCHOR_MAP[id].satellites) assert.equal(s.status, 'WORKING', s.id);
   for (const b of BRIDGES) if (b.drafted === 'Baracus') assert.equal(b.status, 'WORKING', b.id);
 });

@@ -104,8 +104,8 @@ export default function About({ onClose }) {
           <section>
             <p>
               Rushi is a map of relationships between Chinese characters and the words other languages have used for
-              them, gathered into solar systems of about eight: the Pillars (道 無 為 愛 不 二 量 司) and the Ground
-              (有 空 心 法 一 慈 悲 名), with more to come. It is built to be explored the way one explores a night sky:
+              them, gathered into solar systems of about eight: the Pillars (道 無 為 愛 不 二 量 司), the Ground
+              (有 空 心 法 一 慈 悲 名) and Words of Power (如 實 真 言 咒 聲 符 印), with more to come. It is built to be explored the way one explores a night sky:
               the cosmos first, then a single system, a single constellation, a single line.
             </p>
             <p>
@@ -185,6 +185,13 @@ a = 0.95, b = 0.7, c = 0.6, d = 3.5, e = 0.25, f = 0.1`}
               almost level. On the axis itself (<i>x</i> = <i>y</i> = 0) the rotation vanishes, and there are fixed points
               where the third line is zero: one above the shell (<i>z</i> ≈ 1.94), where 一 sits, and two below, the higher of
               which (<i>z</i> ≈ −0.84) holds 空.
+            </p>
+            <p className="text-[15px] text-slate-300">
+              Words of Power is the <b className="font-medium text-starlight">Thomas attractor</b>: dx/dt = sin y − b x,
+              dy/dt = sin z − b y, dz/dt = sin x − b z, with b = 0.208186. Rename x → y → z and the equations do not
+              change, which turns the attractor 120° about the line x = y = z. On that line the flow stands still wherever
+              sin x = b x: at the origin, where 如 sits, and at x = y = z ≈ ±2.576; 實 sits at the positive one, the one
+              this attractor winds around. So 如實 runs along the axis the whole system turns about.
             </p>
             <p className="text-[15px] text-slate-300">
               Moving between systems passes through the cosmos, where every system appears at once and faint threads mark the

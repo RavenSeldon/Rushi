@@ -1,0 +1,124 @@
+{
+  "id": "fu",
+  "key": "7",
+  "glyph": "符",
+  "pinyin": "fú",
+  "gloss": "tally · token · talisman",
+  "glossUnihan": "i.d. tag, tally, symbol, charm",
+  "form": "⺮ (bamboo) + 付 (to hand over)",
+  "formNote": "The Shuowen: 符，信也。漢制以竹，長六寸，分而相合 — “a token of trust: in Han practice of bamboo, six inches long, split and matched.” Mojidata IDS: ⿱𥫗付.",
+  "summary": "A tally split in two, whose halves must match: a token of authority, and the word for agreeing (符合). In Daoist practice 符 is the written talisman; in Vietnamese the same word lives on as bùa, a charm.",
+  "coords": [
+    1.865,
+    -0.793,
+    -0.162
+  ],
+  "placement": "Low at the centre, set back: the tally, with 印 the seal to its upper right. (Placement is a design choice, not a claim.)",
+  "oc": {
+    "form": "*[b](r)o",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "† Baracus, from general knowledge; not yet checked against B–S 2014."
+  },
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "fú",
+    "yue": "fu4",
+    "ja": "fu, bu",
+    "ko": "부 bu",
+    "vi": "bùa",
+    "fanqie": "防無切"
+  },
+  "structure": {
+    "ids": "⿱𥫗付",
+    "parts": [
+      "付",
+      "亻",
+      "寸"
+    ],
+    "components": [
+      "𥫗",
+      "付",
+      "亻",
+      "㇒",
+      "丨",
+      "寸",
+      "𬺰",
+      "丶"
+    ],
+    "source": "mojidata-ids"
+  },
+  "satellites": [
+    {
+      "id": "fu-tally",
+      "glyph": "分而相合",
+      "title": "Split and Matched",
+      "lang": "Han lexicography",
+      "type": "ETYMOLOGICAL_SINITIC",
+      "evidence": "The Shuowen describes the Han tally: bamboo, six inches long, split, with each party keeping a half (分而相合). Proof was a fit. Modern 符合, “to tally, to accord”, keeps the image.",
+      "dimension": "sense",
+      "period": "han",
+      "cites": [
+        {
+          "source": "shuowen",
+          "locator": "符"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-04"
+    },
+    {
+      "id": "fu-talisman",
+      "glyph": "符籙",
+      "title": "Daoist Talismans",
+      "lang": "Chinese religion",
+      "type": "ETYMOLOGICAL_SINITIC",
+      "evidence": "Daoist practice uses 符, talismans in stylised script, to summon, protect and command; 符籙 names the talismans together with the registers of spirits that go with them. The tally that authenticated an official became a writing that authorises.",
+      "caveat": "Reported, never prescribed. Drafted by Baracus from general knowledge.",
+      "dimension": "practice",
+      "cites": [
+        {
+          "source": "moe-dict",
+          "locator": "符籙"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "gaps": [
+        "Register a Daoist primary source (e.g. the Daozang) for 符籙."
+      ],
+      "drafted": "Baracus",
+      "reviewed": "2026-11-04"
+    },
+    {
+      "id": "fu-bua",
+      "glyph": "bùa",
+      "title": "A Vietnamese Charm",
+      "lang": "Vietnamese",
+      "type": "ETYMOLOGICAL_SINITIC",
+      "evidence": "Unihan gives bùa as the Vietnamese reading of 符: the everyday word for an amulet or charm. The tally’s talismanic sense is the one that travelled into ordinary Vietnamese.",
+      "caveat": "Baracus adds, from general knowledge, that the Sino-Vietnamese reading proper is phù and that bùa is an older or vernacular layer; that is not in the Unihan citation.",
+      "dimension": "sinosphere",
+      "cites": [
+        {
+          "source": "unihan",
+          "locator": "kVietnamese",
+          "checked": {
+            "on": "2026-11-04",
+            "edition": "Unihan 18.0.0 via @mandel59/mojidata@1.9.3 (data-raw/moji.db)",
+            "note": "kVietnamese: bùa"
+          }
+        }
+      ],
+      "status": "WORKING",
+      "verification": "source",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-04"
+    }
+  ]
+}

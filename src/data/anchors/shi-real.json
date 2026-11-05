@@ -1,0 +1,89 @@
+{
+  "id": "shi-real",
+  "key": "2",
+  "glyph": "實",
+  "simplified": "实",
+  "pinyin": "shí",
+  "gloss": "real · solid · full — fruit, substance, reality",
+  "glossUnihan": "real, true, solid, honest",
+  "form": "宀 (roof) + 貫 (strung cowries)",
+  "formNote": "The Shuowen: 實，富也。从宀从貫。貫，貨貝也 — “wealth: a roof over strings of cowrie money.” Mojidata IDS gives ⿱宀貫. Solid, full, real: what is actually there.",
+  "summary": "Full, solid, real: fruit as against flower, the full as against the empty, actuality as against its name. In 如實 it renders bhūta, “what has come to be”: the real is what has actually happened.",
+  "coords": [
+    2.5756,
+    2.5756,
+    2.5756
+  ],
+  "placement": "At the fixed point x = y = z ≈ 2.576 on the system’s axis of symmetry (where sin x = 0.208 x; there is a third at ≈ −2.576), the one this attractor winds around, opposite 如 at the origin. (Placement is a design choice, not a claim.)",
+  "oc": {
+    "form": "*mə.lit",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "† Baracus, from general knowledge; not yet checked against B–S 2014."
+  },
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "shí",
+    "yue": "sat6",
+    "ja": "jitsu, shitsu",
+    "ko": "실 sil, 지 ji",
+    "vi": "thực",
+    "fanqie": "神質切"
+  },
+  "structure": {
+    "ids": "⿱宀貫",
+    "parts": [
+      "宀",
+      "冖",
+      "貫",
+      "毌",
+      "貝"
+    ],
+    "components": [
+      "宀",
+      "丶",
+      "冖",
+      "貫",
+      "毌",
+      "貝",
+      "目",
+      "八"
+    ],
+    "source": "mojidata-ids"
+  },
+  "satellites": [
+    {
+      "id": "shi-form",
+      "glyph": "宀 + 貫",
+      "title": "Strings of Cowries Under a Roof",
+      "lang": "Seal script (小篆)",
+      "type": "ETYMOLOGICAL_SINITIC",
+      "evidence": "The Shuowen: 實，富也。从宀从貫。貫，貨貝也 — “wealth: from roof, and from 貫, strung cowrie money.” Before it meant “real”, 實 meant a house that was full.",
+      "caveat": "The Shuowen’s analysis of the seal form; the earliest forms should be checked against the bronze corpus.",
+      "dimension": "form",
+      "period": "han",
+      "cites": [
+        {
+          "source": "shuowen",
+          "locator": "實"
+        },
+        {
+          "source": "mojidata-ids",
+          "locator": "實 ⿱宀貫",
+          "checked": {
+            "on": "2026-11-04",
+            "edition": "Mojidata IDS via @mandel59/mojidata@1.9.3 (data-raw/moji.db)",
+            "note": "實 ⿱宀貫"
+          }
+        }
+      ],
+      "status": "WORKING",
+      "verification": "partial",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-04"
+    }
+  ]
+}

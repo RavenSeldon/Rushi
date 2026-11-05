@@ -40,5 +40,26 @@
       "bei",
       "ming"
     ]
+  },
+  {
+    "id": "words",
+    "name": "Words of Power",
+    "numeral": "III",
+    "attractor": "thomas",
+    "position": [
+      -150,
+      30,
+      -80
+    ],
+    "anchors": [
+      "ru",
+      "shi-real",
+      "zhen",
+      "yan",
+      "zhou-spell",
+      "sheng-sound",
+      "fu",
+      "yin-seal"
+    ]
   }
 ]

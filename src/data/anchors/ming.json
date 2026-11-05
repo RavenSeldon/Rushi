@@ -50,46 +50,6 @@
   },
   "satellites": [
     {
-      "id": "ming-zhengming",
-      "glyph": "正名",
-      "title": "Rectifying Names",
-      "lang": "Classical Chinese",
-      "type": "ETYMOLOGICAL_SINITIC",
-      "evidence": "Analects 13.3: 名不正，則言不順；言不順，則事不成 — “if names are not correct, speech does not accord with things; if speech does not accord, affairs do not succeed.” For Confucius, order begins with calling things what they are.",
-      "dimension": "sense",
-      "period": "pre_qin",
-      "cites": [
-        {
-          "source": "analects",
-          "locator": "13.3"
-        }
-      ],
-      "status": "WORKING",
-      "verification": "unchecked",
-      "drafted": "Baracus",
-      "reviewed": "2026-11-04"
-    },
-    {
-      "id": "ming-shi",
-      "glyph": "名者實之賓",
-      "title": "The Name Is the Guest of Reality",
-      "lang": "Classical Chinese",
-      "type": "ETYMOLOGICAL_SINITIC",
-      "evidence": "Zhuangzi ch. 1: declining the throne, Xu You says 名者，實之賓也 — “a name is the guest of reality.” The pair 名 / 實 (name and actuality) runs through early Chinese philosophy, and 實 is half of Rushi’s own name, 如實.",
-      "dimension": "sense",
-      "period": "pre_qin",
-      "cites": [
-        {
-          "source": "zhuangzi",
-          "locator": "ch. 1 逍遙遊"
-        }
-      ],
-      "status": "WORKING",
-      "verification": "unchecked",
-      "drafted": "Baracus",
-      "reviewed": "2026-11-04"
-    },
-    {
       "id": "ming-namarupa",
       "glyph": "नामरूप · Nāma-rūpa",
       "title": "Name-and-Form",
