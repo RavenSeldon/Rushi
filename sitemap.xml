@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Rushi navigates with #/… routes, which search engines treat as one page,
-     so the site has one indexable URL. -->
+<!-- Rushi navigates with #/… routes, which search engines treat as one page. -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://maitrism.com/</loc>
+    <loc>https://ravenseldon.github.io/Rushi/</loc>
     <lastmod>2026-11-06</lastmod>
   </url>
 </urlset>
