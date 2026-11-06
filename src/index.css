@@ -179,3 +179,8 @@ body {
 .prose-rushi p + p {
   margin-top: 0.75em;
 }
+
+/* The soundtrack star turns slowly while the music plays (the Tale’s 32 s half-turn). */
+@keyframes rushi-music-turn { to { transform: rotate(180deg); } }
+.rushi-music-turn { animation: rushi-music-turn 32s linear infinite; }
+@media (prefers-reduced-motion: reduce) { .rushi-music-turn { animation: none; } }

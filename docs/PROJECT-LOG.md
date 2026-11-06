@@ -1,6 +1,6 @@
 # Rushi — Project Log and Handoff
 
-Read this first when resuming work, in a new session or after a break. Last updated 2026-11-05, night (Realms XI–XIII: thirteen systems).
+Read this first when resuming work, in a new session or after a break. Last updated 2026-11-05, late (the soundtrack star).
 
 ## Where Things Stand
 
@@ -18,19 +18,19 @@ Read this first when resuming work, in a new session or after a break. Last upda
 | **2026-11-05 pass** | **Working tree, uncommitted:** ten language connections, MMK 24.18 and five other passages checked, every OPEN QUESTION closed (below) |
 | Realms VI–X | WORKING: Knowing (Sprott), Five Phases (Dadras), Light (Chen), Seeking (Arneodo), Becoming (Rabinovich–Fabrikant). Deepened 2026-11-05 evening; see that section |
 | Realms XI–XIII | WORKING: Hungry Ghosts (Newton–Leipnik), Future (Lorenz-84), The Fermi Paradox (Burke–Shaw), as the Atlas planned. Built 2026-11-05 night; see that section |
-| **2026-11-05 night pass** | **Working tree, uncommitted:** 24 anchors, 35 satellites, 45 bridges, 55 citations checked, cosmos positions by search, readable forms |
+| Soundtrack | **Working tree, uncommitted:** the Tale’s music player, ported. Drop tracks into `src/assets/audio/`; no tracks, no star. See “The Soundtrack” below |
 | Ledger | 13 systems · 104 anchors · 359 claims (40 canon, 319 working, 0 open) · 141 of 486 citations checked · 60 known gaps |
 | Icons | Maitrism Cosmogram, cropped to its ring, as transparent PNGs (32/48/192/512) plus a 180 px touch icon on the void colour |
 
 ### Branches
 
-`main` is the one canonical tree: the old branches, each checked to have no commit outside `main`, were removed on 2026-11-05. The 2026-11-05 night pass (XI–XIII) is uncommitted on `main`; the VI–X pass is `0f6abed`. To publish it (Ben runs this):
+`main` is the one canonical tree: the old branches, each checked to have no commit outside `main`, were removed on 2026-11-05. The soundtrack is uncommitted on `main`; XI–XIII is `a38012d`, VI–X `0f6abed`. To publish it (Ben runs this):
 
 ```bash
 cd ~/Root/rushi
 git status                                  # src/, scripts/archive/ and docs/ only
 git add src scripts docs
-git commit -m "Realms XI–XIII: Hungry Ghosts, Future, The Fermi Paradox (WORKING)"
+git commit -m "Soundtrack: the Tale’s music star, plug-and-play from src/assets/audio"
 git push origin main
 npm run deploy                              # check + build, then publish
 ```
@@ -78,6 +78,21 @@ In development builds, `window.__rushi` is the live scene (read-only use: tests,
 - Expand without disturbing what came before: new claims, never rewrites of the art (scene, shaders, layout) or the science (attractors).
 - A beautiful link is not evidence. New links are welcome when reason can justify them: semantic, symbolic, historically informed, or a documented joke. Each declares its kind.
 - Placement of a star on an attractor is a design choice, and its `placement` text says so.
+
+## 2026-11-06 — maitrism.com (prepared, not deployed)
+
+Rushi moves from `https://ravenseldon.github.io/Rushi/` to `https://maitrism.com`. In the working tree: `vite.config.js` `base` is now `/` (was `/Rushi/`); `public/CNAME` holds `maitrism.com`, so every `npm run deploy` keeps the domain (the gh-pages branch had no CNAME, so a domain typed into Settings → Pages was wiped by the next deploy); the Open Graph URLs in `index.html` point at maitrism.com. **Deploy only after the DNS records resolve**: with `base: '/'`, the old github.io/Rushi address cannot load the assets until GitHub redirects it to the working domain. DNS (Porkbun): delete the `pixie.porkbun.com` parking records; four A records 185.199.108–111.153; four AAAA 2606:50c0:8000–8003::153; `www` CNAME `RavenSeldon.github.io`; the `_github-pages-challenge-RavenSeldon` TXT record from GitHub’s domain verification. Undo: revert the domain commit, redeploy, clear Settings → Pages → Custom domain.
+
+## 2026-11-05 (late) — The Soundtrack
+
+The Tale’s music player (SchroCivWeb `src/app.js` and `scripts/build.mjs`, read, not changed), ported to Rushi:
+
+- **Plug and play:** drop `.mp3`, `.m4a`, `.aac` or `.ogg` files into `src/assets/audio/`; Vite’s `import.meta.glob` finds them at build time. Filename order, the Tale’s naming rule and sort (`04a_` after `04_`). No tracks, no star. `src/assets/audio/README.md` has the Tale’s ffmpeg conversion, pointed at Rushi.
+- **Behaviour, as the Tale’s:** one `<audio>` element outside React, so the music runs unbroken across every route; it plays on behind other tabs; looping playlist with a 3 s rest after the last track; volume 40%; position held per tab and for ten minutes across tabs, never autoplaying.
+- **Placement:** the Tale’s star, in the header beside Paths, because Rushi’s dock and card panel occupy the bottom and right edges. It turns slowly while playing, and stops turning in Still mode or under reduced motion.
+- **Files:** `src/lib/tracks.js` (ordering, tested), `src/lib/soundtrack.js` (player), `src/components/MusicToggle.jsx`, two lines in `App.jsx`, four in `index.css`, `tests/soundtrack.test.js`.
+- **Measured:** `npm test` 22 / 22, lint 0 / 0, build passes. In headless Chromium with two 2 s test tones, all of the following passed: no star with an empty folder; one star, not autoplaying; plays on press; one element survives travel between systems; keeps playing behind another tab; advances; rests, then loops; pauses; reload holds the place without autoplay. The test tones were never put in Ben’s folder.
+- **Differs from the Tale’s README, as the Tale’s code does:** the README says one file “loops gaplessly”, but its code rests 3 s after every wrap, one file included. Rushi follows the code; set `REST` to `0` in `src/lib/soundtrack.js` for no pause.
 
 ## 2026-11-05 (night) — Realms XI–XIII: Thirteen Systems, as the Atlas Planned
 

@@ -7,6 +7,7 @@ import { load, save } from './lib/storage.js';
 import Labels from './components/Labels.jsx';
 import Sheet from './components/Sheet.jsx';
 import About, { Intro } from './components/About.jsx';
+import MusicToggle from './components/MusicToggle.jsx';
 import Display from './components/Display.jsx';
 import Pathfinder from './components/Pathfinder.jsx';
 
@@ -427,6 +428,7 @@ export default function App() {
         </nav>
 
         <div className={`pointer-events-auto relative flex shrink-0 items-center gap-1 transition-[margin] duration-300 ${dockShifted ? 'md:mr-[400px] lg:mr-[440px]' : ''}`}>
+          <MusicToggle still={reducedMotion} />
           <button
             type="button"
             data-paths-toggle
