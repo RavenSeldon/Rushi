@@ -1,0 +1,108 @@
+{
+  "id": "ting",
+  "key": "8",
+  "glyph": "聽",
+  "pinyin": "tīng",
+  "gloss": "to listen",
+  "form": "耳 + 𡈼 + 𢛳 (visible components)",
+  "formNote": "Mojidata IDS: ⿰⿹耳𡈼𢛳 (from the database, 2026-11-05). This describes the graph’s parts, not its history; the etymology is not yet researched.",
+  "summary": "To listen, attend and heed. Listening is not the same as hearing, 聞.",
+  "coords": [
+    0.776,
+    -0.2515,
+    -0.7749
+  ],
+  "placement": "Chosen by farthest-point sampling on the integrated Burke–Shaw trajectory, so the eight stars spread across its projected shape. 遠 takes the point farthest from the system’s centre, 孤 the most isolated of the rest, and 寂 the point nearest the centre. A design choice, not a claim.",
+  "oc": {
+    "form": "not yet researched",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "Placeholder, NOT an Old Chinese reconstruction. Consult Baxter–Sagart 2014 before entering a form."
+  },
+  "satellites": [
+    {
+      "id": "ting-tianhe",
+      "glyph": "天何言哉",
+      "title": "What Does Heaven Say?",
+      "lang": "Classical Chinese",
+      "type": "TEXTUAL_CONNECTION",
+      "evidence": "Analects 17.19: 予欲無言 … 天何言哉？四時行焉，百物生焉，天何言哉 — “I wish to say nothing … What does Heaven say? The four seasons go round, the hundred things are born. What does Heaven say?” A sky that does not speak, and is not empty.",
+      "dimension": "sense",
+      "period": "pre_qin",
+      "cites": [
+        {
+          "source": "analects",
+          "locator": "17.19",
+          "checked": {
+            "on": "2026-11-05",
+            "edition": "https://github.com/chinese-poetry/chinese-poetry (論語/lunyu.json, simplified characters; a community digital transcription, not a critical edition)",
+            "note": "阳货 ¶19: 予欲无言…天何言哉？四时行焉，百物生焉，天何言哉"
+          }
+        }
+      ],
+      "status": "WORKING",
+      "verification": "source",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-05"
+    },
+    {
+      "id": "ting-qi",
+      "glyph": "聽之以氣",
+      "title": "Listening with the Breath",
+      "lang": "Classical Chinese",
+      "type": "TEXTUAL_CONNECTION",
+      "evidence": "Zhuangzi 4, the fasting of the heart: 無聽之以耳而聽之以心，無聽之以心而聽之以氣 — “listen not with the ear but with the heart; not with the heart but with the breath.”",
+      "dimension": "practice",
+      "period": "pre_qin",
+      "cites": [
+        {
+          "source": "zhuangzi",
+          "locator": "ch. 4 人間世, 心齋"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-05"
+    }
+  ],
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "tīng",
+    "yue": "ting1",
+    "ja": "chō, tei",
+    "ko": "청 cheong",
+    "vi": "thính",
+    "fanqie": "他丁切, 他定切"
+  },
+  "simplified": "听",
+  "structure": {
+    "ids": "⿰⿹耳𡈼𢛳",
+    "parts": [
+      "耳",
+      "土",
+      "十",
+      "罒",
+      "心"
+    ],
+    "components": [
+      "耳",
+      "𡈼",
+      "㇒",
+      "土",
+      "十",
+      "一",
+      "𢛳",
+      "罒",
+      "囗",
+      "丨",
+      "心",
+      "乚",
+      "丶"
+    ],
+    "source": "mojidata-ids"
+  }
+}

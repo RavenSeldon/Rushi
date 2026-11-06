@@ -208,5 +208,68 @@
       "zhong-end",
       "si-death"
     ]
+  },
+  {
+    "id": "ghosts",
+    "name": "Hungry Ghosts",
+    "numeral": "XI",
+    "attractor": "newton",
+    "position": [
+      190,
+      -240,
+      -340
+    ],
+    "anchors": [
+      "e",
+      "gui",
+      "hun",
+      "po",
+      "tan-greed",
+      "ke",
+      "shi-give",
+      "shi-food"
+    ]
+  },
+  {
+    "id": "future",
+    "name": "Future",
+    "numeral": "XII",
+    "attractor": "lorenz84",
+    "position": [
+      -40,
+      305,
+      -470
+    ],
+    "anchors": [
+      "wei-notyet",
+      "lai",
+      "jiang",
+      "hou",
+      "wang",
+      "meng",
+      "ming-fate",
+      "jie"
+    ]
+  },
+  {
+    "id": "fermi",
+    "name": "The Fermi Paradox",
+    "numeral": "XIII",
+    "attractor": "burkeshaw",
+    "position": [
+      -130,
+      190,
+      -670
+    ],
+    "anchors": [
+      "yu-space",
+      "zhou-eon",
+      "ji-still",
+      "gu",
+      "yuan",
+      "ta",
+      "shei",
+      "ting"
+    ]
   }
 ]

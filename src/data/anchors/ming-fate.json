@@ -1,0 +1,100 @@
+{
+  "id": "ming-fate",
+  "key": "7",
+  "glyph": "命",
+  "pinyin": "mìng",
+  "gloss": "command · fate · lifespan",
+  "form": "叩 + parts with no Unicode code point",
+  "formNote": "Mojidata IDS: ⿱{88}叩 (from the database, 2026-11-05). This describes the graph’s parts, not its history; the etymology is not yet researched.",
+  "summary": "A command, and so fate as Heaven’s command; also a lifespan. 天命 and 司命 are its two great compounds.",
+  "coords": [
+    1.0542,
+    -1.4508,
+    1.2461
+  ],
+  "placement": "Chosen by farthest-point sampling on the integrated Lorenz-84 trajectory, so the eight stars spread across its projected shape. 望 takes the highest point, gazing up; 劫 the point farthest from the rest, at the edge of the eon. A design choice, not a claim.",
+  "oc": {
+    "form": "not yet researched",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "Placeholder, NOT an Old Chinese reconstruction. Consult Baxter–Sagart 2014 before entering a form."
+  },
+  "satellites": [
+    {
+      "id": "ming-fate-xing",
+      "glyph": "天命之謂性",
+      "title": "What Heaven Commands Is Called Nature",
+      "lang": "Classical Chinese",
+      "type": "TEXTUAL_CONNECTION",
+      "evidence": "The Zhongyong opens: 天命之謂性，率性之謂道，修道之謂教 — “what Heaven commands is called nature; following nature is called the Way; cultivating the Way is called teaching.”",
+      "dimension": "sense",
+      "period": "pre_qin",
+      "cites": [
+        {
+          "source": "liji",
+          "locator": "中庸 §1",
+          "checked": {
+            "on": "2026-11-05",
+            "edition": "https://github.com/chinese-poetry/chinese-poetry (四书五经/zhongyong.json; a community digital transcription, not a critical edition)",
+            "note": "天命之謂性，率性之謂道，修道之謂教"
+          }
+        }
+      ],
+      "status": "WORKING",
+      "verification": "source",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-05"
+    },
+    {
+      "id": "ming-fate-sisheng",
+      "glyph": "死生有命",
+      "title": "Death and Life Have Their Decree",
+      "lang": "Classical Chinese",
+      "type": "TEXTUAL_CONNECTION",
+      "evidence": "Analects 12.5: to Sima Niu, grieving that he has no brothers, Zixia says 死生有命，富貴在天 … 四海之內皆兄弟也 — “death and life have their decree, wealth and rank lie with Heaven … within the four seas all are brothers.”",
+      "dimension": "sense",
+      "period": "pre_qin",
+      "cites": [
+        {
+          "source": "analects",
+          "locator": "12.5",
+          "checked": {
+            "on": "2026-11-05",
+            "edition": "https://github.com/chinese-poetry/chinese-poetry (論語/lunyu.json, simplified characters; a community digital transcription, not a critical edition)",
+            "note": "颜渊 ¶5: 死生有命，富贵在天…四海之内皆兄弟也"
+          }
+        }
+      ],
+      "status": "WORKING",
+      "verification": "source",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-05"
+    }
+  ],
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "mìng",
+    "yue": "ming6",
+    "ja": "mei, myō",
+    "ko": "명 myeong",
+    "vi": "mệnh",
+    "fanqie": "眉病切"
+  },
+  "structure": {
+    "ids": "⿱{88}叩",
+    "parts": [
+      "叩",
+      "口",
+      "卩"
+    ],
+    "components": [
+      "叩",
+      "口",
+      "卩"
+    ],
+    "source": "mojidata-ids"
+  }
+}

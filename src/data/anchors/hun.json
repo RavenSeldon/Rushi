@@ -1,0 +1,88 @@
+{
+  "id": "hun",
+  "key": "3",
+  "glyph": "魂",
+  "pinyin": "hún",
+  "gloss": "cloud-soul · the yang soul",
+  "form": "云 + 鬼 (visible components)",
+  "formNote": "Mojidata IDS: ⿰云鬼 (from the database, 2026-11-05). This describes the graph’s parts, not its history; the etymology is not yet researched.",
+  "summary": "The light, rising soul, the one a summons can call back. It is paired with 魄.",
+  "coords": [
+    0.1912,
+    0.0983,
+    0.543
+  ],
+  "placement": "Chosen by farthest-point sampling on the integrated Newton–Leipnik trajectory, so the eight stars spread across its projected shape. 魂 takes the highest of the eight points and 魄 the lowest, after the Liji’s 魂氣歸于天，形魄歸于地. A design choice, not a claim.",
+  "oc": {
+    "form": "not yet researched",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "Placeholder, NOT an Old Chinese reconstruction. Consult Baxter–Sagart 2014 before entering a form."
+  },
+  "satellites": [
+    {
+      "id": "hun-zhaohun",
+      "glyph": "魂兮歸來",
+      "title": "Soul, Come Back",
+      "lang": "Classical Chinese (Chuci)",
+      "type": "TEXTUAL_CONNECTION",
+      "evidence": "In the Summons of the Soul the shaman Wuyang is told 魂魄離散, the souls are scattered, and calls: 魂兮歸來！去君之恒幹，何為四方些 — “soul, come back! Why leave your constant frame for the four directions?” Each direction is then shown as a place of horrors where no soul can stay.",
+      "caveat": "Attributed to Song Yu or to Qu Yuan; the attribution is disputed.",
+      "dimension": "practice",
+      "period": "pre_qin",
+      "cites": [
+        {
+          "source": "chuci",
+          "locator": "招魂",
+          "checked": {
+            "on": "2026-11-05",
+            "edition": "https://github.com/chinese-poetry/chinese-poetry (楚辞/chuci.json, simplified characters; a community digital transcription, not a critical edition)",
+            "note": "魂魄离散，汝筮予之…魂兮归来！去君之恒干，何为四方些"
+          }
+        }
+      ],
+      "status": "WORKING",
+      "verification": "source",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-05"
+    }
+  ],
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "hún",
+    "yue": "wan4",
+    "ja": "kon, gon",
+    "ko": "혼 hon",
+    "vi": "hồn"
+  },
+  "structure": {
+    "ids": "⿰云鬼",
+    "parts": [
+      "云",
+      "二",
+      "厶",
+      "鬼",
+      "甶",
+      "儿"
+    ],
+    "components": [
+      "云",
+      "二",
+      "一",
+      "厶",
+      "𠃋",
+      "丶",
+      "鬼",
+      "甶",
+      "㇒",
+      "田",
+      "儿",
+      "丿",
+      "乚"
+    ],
+    "source": "mojidata-ids"
+  }
+}

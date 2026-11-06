@@ -1,0 +1,84 @@
+{
+  "id": "po",
+  "key": "4",
+  "glyph": "魄",
+  "pinyin": "pò",
+  "gloss": "white-soul · the yin soul",
+  "form": "白 + 鬼 (visible components)",
+  "formNote": "Mojidata IDS: ⿰白鬼 (from the database, 2026-11-05). This describes the graph’s parts, not its history; the etymology is not yet researched.",
+  "summary": "The heavy soul that stays with the body and returns to earth; also the dark part of the moon.",
+  "coords": [
+    0.8222,
+    0.0898,
+    -0.1154
+  ],
+  "placement": "Chosen by farthest-point sampling on the integrated Newton–Leipnik trajectory, so the eight stars spread across its projected shape. 魂 takes the highest of the eight points and 魄 the lowest, after the Liji’s 魂氣歸于天，形魄歸于地. A design choice, not a claim.",
+  "oc": {
+    "form": "not yet researched",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "Placeholder, NOT an Old Chinese reconstruction. Consult Baxter–Sagart 2014 before entering a form."
+  },
+  "satellites": [
+    {
+      "id": "po-tianxing",
+      "glyph": "形魄歸于地",
+      "title": "The Bodily Soul Returns to Earth",
+      "lang": "Classical Chinese",
+      "type": "TEXTUAL_CONNECTION",
+      "evidence": "The Liji: 魂氣歸于天，形魄歸于地 — at death the breath-soul returns to heaven and the bodily soul to earth. The two souls part toward where each belongs.",
+      "dimension": "sense",
+      "period": "han",
+      "cites": [
+        {
+          "source": "liji",
+          "locator": "郊特牲"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-05"
+    }
+  ],
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "pò",
+    "yue": "paak3",
+    "ja": "haku, baku",
+    "ko": "백 baek",
+    "vi": "phách",
+    "fanqie": "他各切, 普伯切"
+  },
+  "structure": {
+    "ids": "⿰白鬼",
+    "parts": [
+      "白",
+      "日",
+      "鬼",
+      "甶",
+      "儿",
+      "厶"
+    ],
+    "components": [
+      "白",
+      "㇒",
+      "日",
+      "囗",
+      "一",
+      "鬼",
+      "甶",
+      "田",
+      "儿",
+      "丿",
+      "乚",
+      "厶",
+      "𠃋",
+      "丶"
+    ],
+    "source": "mojidata-ids"
+  }
+}

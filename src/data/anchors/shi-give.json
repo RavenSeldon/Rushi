@@ -1,0 +1,116 @@
+{
+  "id": "shi-give",
+  "key": "7",
+  "glyph": "施",
+  "pinyin": "shī",
+  "gloss": "to give · to bestow",
+  "form": "方 + 㐌 (visible components)",
+  "formNote": "Mojidata IDS: ⿰方㐌 (from the database, 2026-11-05). This describes the graph’s parts, not its history; the etymology is not yet researched.",
+  "summary": "To give or bestow: 布施, dāna, the first perfection, and 施食, the feeding of hungry ghosts.",
+  "coords": [
+    0.0031,
+    -0.0492,
+    0.2158
+  ],
+  "placement": "Chosen by farthest-point sampling on the integrated Newton–Leipnik trajectory, so the eight stars spread across its projected shape. 魂 takes the highest of the eight points and 魄 the lowest, after the Liji’s 魂氣歸于天，形魄歸于地. A design choice, not a claim.",
+  "oc": {
+    "form": "not yet researched",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "Placeholder, NOT an Old Chinese reconstruction. Consult Baxter–Sagart 2014 before entering a form."
+  },
+  "satellites": [
+    {
+      "id": "shi-give-dana",
+      "glyph": "布施 · Dāna",
+      "title": "Giving While Dwelling on Nothing",
+      "lang": "Sanskrit → Chinese",
+      "type": "CANONICAL_TRANSLATION",
+      "evidence": "布施 renders dāna, giving, the first of the six perfections. The Diamond Sutra asks that it be done without fixing on anything: 菩薩於法應無所住行於布施 — a bodhisattva should give while dwelling on nothing.",
+      "dimension": "translation",
+      "mechanism": "semantic_extension",
+      "period": "six_dynasties_tang",
+      "cites": [
+        {
+          "source": "diamond",
+          "locator": "T235 p. 749a12",
+          "checked": {
+            "on": "2026-11-05",
+            "edition": "https://raw.githubusercontent.com/cbeta-org/xml-p5/master/T/T08/T08n0235.xml",
+            "note": "菩薩於法應無所住行於布施，所謂不住色布施"
+          }
+        },
+        {
+          "source": "monier-williams",
+          "locator": "dāna"
+        }
+      ],
+      "gaps": [
+        "Check dāna in Monier-Williams."
+      ],
+      "status": "WORKING",
+      "verification": "partial",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-05"
+    },
+    {
+      "id": "shi-give-yankou",
+      "glyph": "焰口",
+      "title": "Flaming Mouth",
+      "lang": "Chinese Buddhist (esoteric)",
+      "type": "TEXTUAL_CONNECTION",
+      "evidence": "In Amoghavajra’s sutra, Ānanda, alone at night, sees a hungry ghost named 焰口, Flaming Mouth, 其形醜陋，身體枯瘦，口中火然: ugly, withered, fire burning in its mouth. It tells him he will die in three days unless he gives food to countless hungry ghosts, and the Buddha teaches a dhāraṇī by which one offering feeds them all.",
+      "caveat": "The later rite of 放焰口 grew from this text through Song to Qing liturgies; those are not cited here.",
+      "dimension": "practice",
+      "period": "six_dynasties_tang",
+      "cites": [
+        {
+          "source": "yankou",
+          "locator": "T1313 p. 464b29–c23",
+          "checked": {
+            "on": "2026-11-05",
+            "edition": "https://raw.githubusercontent.com/cbeta-org/xml-p5/master/T/T21/T21n1313.xml",
+            "note": "見一餓鬼名曰焰口，其形醜陋，身體枯瘦，口中火然…汝過三日必當…"
+          }
+        }
+      ],
+      "status": "WORKING",
+      "verification": "source",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-05"
+    }
+  ],
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "shī",
+    "yue": "si1",
+    "ja": "shi, i, se",
+    "ko": "시 si",
+    "vi": "thi",
+    "fanqie": "式支切, 施智切"
+  },
+  "structure": {
+    "ids": "⿰方㐌",
+    "parts": [
+      "方",
+      "万",
+      "也"
+    ],
+    "components": [
+      "方",
+      "丶",
+      "万",
+      "丆",
+      "𠃌",
+      "㐌",
+      "𠂉",
+      "也",
+      "乜",
+      "丨"
+    ],
+    "source": "mojidata-ids"
+  }
+}

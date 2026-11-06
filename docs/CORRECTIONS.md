@@ -260,3 +260,8 @@ Four VI–X cards from the earlier, unlogged pass had the bare character as thei
 - 成 `cheng-complete` (“Accomplished and Complete”) → `cheng-chengzhuhuaikong`: 成住壞空, Abhidharmakośa p. 63b07 (checked, CBETA).
 
 Two of the new claims (`yue-zhiyue`, `bridge-yue-fa`) were first filed on the interpretation dimension; `npm run check` refused them, since only Original Interpretations may live there, and both now sit on sense.
+
+## 2026-11-05 (night) — A cleanup error, and forms (Baracus)
+
+- **`data-raw/package/` was wrongly deleted** in the evening cleanup and called a download leftover. It holds the data licenses and `download.txt`, which `npm run ingest` reads for the Unihan version. Restored the same night from the pinned `@mandel59/mojidata@1.9.3`, exactly as `npm run fetch-raw` extracts it. Only the `.tgz` was ever a leftover.
+- **Form lines:** a first pass at making the IDS-only forms readable also overwrote 19 hand-written VI–X forms from the earlier pass (e.g. 宀 + 疋 became 宀 + 𤴓). All 19 were restored from `0f6abed`. Three placeholders the IDS now settles were kept new: 變 (“verify IDS”), 風 (“IDS not yet checked”) and 學 (“Complex upper component”).

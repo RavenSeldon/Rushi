@@ -1,0 +1,81 @@
+{
+  "id": "lai",
+  "key": "2",
+  "glyph": "來",
+  "pinyin": "lái",
+  "gloss": "to come · what is coming",
+  "form": "木 + 从 (visible components)",
+  "formNote": "Mojidata IDS: ⿻木从 (from the database, 2026-11-05). This describes the graph’s parts, not its history; the etymology is not yet researched.",
+  "summary": "To come, and what is coming: 來者, those still to come; 如來, the Thus-Come.",
+  "coords": [
+    1.3675,
+    -2.0505,
+    -0.2146
+  ],
+  "placement": "Chosen by farthest-point sampling on the integrated Lorenz-84 trajectory, so the eight stars spread across its projected shape. 望 takes the highest point, gazing up; 劫 the point farthest from the rest, at the edge of the eon. A design choice, not a claim.",
+  "oc": {
+    "form": "not yet researched",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "Placeholder, NOT an Old Chinese reconstruction. Consult Baxter–Sagart 2014 before entering a form."
+  },
+  "satellites": [
+    {
+      "id": "lai-laizhe",
+      "glyph": "來者猶可追",
+      "title": "What Is Coming Can Still Be Reached",
+      "lang": "Classical Chinese",
+      "type": "TEXTUAL_CONNECTION",
+      "evidence": "Analects 18.5, the madman of Chu sings as he passes Confucius: 鳳兮鳳兮，何德之衰？往者不可諫，來者猶可追 — “phoenix, phoenix, how virtue has declined! What is gone cannot be argued with; what is coming can still be caught.”",
+      "dimension": "sense",
+      "period": "pre_qin",
+      "cites": [
+        {
+          "source": "analects",
+          "locator": "18.5",
+          "checked": {
+            "on": "2026-11-05",
+            "edition": "https://github.com/chinese-poetry/chinese-poetry (論語/lunyu.json, simplified characters; a community digital transcription, not a critical edition)",
+            "note": "微子 ¶5: 凤兮凤兮，何德之衰？往者不可谏，来者犹可追"
+          }
+        }
+      ],
+      "status": "WORKING",
+      "verification": "source",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-05"
+    }
+  ],
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "lái",
+    "yue": "loi4",
+    "ja": "rai",
+    "ko": "내 nae, 래 rae",
+    "vi": "lai",
+    "fanqie": "洛哀切"
+  },
+  "simplified": "来",
+  "structure": {
+    "ids": "⿻木从",
+    "parts": [
+      "木",
+      "十",
+      "从",
+      "人"
+    ],
+    "components": [
+      "木",
+      "十",
+      "一",
+      "丨",
+      "𠆢",
+      "从",
+      "人"
+    ],
+    "source": "mojidata-ids"
+  }
+}

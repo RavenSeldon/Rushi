@@ -1,0 +1,78 @@
+{
+  "id": "zhou-eon",
+  "key": "2",
+  "glyph": "宙",
+  "pinyin": "zhòu",
+  "gloss": "all time",
+  "form": "宀 + 由 (visible components)",
+  "formNote": "Mojidata IDS: ⿱宀由 (from the database, 2026-11-05). This describes the graph’s parts, not its history; the etymology is not yet researched.",
+  "summary": "All time, past and still to come: 往古來今謂之宙.",
+  "coords": [
+    1.3971,
+    -2.2127,
+    0.3983
+  ],
+  "placement": "Chosen by farthest-point sampling on the integrated Burke–Shaw trajectory, so the eight stars spread across its projected shape. 遠 takes the point farthest from the system’s centre, 孤 the most isolated of the rest, and 寂 the point nearest the centre. A design choice, not a claim.",
+  "oc": {
+    "form": "not yet researched",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "Placeholder, NOT an Old Chinese reconstruction. Consult Baxter–Sagart 2014 before entering a form."
+  },
+  "satellites": [
+    {
+      "id": "zhou-eon-uchu",
+      "glyph": "宇宙 · Uchū",
+      "title": "Space and Time, Folded into One Word",
+      "lang": "Chinese · Japanese · English",
+      "type": "CROSS_LINGUISTIC_LEXICAL",
+      "evidence": "In modern Chinese and Japanese (uchū), 宇宙 is simply the universe. The classical pair named space and time separately; the modern word folds them into one, much as physics speaks of spacetime.",
+      "caveat": "An analogy, not a history: the modern sense of 宇宙 did not come from relativity.",
+      "dimension": "sense",
+      "mechanism": "independent_parallel",
+      "period": "modern",
+      "cites": [
+        {
+          "source": "moe-dict",
+          "locator": "宇宙"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-05"
+    }
+  ],
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "zhòu",
+    "yue": "zau6",
+    "ja": "chū",
+    "ko": "주 ju",
+    "vi": "trụ",
+    "fanqie": "直祐切"
+  },
+  "structure": {
+    "ids": "⿱宀由",
+    "parts": [
+      "宀",
+      "冖",
+      "由",
+      "日"
+    ],
+    "components": [
+      "宀",
+      "丶",
+      "冖",
+      "由",
+      "日",
+      "囗",
+      "一",
+      "丨"
+    ],
+    "source": "mojidata-ids"
+  }
+}

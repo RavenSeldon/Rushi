@@ -1,0 +1,115 @@
+{
+  "id": "jie",
+  "key": "8",
+  "glyph": "劫",
+  "pinyin": "jié",
+  "gloss": "kalpa · eon · calamity",
+  "form": "去 + 力 (visible components)",
+  "formNote": "Mojidata IDS: ⿰去力 (from the database, 2026-11-05). This describes the graph’s parts, not its history; the etymology is not yet researched.",
+  "summary": "An eon: 劫 renders kalpa by sound. The graph already meant to stop by force, and the eon’s end in fire lent it the sense of calamity.",
+  "coords": [
+    0.0826,
+    2.1259,
+    0.0278
+  ],
+  "placement": "Chosen by farthest-point sampling on the integrated Lorenz-84 trajectory, so the eight stars spread across its projected shape. 望 takes the highest point, gazing up; 劫 the point farthest from the rest, at the edge of the eon. A design choice, not a claim.",
+  "oc": {
+    "form": "not yet researched",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "Placeholder, NOT an Old Chinese reconstruction. Consult Baxter–Sagart 2014 before entering a form."
+  },
+  "satellites": [
+    {
+      "id": "jie-kalpa",
+      "glyph": "कल्प · Kalpa",
+      "title": "An Eon, Borrowed by Sound",
+      "lang": "Sanskrit → Chinese",
+      "type": "CANONICAL_TRANSLATION",
+      "evidence": "劫 is short for 劫波, which renders kalpa by sound. In the Abhidharmakośa a great eon passes through formation, abiding, destruction and emptiness, and 所言成劫，謂從風起乃至地獄始有情生 — the eon of formation runs from the first wind to the first being born in hell.",
+      "dimension": "translation",
+      "mechanism": "phonetic_loan",
+      "period": "six_dynasties_tang",
+      "cites": [
+        {
+          "source": "abhidharmakosa",
+          "locator": "ch. 3, p. 63a09",
+          "checked": {
+            "on": "2026-11-05",
+            "edition": "https://raw.githubusercontent.com/cbeta-org/xml-p5/master/T/T29/T29n1558.xml",
+            "note": "所言成劫，謂從風起乃至地獄始有情生"
+          }
+        },
+        {
+          "source": "monier-williams",
+          "locator": "kalpa"
+        }
+      ],
+      "gaps": [
+        "Check kalpa in Monier-Williams."
+      ],
+      "status": "WORKING",
+      "verification": "partial",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-05"
+    },
+    {
+      "id": "jie-force",
+      "glyph": "以力脅止曰劫",
+      "title": "A Graph That Meant Force",
+      "lang": "Han lexicography",
+      "type": "SEMANTIC_CONTRAST",
+      "evidence": "Before it meant an eon, 劫 meant to stop someone by force; the Shuowen: 人欲去，以力脅止曰劫. The translators chose a graph that already had a meaning, and the eon’s ending in fire later lent the word its sense of calamity, 劫難, 浩劫.",
+      "caveat": "The Shuowen wording is from general knowledge; the route from kalpa to calamity is the usual explanation, not a documented step.",
+      "dimension": "sense",
+      "period": "han",
+      "cites": [
+        {
+          "source": "shuowen",
+          "locator": "力部 劫"
+        },
+        {
+          "source": "moe-dict",
+          "locator": "浩劫"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-05"
+    }
+  ],
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "jié",
+    "yue": "gip3",
+    "ja": "gō, kyō, kō",
+    "ko": "겁 geop",
+    "fanqie": "居怯切"
+  },
+  "structure": {
+    "ids": "⿰去力",
+    "parts": [
+      "去",
+      "土",
+      "厶",
+      "力"
+    ],
+    "components": [
+      "去",
+      "土",
+      "十",
+      "一",
+      "厶",
+      "𠃋",
+      "丶",
+      "力",
+      "𠃌",
+      "丿"
+    ],
+    "source": "mojidata-ids"
+  }
+}

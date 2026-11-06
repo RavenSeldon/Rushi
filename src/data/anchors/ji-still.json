@@ -1,0 +1,102 @@
+{
+  "id": "ji-still",
+  "key": "3",
+  "glyph": "寂",
+  "pinyin": "jì",
+  "gloss": "silent · still",
+  "form": "宀 + 叔 (visible components)",
+  "formNote": "Mojidata IDS: ⿱宀叔 (from the database, 2026-11-05). This describes the graph’s parts, not its history; the etymology is not yet researched.",
+  "summary": "Silence and stillness. In Buddhist Chinese 寂滅, stilled and extinguished, names nirvāṇa.",
+  "coords": [
+    -0.3248,
+    0.2696,
+    -0.1232
+  ],
+  "placement": "Chosen by farthest-point sampling on the integrated Burke–Shaw trajectory, so the eight stars spread across its projected shape. 遠 takes the point farthest from the system’s centre, 孤 the most isolated of the rest, and 寂 the point nearest the centre. A design choice, not a claim.",
+  "oc": {
+    "form": "not yet researched",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "Placeholder, NOT an Old Chinese reconstruction. Consult Baxter–Sagart 2014 before entering a form."
+  },
+  "satellites": [
+    {
+      "id": "ji-still-jimie",
+      "glyph": "寂滅為樂",
+      "title": "Stillness Is Joy",
+      "lang": "Chinese Buddhist textual usage",
+      "type": "TEXTUAL_CONNECTION",
+      "evidence": "The Nirvana Sutra’s half-verses: 諸行無常，是生滅法 … 生滅滅已，寂滅為樂 — all conditioned things are impermanent, they arise and pass away; when arising and passing have passed, stillness is joy. A young ascetic offers his body to a rākṣasa to hear the second half.",
+      "dimension": "sense",
+      "period": "six_dynasties_tang",
+      "cites": [
+        {
+          "source": "nirvana",
+          "locator": "T374 p. 450a16; 451a01",
+          "checked": {
+            "on": "2026-11-05",
+            "edition": "https://raw.githubusercontent.com/cbeta-org/xml-p5/master/T/T12/T12n0374.xml",
+            "note": "宣過去佛所說半偈：諸行無常，是生滅法…羅剎即說：生滅滅已，寂滅為樂"
+          }
+        }
+      ],
+      "status": "WORKING",
+      "verification": "source",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-05"
+    },
+    {
+      "id": "ji-still-liao",
+      "glyph": "寂兮寥兮",
+      "title": "Silent, Empty, Standing Alone",
+      "lang": "Classical Chinese",
+      "type": "TEXTUAL_CONNECTION",
+      "evidence": "Daodejing 25: 有物混成，先天地生。寂兮寥兮，獨立不改，周行而不殆 … 吾不知其名，字之曰道 — “something formed from the undivided, born before heaven and earth: silent, empty, standing alone and unchanging, going round without wearing out … I do not know its name; I style it the Way.”",
+      "dimension": "cosmos",
+      "period": "pre_qin",
+      "cites": [
+        {
+          "source": "daodejing",
+          "locator": "ch. 25"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-05"
+    }
+  ],
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "jì",
+    "yue": "zik6",
+    "ja": "jaku, seki",
+    "ko": "적 jeok",
+    "vi": "tịch",
+    "fanqie": "前歷切"
+  },
+  "structure": {
+    "ids": "⿱宀叔",
+    "parts": [
+      "宀",
+      "冖",
+      "叔",
+      "尗",
+      "又"
+    ],
+    "components": [
+      "宀",
+      "丶",
+      "冖",
+      "叔",
+      "尗",
+      "上",
+      "小",
+      "又"
+    ],
+    "source": "mojidata-ids"
+  }
+}

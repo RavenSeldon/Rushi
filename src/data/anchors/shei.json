@@ -1,0 +1,111 @@
+{
+  "id": "shei",
+  "key": "7",
+  "glyph": "誰",
+  "pinyin": "shéi",
+  "gloss": "who?",
+  "form": "言 + 隹 (visible components)",
+  "formNote": "Mojidata IDS: ⿰訁隹 (from the database, 2026-11-05). This describes the graph’s parts, not its history; the etymology is not yet researched.",
+  "summary": "Who? The question of the Heavenly Questions, and of an empty sky.",
+  "coords": [
+    -1.2304,
+    2.0524,
+    0.7961
+  ],
+  "placement": "Chosen by farthest-point sampling on the integrated Burke–Shaw trajectory, so the eight stars spread across its projected shape. 遠 takes the point farthest from the system’s centre, 孤 the most isolated of the rest, and 寂 the point nearest the centre. A design choice, not a claim.",
+  "oc": {
+    "form": "not yet researched",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "Placeholder, NOT an Old Chinese reconstruction. Consult Baxter–Sagart 2014 before entering a form."
+  },
+  "satellites": [
+    {
+      "id": "shei-tianwen",
+      "glyph": "遂古之初，誰傳道之",
+      "title": "The Heavenly Questions",
+      "lang": "Classical Chinese (Chuci)",
+      "type": "TEXTUAL_CONNECTION",
+      "evidence": "The Tianwen opens: 遂古之初，誰傳道之？上下未形，何由考之 — “of the beginning of the distant past, who has told it? Before above and below had taken form, how could it be examined?” The poem asks well over a hundred questions and answers none.",
+      "caveat": "Traditionally ascribed to Qu Yuan.",
+      "dimension": "cosmos",
+      "period": "pre_qin",
+      "cites": [
+        {
+          "source": "chuci",
+          "locator": "天問",
+          "checked": {
+            "on": "2026-11-05",
+            "edition": "https://github.com/chinese-poetry/chinese-poetry (楚辞/chuci.json, simplified characters; a community digital transcription, not a critical edition)",
+            "note": "遂古之初，谁传道之？上下未形，何由考之"
+          }
+        }
+      ],
+      "status": "WORKING",
+      "verification": "source",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-05"
+    },
+    {
+      "id": "shei-fermi",
+      "glyph": "Where is everybody?",
+      "title": "Two Questions to an Empty Sky",
+      "lang": "English · Classical Chinese",
+      "type": "INTERPRETIVE_SYNTHESIS",
+      "evidence": "Proposed pairing: at lunch at Los Alamos in 1950, Enrico Fermi is reported to have asked “Where is everybody?”: if life is common, why is the sky silent? Rushi sets the question beside the Tianwen. Both ask the sky who is there, and neither has been answered.",
+      "caveat": "Fermi’s words are remembered differently by those present (Jones 1985). The pairing with the Tianwen is Rushi’s proposition, not a historical link.",
+      "dimension": "interpretation",
+      "cites": [
+        {
+          "source": "rushi"
+        },
+        {
+          "source": "jones-1985"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-05"
+    }
+  ],
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "shuí shéi",
+    "yue": "seoi4",
+    "ja": "sui",
+    "ko": "수 su",
+    "fanqie": "視隹切"
+  },
+  "simplified": "谁",
+  "structure": {
+    "ids": "⿰訁隹",
+    "parts": [
+      "訁",
+      "言",
+      "隹",
+      "亻",
+      "工",
+      "二"
+    ],
+    "components": [
+      "訁",
+      "言",
+      "亠",
+      "二",
+      "口",
+      "隹",
+      "亻",
+      "㇒",
+      "丨",
+      "丶",
+      "工",
+      "丅",
+      "一"
+    ],
+    "source": "mojidata-ids"
+  }
+}

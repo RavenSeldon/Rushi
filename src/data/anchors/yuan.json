@@ -1,0 +1,79 @@
+{
+  "id": "yuan",
+  "key": "5",
+  "glyph": "遠",
+  "pinyin": "yuǎn",
+  "gloss": "far · distant",
+  "form": "辶 + 袁 (visible components)",
+  "formNote": "Mojidata IDS: ⿺辶袁 (from the database, 2026-11-05). This describes the graph’s parts, not its history; the etymology is not yet researched.",
+  "summary": "Far: in space, in time, and in the length of a road still to walk.",
+  "coords": [
+    1.4937,
+    -0.5688,
+    -1.8419
+  ],
+  "placement": "Chosen by farthest-point sampling on the integrated Burke–Shaw trajectory, so the eight stars spread across its projected shape. 遠 takes the point farthest from the system’s centre, 孤 the most isolated of the rest, and 寂 the point nearest the centre. A design choice, not a claim.",
+  "oc": {
+    "form": "not yet researched",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "Placeholder, NOT an Old Chinese reconstruction. Consult Baxter–Sagart 2014 before entering a form."
+  },
+  "satellites": [
+    {
+      "id": "yuan-yuanyou",
+      "glyph": "願輕舉而遠遊",
+      "title": "Far Roaming",
+      "lang": "Classical Chinese (Chuci)",
+      "type": "TEXTUAL_CONNECTION",
+      "evidence": "Yuanyou: 悲時俗之迫阨兮，願輕舉而遠遊 … 惟天地之無窮兮，哀人生之長勤。往者余弗及兮，來者吾不聞 — “grieving the narrowness of the age, I long to rise lightly and roam far … heaven and earth have no end; I mourn the long toil of human life. Those gone before I cannot reach; those yet to come I will not hear.”",
+      "caveat": "Traditionally ascribed to Qu Yuan; many scholars date it later.",
+      "dimension": "cosmos",
+      "period": "han",
+      "cites": [
+        {
+          "source": "chuci",
+          "locator": "遠遊",
+          "checked": {
+            "on": "2026-11-05",
+            "edition": "https://github.com/chinese-poetry/chinese-poetry (楚辞/chuci.json, simplified characters; a community digital transcription, not a critical edition)",
+            "note": "悲时俗之迫阨兮，愿轻举而远游…往者余弗及兮，来者吾不闻"
+          }
+        }
+      ],
+      "status": "WORKING",
+      "verification": "source",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-05"
+    }
+  ],
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "yuǎn",
+    "yue": "jyun5",
+    "ja": "en, on",
+    "ko": "원 won",
+    "vi": "viễn",
+    "fanqie": "雲阮切, 于願切"
+  },
+  "simplified": "远",
+  "structure": {
+    "ids": "⿺辶袁",
+    "parts": [
+      "辶",
+      "袁"
+    ],
+    "components": [
+      "辶",
+      "袁",
+      "𠮷",
+      "土",
+      "口",
+      "𧘇"
+    ],
+    "source": "mojidata-ids"
+  }
+}

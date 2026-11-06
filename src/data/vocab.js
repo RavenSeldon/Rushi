@@ -73,4 +73,4 @@ export const TYPE_TIER = {
 
 // The attractors a realm may be drawn from (src/scene/attractors.js holds the
 // equations). Kept here so `npm run check` needs no scene code.
-export const ATTRACTOR_IDS = ['lorenz', 'aizawa', 'thomas', 'halvorsen', 'rossler', 'chen', 'dadras', 'sprott', 'arneodo', 'rabinovich'];
+export const ATTRACTOR_IDS = ['lorenz', 'aizawa', 'thomas', 'halvorsen', 'rossler', 'chen', 'dadras', 'sprott', 'arneodo', 'rabinovich', 'newton', 'lorenz84', 'burkeshaw'];

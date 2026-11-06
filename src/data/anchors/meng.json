@@ -1,0 +1,110 @@
+{
+  "id": "meng",
+  "key": "6",
+  "glyph": "夢",
+  "pinyin": "mèng",
+  "gloss": "dream",
+  "form": "卝 + 罒 + 冖 + 夕 (visible components)",
+  "formNote": "Mojidata IDS: ⿳⿱卝罒冖夕 (from the database, 2026-11-05). This describes the graph’s parts, not its history; the etymology is not yet researched.",
+  "summary": "Dream: an omen in the Odes, a doubt in the Zhuangzi, and in the Diamond Sutra a figure for everything conditioned.",
+  "coords": [
+    0.951,
+    -1.1388,
+    -1.609
+  ],
+  "placement": "Chosen by farthest-point sampling on the integrated Lorenz-84 trajectory, so the eight stars spread across its projected shape. 望 takes the highest point, gazing up; 劫 the point farthest from the rest, at the edge of the eon. A design choice, not a claim.",
+  "oc": {
+    "form": "not yet researched",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "Placeholder, NOT an Old Chinese reconstruction. Consult Baxter–Sagart 2014 before entering a form."
+  },
+  "satellites": [
+    {
+      "id": "meng-jimeng",
+      "glyph": "吉夢維何",
+      "title": "What Are the Lucky Dreams?",
+      "lang": "Classical Chinese (Odes)",
+      "type": "TEXTUAL_CONNECTION",
+      "evidence": "The Odes, Sigan: 吉夢維何？維熊維羆，維虺維蛇 … 維熊維羆，男子之祥；維虺維蛇，女子之祥 — the lucky dreams are bears and snakes, and the diviner reads bears as the omen of sons and snakes of daughters. Here a dream is a message from what is coming.",
+      "dimension": "practice",
+      "period": "pre_qin",
+      "cites": [
+        {
+          "source": "shijing",
+          "locator": "小雅 · 斯干",
+          "checked": {
+            "on": "2026-11-05",
+            "edition": "https://github.com/chinese-poetry/chinese-poetry (诗经/shijing.json, simplified characters; a community digital transcription, not a critical edition)",
+            "note": "斯干: 吉梦维何…男子之祥"
+          }
+        }
+      ],
+      "status": "WORKING",
+      "verification": "source",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-05"
+    },
+    {
+      "id": "meng-zhougong",
+      "glyph": "夢見周公",
+      "title": "No Longer Dreaming of the Duke of Zhou",
+      "lang": "Classical Chinese",
+      "type": "TEXTUAL_CONNECTION",
+      "evidence": "Analects 7.5: 甚矣吾衰也！久矣吾不復夢見周公 — “how far I have declined! It is long since I dreamed of the Duke of Zhou.” Confucius measures his failing hope by a dream that no longer comes.",
+      "dimension": "sense",
+      "period": "pre_qin",
+      "cites": [
+        {
+          "source": "analects",
+          "locator": "7.5",
+          "checked": {
+            "on": "2026-11-05",
+            "edition": "https://github.com/chinese-poetry/chinese-poetry (論語/lunyu.json, simplified characters; a community digital transcription, not a critical edition)",
+            "note": "述而 ¶5: 甚矣吾衰也！久矣吾不复梦见周公"
+          }
+        }
+      ],
+      "status": "WORKING",
+      "verification": "source",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-05"
+    }
+  ],
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "mèng",
+    "yue": "mung6",
+    "ja": "mu",
+    "ko": "몽 mong",
+    "fanqie": "莫中切, 莫鳳切"
+  },
+  "simplified": "梦",
+  "structure": {
+    "ids": "⿳⿱卝罒冖夕",
+    "parts": [
+      "卝",
+      "罒",
+      "囗",
+      "冖",
+      "夕"
+    ],
+    "components": [
+      "卝",
+      "⺊",
+      "罒",
+      "囗",
+      "丨",
+      "冖",
+      "夕",
+      "𠂊",
+      "丿",
+      "㇇",
+      "丶"
+    ],
+    "source": "mojidata-ids"
+  }
+}

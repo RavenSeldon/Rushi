@@ -93,6 +93,30 @@ import viX_chang from './anchors/chang.json' with { type: 'json' };
 import viX_shiBegin from './anchors/shi-begin.json' with { type: 'json' };
 import viX_zhongEnd from './anchors/zhong-end.json' with { type: 'json' };
 import viX_siDeath from './anchors/si-death.json' with { type: 'json' };
+import xiXiii_e from './anchors/e.json' with { type: 'json' };
+import xiXiii_gui from './anchors/gui.json' with { type: 'json' };
+import xiXiii_hun from './anchors/hun.json' with { type: 'json' };
+import xiXiii_po from './anchors/po.json' with { type: 'json' };
+import xiXiii_tanGreed from './anchors/tan-greed.json' with { type: 'json' };
+import xiXiii_ke from './anchors/ke.json' with { type: 'json' };
+import xiXiii_shiGive from './anchors/shi-give.json' with { type: 'json' };
+import xiXiii_shiFood from './anchors/shi-food.json' with { type: 'json' };
+import xiXiii_weiNotyet from './anchors/wei-notyet.json' with { type: 'json' };
+import xiXiii_lai from './anchors/lai.json' with { type: 'json' };
+import xiXiii_jiang from './anchors/jiang.json' with { type: 'json' };
+import xiXiii_hou from './anchors/hou.json' with { type: 'json' };
+import xiXiii_wang from './anchors/wang.json' with { type: 'json' };
+import xiXiii_meng from './anchors/meng.json' with { type: 'json' };
+import xiXiii_mingFate from './anchors/ming-fate.json' with { type: 'json' };
+import xiXiii_jie from './anchors/jie.json' with { type: 'json' };
+import xiXiii_yuSpace from './anchors/yu-space.json' with { type: 'json' };
+import xiXiii_zhouEon from './anchors/zhou-eon.json' with { type: 'json' };
+import xiXiii_jiStill from './anchors/ji-still.json' with { type: 'json' };
+import xiXiii_gu from './anchors/gu.json' with { type: 'json' };
+import xiXiii_yuan from './anchors/yuan.json' with { type: 'json' };
+import xiXiii_ta from './anchors/ta.json' with { type: 'json' };
+import xiXiii_shei from './anchors/shei.json' with { type: 'json' };
+import xiXiii_ting from './anchors/ting.json' with { type: 'json' };
 import { webUrl } from '../lib/citations.js';
 import { EDGE_TYPES } from './edgeTypes.js';
 import { ATTRACTOR_IDS, DIMENSIONS, MECHANISMS, PERIODS, STATUSES, VERIFICATION } from './vocab.js';
@@ -145,6 +169,30 @@ const ANCHOR_FILES = {
   'shi-begin': viX_shiBegin,
   'zhong-end': viX_zhongEnd,
   'si-death': viX_siDeath,
+  'e': xiXiii_e,
+  'gui': xiXiii_gui,
+  'hun': xiXiii_hun,
+  'po': xiXiii_po,
+  'tan-greed': xiXiii_tanGreed,
+  'ke': xiXiii_ke,
+  'shi-give': xiXiii_shiGive,
+  'shi-food': xiXiii_shiFood,
+  'wei-notyet': xiXiii_weiNotyet,
+  'lai': xiXiii_lai,
+  'jiang': xiXiii_jiang,
+  'hou': xiXiii_hou,
+  'wang': xiXiii_wang,
+  'meng': xiXiii_meng,
+  'ming-fate': xiXiii_mingFate,
+  'jie': xiXiii_jie,
+  'yu-space': xiXiii_yuSpace,
+  'zhou-eon': xiXiii_zhouEon,
+  'ji-still': xiXiii_jiStill,
+  'gu': xiXiii_gu,
+  'yuan': xiXiii_yuan,
+  'ta': xiXiii_ta,
+  'shei': xiXiii_shei,
+  'ting': xiXiii_ting,
 };
 
 export const REALMS = realms;

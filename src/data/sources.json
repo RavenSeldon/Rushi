@@ -289,5 +289,48 @@
     "title": "十牛圖頌 Ten Oxherding Pictures, Kuoan Shiyuan, with verses",
     "date": "12th c.",
     "url": "https://cbetaonline.dila.edu.tw/X1269"
+  },
+  "ullambana": {
+    "kind": "primary",
+    "title": "佛說盂蘭盆經 Ullambana Sutra, attributed to Dharmarakṣa, T685",
+    "url": "https://cbetaonline.dila.edu.tw/T0685"
+  },
+  "yankou": {
+    "kind": "primary",
+    "title": "佛說救拔焰口餓鬼陀羅尼經, tr. Amoghavajra, T1313",
+    "date": "8th c.",
+    "url": "https://cbetaonline.dila.edu.tw/T1313"
+  },
+  "nirvana": {
+    "kind": "primary",
+    "title": "大般涅槃經 Mahāparinirvāṇa Sūtra, tr. Dharmakṣema, T374",
+    "date": "421 CE",
+    "url": "https://cbetaonline.dila.edu.tw/T0374"
+  },
+  "zuozhuan": {
+    "kind": "primary",
+    "title": "左傳 Zuozhuan",
+    "url": "https://ctext.org/chun-qiu-zuo-zhuan"
+  },
+  "huainanzi": {
+    "kind": "primary",
+    "title": "淮南子 Huainanzi",
+    "date": "139 BCE",
+    "url": "https://ctext.org/huainanzi"
+  },
+  "shizi": {
+    "kind": "primary",
+    "title": "尸子 Shizi (fragments)"
+  },
+  "shishuo": {
+    "kind": "primary",
+    "title": "世說新語 Shishuo xinyu, Liu Yiqing",
+    "date": "5th c.",
+    "url": "https://ctext.org/shi-shuo-xin-yu"
+  },
+  "jones-1985": {
+    "kind": "scholarship",
+    "title": "E. M. Jones, “Where is everybody?” An account of Fermi’s question, Los Alamos report LA-10311-MS",
+    "date": "1985"
   }
 }

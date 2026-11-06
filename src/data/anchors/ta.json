@@ -1,0 +1,101 @@
+{
+  "id": "ta",
+  "key": "6",
+  "glyph": "他",
+  "pinyin": "tā",
+  "gloss": "other · another; he",
+  "form": "亻 + 也 (visible components)",
+  "formNote": "Mojidata IDS: ⿰亻也 (from the database, 2026-11-05). This describes the graph’s parts, not its history; the etymology is not yet researched.",
+  "summary": "Other: 他人, other people; 他山, another hill. Its use as the pronoun “he” came later.",
+  "coords": [
+    0.8326,
+    -1.5373,
+    1.6152
+  ],
+  "placement": "Chosen by farthest-point sampling on the integrated Burke–Shaw trajectory, so the eight stars spread across its projected shape. 遠 takes the point farthest from the system’s centre, 孤 the most isolated of the rest, and 寂 the point nearest the centre. A design choice, not a claim.",
+  "oc": {
+    "form": "not yet researched",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "Placeholder, NOT an Old Chinese reconstruction. Consult Baxter–Sagart 2014 before entering a form."
+  },
+  "satellites": [
+    {
+      "id": "ta-tashan",
+      "glyph": "他山之石",
+      "title": "Stones from Another Hill",
+      "lang": "Classical Chinese (Odes)",
+      "type": "TEXTUAL_CONNECTION",
+      "evidence": "The Odes, Heming: 他山之石，可以為錯 … 他山之石，可以攻玉 — “stones from another hill can serve as a whetstone … stones from another hill can work jade.” What shapes us comes from elsewhere.",
+      "dimension": "sense",
+      "period": "pre_qin",
+      "cites": [
+        {
+          "source": "shijing",
+          "locator": "小雅 · 鶴鳴",
+          "checked": {
+            "on": "2026-11-05",
+            "edition": "https://github.com/chinese-poetry/chinese-poetry (诗经/shijing.json, simplified characters; a community digital transcription, not a critical edition)",
+            "note": "鹤鸣: 他山之石，可以为错…他山之石，可以攻玉"
+          }
+        }
+      ],
+      "status": "WORKING",
+      "verification": "source",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-05"
+    },
+    {
+      "id": "ta-pronoun",
+      "glyph": "他 · 她 · 它",
+      "title": "When the Other Became “He”",
+      "lang": "Chinese (modern)",
+      "type": "SEMANTIC_CONTRAST",
+      "evidence": "Classical 他 means other: 他人, other people; 他山, another hill. Later it became the third-person pronoun for anyone, and in the early twentieth century writers split it into 他, 她 and 它, he, she and it.",
+      "caveat": "The coinage of 她 is usually credited to Liu Bannong (c. 1920); dates and credit are from general knowledge.",
+      "dimension": "sense",
+      "period": "modern",
+      "cites": [
+        {
+          "source": "moe-dict",
+          "locator": "他; 她"
+        }
+      ],
+      "gaps": [
+        "Cite a history of the 她 coinage."
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-05"
+    }
+  ],
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "tā",
+    "yue": "taa1",
+    "ja": "ta",
+    "ko": "타 ta",
+    "vi": "tha",
+    "fanqie": "託何切"
+  },
+  "structure": {
+    "ids": "⿰亻也",
+    "parts": [
+      "亻",
+      "也",
+      "乜"
+    ],
+    "components": [
+      "亻",
+      "㇒",
+      "丨",
+      "也",
+      "乜"
+    ],
+    "source": "mojidata-ids"
+  }
+}

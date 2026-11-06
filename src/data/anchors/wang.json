@@ -1,0 +1,90 @@
+{
+  "id": "wang",
+  "key": "5",
+  "glyph": "望",
+  "pinyin": "wàng",
+  "gloss": "to gaze toward · hope · the full moon",
+  "form": "亡 + 𱼀 + 𡈼 (visible components)",
+  "formNote": "Mojidata IDS: ⿱⿰亡𱼀𡈼 (from the database, 2026-11-05). This describes the graph’s parts, not its history; the etymology is not yet researched.",
+  "summary": "To look into the distance, and so to hope; also the full moon, when moon and sun face each other.",
+  "coords": [
+    1.3842,
+    -0.2164,
+    2.1159
+  ],
+  "placement": "Chosen by farthest-point sampling on the integrated Lorenz-84 trajectory, so the eight stars spread across its projected shape. 望 takes the highest point, gazing up; 劫 the point farthest from the rest, at the edge of the eon. A design choice, not a claim.",
+  "oc": {
+    "form": "not yet researched",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "Placeholder, NOT an Old Chinese reconstruction. Consult Baxter–Sagart 2014 before entering a form."
+  },
+  "satellites": [
+    {
+      "id": "wang-hope",
+      "glyph": "跂予望之",
+      "title": "On Tiptoe, Looking Toward It",
+      "lang": "Classical Chinese (Odes)",
+      "type": "TEXTUAL_CONNECTION",
+      "evidence": "The Odes, Hekuang: 誰謂宋遠？跂予望之 — “who says Song is far? On tiptoe I can see it.” 望 begins as looking toward the far; from there it comes to mean hoping, as in 希望 and 願望.",
+      "caveat": "The semantic route from gazing to hoping is the dictionaries’ account.",
+      "dimension": "sense",
+      "period": "pre_qin",
+      "cites": [
+        {
+          "source": "shijing",
+          "locator": "衛風 · 河廣",
+          "checked": {
+            "on": "2026-11-05",
+            "edition": "https://github.com/chinese-poetry/chinese-poetry (诗经/shijing.json, simplified characters; a community digital transcription, not a critical edition)",
+            "note": "河广: 谁谓宋远？跂予望之"
+          }
+        },
+        {
+          "source": "moe-dict",
+          "locator": "望"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "partial",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-05"
+    }
+  ],
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "wàng",
+    "yue": "mong6",
+    "ja": "bō, mō",
+    "ko": "망 mang",
+    "vi": "vọng",
+    "fanqie": "武方切, 巫放切"
+  },
+  "structure": {
+    "ids": "⿱⿰亡𱼀𡈼",
+    "parts": [
+      "亡",
+      "亠",
+      "夕",
+      "土"
+    ],
+    "components": [
+      "亡",
+      "亠",
+      "丶",
+      "一",
+      "㇄",
+      "𱼀",
+      "夕",
+      "𠂊",
+      "𡈼",
+      "㇒",
+      "土",
+      "十"
+    ],
+    "source": "mojidata-ids"
+  }
+}

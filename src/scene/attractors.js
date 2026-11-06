@@ -169,6 +169,40 @@ export const ATTRACTORS = {
     half: { x: 29, y: 28 }, look: [0, 0.5, 0],
   },
 
+  // Realm XI — Newton–Leipnik: rigid-body motion with linear feedback control.
+  // a = 0.4, b = 0.175. Two strange attractors coexist; the start below lies in
+  // the basin of one of them, and only that one is drawn (as the Atlas planned).
+  newton: {
+    name: 'Newton–Leipnik',
+    citation: 'R. B. Leipnik and T. A. Newton, “Double strange attractors in rigid body motion with linear feedback control”, Phys. Lett. A 86 (1981)',
+    params: { a: 0.4, b: 0.175 },
+    deriv: (x, y, z) => [-0.4 * x + y + 10 * y * z, -x - 0.4 * y + 5 * x * z, 0.175 * z - 5 * x * y],
+    dt: 0.005, transient: 5000, start: [0.349, 0, -0.16],
+    map: { cx: 0.11, cy: 0.02, cz: 0.21, s: 27 },
+    half: { x: 27, y: 20 }, look: [0, 0.5, 0],
+  },
+  // Realm XII — Lorenz-84: Lorenz's low-order model of the general circulation.
+  // a = 0.25, b = 4, F = 8, G = 1. Seen along x, so the y–z plane faces the viewer.
+  lorenz84: {
+    name: 'Lorenz-84',
+    citation: 'E. N. Lorenz, “Irregularity: a fundamental property of the atmosphere”, Tellus A 36 (1984)',
+    params: { a: 0.25, b: 4, F: 8, G: 1 },
+    deriv: (x, y, z) => [-y * y - z * z - 0.25 * x + 0.25 * 8, x * y - 4 * x * z - y + 1, 4 * x * y + x * z - z],
+    dt: 0.005, transient: 5000, start: [1, 0, 0],
+    map: { cx: 0.9, cy: 0.06, cz: 0.05, s: 9.8, basis: [[0, 1, 0], [0, 0, 1], [1, 0, 0]] },
+    half: { x: 27, y: 28 }, look: [0, 0.5, 0],
+  },
+  // Realm XIII — Burke–Shaw: Shaw's variant of the Lorenz equations. s = 10, v = 4.272.
+  burkeshaw: {
+    name: 'Burke–Shaw',
+    citation: 'R. Shaw, “Strange attractors, chaotic behavior, and information flow”, Z. Naturforsch. 36a (1981)',
+    params: { s: 10, v: 4.272 },
+    deriv: (x, y, z) => [-10 * (x + y), -y - 10 * x * z, 10 * x * y + 4.272],
+    dt: 0.002, transient: 5000, start: [1, 0, 0],
+    map: { cx: 0, cy: 0, cz: -0.01, s: 11 },
+    half: { x: 27, y: 28 }, look: [0, 0.5, 0],
+  },
+
 };
 
 /**

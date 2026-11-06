@@ -1,0 +1,77 @@
+{
+  "id": "wei-notyet",
+  "key": "1",
+  "glyph": "未",
+  "pinyin": "wèi",
+  "gloss": "not yet",
+  "form": "一 + 木 (visible components)",
+  "formNote": "Mojidata IDS: ⿻一木 (from the database, 2026-11-05). This describes the graph’s parts, not its history; the etymology is not yet researched.",
+  "summary": "Not yet: the negative that leaves the future open. With 來 it makes 未來, the future, part for part the Sanskrit anāgata, the not-come.",
+  "coords": [
+    1.3692,
+    0.3211,
+    -1.9971
+  ],
+  "placement": "Chosen by farthest-point sampling on the integrated Lorenz-84 trajectory, so the eight stars spread across its projected shape. 望 takes the highest point, gazing up; 劫 the point farthest from the rest, at the edge of the eon. A design choice, not a claim.",
+  "oc": {
+    "form": "not yet researched",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "Placeholder, NOT an Old Chinese reconstruction. Consult Baxter–Sagart 2014 before entering a form."
+  },
+  "satellites": [
+    {
+      "id": "wei-notyet-sanshi",
+      "glyph": "三世實有",
+      "title": "Does the Future Already Exist?",
+      "lang": "Sanskrit → Chinese (Abhidharma)",
+      "type": "TEXTUAL_CONNECTION",
+      "evidence": "The Abhidharmakośa reports the thesis 三世實有, that dharmas of past, present and future all really exist, and says only one who holds it 是說一切有宗, belongs to the school that “says all exists”, the Sarvāstivāda. On this view the future is already there, and comes into the present.",
+      "caveat": "Vasubandhu reports the thesis in order to criticize it.",
+      "dimension": "sense",
+      "period": "six_dynasties_tang",
+      "cites": [
+        {
+          "source": "abhidharmakosa",
+          "locator": "ch. 5, p. 104b05–24",
+          "checked": {
+            "on": "2026-11-05",
+            "edition": "https://raw.githubusercontent.com/cbeta-org/xml-p5/master/T/T29/T29n1558.xml",
+            "note": "論曰：三世實有…謂若有人說三世實有，方許彼是說一切有宗"
+          }
+        }
+      ],
+      "status": "WORKING",
+      "verification": "source",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-05"
+    }
+  ],
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "wèi",
+    "yue": "mei6",
+    "ja": "mi, bi",
+    "ko": "미 mi",
+    "vi": "mùi",
+    "fanqie": "無沸切"
+  },
+  "structure": {
+    "ids": "⿻一木",
+    "parts": [
+      "木",
+      "十"
+    ],
+    "components": [
+      "一",
+      "木",
+      "十",
+      "丨",
+      "𠆢"
+    ],
+    "source": "mojidata-ids"
+  }
+}

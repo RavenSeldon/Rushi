@@ -1,0 +1,79 @@
+{
+  "id": "hou",
+  "key": "4",
+  "glyph": "後",
+  "pinyin": "hòu",
+  "gloss": "after · later · descendants",
+  "form": "彳 + 幺 + 夊 (visible components)",
+  "formNote": "Mojidata IDS: ⿰彳⿱幺夊 (from the database, 2026-11-05). This describes the graph’s parts, not its history; the etymology is not yet researched.",
+  "summary": "After and later; also those who come after us, descendants. 後生, the young, may surpass us.",
+  "coords": [
+    1.4914,
+    1.2719,
+    1.4331
+  ],
+  "placement": "Chosen by farthest-point sampling on the integrated Lorenz-84 trajectory, so the eight stars spread across its projected shape. 望 takes the highest point, gazing up; 劫 the point farthest from the rest, at the edge of the eon. A design choice, not a claim.",
+  "oc": {
+    "form": "not yet researched",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "Placeholder, NOT an Old Chinese reconstruction. Consult Baxter–Sagart 2014 before entering a form."
+  },
+  "satellites": [
+    {
+      "id": "hou-wuhou",
+      "glyph": "其無後乎",
+      "title": "Will He Have No Descendants?",
+      "lang": "Classical Chinese",
+      "type": "TEXTUAL_CONNECTION",
+      "evidence": "Mencius 1A4 quotes Confucius on the first maker of tomb figurines: 始作俑者，其無後乎 — “whoever first made figures to bury with the dead, surely he will have no posterity!”, because they were made in human likeness. Mencius turns it on a king whose stables are fat while 野有餓莩, the starved lie in the fields. 後 is the future as descendants.",
+      "dimension": "sense",
+      "period": "pre_qin",
+      "cites": [
+        {
+          "source": "mencius",
+          "locator": "1A4",
+          "checked": {
+            "on": "2026-11-05",
+            "edition": "https://github.com/chinese-poetry/chinese-poetry (四书五经/mengzi.json; a community digital transcription, not a critical edition)",
+            "note": "梁惠王上 ¶15 in the transcription’s numbering: 野有餓莩…仲尼曰：始作俑者，其無後乎"
+          }
+        }
+      ],
+      "status": "WORKING",
+      "verification": "source",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-05"
+    }
+  ],
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "hòu",
+    "yue": "hau6",
+    "ja": "go, kō",
+    "ko": "후 hu",
+    "vi": "hậu",
+    "fanqie": "胡口切, 胡遘切"
+  },
+  "simplified": "后",
+  "structure": {
+    "ids": "⿰彳⿱幺夊",
+    "parts": [
+      "彳",
+      "幺",
+      "夊"
+    ],
+    "components": [
+      "彳",
+      "𰀪",
+      "㇒",
+      "丨",
+      "幺",
+      "夊"
+    ],
+    "source": "mojidata-ids"
+  }
+}

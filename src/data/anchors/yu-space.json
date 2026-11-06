@@ -1,0 +1,95 @@
+{
+  "id": "yu-space",
+  "key": "1",
+  "glyph": "宇",
+  "pinyin": "yǔ",
+  "gloss": "eaves · space",
+  "form": "宀 + 于 (visible components)",
+  "formNote": "Mojidata IDS: ⿱宀于 (from the database, 2026-11-05). This describes the graph’s parts, not its history; the etymology is not yet researched.",
+  "summary": "First the edge of a roof, then all space. With 宙 it makes 宇宙, the universe.",
+  "coords": [
+    -0.4706,
+    0.8739,
+    1.8418
+  ],
+  "placement": "Chosen by farthest-point sampling on the integrated Burke–Shaw trajectory, so the eight stars spread across its projected shape. 遠 takes the point farthest from the system’s centre, 孤 the most isolated of the rest, and 寂 the point nearest the centre. A design choice, not a claim.",
+  "oc": {
+    "form": "not yet researched",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "Placeholder, NOT an Old Chinese reconstruction. Consult Baxter–Sagart 2014 before entering a form."
+  },
+  "satellites": [
+    {
+      "id": "yu-space-roof",
+      "glyph": "宇，屋邊也",
+      "title": "The Edge of a Roof",
+      "lang": "Han lexicography",
+      "type": "ETYMOLOGICAL_SINITIC",
+      "evidence": "The Shuowen: 宇，屋邊也 — the eaves. The word for all of space began as the edge of a roof, the line between shelter and sky.",
+      "caveat": "Wording from general knowledge; check an edition.",
+      "dimension": "form",
+      "period": "han",
+      "cites": [
+        {
+          "source": "shuowen",
+          "locator": "宀部 宇"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-05"
+    },
+    {
+      "id": "yu-space-wuchu",
+      "glyph": "有實而無乎處",
+      "title": "Real, but Located Nowhere",
+      "lang": "Classical Chinese",
+      "type": "TEXTUAL_CONNECTION",
+      "evidence": "Zhuangzi 23 (Gengsang Chu): 有實而無乎處者，宇也；有長而無本剽者，宙也 — “what is real but has no place is 宇, space; what has length but neither root nor tip is 宙, time.”",
+      "dimension": "cosmos",
+      "period": "pre_qin",
+      "cites": [
+        {
+          "source": "zhuangzi",
+          "locator": "ch. 23 庚桑楚"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-05"
+    }
+  ],
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "yǔ",
+    "yue": "jyu5",
+    "ja": "u",
+    "ko": "우 u",
+    "vi": "vũ",
+    "fanqie": "王矩切"
+  },
+  "structure": {
+    "ids": "⿱宀于",
+    "parts": [
+      "宀",
+      "冖",
+      "于"
+    ],
+    "components": [
+      "宀",
+      "丶",
+      "冖",
+      "于",
+      "一",
+      "𬺰",
+      "亅"
+    ],
+    "source": "mojidata-ids"
+  }
+}

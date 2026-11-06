@@ -1,0 +1,121 @@
+{
+  "id": "e",
+  "key": "1",
+  "glyph": "餓",
+  "pinyin": "è",
+  "gloss": "hunger · starving",
+  "form": "飠 + 我 (visible components)",
+  "formNote": "Mojidata IDS: ⿰飠我 (from the database, 2026-11-05). This describes the graph’s parts, not its history; the etymology is not yet researched.",
+  "summary": "Hunger past need: to starve. In 餓鬼 it names the preta, the ghost defined by a hunger nothing can fill.",
+  "coords": [
+    -0.6255,
+    -0.0717,
+    0.0206
+  ],
+  "placement": "Chosen by farthest-point sampling on the integrated Newton–Leipnik trajectory, so the eight stars spread across its projected shape. 魂 takes the highest of the eight points and 魄 the lowest, after the Liji’s 魂氣歸于天，形魄歸于地. A design choice, not a claim.",
+  "oc": {
+    "form": "not yet researched",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "Placeholder, NOT an Old Chinese reconstruction. Consult Baxter–Sagart 2014 before entering a form."
+  },
+  "satellites": [
+    {
+      "id": "e-preta",
+      "glyph": "प्रेत · Preta",
+      "title": "The Departed, Named by Hunger",
+      "lang": "Sanskrit → Chinese",
+      "type": "CANONICAL_TRANSLATION",
+      "evidence": "Sanskrit preta means “departed”, one who has gone before. Chinese named these beings by their torment instead: 餓鬼, hungry ghosts. The Abhidharmakośa counts them among five destinies, 地獄、傍生、鬼及人、天, and the Ullambana Sutra sees Maudgalyāyana’s mother 生餓鬼中，不見飲食，皮骨連立 — reborn among the hungry ghosts, seeing no food, all skin and bone.",
+      "caveat": "The Ullambana Sutra’s attribution to Dharmarakṣa is doubted; many scholars hold it was composed in China.",
+      "dimension": "translation",
+      "mechanism": "semantic_extension",
+      "period": "six_dynasties_tang",
+      "cites": [
+        {
+          "source": "abhidharmakosa",
+          "locator": "ch. 3, p. 42a18",
+          "checked": {
+            "on": "2026-11-05",
+            "edition": "https://raw.githubusercontent.com/cbeta-org/xml-p5/master/T/T29/T29n1558.xml",
+            "note": "地獄、傍生、鬼及人、天，是名五趣"
+          }
+        },
+        {
+          "source": "ullambana",
+          "locator": "T685 p. 779b01",
+          "checked": {
+            "on": "2026-11-05",
+            "edition": "https://raw.githubusercontent.com/cbeta-org/xml-p5/master/T/T16/T16n0685.xml",
+            "note": "見其亡母生餓鬼中，不見飲食，皮骨連立"
+          }
+        },
+        {
+          "source": "monier-williams",
+          "locator": "preta"
+        }
+      ],
+      "gaps": [
+        "Check preta in Monier-Williams."
+      ],
+      "status": "WORKING",
+      "verification": "partial",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-05"
+    },
+    {
+      "id": "e-epiao",
+      "glyph": "塗有餓莩",
+      "title": "The Starved on the Roads",
+      "lang": "Classical Chinese",
+      "type": "TEXTUAL_CONNECTION",
+      "evidence": "Mencius 1A3: 狗彘食人食而不知檢，塗有餓莩而不知發；人死，則曰：非我也，歲也 — dogs and pigs eat people’s food and no one stops them, the starved lie on the roads and no one opens the granaries, and when people die the ruler says “not I: the harvest”. Mencius calls that stabbing a man and blaming the blade. Hunger here is a policy.",
+      "dimension": "sense",
+      "period": "pre_qin",
+      "cites": [
+        {
+          "source": "mencius",
+          "locator": "1A3",
+          "checked": {
+            "on": "2026-11-05",
+            "edition": "https://github.com/chinese-poetry/chinese-poetry (四书五经/mengzi.json; a community digital transcription, not a critical edition)",
+            "note": "梁惠王上 ¶9 in the transcription’s numbering: 狗彘食人食而不知檢，塗有餓莩而不知發"
+          }
+        }
+      ],
+      "status": "WORKING",
+      "verification": "source",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-05"
+    }
+  ],
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "è",
+    "yue": "ngo6",
+    "ja": "ga",
+    "ko": "아 a",
+    "fanqie": "五个切"
+  },
+  "simplified": "饿",
+  "structure": {
+    "ids": "⿰飠我",
+    "parts": [
+      "飠",
+      "我",
+      "扌"
+    ],
+    "components": [
+      "飠",
+      "我",
+      "㇒",
+      "扌",
+      "𬺰",
+      "㇀"
+    ],
+    "source": "mojidata-ids"
+  }
+}

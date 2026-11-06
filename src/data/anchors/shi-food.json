@@ -1,0 +1,108 @@
+{
+  "id": "shi-food",
+  "key": "8",
+  "glyph": "食",
+  "pinyin": "shí",
+  "gloss": "food · to eat",
+  "form": "𠆢 + 一 + 艮 (visible components)",
+  "formNote": "Mojidata IDS: ⿱𠆢⿱一艮 (from the database, 2026-11-05). This describes the graph’s parts, not its history; the etymology is not yet researched.",
+  "summary": "Food and eating. Buddhist texts count four kinds of food, of which morsels are only the first.",
+  "coords": [
+    -0.3733,
+    0.0071,
+    0.1259
+  ],
+  "placement": "Chosen by farthest-point sampling on the integrated Newton–Leipnik trajectory, so the eight stars spread across its projected shape. 魂 takes the highest of the eight points and 魄 the lowest, after the Liji’s 魂氣歸于天，形魄歸于地. A design choice, not a claim.",
+  "oc": {
+    "form": "not yet researched",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "Placeholder, NOT an Old Chinese reconstruction. Consult Baxter–Sagart 2014 before entering a form."
+  },
+  "satellites": [
+    {
+      "id": "shi-food-sishi",
+      "glyph": "四食",
+      "title": "The Four Foods",
+      "lang": "Sanskrit → Chinese (Abhidharma)",
+      "type": "CANONICAL_TRANSLATION",
+      "evidence": "The Abhidharmakośa counts four foods that sustain beings: 段食, food in morsels; 觸食, contact; 思食, volition; and 識食, consciousness. It cites the Buddha that 四食皆為病癰箭根 — all four are disease, boil and arrow, roots of aging and death.",
+      "dimension": "translation",
+      "mechanism": "semantic_extension",
+      "period": "six_dynasties_tang",
+      "cites": [
+        {
+          "source": "abhidharmakosa",
+          "locator": "ch. 3, p. 55b17–c26",
+          "checked": {
+            "on": "2026-11-05",
+            "edition": "https://raw.githubusercontent.com/cbeta-org/xml-p5/master/T/T29/T29n1558.xml",
+            "note": "世尊說四食皆為病癰箭根…觸食…思食…識食"
+          }
+        },
+        {
+          "source": "monier-williams",
+          "locator": "āhāra"
+        }
+      ],
+      "gaps": [
+        "Check āhāra in Monier-Williams."
+      ],
+      "status": "WORKING",
+      "verification": "partial",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-05"
+    },
+    {
+      "id": "shi-food-shise",
+      "glyph": "食色，性也",
+      "title": "Food and Sex Are Nature",
+      "lang": "Classical Chinese",
+      "type": "TEXTUAL_CONNECTION",
+      "evidence": "Mencius 6A4: Gaozi says 食色，性也 — appetite for food and sex is human nature — and that humaneness is inside us while rightness is outside. Mencius rejects the second claim.",
+      "caveat": "The famous line is Gaozi’s, Mencius’s opponent, not Mencius’s own view.",
+      "dimension": "sense",
+      "period": "pre_qin",
+      "cites": [
+        {
+          "source": "mencius",
+          "locator": "6A4",
+          "checked": {
+            "on": "2026-11-05",
+            "edition": "https://github.com/chinese-poetry/chinese-poetry (四书五经/mengzi.json; a community digital transcription, not a critical edition)",
+            "note": "告子上 ¶9 in the transcription’s numbering: 告子曰：食色，性也。仁，內也，非外也；義，外也，非內也"
+          }
+        }
+      ],
+      "status": "WORKING",
+      "verification": "source",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-05"
+    }
+  ],
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "shí",
+    "yue": "sik6",
+    "ja": "shoku, shi, jiki",
+    "ko": "식 sik",
+    "fanqie": "羊吏切, 乗力切"
+  },
+  "structure": {
+    "ids": "⿱𠆢⿱一艮",
+    "parts": [
+      "艮"
+    ],
+    "components": [
+      "𠆢",
+      "一",
+      "艮",
+      "𠄌",
+      "𫜹"
+    ],
+    "source": "mojidata-ids"
+  }
+}

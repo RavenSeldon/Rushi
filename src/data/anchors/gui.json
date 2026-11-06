@@ -1,0 +1,80 @@
+{
+  "id": "gui",
+  "key": "2",
+  "glyph": "鬼",
+  "pinyin": "guǐ",
+  "gloss": "ghost · the returned dead",
+  "form": "甶 + 儿 + 厶 (visible components)",
+  "formNote": "Mojidata IDS: ⿷⿱甶儿厶 (from the database, 2026-11-05). This describes the graph’s parts, not its history; the etymology is not yet researched.",
+  "summary": "A ghost: in early China the dead who are served in rites, or who return; in Buddhist translation, a whole realm of rebirth. The Shuowen glosses it by 歸, to return.",
+  "coords": [
+    -0.2842,
+    -0.1249,
+    0.3822
+  ],
+  "placement": "Chosen by farthest-point sampling on the integrated Newton–Leipnik trajectory, so the eight stars spread across its projected shape. 魂 takes the highest of the eight points and 魄 the lowest, after the Liji’s 魂氣歸于天，形魄歸于地. A design choice, not a claim.",
+  "oc": {
+    "form": "not yet researched",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "Placeholder, NOT an Old Chinese reconstruction. Consult Baxter–Sagart 2014 before entering a form."
+  },
+  "satellites": [
+    {
+      "id": "gui-return",
+      "glyph": "人所歸為鬼",
+      "title": "The Dead Are the Returned",
+      "lang": "Han lexicography",
+      "type": "ETYMOLOGICAL_SINITIC",
+      "evidence": "The Shuowen glosses 鬼 by its near-homophone 歸, to return: 人所歸為鬼, “what people return to is 鬼”. To die is to go home, and the ghost is the one who has gone back.",
+      "caveat": "A sound gloss (聲訓) is Han hermeneutics, not historical etymology. Wording from general knowledge.",
+      "dimension": "sound",
+      "period": "han",
+      "cites": [
+        {
+          "source": "shuowen",
+          "locator": "鬼部 鬼"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-05"
+    }
+  ],
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "guǐ",
+    "yue": "gwai2",
+    "ja": "ki",
+    "ko": "귀 gwi",
+    "vi": "quỷ",
+    "fanqie": "居偉切"
+  },
+  "structure": {
+    "ids": "⿷⿱甶儿厶",
+    "parts": [
+      "甶",
+      "田",
+      "儿",
+      "厶"
+    ],
+    "components": [
+      "甶",
+      "㇒",
+      "田",
+      "囗",
+      "十",
+      "儿",
+      "丿",
+      "乚",
+      "厶",
+      "𠃋",
+      "丶"
+    ],
+    "source": "mojidata-ids"
+  }
+}

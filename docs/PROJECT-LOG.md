@@ -1,6 +1,6 @@
 # Rushi — Project Log and Handoff
 
-Read this first when resuming work, in a new session or after a break. Last updated 2026-11-05, evening (Realms VI–X deepened).
+Read this first when resuming work, in a new session or after a break. Last updated 2026-11-05, night (Realms XI–XIII: thirteen systems).
 
 ## Where Things Stand
 
@@ -17,22 +17,21 @@ Read this first when resuming work, in a new session or after a break. Last upda
 | Semantic review (2026-11-04) | Committed (`53ec649`) and live: six hue families, compound readings 無為 不二 無量 at `#/compounds/<id>`, three Taishō citations checked, accessibility fixes. See `docs/SEMANTIC-REVIEW.md` and `docs/CORRECTIONS.md`. (That document calls its branch uncommitted; it was written before Ben committed it.) |
 | **2026-11-05 pass** | **Working tree, uncommitted:** ten language connections, MMK 24.18 and five other passages checked, every OPEN QUESTION closed (below) |
 | Realms VI–X | WORKING: Knowing (Sprott), Five Phases (Dadras), Light (Chen), Seeking (Arneodo), Becoming (Rabinovich–Fabrikant). Deepened 2026-11-05 evening; see that section |
-| **2026-11-05 evening pass** | **Working tree, uncommitted:** readings for 40 anchors, 28 satellites + 4 replacements, 25 bridges, 35 citations checked |
-| Ledger | 10 systems · 80 anchors · 279 claims (40 canon, 239 working, 0 open) · 86 of 390 citations checked · 45 known gaps |
+| Realms XI–XIII | WORKING: Hungry Ghosts (Newton–Leipnik), Future (Lorenz-84), The Fermi Paradox (Burke–Shaw), as the Atlas planned. Built 2026-11-05 night; see that section |
+| **2026-11-05 night pass** | **Working tree, uncommitted:** 24 anchors, 35 satellites, 45 bridges, 55 citations checked, cosmos positions by search, readable forms |
+| Ledger | 13 systems · 104 anchors · 359 claims (40 canon, 319 working, 0 open) · 141 of 486 citations checked · 60 known gaps |
 | Icons | Maitrism Cosmogram, cropped to its ring, as transparent PNGs (32/48/192/512) plus a 180 px touch icon on the void colour |
 
 ### Branches
 
-`main` is the one canonical tree. Every other branch (`solar-systems`, `codex/semantic-review`, local and on GitHub) was checked on 2026-11-05 to have no commit outside `main`, so the commands below remove them without losing history. The evening pass is uncommitted on `main`. To publish it (Ben runs this):
+`main` is the one canonical tree: the old branches, each checked to have no commit outside `main`, were removed on 2026-11-05. The 2026-11-05 night pass (XI–XIII) is uncommitted on `main`; the VI–X pass is `0f6abed`. To publish it (Ben runs this):
 
 ```bash
 cd ~/Root/rushi
 git status                                  # src/, scripts/archive/ and docs/ only
 git add src scripts docs
-git commit -m "Realms VI–X deepened: readings, 53 claims, 35 citations checked"
+git commit -m "Realms XI–XIII: Hungry Ghosts, Future, The Fermi Paradox (WORKING)"
 git push origin main
-git push origin --delete solar-systems codex/semantic-review
-git branch -d solar-systems codex/semantic-review   # -d refuses anything unmerged
 npm run deploy                              # check + build, then publish
 ```
 
@@ -68,7 +67,7 @@ In development builds, `window.__rushi` is the live scene (read-only use: tests,
 3. 愛 → 爱, "Love Without a Heart" (WORKING).
 4. The Unihan-sourced readings (WORKING, verified against the database).
 5. The WORKING claims of Realms II–V and the ten new language connections. Daodejing ch. 42 (`bridge-dao-yi`, `bridge-yi-er`, `bridge-yin-yang`) is still unopened.
-11. Membership of the five new themes, IX–XIII.
+11. Membership of the five new themes, IX–XIII: built as the Atlas drafted them (2026-11-05); changing any member is still Ben’s call.
 
 ### Conventions
 
@@ -79,6 +78,48 @@ In development builds, `window.__rushi` is the live scene (read-only use: tests,
 - Expand without disturbing what came before: new claims, never rewrites of the art (scene, shaders, layout) or the science (attractors).
 - A beautiful link is not evidence. New links are welcome when reason can justify them: semantic, symbolic, historically informed, or a documented joke. Each declares its kind.
 - Placement of a star on an attractor is a design choice, and its `placement` text says so.
+
+## 2026-11-05 (night) — Realms XI–XIII: Thirteen Systems, as the Atlas Planned
+
+All WORKING, drafted by Baracus. The script is `scripts/archive/2026-11-05-xi-xiii.mjs`; it is idempotent, so a re-run changes nothing.
+
+### What Was Built
+
+The members, attractors and sixteen planned bridges follow `docs/cosmos-atlas.html` exactly. The equations use the parameters in common use; the citations are Baracus's, from general knowledge.
+
+| # | System | Attractor | Stars | Satellites | Within | To other systems |
+|---|---|---|---|---|---|---|
+| XI | Hungry Ghosts | Newton–Leipnik (a = 0.4, b = 0.175; one of its two coexisting attractors) | 餓 鬼 魂 魄 貪 渴 施 食 | 11 | 4 | 13 |
+| XII | Future | Lorenz-84 (a = 0.25, b = 4, F = 8, G = 1; seen along x) | 未 來 將 後 望 夢 命 劫 | 11 | 4 | 14 |
+| XIII | The Fermi Paradox | Burke–Shaw (s = 10, v = 4.272) | 宇 宙 寂 孤 遠 他 誰 聽 | 13 | 3 | 13 |
+
+Counts to other systems include the bridges among XI, XII and XIII themselves. In all: 24 anchors, 35 satellites, 45 bridges, 8 new sources (`ullambana` T685, `yankou` T1313, `nirvana` T374, `zuozhuan`, `huainanzi`, `shizi`, `shishuo`, `jones-1985`).
+
+- **Readings and structure** for the 24 anchors from `npm run ingest -- readings`; every I–X file was byte-identical afterwards. Old Chinese is left as "not yet researched".
+- **Placement:** farthest-point sampling on each integrated trajectory, with a few stars placed for meaning, each placement text saying so. 魂 sits highest and 魄 lowest (Liji: 魂氣歸于天，形魄歸于地). 寂 sits at the centre of the Burke–Shaw crossing, 遠 farthest out and 孤 most isolated.
+- **Positions in the cosmos** came from a search that replicates the camera's own framing rule (`_cosmosDir`). At 390 px and 1440 px the cosmos keeps its straight-on bearing, and no new system's name overlaps another's. XII sits highest, XI low, and XIII farthest away, about 700 units out. The first placement, before the search, had laid XIII's name over IV's and XI's over VI's.
+- **The Atlas's four "Rushi" bridges** (聽 · 聲, 遠 · 光, 孤 · 一, 他 · 二) and the Fermi satellite (`shei-fermi`) are Original Interpretations. They are dotted crimson, carry a caveat and cite `rushi`.
+- **施 · 悲:** the Atlas reads feeding the hungry ghosts as compassion. The opened source, the Ullambana Sutra p. 779b02, has 目連悲哀, which is grief, not karuṇā. The bridge says so and names the gap.
+
+### Citations Opened (2026-11-05, night)
+
+55 more checked (86 → 141 of 486). CBETA XML: T685 (Ullambana), T1313 (Flaming Mouth), T374 (寂滅為樂, 渴愛之病), T475 (渴愛, 空寂), T262 (貪愛, 無量劫, 無生法忍), T235 (如來, 布施, 如夢幻泡影), T1558 (五趣, 三不善根, 四食, 三世實有, 成劫). The chinese-poetry transcriptions, which are not critical editions and are simplified in the Analects, Chuci and Shijing: the Analects, Mencius, Zhongyong, Chuci (招魂, 天問, 遠遊, 大司命, 山鬼) and Shijing (河廣, 鶴鳴, 斯干). The Daodejing, Zhuangzi, Zuozhuan, Huainanzi, Shuowen and Liji passages remain unchecked; ctext is unreachable from this workspace.
+
+### Also Done
+
+- **Form lines made readable.** The 40 VI–X anchors that showed raw IDS (`IDS ⿰…`) now read like the canon ("戊 + 𠃌 (visible components)"), with the full IDS kept in the note. Hand-written forms from the earlier pass were kept, except three placeholders the IDS now settles (變, 風, 學).
+- Rare components (𢛳, 𠆢, 𡈼 …) box in headless Chromium's fonts, as the canon's 德 and 愛 do; check them on a real device.
+
+### Acceptance, as Measured
+
+- `npm run check` passes: 13 systems, 104 anchors, 359 claims (40 canon, 319 working), 141 bridges (90 between systems), 60 named gaps.
+- `npm test` 19 / 19; `npm run lint` 0 / 0; `npm run build` passes, in a clean Linux copy. The CSS, vendor and three.js chunks are byte-identical to before.
+- Viewed in headless Chromium: the cosmos at 390 and 1440 px, all three systems, a star card and a bridge card, with no page errors. Not yet seen on a real GPU or phone.
+- Backup of the state before this pass: `.rushi-pre-xi-xiii-backup.tgz` (git-ignored).
+
+### Still Ben's Alone
+
+Acceptance of every WORKING claim in XI–XIII, above all the five Original Interpretations; Old Chinese forms; and whether to promote the Atlas's XI–XIII from "draft" to "built" in `docs/cosmos-atlas.html`.
 
 ## 2026-11-05 (evening) — Realms VI–X Deepened
 
@@ -113,7 +154,7 @@ The content script is archived as `scripts/archive/2026-11-05-deepen-vi-x.mjs`; 
 
 ### Housekeeping for Ben
 
-- `data-raw/` holds `moji.db` (needed by `npm run ingest`); the download leftovers were removed on 2026-11-05.
+- `data-raw/` holds `moji.db` and `package/` (licenses and `download.txt`), both needed by `npm run ingest`. Only the downloaded `.tgz` is a leftover; see CORRECTIONS for the night `package/` was wrongly removed and restored.
 - Still Ben's alone: acceptance of every WORKING claim in VI–X, and the Old Chinese forms for these 40 anchors (left as "not yet researched"; Baracus did not guess them).
 
 ### Next

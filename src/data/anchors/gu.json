@@ -1,0 +1,76 @@
+{
+  "id": "gu",
+  "key": "4",
+  "glyph": "孤",
+  "pinyin": "gū",
+  "gloss": "orphaned · alone",
+  "form": "子 + 瓜 (visible components)",
+  "formNote": "Mojidata IDS: ⿰子瓜 (from the database, 2026-11-05). This describes the graph’s parts, not its history; the etymology is not yet researched.",
+  "summary": "Fatherless, and so alone. Rulers called themselves 孤, the orphan, in humility.",
+  "coords": [
+    -1.6883,
+    1.6206,
+    -1.3127
+  ],
+  "placement": "Chosen by farthest-point sampling on the integrated Burke–Shaw trajectory, so the eight stars spread across its projected shape. 遠 takes the point farthest from the system’s centre, 孤 the most isolated of the rest, and 寂 the point nearest the centre. A design choice, not a claim.",
+  "oc": {
+    "form": "not yet researched",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "Placeholder, NOT an Old Chinese reconstruction. Consult Baxter–Sagart 2014 before entering a form."
+  },
+  "satellites": [
+    {
+      "id": "gu-guagua",
+      "glyph": "孤 · 寡 · 不穀",
+      "title": "Kings Call Themselves Orphans",
+      "lang": "Classical Chinese",
+      "type": "TEXTUAL_CONNECTION",
+      "evidence": "Daodejing 42: 人之所惡，唯孤、寡、不穀，而王公以為稱 — what people hate is to be orphaned, widowed, unworthy, and these the kings and lords take as their titles. The loneliest names are worn by those at the top.",
+      "dimension": "sense",
+      "period": "pre_qin",
+      "cites": [
+        {
+          "source": "daodejing",
+          "locator": "chs. 39, 42"
+        }
+      ],
+      "gaps": [
+        "Open Daodejing ch. 42 in a reliable edition and record the passage."
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-05"
+    }
+  ],
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "gū",
+    "yue": "gu1",
+    "ja": "ko",
+    "ko": "고 go",
+    "vi": "cô",
+    "fanqie": "古胡切"
+  },
+  "structure": {
+    "ids": "⿰子瓜",
+    "parts": [
+      "子",
+      "了",
+      "瓜"
+    ],
+    "components": [
+      "子",
+      "了",
+      "乛",
+      "亅",
+      "一",
+      "瓜"
+    ],
+    "source": "mojidata-ids"
+  }
+}

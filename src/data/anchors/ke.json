@@ -1,0 +1,81 @@
+{
+  "id": "ke",
+  "key": "6",
+  "glyph": "渴",
+  "pinyin": "kě",
+  "gloss": "thirst · longing",
+  "form": "氵 + 曷 (visible components)",
+  "formNote": "Mojidata IDS: ⿰氵曷 (from the database, 2026-11-05). This describes the graph’s parts, not its history; the etymology is not yet researched.",
+  "summary": "Thirst, and thirst as longing. Buddhist Chinese calls the craving that keeps rebirth turning 渴愛, thirst-love.",
+  "coords": [
+    0.3145,
+    -0.0267,
+    0.1121
+  ],
+  "placement": "Chosen by farthest-point sampling on the integrated Newton–Leipnik trajectory, so the eight stars spread across its projected shape. 魂 takes the highest of the eight points and 魄 the lowest, after the Liji’s 魂氣歸于天，形魄歸于地. A design choice, not a claim.",
+  "oc": {
+    "form": "not yet researched",
+    "source": "baxter-sagart-2014",
+    "verification": "unchecked",
+    "note": "Placeholder, NOT an Old Chinese reconstruction. Consult Baxter–Sagart 2014 before entering a form."
+  },
+  "satellites": [
+    {
+      "id": "ke-ershiwuyou",
+      "glyph": "渴愛之病",
+      "title": "The Sickness of Thirst",
+      "lang": "Chinese Buddhist textual usage",
+      "type": "TEXTUAL_CONNECTION",
+      "evidence": "The Nirvana Sutra speaks of freeing beings from 二十五有渴愛之病, the sickness of thirst-love through the twenty-five kinds of existence. Thirst is the illness that keeps rebirth going.",
+      "dimension": "sense",
+      "period": "six_dynasties_tang",
+      "cites": [
+        {
+          "source": "nirvana",
+          "locator": "T374 p. 509a23",
+          "checked": {
+            "on": "2026-11-05",
+            "edition": "https://raw.githubusercontent.com/cbeta-org/xml-p5/master/T/T12/T12n0374.xml",
+            "note": "能令眾生悉得遠離二十五有渴愛之病"
+          }
+        }
+      ],
+      "status": "WORKING",
+      "verification": "source",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-05"
+    }
+  ],
+  "readings": {
+    "source": "unihan",
+    "version": "18.0.0",
+    "status": "WORKING",
+    "verification": "source",
+    "cmn": "kě",
+    "yue": "hot3",
+    "ja": "katsu",
+    "ko": "갈 gal",
+    "vi": "khát",
+    "fanqie": "苦曷切, 渠列切"
+  },
+  "structure": {
+    "ids": "⿰氵曷",
+    "parts": [
+      "氵",
+      "曷",
+      "日",
+      "匃"
+    ],
+    "components": [
+      "氵",
+      "曷",
+      "日",
+      "囗",
+      "一",
+      "匃",
+      "勹",
+      "亾"
+    ],
+    "source": "mojidata-ids"
+  }
+}
