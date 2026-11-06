@@ -79,6 +79,10 @@ In development builds, `window.__rushi` is the live scene (read-only use: tests,
 - A beautiful link is not evidence. New links are welcome when reason can justify them: semantic, symbolic, historically informed, or a documented joke. Each declares its kind.
 - Placement of a star on an attractor is a design choice, and its `placement` text says so.
 
+## 2026-11-06 (afternoon) — Either Address, One Switch
+
+Back on `https://ravenseldon.github.io/Rushi/`, with maitrism.com one command away. `RUSHI_SITE` in `vite.config.js` (`github`, the default, or `domain`) sets the base path, the absolute links in `index.html` (written as `__RUSHI_URL__`), and the generated `sitemap.xml`, `robots.txt` (domain only, since robots files count only at a host root) and `CNAME` (domain only). `public/CNAME`, `public/sitemap.xml` and `public/robots.txt` are gone; the build writes them. `npm run deploy` publishes to github.io; `npm run deploy:domain` publishes to maitrism.com. The domain build is byte-identical to the one live there before. An unknown `RUSHI_SITE` stops the build.
+
 ## 2026-11-06 — Search: Maitrism and Maitreya
 
 maitrism.com went live after a slow GitHub Pages queue (the domain commit `d35ff6f` stands). For search: `public/sitemap.xml` (one URL, because `#/` routes are one page to search engines), `public/robots.txt`, a canonical link, `og:site_name` and WebSite JSON-LD naming the site Maitrism (alternate names Rushi, 如實 Rushi). The page title (in `index.html` and the home view’s title in `App.jsx`) and the description now say Maitrism; the About panel names all thirteen systems and adds one paragraph in Ben’s settled formulation, “Maitrism is the practice of Maitrādvaita”, consistent with the CANON relation 愛 ↔ 不二, and notes that Maitreya takes his name from maitrī (慈, 慈氏), as the 慈 card already documents. Next lever, after the hackathon: a real URL per star so each can be indexed.

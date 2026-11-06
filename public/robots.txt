@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://maitrism.com/sitemap.xml
