@@ -321,7 +321,7 @@ export default function App() {
     if (anchor) return `${anchor.glyph} ${anchor.pinyin} · 如實 Rushi`;
     if (inCosmos) return '如實 Rushi — The Cosmos';
     if (realm.id !== REALMS[0].id) return `${realm.numeral} · ${realm.name} · 如實 Rushi`;
-    return '如實 Rushi — Eight Characters as a Navigable Cosmos';
+    return 'Maitrism · 如實 Rushi — Chinese Characters as a Navigable Cosmos'; // matches index.html
   }, [anchor, compound, edge, inCosmos, realm]);
   useEffect(() => {
     document.title = docTitle;

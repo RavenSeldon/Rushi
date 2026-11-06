@@ -113,14 +113,20 @@ export default function About({ onClose }) {
           <section>
             <p>
               Rushi is a map of relationships between Chinese characters and the words other languages have used for
-              them, gathered into solar systems of about eight: the Pillars (道 無 為 愛 不 二 量 司), the Ground
-              (有 空 心 法 一 慈 悲 名), Words of Power (如 實 真 言 咒 聲 符 印), Heaven and Change (天 地 人 陰 陽 氣 易 時)
-              and the Constant Virtues (德 仁 義 禮 智 信 孝 忠), with more to come. It is built to be explored the way one explores a night sky:
-              the cosmos first, then a single system, a single constellation, a single line.
+              them, gathered into thirteen solar systems of eight: the Pillars (道 無 為 愛 不 二 量 司), the Ground,
+              Words of Power, Heaven and Change, the Constant Virtues, Knowing, the Five Phases, Light, Seeking,
+              Becoming, Hungry Ghosts, the Future and the Fermi Paradox. It is built to be explored the way one explores
+              a night sky: the cosmos first, then a single system, a single constellation, a single line.
             </p>
             <p>
               Its name, 如實 rúshí, renders Sanskrit <i>yathābhūta</i>: seeing things as they really are. The design
               follows from that. A beautiful line is not evidence, so every line states its kind.
+            </p>
+            <p>
+              Rushi lives at Maitrism. Maitrism is the practice of Maitrādvaita, the name Rushi gives to the reading on
+              the line between 愛 and 不二: that loving-kindness may be how non-duality is lived, when self and other are
+              not two. Loving-kindness, <i>maitrī</i>, is 慈 in Buddhist Chinese, and Maitreya, the Buddha to come, takes
+              his name from it; in Chinese he is also 慈氏.
             </p>
           </section>
 

@@ -79,6 +79,10 @@ In development builds, `window.__rushi` is the live scene (read-only use: tests,
 - A beautiful link is not evidence. New links are welcome when reason can justify them: semantic, symbolic, historically informed, or a documented joke. Each declares its kind.
 - Placement of a star on an attractor is a design choice, and its `placement` text says so.
 
+## 2026-11-06 — Search: Maitrism and Maitreya
+
+maitrism.com went live after a slow GitHub Pages queue (the domain commit `d35ff6f` stands). For search: `public/sitemap.xml` (one URL, because `#/` routes are one page to search engines), `public/robots.txt`, a canonical link, `og:site_name` and WebSite JSON-LD naming the site Maitrism (alternate names Rushi, 如實 Rushi). The page title (in `index.html` and the home view’s title in `App.jsx`) and the description now say Maitrism; the About panel names all thirteen systems and adds one paragraph in Ben’s settled formulation, “Maitrism is the practice of Maitrādvaita”, consistent with the CANON relation 愛 ↔ 不二, and notes that Maitreya takes his name from maitrī (慈, 慈氏), as the 慈 card already documents. Next lever, after the hackathon: a real URL per star so each can be indexed.
+
 ## 2026-11-06 — maitrism.com (prepared, not deployed)
 
 Rushi moves from `https://ravenseldon.github.io/Rushi/` to `https://maitrism.com`. In the working tree: `vite.config.js` `base` is now `/` (was `/Rushi/`); `public/CNAME` holds `maitrism.com`, so every `npm run deploy` keeps the domain (the gh-pages branch had no CNAME, so a domain typed into Settings → Pages was wiped by the next deploy); the Open Graph URLs in `index.html` point at maitrism.com. **Deploy only after the DNS records resolve**: with `base: '/'`, the old github.io/Rushi address cannot load the assets until GitHub redirects it to the working domain. DNS (Porkbun): delete the `pixie.porkbun.com` parking records; four A records 185.199.108–111.153; four AAAA 2606:50c0:8000–8003::153; `www` CNAME `RavenSeldon.github.io`; the `_github-pages-challenge-RavenSeldon` TXT record from GitHub’s domain verification. Undo: revert the domain commit, redeploy, clear Settings → Pages → Custom domain.
