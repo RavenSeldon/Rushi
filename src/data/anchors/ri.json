@@ -40,6 +40,31 @@
       "verification": "unchecked",
       "drafted": "Baracus",
       "reviewed": "2026-11-05"
+    },
+    {
+      "id": "ri-shi",
+      "glyph": "如日月之食焉",
+      "title": "Faults Like an Eclipse",
+      "lang": "Classical Chinese",
+      "type": "TEXTUAL_CONNECTION",
+      "evidence": "Analects 19.21: 君子之過也，如日月之食焉 — the exemplary person’s faults are like eclipses of the sun and moon: everyone sees them, and when they are corrected, everyone looks up.",
+      "dimension": "sense",
+      "period": "pre_qin",
+      "cites": [
+        {
+          "source": "analects",
+          "locator": "19.21",
+          "checked": {
+            "on": "2026-11-08",
+            "edition": "https://github.com/chinese-poetry/chinese-poetry (論語/lunyu.json, simplified characters; a community digital transcription, not a critical edition)",
+            "note": "子张 ¶21: 君子之过也，如日月之食焉"
+          }
+        }
+      ],
+      "status": "WORKING",
+      "verification": "source",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-08"
     }
   ],
   "readings": {

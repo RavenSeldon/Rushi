@@ -37,6 +37,31 @@
       "status": "WORKING",
       "verification": "unchecked",
       "reviewed": "2026-11-05"
+    },
+    {
+      "id": "shi-begin-benmo",
+      "glyph": "事有終始",
+      "title": "Things Have Ends and Beginnings",
+      "lang": "Classical Chinese",
+      "type": "TEXTUAL_CONNECTION",
+      "evidence": "The Daxue: 物有本末，事有終始，知所先後，則近道矣 — things have roots and branches, affairs have ends and beginnings; know what comes first and what after, and you are near the Way.",
+      "dimension": "sense",
+      "period": "pre_qin",
+      "cites": [
+        {
+          "source": "liji",
+          "locator": "大學",
+          "checked": {
+            "on": "2026-11-08",
+            "edition": "https://github.com/chinese-poetry/chinese-poetry (四书五经/daxue.json; a community digital transcription, not a critical edition)",
+            "note": "物有本末，事有終始"
+          }
+        }
+      ],
+      "status": "WORKING",
+      "verification": "source",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-08"
     }
   ],
   "readings": {

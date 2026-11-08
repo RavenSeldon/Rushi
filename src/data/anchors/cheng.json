@@ -52,6 +52,31 @@
       "verification": "partial",
       "drafted": "Baracus",
       "reviewed": "2026-11-05"
+    },
+    {
+      "id": "cheng-chengmei",
+      "glyph": "成人之美",
+      "title": "Helping Others Complete What Is Good in Them",
+      "lang": "Classical Chinese",
+      "type": "TEXTUAL_CONNECTION",
+      "evidence": "Analects 12.16: 君子成人之美，不成人之惡 — the exemplary person brings others’ good to completion, and does not bring their bad to completion. 成 is something done for someone else.",
+      "dimension": "sense",
+      "period": "pre_qin",
+      "cites": [
+        {
+          "source": "analects",
+          "locator": "12.16",
+          "checked": {
+            "on": "2026-11-08",
+            "edition": "https://github.com/chinese-poetry/chinese-poetry (論語/lunyu.json, simplified characters; a community digital transcription, not a critical edition)",
+            "note": "颜渊 ¶16: 君子成人之美"
+          }
+        }
+      ],
+      "status": "WORKING",
+      "verification": "source",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-08"
     }
   ],
   "readings": {

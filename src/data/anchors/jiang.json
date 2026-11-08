@@ -44,6 +44,31 @@
       "verification": "source",
       "drafted": "Baracus",
       "reviewed": "2026-11-05"
+    },
+    {
+      "id": "jiang-darren",
+      "glyph": "天將降大任",
+      "title": "When Heaven Is About to Confer a Great Task",
+      "lang": "Classical Chinese",
+      "type": "TEXTUAL_CONNECTION",
+      "evidence": "Mencius 6B15: 天將降大任於是人也，必先苦其心志 — when Heaven is about to lay a great task on someone, it first troubles their heart and will. 將 is the hinge between hardship now and the task to come.",
+      "dimension": "sense",
+      "period": "pre_qin",
+      "cites": [
+        {
+          "source": "mencius",
+          "locator": "6B15",
+          "checked": {
+            "on": "2026-11-08",
+            "edition": "https://github.com/chinese-poetry/chinese-poetry (四书五经/mengzi.json; a community digital transcription, not a critical edition)",
+            "note": "告子下 ¶53 in the transcription’s numbering: 天將降大任於是人也"
+          }
+        }
+      ],
+      "status": "WORKING",
+      "verification": "source",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-08"
     }
   ],
   "readings": {

@@ -44,6 +44,31 @@
       "verification": "source",
       "drafted": "Baracus",
       "reviewed": "2026-11-05"
+    },
+    {
+      "id": "ye-zhouye",
+      "glyph": "不舍晝夜",
+      "title": "Not Resting, Day or Night",
+      "lang": "Classical Chinese",
+      "type": "TEXTUAL_CONNECTION",
+      "evidence": "Analects 9.17: by the river, Confucius says 逝者如斯夫，不舍晝夜 — “it passes on like this, never resting, day or night.”",
+      "dimension": "sense",
+      "period": "pre_qin",
+      "cites": [
+        {
+          "source": "analects",
+          "locator": "9.17",
+          "checked": {
+            "on": "2026-11-08",
+            "edition": "https://github.com/chinese-poetry/chinese-poetry (論語/lunyu.json, simplified characters; a community digital transcription, not a critical edition)",
+            "note": "子罕 ¶17: 逝者如斯夫，不舍昼夜"
+          }
+        }
+      ],
+      "status": "WORKING",
+      "verification": "source",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-08"
     }
   ],
   "readings": {

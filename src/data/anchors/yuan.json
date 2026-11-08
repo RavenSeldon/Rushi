@@ -45,6 +45,31 @@
       "verification": "source",
       "drafted": "Baracus",
       "reviewed": "2026-11-05"
+    },
+    {
+      "id": "yuan-zhongdao",
+      "glyph": "任重而道遠",
+      "title": "The Load Is Heavy, the Road Is Long",
+      "lang": "Classical Chinese",
+      "type": "TEXTUAL_CONNECTION",
+      "evidence": "Analects 8.7: 士不可以不弘毅，任重而道遠 — a scholar must be broad and resolute, for the load is heavy and the road is long. 仁以為己任 … 死而後已 — humaneness is the load, and it ends only at death.",
+      "dimension": "sense",
+      "period": "pre_qin",
+      "cites": [
+        {
+          "source": "analects",
+          "locator": "8.7",
+          "checked": {
+            "on": "2026-11-08",
+            "edition": "https://github.com/chinese-poetry/chinese-poetry (論語/lunyu.json, simplified characters; a community digital transcription, not a critical edition)",
+            "note": "泰伯 ¶7: 任重而道远"
+          }
+        }
+      ],
+      "status": "WORKING",
+      "verification": "source",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-08"
     }
   ],
   "readings": {

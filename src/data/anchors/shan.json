@@ -38,6 +38,32 @@
       "verification": "unchecked",
       "reviewed": "2026-11-05",
       "caveat": "A correspondence internal to a historical system; not a statement about natural science."
+    },
+    {
+      "id": "shan-dongshan",
+      "glyph": "登東山而小魯",
+      "title": "From the Mountain, the State Looks Small",
+      "lang": "Classical Chinese",
+      "type": "TEXTUAL_CONNECTION",
+      "evidence": "Mencius 7A24: 孔子登東山而小魯 — Confucius climbed the eastern hill and Lu looked small; climbing Mount Tai, the whole world looked small. What one has seen of the sea makes other waters hard to call water.",
+      "caveat": "The check covers the first clause; the rest is paraphrase of the same passage.",
+      "dimension": "sense",
+      "period": "pre_qin",
+      "cites": [
+        {
+          "source": "mencius",
+          "locator": "7A24",
+          "checked": {
+            "on": "2026-11-08",
+            "edition": "https://github.com/chinese-poetry/chinese-poetry (四书五经/mengzi.json; a community digital transcription, not a critical edition)",
+            "note": "盡心上 ¶26 in the transcription’s numbering: 孔子登東山而小魯"
+          }
+        }
+      ],
+      "status": "WORKING",
+      "verification": "source",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-08"
     }
   ],
   "readings": {

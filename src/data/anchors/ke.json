@@ -44,6 +44,31 @@
       "verification": "source",
       "drafted": "Baracus",
       "reviewed": "2026-11-05"
+    },
+    {
+      "id": "ke-ganyin",
+      "glyph": "渴者甘飲",
+      "title": "To the Thirsty, Any Drink Is Sweet",
+      "lang": "Classical Chinese",
+      "type": "TEXTUAL_CONNECTION",
+      "evidence": "Mencius 7A27: 飢者甘食，渴者甘飲 — the hungry find any food sweet, the thirsty any drink; hunger and thirst spoil the palate, and need can spoil the heart the same way.",
+      "dimension": "sense",
+      "period": "pre_qin",
+      "cites": [
+        {
+          "source": "mencius",
+          "locator": "7A27",
+          "checked": {
+            "on": "2026-11-08",
+            "edition": "https://github.com/chinese-poetry/chinese-poetry (四书五经/mengzi.json; a community digital transcription, not a critical edition)",
+            "note": "盡心上 ¶29 in the transcription’s numbering: 飢者甘食，渴者甘飲"
+          }
+        }
+      ],
+      "status": "WORKING",
+      "verification": "source",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-08"
     }
   ],
   "readings": {

@@ -1,6 +1,6 @@
 # Rushi — Project Log and Handoff
 
-Read this first when resuming work, in a new session or after a break. Last updated 2026-11-08 (integrative bridges).
+Read this first when resuming work, in a new session or after a break. Last updated 2026-11-08, afternoon (satellites for the thinnest stars).
 
 ## Where Things Stand
 
@@ -78,6 +78,10 @@ In development builds, `window.__rushi` is the live scene (read-only use: tests,
 - Expand without disturbing what came before: new claims, never rewrites of the art (scene, shaders, layout) or the science (attractors).
 - A beautiful link is not evidence. New links are welcome when reason can justify them: semantic, symbolic, historically informed, or a documented joke. Each declares its kind.
 - Placement of a star on an attractor is a design choice, and its `placement` text says so.
+
+## 2026-11-08 (afternoon) — Satellites for the Thinnest Stars
+
+18 satellites, all WORKING, drafted by Baracus (`scripts/archive/2026-11-08-satellites.mjs`, idempotent). 忠 had none and now has two (Analects 1.4, 4.15); 仁 gains 12.22 愛人 and 12.1; 實 gains Mencius 6B6 名實; 陽 gains 一陰一陽之謂道 (unchecked); 山 7A24; 日 19.21; 星 the Odes’ 小星; 夜 9.17; 學 2.4; 成 12.16; 始 the Daxue’s 事有終始; 鬼 2.24; 渴 7A27; 將 6B15; 後 3.8; 遠 8.7. 17 are checked against the chinese-poetry transcriptions. A 正名 satellite for 名 was dropped: 13.3 is already the bridge 名 · 言, and `npm run check` caught the duplicate. No star now has zero satellites; 11 still have one. Ledger: 403 claims (40 canon, 363 working), 175 of 531 citations checked.
 
 ## 2026-11-08 — Integrative Bridges: 76 of 78 Pairs Joined
 

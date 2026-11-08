@@ -82,6 +82,26 @@
       "verification": "partial",
       "drafted": "Baracus",
       "reviewed": "2026-11-04"
+    },
+    {
+      "id": "yang-yiyin",
+      "glyph": "一陰一陽之謂道",
+      "title": "One Yin, One Yang: That Is the Way",
+      "lang": "Classical Chinese",
+      "type": "TEXTUAL_CONNECTION",
+      "evidence": "Xici, part one: 一陰一陽之謂道 — “one yin, one yang: this is called the Way.” Neither alone; their alternation.",
+      "dimension": "sense",
+      "period": "han",
+      "cites": [
+        {
+          "source": "yijing",
+          "locator": "繫辭上, §5"
+        }
+      ],
+      "status": "WORKING",
+      "verification": "unchecked",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-08"
     }
   ]
 }

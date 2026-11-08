@@ -50,5 +50,56 @@
     ],
     "source": "mojidata-ids"
   },
-  "satellites": []
+  "satellites": [
+    {
+      "id": "zhong-sanxing",
+      "glyph": "為人謀而不忠乎",
+      "title": "Was I Loyal in Planning for Others?",
+      "lang": "Classical Chinese",
+      "type": "TEXTUAL_CONNECTION",
+      "evidence": "Analects 1.4: Zengzi examines himself three times a day, and the first question is 為人謀而不忠乎 — “in planning for others, have I failed to give them my whole heart?” 忠 is wholeheartedness toward others before it is loyalty to a ruler.",
+      "dimension": "practice",
+      "period": "pre_qin",
+      "cites": [
+        {
+          "source": "analects",
+          "locator": "1.4",
+          "checked": {
+            "on": "2026-11-08",
+            "edition": "https://github.com/chinese-poetry/chinese-poetry (論語/lunyu.json, simplified characters; a community digital transcription, not a critical edition)",
+            "note": "学而 ¶4: 为人谋而不忠乎"
+          }
+        }
+      ],
+      "status": "WORKING",
+      "verification": "source",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-08"
+    },
+    {
+      "id": "zhong-zhongshu",
+      "glyph": "忠恕而已矣",
+      "title": "The One Thread: Wholeheartedness and Reciprocity",
+      "lang": "Classical Chinese",
+      "type": "TEXTUAL_CONNECTION",
+      "evidence": "Analects 4.15: Confucius says his way has one thread running through it, and Zengzi explains: 夫子之道，忠恕而已矣 — “the Master’s way is wholeheartedness and reciprocity, nothing more.”",
+      "dimension": "sense",
+      "period": "pre_qin",
+      "cites": [
+        {
+          "source": "analects",
+          "locator": "4.15",
+          "checked": {
+            "on": "2026-11-08",
+            "edition": "https://github.com/chinese-poetry/chinese-poetry (論語/lunyu.json, simplified characters; a community digital transcription, not a critical edition)",
+            "note": "里仁 ¶15: 夫子之道，忠恕而已矣"
+          }
+        }
+      ],
+      "status": "WORKING",
+      "verification": "source",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-08"
+    }
+  ]
 }

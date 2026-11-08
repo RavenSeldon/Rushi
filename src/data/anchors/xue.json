@@ -37,6 +37,31 @@
       "status": "WORKING",
       "verification": "unchecked",
       "reviewed": "2026-11-05"
+    },
+    {
+      "id": "xue-zhiyu",
+      "glyph": "十有五而志于學",
+      "title": "At Fifteen, Set on Learning",
+      "lang": "Classical Chinese",
+      "type": "TEXTUAL_CONNECTION",
+      "evidence": "Analects 2.4: 吾十有五而志于學 — “at fifteen I set my heart on learning”, the first step of the life that runs to 不踰矩 at seventy.",
+      "dimension": "practice",
+      "period": "pre_qin",
+      "cites": [
+        {
+          "source": "analects",
+          "locator": "2.4",
+          "checked": {
+            "on": "2026-11-08",
+            "edition": "https://github.com/chinese-poetry/chinese-poetry (論語/lunyu.json, simplified characters; a community digital transcription, not a critical edition)",
+            "note": "为政 ¶4: 吾十有五而志于学"
+          }
+        }
+      ],
+      "status": "WORKING",
+      "verification": "source",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-08"
     }
   ],
   "readings": {

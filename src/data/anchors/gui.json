@@ -40,6 +40,31 @@
       "verification": "unchecked",
       "drafted": "Baracus",
       "reviewed": "2026-11-05"
+    },
+    {
+      "id": "gui-chan",
+      "glyph": "非其鬼而祭之",
+      "title": "Sacrificing to Someone Else’s Ghosts",
+      "lang": "Classical Chinese",
+      "type": "TEXTUAL_CONNECTION",
+      "evidence": "Analects 2.24: 非其鬼而祭之，諂也 — to sacrifice to spirits that are not one’s own is flattery. Ghosts here are ancestors, owed rites by their own descendants.",
+      "dimension": "practice",
+      "period": "pre_qin",
+      "cites": [
+        {
+          "source": "analects",
+          "locator": "2.24",
+          "checked": {
+            "on": "2026-11-08",
+            "edition": "https://github.com/chinese-poetry/chinese-poetry (論語/lunyu.json, simplified characters; a community digital transcription, not a critical edition)",
+            "note": "为政 ¶24: 非其鬼而祭之，谄也"
+          }
+        }
+      ],
+      "status": "WORKING",
+      "verification": "source",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-08"
     }
   ],
   "readings": {

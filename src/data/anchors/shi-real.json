@@ -84,6 +84,31 @@
       "verification": "partial",
       "drafted": "Baracus",
       "reviewed": "2026-11-04"
+    },
+    {
+      "id": "shi-real-mingshi",
+      "glyph": "先名實者",
+      "title": "Name and Substance",
+      "lang": "Classical Chinese",
+      "type": "TEXTUAL_CONNECTION",
+      "evidence": "Mencius 6B6: Chunyu Kun says 先名實者，為人也 — those who put name and substance first act for others. The pair 名實, name and reality, becomes a classical topic of its own.",
+      "dimension": "sense",
+      "period": "pre_qin",
+      "cites": [
+        {
+          "source": "mencius",
+          "locator": "6B6",
+          "checked": {
+            "on": "2026-11-08",
+            "edition": "https://github.com/chinese-poetry/chinese-poetry (四书五经/mengzi.json; a community digital transcription, not a critical edition)",
+            "note": "告子下 ¶25 in the transcription’s numbering: 先名實者，為人也"
+          }
+        }
+      ],
+      "status": "WORKING",
+      "verification": "source",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-08"
     }
   ]
 }

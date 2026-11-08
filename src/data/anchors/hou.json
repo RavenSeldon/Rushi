@@ -44,6 +44,32 @@
       "verification": "source",
       "drafted": "Baracus",
       "reviewed": "2026-11-05"
+    },
+    {
+      "id": "hou-housu",
+      "glyph": "繪事後素",
+      "title": "The Painting Comes After the Plain Ground",
+      "lang": "Classical Chinese",
+      "type": "TEXTUAL_CONNECTION",
+      "evidence": "Analects 3.8: 繪事後素 — painting comes after the plain silk; and Zixia sees that the rites, too, come after (後) what they adorn. 後 is order, not only time.",
+      "caveat": "Whether 後素 means “after the white ground” or “the white is applied last” is a classic dispute.",
+      "dimension": "sense",
+      "period": "pre_qin",
+      "cites": [
+        {
+          "source": "analects",
+          "locator": "3.8",
+          "checked": {
+            "on": "2026-11-08",
+            "edition": "https://github.com/chinese-poetry/chinese-poetry (論語/lunyu.json, simplified characters; a community digital transcription, not a critical edition)",
+            "note": "八佾 ¶8: 绘事后素"
+          }
+        }
+      ],
+      "status": "WORKING",
+      "verification": "source",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-08"
     }
   ],
   "readings": {

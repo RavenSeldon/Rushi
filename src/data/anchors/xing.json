@@ -37,6 +37,31 @@
       "status": "WORKING",
       "verification": "unchecked",
       "reviewed": "2026-11-05"
+    },
+    {
+      "id": "xing-xiaoxing",
+      "glyph": "嘒彼小星",
+      "title": "Those Little Stars",
+      "lang": "Classical Chinese",
+      "type": "TEXTUAL_CONNECTION",
+      "evidence": "The Odes, Xiaoxing: 嘒彼小星，三五在東。肅肅宵征，夙夜在公。寔命不同 — faint little stars, three or five in the east; hurrying by night, early and late on duty: “truly, our fates are not the same.”",
+      "dimension": "sense",
+      "period": "pre_qin",
+      "cites": [
+        {
+          "source": "shijing",
+          "locator": "召南 · 小星",
+          "checked": {
+            "on": "2026-11-08",
+            "edition": "https://github.com/chinese-poetry/chinese-poetry (诗经/shijing.json, simplified characters; a community digital transcription, not a critical edition)",
+            "note": "小星: 嘒彼小星，三五在东…寔命不同"
+          }
+        }
+      ],
+      "status": "WORKING",
+      "verification": "source",
+      "drafted": "Baracus",
+      "reviewed": "2026-11-08"
     }
   ],
   "readings": {
