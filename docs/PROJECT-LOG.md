@@ -1,6 +1,6 @@
 # Rushi — Project Log and Handoff
 
-Read this first when resuming work, in a new session or after a break. Last updated 2026-11-05, late (the soundtrack star).
+Read this first when resuming work, in a new session or after a break. Last updated 2026-11-08 (integrative bridges).
 
 ## Where Things Stand
 
@@ -78,6 +78,10 @@ In development builds, `window.__rushi` is the live scene (read-only use: tests,
 - Expand without disturbing what came before: new claims, never rewrites of the art (scene, shaders, layout) or the science (attractors).
 - A beautiful link is not evidence. New links are welcome when reason can justify them: semantic, symbolic, historically informed, or a documented joke. Each declares its kind.
 - Placement of a star on an attractor is a design choice, and its `placement` text says so.
+
+## 2026-11-08 — Integrative Bridges: 76 of 78 Pairs Joined
+
+Of the 78 pairs of systems, 28 had no line between them. 26 bridges now join one pair each, all WORKING, drafted by Baracus (`scripts/archive/2026-11-08-integrative-bridges.mjs`, idempotent). 17 rest on passages checked against an edition: Analects 1.1, 1.14, 5.10, 9.19, 11.12; Mencius 7A3, 7A24; Daxue 在明明德 and 知止而後有定; Ullambana 修孝順者; the Flaming Mouth sutra’s title; the Kośa’s fire calamity and twelve links; the Heart Sutra’s 照見; the Tianwen; the Nirvana Sutra’s 生滅滅已; and the Unihan readings that make 聲 and 生 homophones. The rest (Daodejing 8, Zhuangzi 2 and 6, Xici, Shuogua, Shuowen 灋, 慈氏 as the Buddha to come) are unchecked and say so. One, 艮 · 止 · 定, is a chain through two texts and its caveat says Rushi joined them. **VI–XIII and VII–XIII stay open on purpose:** no passage earns those lines yet. Ledger: 385 claims (40 canon, 345 working), 167 bridges (116 between systems), 158 of 513 citations checked.
 
 ## 2026-11-06 (afternoon) — Either Address, One Switch
 

@@ -3638,5 +3638,670 @@
     "verification": "unchecked",
     "drafted": "Baracus",
     "reviewed": "2026-11-05"
+  },
+  {
+    "id": "bridge-shui-dao",
+    "from": "shui",
+    "to": "dao",
+    "label": "幾於道",
+    "title": "Water Is Close to the Way",
+    "subtitle": "Daodejing ch. 8",
+    "type": "TEXTUAL_CONNECTION",
+    "evidence": "Daodejing 8: 上善若水 … 處眾人之所惡，故幾於道 — the highest good is like water; it settles where people disdain to be, “and so it is close to the Way.”",
+    "period": "pre_qin",
+    "dimension": "sense",
+    "cites": [
+      {
+        "source": "daodejing",
+        "locator": "ch. 8"
+      }
+    ],
+    "status": "WORKING",
+    "verification": "unchecked",
+    "drafted": "Baracus",
+    "reviewed": "2026-11-08"
+  },
+  {
+    "id": "bridge-fa-shui",
+    "from": "fa",
+    "to": "shui",
+    "label": "灋 · 水",
+    "title": "Law, Level as Water",
+    "subtitle": "Shuowen",
+    "type": "ETYMOLOGICAL_SINITIC",
+    "evidence": "The Shuowen explains the old form of 法, 灋, by water: 平之如水，从水 — law makes things level, as water does.",
+    "caveat": "The Shuowen’s explanation, from general knowledge; palaeographers debate the graph’s origin. Buddhist 法, dharma, is a later sense.",
+    "period": "han",
+    "dimension": "form",
+    "cites": [
+      {
+        "source": "shuowen",
+        "locator": "廌部 灋"
+      }
+    ],
+    "status": "WORKING",
+    "verification": "unchecked",
+    "drafted": "Baracus",
+    "reviewed": "2026-11-08"
+  },
+  {
+    "id": "bridge-ci-lai",
+    "from": "ci",
+    "to": "lai",
+    "label": "慈氏 · 當來",
+    "title": "The Kind One Who Is Still to Come",
+    "subtitle": "Maitreya",
+    "type": "TEXTUAL_CONNECTION",
+    "evidence": "Maitreya, called 慈氏 in Chinese, “the Kind One”, is the Buddha still to come: Buddhist texts name him 當來佛, the coming Buddha. 慈 and 來 meet in him.",
+    "period": "six_dynasties_tang",
+    "dimension": "sense",
+    "cites": [
+      {
+        "source": "moe-dict",
+        "locator": "慈氏; 彌勒"
+      }
+    ],
+    "status": "WORKING",
+    "verification": "unchecked",
+    "drafted": "Baracus",
+    "reviewed": "2026-11-08"
+  },
+  {
+    "id": "bridge-zhen-ren-person",
+    "from": "zhen",
+    "to": "ren-person",
+    "label": "真人",
+    "title": "The True Person",
+    "subtitle": "Zhuangzi ch. 6",
+    "type": "TEXTUAL_CONNECTION",
+    "evidence": "Zhuangzi 6 describes 古之真人, the true people of old, who slept without dreams and woke without worry, and says 有真人而後有真知 — there must be a true person before there is true knowledge.",
+    "period": "pre_qin",
+    "dimension": "sense",
+    "cites": [
+      {
+        "source": "zhuangzi",
+        "locator": "ch. 6 大宗師"
+      }
+    ],
+    "status": "WORKING",
+    "verification": "unchecked",
+    "drafted": "Baracus",
+    "reviewed": "2026-11-08"
+  },
+  {
+    "id": "bridge-sheng-sound-feng",
+    "from": "sheng-sound",
+    "to": "feng",
+    "label": "天籟",
+    "title": "The Piping of Heaven",
+    "subtitle": "Zhuangzi ch. 2",
+    "type": "TEXTUAL_CONNECTION",
+    "evidence": "Zhuangzi 2: 夫大塊噫氣，其名為風 — the great clod breathes out, and its name is wind. Every hollow of the forest then sounds in its own voice, the piping of earth, behind which stands the piping of heaven.",
+    "period": "pre_qin",
+    "dimension": "sense",
+    "cites": [
+      {
+        "source": "zhuangzi",
+        "locator": "ch. 2 齊物論"
+      }
+    ],
+    "status": "WORKING",
+    "verification": "unchecked",
+    "drafted": "Baracus",
+    "reviewed": "2026-11-08"
+  },
+  {
+    "id": "bridge-yan-xing-walk",
+    "from": "yan",
+    "to": "xing-walk",
+    "label": "言 · 行",
+    "title": "Words, Then Deeds",
+    "subtitle": "Analects 5.10",
+    "type": "TEXTUAL_CONNECTION",
+    "evidence": "Analects 5.10: 聽其言而觀其行 — “now I listen to people’s words and watch their deeds.” Speech is weighed against conduct.",
+    "period": "pre_qin",
+    "dimension": "practice",
+    "cites": [
+      {
+        "source": "analects",
+        "locator": "5.10",
+        "checked": {
+          "on": "2026-11-08",
+          "edition": "https://github.com/chinese-poetry/chinese-poetry (論語/lunyu.json, simplified characters; a community digital transcription, not a critical edition)",
+          "note": "公冶长 ¶10: 听其言而观其行"
+        }
+      }
+    ],
+    "status": "WORKING",
+    "verification": "source",
+    "drafted": "Baracus",
+    "reviewed": "2026-11-08"
+  },
+  {
+    "id": "bridge-sheng-sound-sheng-life",
+    "from": "sheng-sound",
+    "to": "sheng-life",
+    "label": "聲 · 生",
+    "title": "Two Words, One Sound",
+    "subtitle": "Unihan readings",
+    "type": "SEMANTIC_CONTRAST",
+    "evidence": "聲, sound, and 生, life, are both read shēng in Mandarin. The ids of these two stars had to carry gloss words for that reason; their meanings, and their graphs, are unrelated.",
+    "caveat": "A homophone pair, not an etymological link.",
+    "period": "modern",
+    "dimension": "sound",
+    "cites": [
+      {
+        "source": "unihan",
+        "locator": "kMandarin 聲; 生",
+        "checked": {
+          "on": "2026-11-05",
+          "edition": "Unihan 18.0.0, via Mojidata (data-raw/moji.db)",
+          "note": "Both read shēng; ingested 2026-11-05"
+        }
+      }
+    ],
+    "status": "WORKING",
+    "verification": "source",
+    "drafted": "Baracus",
+    "reviewed": "2026-11-08"
+  },
+  {
+    "id": "bridge-zhou-spell-shi-give",
+    "from": "zhou-spell",
+    "to": "shi-give",
+    "label": "陀羅尼 · 施",
+    "title": "A Spell That Feeds the Hungry",
+    "subtitle": "Flaming Mouth sutra",
+    "type": "TEXTUAL_CONNECTION",
+    "evidence": "The sutra of the hungry ghost Flaming Mouth is itself a dhāraṇī text: 是名救焰口餓鬼及苦眾生陀羅尼經. Its spell makes one offering of food enough for countless hungry ghosts.",
+    "period": "six_dynasties_tang",
+    "dimension": "practice",
+    "cites": [
+      {
+        "source": "yankou",
+        "locator": "T1313 p. 465b26",
+        "checked": {
+          "on": "2026-11-08",
+          "edition": "https://raw.githubusercontent.com/cbeta-org/xml-p5/master/T/T21/T21n1313.xml",
+          "note": "是名救焰口餓鬼及苦眾生陀羅尼經"
+        }
+      }
+    ],
+    "status": "WORKING",
+    "verification": "source",
+    "drafted": "Baracus",
+    "reviewed": "2026-11-08"
+  },
+  {
+    "id": "bridge-yi-change-si-thought",
+    "from": "yi-change",
+    "to": "si-thought",
+    "label": "易無思也",
+    "title": "Change Has No Thought",
+    "subtitle": "Yijing, Xici",
+    "type": "TEXTUAL_CONNECTION",
+    "evidence": "Xici, part one: 易無思也，無為也，寂然不動，感而遂通天下之故 — “the Changes have no thought and no action; still and unmoving, when stirred they reach through to everything under heaven.”",
+    "caveat": "The same line holds 無為 (the Pillars) and 寂 (the Fermi Paradox).",
+    "period": "han",
+    "dimension": "sense",
+    "cites": [
+      {
+        "source": "yijing",
+        "locator": "繫辭上, §10"
+      }
+    ],
+    "status": "WORKING",
+    "verification": "unchecked",
+    "drafted": "Baracus",
+    "reviewed": "2026-11-08"
+  },
+  {
+    "id": "bridge-shi-time-xue",
+    "from": "shi-time",
+    "to": "xue",
+    "label": "學而時習之",
+    "title": "Learning, Practised in Its Time",
+    "subtitle": "Analects 1.1",
+    "type": "TEXTUAL_CONNECTION",
+    "evidence": "Analects 1.1 opens the book: 學而時習之，不亦說乎 — “to learn, and practise it at the right times: is that not a pleasure?”",
+    "caveat": "時 here may mean “at the proper time” or “constantly”; commentators differ.",
+    "period": "pre_qin",
+    "dimension": "practice",
+    "cites": [
+      {
+        "source": "analects",
+        "locator": "1.1",
+        "checked": {
+          "on": "2026-11-08",
+          "edition": "https://github.com/chinese-poetry/chinese-poetry (論語/lunyu.json, simplified characters; a community digital transcription, not a critical edition)",
+          "note": "学而 ¶1: 学而时习之，不亦说乎"
+        }
+      }
+    ],
+    "status": "WORKING",
+    "verification": "source",
+    "drafted": "Baracus",
+    "reviewed": "2026-11-08"
+  },
+  {
+    "id": "bridge-xiao-shi-give",
+    "from": "xiao",
+    "to": "shi-give",
+    "label": "孝順 · 供養",
+    "title": "Filial Care as Offering",
+    "subtitle": "Ullambana Sutra",
+    "type": "TEXTUAL_CONNECTION",
+    "evidence": "The Ullambana Sutra makes the offering an act of filial piety: 佛弟子修孝順者，應念念中常憶父母供養 — disciples who practise filial devotion should keep their parents in mind and make offerings for them.",
+    "period": "six_dynasties_tang",
+    "dimension": "practice",
+    "cites": [
+      {
+        "source": "ullambana",
+        "locator": "T685 p. 779c15",
+        "checked": {
+          "on": "2026-11-08",
+          "edition": "https://raw.githubusercontent.com/cbeta-org/xml-p5/master/T/T16/T16n0685.xml",
+          "note": "諸善男子善女人是佛弟子修孝順者應念念中常憶父母供養"
+        }
+      }
+    ],
+    "status": "WORKING",
+    "verification": "source",
+    "drafted": "Baracus",
+    "reviewed": "2026-11-08"
+  },
+  {
+    "id": "bridge-ding-shan",
+    "from": "ding",
+    "to": "shan",
+    "label": "艮 · 止 · 定",
+    "title": "Mountain, Stopping, Stillness",
+    "subtitle": "Yijing; Daxue",
+    "type": "TRADITIONAL_CORRESPONDENCE",
+    "evidence": "The mountain trigram means stopping: 艮，止也. The Daxue makes stopping the door to stillness: 知止而後有定 — know where to stop, and then there is settledness.",
+    "caveat": "A chain through two texts (艮 = 止; 止 → 定), joined by Rushi; neither text names both stars.",
+    "dimension": "practice",
+    "cites": [
+      {
+        "source": "yijing",
+        "locator": "艮卦, 彖傳"
+      },
+      {
+        "source": "liji",
+        "locator": "大學",
+        "checked": {
+          "on": "2026-11-08",
+          "edition": "https://github.com/chinese-poetry/chinese-poetry (四书五经/daxue.json; a community digital transcription, not a critical edition)",
+          "note": "知止而后有定"
+        }
+      }
+    ],
+    "status": "WORKING",
+    "verification": "partial",
+    "drafted": "Baracus",
+    "reviewed": "2026-11-08"
+  },
+  {
+    "id": "bridge-hui-zhao",
+    "from": "hui",
+    "to": "zhao",
+    "label": "般若 · 照見",
+    "title": "Wisdom That Illuminates",
+    "subtitle": "Heart Sutra",
+    "type": "TEXTUAL_CONNECTION",
+    "evidence": "The Heart Sutra: 行深般若波羅蜜多時，照見五蘊皆空 — practising the depth of prajñā, the bodhisattva illuminated the five aggregates and saw them empty. Prajñā is the 慧 of this system; 照 is what it does.",
+    "period": "six_dynasties_tang",
+    "dimension": "practice",
+    "cites": [
+      {
+        "source": "xinjing",
+        "locator": "T251 p. 848c07",
+        "checked": {
+          "on": "2026-11-05",
+          "edition": "https://raw.githubusercontent.com/cbeta-org/xml-p5/master/T/T08/T08n0251.xml",
+          "note": "照見五蘊皆空"
+        }
+      }
+    ],
+    "status": "WORKING",
+    "verification": "source",
+    "drafted": "Baracus",
+    "reviewed": "2026-11-08"
+  },
+  {
+    "id": "bridge-shi-conscious-sheng-life",
+    "from": "shi-conscious",
+    "to": "sheng-life",
+    "label": "識 … 生",
+    "title": "Consciousness to Birth in the Twelve Links",
+    "subtitle": "Abhidharmakośa ch. 3",
+    "type": "TEXTUAL_CONNECTION",
+    "evidence": "In the twelve links of dependent arising, 識, consciousness, is the third link and 生, birth, the eleventh: from ignorance, through consciousness, to birth, aging and death.",
+    "period": "six_dynasties_tang",
+    "dimension": "sense",
+    "cites": [
+      {
+        "source": "abhidharmakosa",
+        "locator": "ch. 3, p. 51a05",
+        "checked": {
+          "on": "2026-11-05",
+          "edition": "https://raw.githubusercontent.com/cbeta-org/xml-p5/master/T/T29/T29n1558.xml",
+          "note": "謂無明緣行，乃至如是純大苦蘊集 — the check covers the chain’s formula, which the text abbreviates with 乃至"
+        }
+      }
+    ],
+    "status": "WORKING",
+    "verification": "source",
+    "drafted": "Baracus",
+    "reviewed": "2026-11-08"
+  },
+  {
+    "id": "bridge-jue-meng",
+    "from": "jue",
+    "to": "meng",
+    "label": "大覺 · 大夢",
+    "title": "The Great Awakening and the Great Dream",
+    "subtitle": "Zhuangzi ch. 2",
+    "type": "TEXTUAL_CONNECTION",
+    "evidence": "Zhuangzi 2: 且有大覺而後知此其大夢也 — “only after a great awakening do we know that this was a great dream.”",
+    "period": "pre_qin",
+    "dimension": "sense",
+    "cites": [
+      {
+        "source": "zhuangzi",
+        "locator": "ch. 2 齊物論"
+      }
+    ],
+    "status": "WORKING",
+    "verification": "unchecked",
+    "drafted": "Baracus",
+    "reviewed": "2026-11-08"
+  },
+  {
+    "id": "bridge-huo-ri",
+    "from": "huo",
+    "to": "ri",
+    "label": "離為火，為日",
+    "title": "Fire and Sun Are One Trigram",
+    "subtitle": "Yijing, Shuogua",
+    "type": "TRADITIONAL_CORRESPONDENCE",
+    "evidence": "The Shuogua gives the trigram 離 both images: 離為火，為日，為電 — it is fire, it is the sun, it is lightning.",
+    "period": "han",
+    "dimension": "symbol",
+    "cites": [
+      {
+        "source": "yijing",
+        "locator": "說卦, §11"
+      }
+    ],
+    "status": "WORKING",
+    "verification": "unchecked",
+    "drafted": "Baracus",
+    "reviewed": "2026-11-08"
+  },
+  {
+    "id": "bridge-shui-xing-walk",
+    "from": "shui",
+    "to": "xing-walk",
+    "label": "不盈科不行",
+    "title": "Water Moves On When the Hollow Is Full",
+    "subtitle": "Mencius 7A24",
+    "type": "TEXTUAL_CONNECTION",
+    "evidence": "Mencius 7A24: 流水之為物也，不盈科不行；君子之志於道也，不成章不達 — flowing water does not go on until it has filled each hollow; one set on the Way does not arrive without completing each stage.",
+    "period": "pre_qin",
+    "dimension": "practice",
+    "cites": [
+      {
+        "source": "mencius",
+        "locator": "7A24",
+        "checked": {
+          "on": "2026-11-08",
+          "edition": "https://github.com/chinese-poetry/chinese-poetry (四书五经/mengzi.json; a community digital transcription, not a critical edition)",
+          "note": "盡心上 ¶26 in the transcription’s numbering: 流水之為物也，不盈科不行"
+        }
+      }
+    ],
+    "status": "WORKING",
+    "verification": "source",
+    "drafted": "Baracus",
+    "reviewed": "2026-11-08"
+  },
+  {
+    "id": "bridge-shan-cheng",
+    "from": "shan",
+    "to": "cheng",
+    "label": "為山未成",
+    "title": "A Mountain Short One Basket",
+    "subtitle": "Analects 9.19",
+    "type": "TEXTUAL_CONNECTION",
+    "evidence": "Analects 9.19: 譬如為山，未成一簣，止，吾止也 — “it is like building a mountain: one basket short of finishing, if I stop, it is I who stopped.”",
+    "period": "pre_qin",
+    "dimension": "practice",
+    "cites": [
+      {
+        "source": "analects",
+        "locator": "9.19",
+        "checked": {
+          "on": "2026-11-08",
+          "edition": "https://github.com/chinese-poetry/chinese-poetry (論語/lunyu.json, simplified characters; a community digital transcription, not a critical edition)",
+          "note": "子罕 ¶19: 譬如为山，未成一篑，止，吾止也"
+        }
+      }
+    ],
+    "status": "WORKING",
+    "verification": "source",
+    "drafted": "Baracus",
+    "reviewed": "2026-11-08"
+  },
+  {
+    "id": "bridge-jie-huo",
+    "from": "jie",
+    "to": "huo",
+    "label": "劫火",
+    "title": "The Fire at the End of an Eon",
+    "subtitle": "Abhidharmakośa ch. 3",
+    "type": "TEXTUAL_CONNECTION",
+    "evidence": "In the Abhidharmakośa an eon of destruction ends in calamities, first of fire: 初火災興由七日現 — the fire calamity rises when seven suns appear, and 火災焚燒世界, it burns the world.",
+    "period": "six_dynasties_tang",
+    "dimension": "cosmos",
+    "cites": [
+      {
+        "source": "abhidharmakosa",
+        "locator": "ch. 3, p. 66a26–b04",
+        "checked": {
+          "on": "2026-11-08",
+          "edition": "https://raw.githubusercontent.com/cbeta-org/xml-p5/master/T/T29/T29n1558.xml",
+          "note": "火災焚燒世界…初火災興由七日現"
+        }
+      }
+    ],
+    "status": "WORKING",
+    "verification": "source",
+    "drafted": "Baracus",
+    "reviewed": "2026-11-08"
+  },
+  {
+    "id": "bridge-ming-bright-xue",
+    "from": "ming-bright",
+    "to": "xue",
+    "label": "明明德",
+    "title": "The Way of Great Learning",
+    "subtitle": "Daxue",
+    "type": "TEXTUAL_CONNECTION",
+    "evidence": "The Daxue opens: 大學之道，在明明德 — “the way of great learning lies in making bright the bright virtue.”",
+    "period": "pre_qin",
+    "dimension": "sense",
+    "cites": [
+      {
+        "source": "liji",
+        "locator": "大學",
+        "checked": {
+          "on": "2026-11-08",
+          "edition": "https://github.com/chinese-poetry/chinese-poetry (四书五经/daxue.json; a community digital transcription, not a critical edition)",
+          "note": "大学之道，在明明德"
+        }
+      }
+    ],
+    "status": "WORKING",
+    "verification": "source",
+    "drafted": "Baracus",
+    "reviewed": "2026-11-08"
+  },
+  {
+    "id": "bridge-ming-bright-sheng-life",
+    "from": "ming-bright",
+    "to": "sheng-life",
+    "label": "明生焉",
+    "title": "Brightness Is Born",
+    "subtitle": "Yijing, Xici",
+    "type": "TEXTUAL_CONNECTION",
+    "evidence": "Xici, part two: 日往則月來，月往則日來，日月相推而明生焉 — the sun goes and the moon comes, the moon goes and the sun comes; sun and moon push each other on, “and brightness is born.”",
+    "period": "han",
+    "dimension": "cosmos",
+    "cites": [
+      {
+        "source": "yijing",
+        "locator": "繫辭下, §5"
+      }
+    ],
+    "status": "WORKING",
+    "verification": "unchecked",
+    "drafted": "Baracus",
+    "reviewed": "2026-11-08"
+  },
+  {
+    "id": "bridge-wen-si-death",
+    "from": "wen",
+    "to": "si-death",
+    "label": "敢問死",
+    "title": "Daring to Ask About Death",
+    "subtitle": "Analects 11.12",
+    "type": "TEXTUAL_CONNECTION",
+    "evidence": "Analects 11.12: 敢問死 — Zilu dares to ask about death, and is told 未知生，焉知死.",
+    "period": "pre_qin",
+    "dimension": "sense",
+    "cites": [
+      {
+        "source": "analects",
+        "locator": "11.12",
+        "checked": {
+          "on": "2026-11-08",
+          "edition": "https://github.com/chinese-poetry/chinese-poetry (論語/lunyu.json, simplified characters; a community digital transcription, not a critical edition)",
+          "note": "先进 ¶12: 敢问死"
+        }
+      }
+    ],
+    "status": "WORKING",
+    "verification": "source",
+    "drafted": "Baracus",
+    "reviewed": "2026-11-08"
+  },
+  {
+    "id": "bridge-qiu-shi-food",
+    "from": "qiu",
+    "to": "shi-food",
+    "label": "食無求飽",
+    "title": "Eating Without Seeking to Be Full",
+    "subtitle": "Analects 1.14",
+    "type": "TEXTUAL_CONNECTION",
+    "evidence": "Analects 1.14: 君子食無求飽，居無求安 — the exemplary person eats without seeking to be full, and dwells without seeking comfort.",
+    "period": "pre_qin",
+    "dimension": "practice",
+    "cites": [
+      {
+        "source": "analects",
+        "locator": "1.14",
+        "checked": {
+          "on": "2026-11-08",
+          "edition": "https://github.com/chinese-poetry/chinese-poetry (論語/lunyu.json, simplified characters; a community digital transcription, not a critical edition)",
+          "note": "学而 ¶14: 君子食无求饱，居无求安"
+        }
+      }
+    ],
+    "status": "WORKING",
+    "verification": "source",
+    "drafted": "Baracus",
+    "reviewed": "2026-11-08"
+  },
+  {
+    "id": "bridge-qiu-ming-fate",
+    "from": "qiu",
+    "to": "ming-fate",
+    "label": "得之有命",
+    "title": "Seeking Has a Way, Finding Has a Decree",
+    "subtitle": "Mencius 7A3",
+    "type": "TEXTUAL_CONNECTION",
+    "evidence": "Mencius 7A3: 求之有道，得之有命 — there is a way to seek it, and whether one gets it is decreed. Seeking what lies outside oneself does not help one get it.",
+    "period": "pre_qin",
+    "dimension": "sense",
+    "cites": [
+      {
+        "source": "mencius",
+        "locator": "7A3",
+        "checked": {
+          "on": "2026-11-08",
+          "edition": "https://github.com/chinese-poetry/chinese-poetry (四书五经/mengzi.json; a community digital transcription, not a critical edition)",
+          "note": "盡心上 ¶3: 求之有道，得之有命"
+        }
+      }
+    ],
+    "status": "WORKING",
+    "verification": "source",
+    "drafted": "Baracus",
+    "reviewed": "2026-11-08"
+  },
+  {
+    "id": "bridge-wen-shei",
+    "from": "wen",
+    "to": "shei",
+    "label": "天問",
+    "title": "The Heavenly Questions",
+    "subtitle": "Chuci, Tianwen",
+    "type": "TEXTUAL_CONNECTION",
+    "evidence": "The Tianwen is a poem made only of 問: question after question to Heaven, most of them asking 誰 or 何, who or what. 遂古之初，誰傳道之？",
+    "period": "pre_qin",
+    "dimension": "cosmos",
+    "cites": [
+      {
+        "source": "chuci",
+        "locator": "天問",
+        "checked": {
+          "on": "2026-11-05",
+          "edition": "https://github.com/chinese-poetry/chinese-poetry (楚辞/chuci.json, simplified characters; a community digital transcription, not a critical edition)",
+          "note": "遂古之初，谁传道之？"
+        }
+      }
+    ],
+    "status": "WORKING",
+    "verification": "source",
+    "drafted": "Baracus",
+    "reviewed": "2026-11-08"
+  },
+  {
+    "id": "bridge-sheng-life-ji-still",
+    "from": "sheng-life",
+    "to": "ji-still",
+    "label": "生滅滅已",
+    "title": "When Arising and Passing Have Passed",
+    "subtitle": "Nirvana Sutra",
+    "type": "TEXTUAL_CONNECTION",
+    "evidence": "The Nirvana Sutra’s verse joins them: 生滅滅已，寂滅為樂 — when arising and passing away have themselves passed away, stillness is joy.",
+    "period": "six_dynasties_tang",
+    "dimension": "sense",
+    "cites": [
+      {
+        "source": "nirvana",
+        "locator": "T374 p. 451a01",
+        "checked": {
+          "on": "2026-11-05",
+          "edition": "https://raw.githubusercontent.com/cbeta-org/xml-p5/master/T/T12/T12n0374.xml",
+          "note": "生滅滅已，寂滅為樂"
+        }
+      }
+    ],
+    "status": "WORKING",
+    "verification": "source",
+    "drafted": "Baracus",
+    "reviewed": "2026-11-08"
   }
 ]
