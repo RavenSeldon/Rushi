@@ -1,6 +1,6 @@
 # Rushi — Project Log and Handoff
 
-Read this first when resuming work, in a new session or after a break. Last updated 2026-11-08, afternoon (satellites for the thinnest stars).
+Read this first when resuming work, in a new session or after a break. Last updated 2026-11-13 (one build, either address).
 
 ## Where Things Stand
 
@@ -78,6 +78,14 @@ In development builds, `window.__rushi` is the live scene (read-only use: tests,
 - Expand without disturbing what came before: new claims, never rewrites of the art (scene, shaders, layout) or the science (attractors).
 - A beautiful link is not evidence. New links are welcome when reason can justify them: semantic, symbolic, historically informed, or a documented joke. Each declares its kind.
 - Placement of a star on an attractor is a design choice, and its `placement` text says so.
+
+## 2026-11-13 — One Build, Either Address (the Loading-Screen Bug, Fixed at the Root)
+
+**Cause, found twice (11-06, 11-13):** a build only worked at the address it was built for (`/Rushi/assets/…` or `/assets/…`). Whenever GitHub served a build that did not match the domain setting, for example while a publish was pending, the page asked for files that were not there and hung on “Gathering starlight”. On 11-13 GitHub never started a Pages run for the 02:42 push (`0953ea8`, a correct domain build) while the domain was already switched on, so maitrism.com served the 11-08 github.io build.
+
+**Fix:** `vite.config.js` now builds with `base: './'`: relative paths, so one build loads at either address; Rushi’s `#/` routes never change the page path. `RUSHI_SITE` now only sets the absolute links, the sitemap, and (domain only) `robots.txt` and `CNAME`. Measured: the same build served at `/`, at `/Rushi/` and at `/Rushi/#/fermi/shei` loaded with no errors, the music star present and its first track resolving (200). Tests 22/22, lint 0/0.
+
+**If a publish never starts** (no new run at github.com/RavenSeldon/Rushi/actions within about 5 minutes of a deploy): `touch dist/.nojekyll && npx gh-pages -d dist -t -m "Republish"`.
 
 ## 2026-11-08 (afternoon) — Satellites for the Thinnest Stars
 
